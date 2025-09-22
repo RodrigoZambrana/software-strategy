@@ -30,49 +30,49 @@ export default function MobileSlideMenu({ locale = "es" }) {
         <ul className="navigation d-none d-lg-flex desktop-menu">
           <li>
             <Link legacyBehavior href={withLang("/")}> 
-              <a data-cta="nav-home">{isEn ? "Home" : "Inicio"}</a>
+              <a className="gtm-menu-link" data-cta="nav-home">{isEn ? "Home" : "Inicio"}</a>
             </Link>
           </li>
           <li className="dropdown">
             <a href="#">{isEn ? "Services" : "Servicios"}</a>
             <ul>
-              <li><Link legacyBehavior href={withLang("/services/web-development")}><a data-cta="nav-services-web-development">{isEn ? "Web Development" : "Desarrollo Web"}</a></Link></li>
-              <li><Link legacyBehavior href={withLang("/services/digital-marketing")}><a data-cta="nav-services-digital-marketing">{isEn ? "Digital Marketing" : "Marketing Digital"}</a></Link></li>
-              <li><Link legacyBehavior href={withLang("/services/custom-software")}><a data-cta="nav-services-custom-software">{isEn ? "Custom Software" : "Software a medida"}</a></Link></li>
-              <li><Link legacyBehavior href={seoHref}><a data-cta="nav-services-google-seo">{isEn ? "Google SEO" : "Posicionamiento en Google (SEO)"}</a></Link></li>
-              <li><Link legacyBehavior href={withLang("/services")}><a data-cta="nav-services-all">{isEn ? "All Services" : "Todos los servicios"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services/web-development")}><a className="gtm-menu-link" data-cta="nav-services-web-development">{isEn ? "Web Development" : "Desarrollo Web"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services/digital-marketing")}><a className="gtm-menu-link" data-cta="nav-services-digital-marketing">{isEn ? "Digital Marketing" : "Marketing Digital"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services/custom-software")}><a className="gtm-menu-link" data-cta="nav-services-custom-software">{isEn ? "Custom Software" : "Software a medida"}</a></Link></li>
+              <li><Link legacyBehavior href={seoHref}><a className="gtm-menu-link" data-cta="nav-services-google-seo">{isEn ? "Google SEO" : "Posicionamiento en Google (SEO)"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services")}><a className="gtm-menu-link" data-cta="nav-services-all">{isEn ? "All Services" : "Todos los servicios"}</a></Link></li>
             </ul>
             <div className="dropdown-btn"><span className="far fa-plus"></span></div>
           </li>
-          <li><Link legacyBehavior href={withLang("/pricing")}><a data-cta="nav-pricing">{isEn ? "Pricing" : "Precios"}</a></Link></li>
-          <li><Link legacyBehavior href={withLang("/faqs")}><a data-cta="nav-faqs">{isEn ? "FAQs" : "FAQs"}</a></Link></li>
-          <li><Link legacyBehavior href={withLang("/about")}><a data-cta="nav-about">{isEn ? "About Us" : "Sobre Nosotros"}</a></Link></li>
-          <li><Link legacyBehavior href={withLang("/contact")}><a data-cta="nav-contact">{isEn ? "Contact" : "Contacto"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/pricing")}><a className="gtm-menu-link" data-cta="nav-pricing">{isEn ? "Pricing" : "Precios"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/faqs")}><a className="gtm-menu-link" data-cta="nav-faqs">{isEn ? "FAQs" : "FAQs"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/about")}><a className="gtm-menu-link" data-cta="nav-about">{isEn ? "About Us" : "Sobre Nosotros"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/contact")}><a className="gtm-menu-link" data-cta="nav-contact">{isEn ? "Contact" : "Contacto"}</a></Link></li>
         </ul>
         {/* Lista móvil igual a la original */}
         <ul className="navigation d-block d-lg-none mobile-menu">
           <li>
             <Link legacyBehavior href={withLang("/")}>
-              <a data-cta="nav-home">{isEn ? "Home" : "Inicio"}</a>
+              <a className="gtm-menu-link" data-cta="nav-home">{isEn ? "Home" : "Inicio"}</a>
             </Link>
           </li>
           <li className="dropdown">
             <a href="#">{isEn ? "Services" : "Servicios"}</a>
             <ul style={{ display: open.services ? "block" : "none" }}>
-              <li><Link legacyBehavior href={withLang("/services/web-development")}><a data-cta="nav-services-web-development">{isEn ? "Web Development" : "Desarrollo Web"}</a></Link></li>
-              <li><Link legacyBehavior href={withLang("/services/digital-marketing")}><a data-cta="nav-services-digital-marketing">{isEn ? "Digital Marketing" : "Marketing Digital"}</a></Link></li>
-              <li><Link legacyBehavior href={withLang("/services/custom-software")}><a data-cta="nav-services-custom-software">{isEn ? "Custom Software" : "Software a medida"}</a></Link></li>
-              <li><Link legacyBehavior href={seoHref}><a data-cta="nav-services-google-seo">{isEn ? "Google SEO" : "Posicionamiento en Google (SEO)"}</a></Link></li>
-              <li><Link legacyBehavior href={withLang("/services")}><a data-cta="nav-services-all">{isEn ? "All Services" : "Todos los servicios"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services/web-development")}><a className="gtm-menu-link" data-cta="nav-services-web-development">{isEn ? "Web Development" : "Desarrollo Web"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services/digital-marketing")}><a className="gtm-menu-link" data-cta="nav-services-digital-marketing">{isEn ? "Digital Marketing" : "Marketing Digital"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services/custom-software")}><a className="gtm-menu-link" data-cta="nav-services-custom-software">{isEn ? "Custom Software" : "Software a medida"}</a></Link></li>
+              <li><Link legacyBehavior href={seoHref}><a className="gtm-menu-link" data-cta="nav-services-google-seo">{isEn ? "Google SEO" : "Posicionamiento en Google (SEO)"}</a></Link></li>
+              <li><Link legacyBehavior href={withLang("/services")}><a className="gtm-menu-link" data-cta="nav-services-all">{isEn ? "All Services" : "Todos los servicios"}</a></Link></li>
             </ul>
             <div className="dropdown-btn" onClick={() => setOpen({ ...open, services: !open.services })}>
               <span className="far fa-plus"></span>
             </div>
           </li>
-          <li><Link legacyBehavior href={withLang("/pricing")}><a data-cta="nav-pricing">{isEn ? "Pricing" : "Precios"}</a></Link></li>
-          <li><Link legacyBehavior href={withLang("/faqs")}><a data-cta="nav-faqs">{isEn ? "FAQs" : "FAQs"}</a></Link></li>
-          <li><Link legacyBehavior href={withLang("/about")}><a data-cta="nav-about">{isEn ? "About Us" : "Sobre Nosotros"}</a></Link></li>
-          <li><Link legacyBehavior href={withLang("/contact")}><a data-cta="nav-contact">{isEn ? "Contact" : "Contacto"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/pricing")}><a className="gtm-menu-link" data-cta="nav-pricing">{isEn ? "Pricing" : "Precios"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/faqs")}><a className="gtm-menu-link" data-cta="nav-faqs">{isEn ? "FAQs" : "FAQs"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/about")}><a className="gtm-menu-link" data-cta="nav-about">{isEn ? "About Us" : "Sobre Nosotros"}</a></Link></li>
+          <li><Link legacyBehavior href={withLang("/contact")}><a className="gtm-menu-link" data-cta="nav-contact">{isEn ? "Contact" : "Contacto"}</a></Link></li>
         </ul>
         </div>
       </div>

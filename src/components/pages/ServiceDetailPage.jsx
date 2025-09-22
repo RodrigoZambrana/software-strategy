@@ -4,6 +4,7 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import YgencyAccordionLite from "@/src/components/YgencyAccordionLite";
+import { buildPlanWhatsUrl } from "@/src/lib/ctaUtils";
 import { NextSeo, BreadcrumbJsonLd, FAQPageJsonLd, ProductJsonLd } from "next-seo";
 import DefaultSEO from "@/next-seo.config";
 
@@ -40,6 +41,10 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
     ? "We deliver tailored digital solutions to grow your business."
     : "Entregamos soluciones digitales a medida para hacer crecer tu negocio.");
   const ogLocale = isEn ? "en_US" : "es_ES";
+
+  // Helper centralizado para URL de WhatsApp
+  const buildWhatsUrl = (planLabel, price) =>
+    buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: planLabel, price, phone: t?.whatsappDial });
 
   const faqItems = (t?.faqs?.items || []).map((q) => ({
     questionName: q.q,
@@ -192,7 +197,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                     </div>
 
                     <Link legacyBehavior href={withLang("/contact")}>
-                      <a className="theme-btn style-two mt-35" data-cta="service-about">
+                      <a id="cta-service-about" className="theme-btn style-two mt-35" data-cta="service-about">
                         {t?.ctaPrimary ?? (isEn ? "Request a quote" : "Pedir cotización")} <i className="far fa-arrow-right" />
                       </a>
                     </Link>
@@ -216,6 +221,69 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
         </div>
       </section>
       {/* /About */}
+
+      {/* Existing Websites: audits, updates and improvements */}
+      {t.existingWebsite && (
+        <section className="why-choose-area pt-100 rpt-80 pb-100 rpb-70">
+          <div className="container">
+            <div className="row align-items-center">
+              {/* Imagen */}
+              <div className="col-xl-6 rmb-55 wow fadeInLeft delay-0-2s">
+                <div className="image text-center">
+                  <img
+                    src={t.existingWebsite.image || "/assets/images/about/about-five2.jpg"}
+                    alt={t.existingWebsite.imageAlt || (isEn ? "Website audit and improvements" : "Auditoría y mejoras de sitio")}
+                    style={{ maxWidth: "100%", height: "auto" }}
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+
+              {/* Texto */}
+              <div className="col-xl-6 wow fadeInRight delay-0-2s">
+                <div className="why-choose-left-content">
+                  <div className="section-title mb-30">
+                    {t.existingWebsite.subtitle && <span className="sub-title mb-15">{t.existingWebsite.subtitle}</span>}
+                    {t.existingWebsite.title && <h2>{t.existingWebsite.title}</h2>}
+                  </div>
+                  {t.existingWebsite.description && <p className="mb-15">{t.existingWebsite.description}</p>}
+                  <div className="row">
+                    <div className="col-sm-6">
+                      <ul className="list-style-one">
+                        {(t.existingWebsite.bulletsCol1 || []).map((b) => (
+                          <li key={b}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div className="col-sm-6">
+                      <ul className="list-style-one">
+                        {(t.existingWebsite.bulletsCol2 || []).map((b) => (
+                          <li key={b}>{b}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="d-flex gap-3 flex-wrap mt-25">
+                    <Link legacyBehavior href={withLang(t.existingWebsite.ctaPrimaryHref || "/contact")}>
+                      <a id="cta-service-existing-primary" className="theme-btn" data-cta="service-existing-primary">
+                        {t.existingWebsite.ctaPrimary || (isEn ? "Request audit" : "Solicitar auditoría")} <i className="far fa-arrow-right" />
+                      </a>
+                    </Link>
+                    {t.existingWebsite.ctaSecondary && (
+                      <Link legacyBehavior href={withLang(t.existingWebsite.ctaSecondaryHref || "/services/google-seo")}>
+                        <a id="cta-service-existing-secondary" className="read-more" data-cta="service-existing-secondary">
+                          {t.existingWebsite.ctaSecondary} <i className="far fa-arrow-right" />
+                        </a>
+                      </Link>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Extra sections inspired by index2 (only if provided in content) */}
       {t.extra?.advertise && (
@@ -403,7 +471,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                 )}
                 {t.whatWeDo?.ctaHref && (
                   <Link legacyBehavior href={withLang(t.whatWeDo.ctaHref)}>
-                    <a className="theme-btn mt-25" data-cta="service-what-cta">
+                    <a id="cta-service-what" className="theme-btn mt-25" data-cta="service-what-cta">
                       {t.whatWeDo?.ctaText || (isEn ? 'Request proposal' : 'Solicitar propuesta')} <i className="far fa-arrow-right" />
                     </a>
                   </Link>
@@ -412,7 +480,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
             </div>
             <div className="col-xl-4 text-xl-end mt-25 rmt-15">
               <Link legacyBehavior href="#paquetes-web">
-                <a className="explore-more" data-cta="service-view-plans">
+                <a id="cta-service-view-plans" className="explore-more" data-cta="service-view-plans">
                   <i className="fas fa-arrow-right" /> <span>{t?.ctaSecondary ?? (isEn ? "View plans" : "Ver planes")}</span>
                 </a>
               </Link>
@@ -509,13 +577,16 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                     ))}
                   </ul>
 
-                  <Link legacyBehavior href={withLang("/contact")}>
+                  <Link legacyBehavior href={buildWhatsUrl(plan.name, plan.price)}>
                     <a
+                      id={`cta-service-pricing-${(plan.slug || plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`}
                       className="theme-btn w-100"
                       data-cta="pricing"
                       data-plan={(plan.slug || plan.name || '').toString().toLowerCase().replace(/\s+/g, '-')}
                       data-price={plan.price}
+                      data-currency="USD"
                       aria-label={(isEn ? 'Speak with a specialist about ' : 'Hablar con un especialista sobre ') + plan.name}
+                      target="_blank" rel="noopener noreferrer"
                     >
                       {plan.cta || (isEn ? 'Request a quote' : 'Hablar con un especialista')} <i className="far fa-arrow-right" />
                     </a>
@@ -602,7 +673,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                 <span className="sub-title mb-15">{t.workWithUs?.subtitle}</span>
                 <h2>{t.workWithUs?.title}</h2>
                 <Link legacyBehavior href={withLang("/contact")}>
-                  <a className="explore-more text-start mt-30" data-cta="service-work-with-us">
+                  <a id="cta-service-work-with-us" className="explore-more text-start mt-30" data-cta="service-work-with-us">
                     <i className="fas fa-arrow-right" /> <span>{t.workWithUs?.cta}</span>
                   </a>
                 </Link>

@@ -28,14 +28,12 @@ function buildAllPaths() {
     // Rutas dinámicas manejadas por catch-all
     '/pricing',
     '/contact',
-    '/contacto',
     '/services',
     // Detalle de servicios
     ...services,
   ];
   const en = base.map((p) => (p === '/' ? '/en' : `/en${p}`));
-  // No existe /en/contacto; filtrar
-  const all = [...base, ...en.filter((p) => p !== '/en/contacto')];
+  const all = [...base, ...en];
   // No duplicar
   return Array.from(new Set(all));
 }

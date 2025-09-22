@@ -59,12 +59,12 @@ export default class Home5Slider extends Component {
                         </div>
                       )}
                       {s.primary && (
-                        <Link href={s.primary.href} className="theme-btn style-two" data-cta="slider-primary" data-slide-index={i}>
+                        <Link id={`cta-slider-primary-${i}`} href={s.primary.href} className="theme-btn style-two" data-cta="slider-primary" data-slide-index={i}>
                           {s.primary.text} <i className="far fa-arrow-right" />
                         </Link>
                       )}
                       {s.secondary && (
-                        <Link className="read-more" href={s.secondary.href} data-cta="slider-secondary" data-slide-index={i}>
+                        <Link id={`cta-slider-secondary-${i}`} className="read-more" href={s.secondary.href} data-cta="slider-secondary" data-slide-index={i}>
                           {s.secondary.text} <i className="far fa-arrow-right" />
                         </Link>
                       )}

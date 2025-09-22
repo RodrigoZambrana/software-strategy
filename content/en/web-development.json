@@ -55,6 +55,27 @@
       "ctaText": "Request proposal",
       "ctaHref": "/contact"
     },
+    "existingWebsite": {
+      "subtitle": "Already have a website?",
+      "title": "Audit, updates and improvements for your site",
+      "description": "If you already have a website, we help you find bottlenecks and prioritize improvements to gain speed, SEO and conversions.",
+      "image": "/assets/images/about/about-five1.jpg",
+      "imageAlt": "Website audit and improvements",
+      "bulletsCol1": [
+        "Technical SEO audit (CWV, indexation, metadata)",
+        "Speed optimization and Core Web Vitals",
+        "UX/UI improvements and information architecture"
+      ],
+      "bulletsCol2": [
+        "CMS/Plugins updates and security",
+        "GA4 setup and conversion events",
+        "Landing page review for campaigns"
+      ],
+      "ctaPrimary": "Request audit",
+      "ctaPrimaryHref": "/contact",
+      "ctaSecondary": "See SEO & SEM",
+      "ctaSecondaryHref": "/en/services/google-seo"
+    },
     "pricingSection": {
       "subtitle": "Web Packages",
       "title": "Website options for every kind of business",

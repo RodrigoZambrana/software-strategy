@@ -22,10 +22,11 @@ export default function ContactPage({ t = {}, locale = "es" }) {
         ? `Form submission is temporarily disabled. Please write to ${fallbackEmail} or WhatsApp ${fallbackWhats}.`
         : `El envío del formulario está temporalmente deshabilitado. Por favor escribinos a ${fallbackEmail} o por WhatsApp ${fallbackWhats}.`
     );
-    try {
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'form_submit', form_name: 'contact', form_locale: locale, status: 'disabled' });
-    } catch (_) {}
+    // GTM push deshabilitado temporalmente (se mide directamente en GTM)
+    // try {
+    //   window.dataLayer = window.dataLayer || [];
+    //   window.dataLayer.push({ event: 'form_submit', form_name: 'contact', form_locale: locale, status: 'disabled' });
+    // } catch (_) {}
     /*
     // Previous implementation (disabled):
     setError("");
@@ -41,14 +42,14 @@ export default function ContactPage({ t = {}, locale = "es" }) {
       if (!res.ok) throw new Error("Request failed");
       setStatus("success");
       setForm({ name: "", phone_number: "", email: "", message: "" });
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'form_submit', form_name: 'contact', form_locale: locale, status: 'success' });
-      window.dataLayer.push({ event: 'conversion_lead', lead_type: 'contact_form', form_locale: locale });
+      // window.dataLayer = window.dataLayer || [];
+      // window.dataLayer.push({ event: 'form_submit', form_name: 'contact', form_locale: locale, status: 'success' });
+      // window.dataLayer.push({ event: 'conversion_lead', lead_type: 'contact_form', form_locale: locale });
     } catch (err) {
       setStatus("error");
       setError(isEn ? "Could not send. Check configuration or try again." : "No se pudo enviar. Verifica la configuración o inténtalo nuevamente.");
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'form_submit', form_name: 'contact', form_locale: locale, status: 'error' });
+      // window.dataLayer = window.dataLayer || [];
+      // window.dataLayer.push({ event: 'form_submit', form_name: 'contact', form_locale: locale, status: 'error' });
     }
     */
   };

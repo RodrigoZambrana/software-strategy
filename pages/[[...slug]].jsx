@@ -36,7 +36,6 @@ export async function getStaticPaths() {
       { params: { slug: ["pricing"] } }, // /pricing
       { params: { slug: ["en", "pricing"] } }, // /en/pricing
       { params: { slug: ["contact"] } }, // /contact (ES)
-      { params: { slug: ["contacto"] } }, // /contacto (ES alias)
       { params: { slug: ["en", "contact"] } }, // /en/contact
       { params: { slug: ["services"] } }, // /services
       { params: { slug: ["en", "services"] } }, // /en/services
@@ -73,7 +72,7 @@ export async function getStaticProps({ params }) {
     const b = routeRemainder[1];
 
     if (a === "pricing") page = "pricing";
-    if (a === "contacto" || a === "contact") page = "contact";
+    if (a === "contact") page = "contact";
 
     // Listado de servicios
     if (a === "servicios" || a === "services") page = "services";

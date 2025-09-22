@@ -34,7 +34,7 @@ const Header5 = ({ singleMenu, dark, locale }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href={isEn ? "/en" : "/"}>
-                  <a data-cta="nav-brand">
+                  <a className="gtm-menu-link" data-cta="nav-brand">
                     <Image
                       src={
                         dark
@@ -63,7 +63,7 @@ const Header5 = ({ singleMenu, dark, locale }) => {
               {/* Mobile brand logo (visible on tablets/mobiles) */}
               <div className="mobile-brand d-xl-none" style={{marginRight: 12}}>
                 <Link legacyBehavior href={isEn ? "/en" : "/"}>
-                  <a aria-label={isEn ? "Go to home" : "Ir al inicio"} data-cta="nav-brand-mobile">
+                  <a className="gtm-menu-link" aria-label={isEn ? "Go to home" : "Ir al inicio"} data-cta="nav-brand-mobile">
                     <Image
                       src={dark ? "/assets/images/logos/logo-and-text.png" : "/assets/images/logos/logo-and-text.png"}
                       alt="Software Strategy"

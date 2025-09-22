@@ -85,7 +85,7 @@ export default function HomePage({ t, locale }) {
                     ))}
                   </ul>
                 )}
-                <Link legacyBehavior href={withLang(t.heroCtaHref || (isEn ? "/contact" : "/contacto"))}>
+                <Link legacyBehavior href={withLang(t.heroCtaHref || (isEn ? "/contact" : "/contact"))}>
                   <a className="theme-btn mt-25" id="cta-hero-contact" data-cta="hero">
                     {t.heroCtaText} <i className="far fa-arrow-right" />
                   </a>
@@ -201,7 +201,7 @@ export default function HomePage({ t, locale }) {
                             {t.aboutCustom.ctas?.readMoreLabel || (isEn ? 'Discover more' : 'Descubre más')} <i className="far fa-arrow-right"></i>
                           </a>
                         </Link>
-                        <Link legacyBehavior href={withLang(t.aboutCustom.ctas?.primaryHref || (isEn ? '/contact' : '/contacto'))}>
+                        <Link legacyBehavior href={withLang(t.aboutCustom.ctas?.primaryHref || (isEn ? '/contact' : '/contact'))}>
                           <a className="theme-btn mt-10 ms-3" id="cta-about-primary" data-cta="about-primary">
                             {t.aboutCustom.ctas?.primaryLabel || (isEn ? 'Start your strategy' : 'Comienza tu estrategia')} <i className="far fa-arrow-right"></i>
                           </a>
@@ -326,7 +326,7 @@ export default function HomePage({ t, locale }) {
                         <span>{isEn ? "Read more" : "Leer más"}</span> <i className="far fa-arrow-right" />
                       </a>
                     </Link>
-                    <Link legacyBehavior href={withLang(card.ctaSecondaryHref || (isEn ? "/contact" : "/contacto"))}>
+                    <Link legacyBehavior href={withLang(card.ctaSecondaryHref || (isEn ? "/contact" : "/contact"))}>
                       <a className="theme-btn mt-25" id={`cta-services-grid-${i}-contact`} data-cta="services-grid-contact" data-service={card.href}>
                         {card.ctaSecondaryText || (isEn ? "Request proposal" : "Solicitar propuesta")} <i className="far fa-arrow-right" />
                       </a>

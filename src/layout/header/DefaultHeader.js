@@ -15,7 +15,7 @@ const DefaultHeader = ({ singleMenu, dark, locale = "es" }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href={isEn ? "/en" : "/"}>
-                  <a data-cta="nav-brand">
+                  <a className="gtm-menu-link" data-cta="nav-brand">
                     <Image
                       src={
                         dark
@@ -49,7 +49,7 @@ const DefaultHeader = ({ singleMenu, dark, locale = "es" }) => {
               {/* Mobile brand logo (visible on tablets/mobiles) */}
               <div className="mobile-brand d-xl-none" style={{marginRight: 12}}>
                 <Link legacyBehavior href={locale === "en" ? "/en" : "/"}>
-                  <a aria-label={locale === "en" ? "Go to home" : "Ir al inicio"} data-cta="nav-brand-mobile">
+                  <a className="gtm-menu-link" aria-label={locale === "en" ? "Go to home" : "Ir al inicio"} data-cta="nav-brand-mobile">
                     <Image
                       src={dark ? "/assets/images/logos/logo-and-text.png" : "/assets/images/logos/logo-and-text.png"}
                       alt="Software Strategy"

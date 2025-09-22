@@ -7,7 +7,7 @@
         "titleHtml": "<span>Impulsa tu marca</span><br /> con sitios, SEO y campañas",
         "ratingLabel": "Experiencia y resultados",
         "primary": {
-          "href": "/contacto",
+          "href": "/contact",
           "text": "Solicitar propuesta"
         },
         "secondary": {
@@ -29,7 +29,7 @@
     "Optimización SEO inicial incluida"
   ],
   "heroCtaText": "Solicitar propuesta",
-  "heroCtaHref": "/contacto",
+  "heroCtaHref": "/contact",
   "heroRightImageAlt": "Diseño web y marketing digital",
   "aboutSubtitle": "Sobre la empresa",
   "aboutTitle": "Impulsamos tu presencia digital con foco en resultados",
@@ -55,7 +55,7 @@
       "readMoreLabel": "Descubre más",
       "readMoreHref": "/services/digital-marketing",
       "primaryLabel": "Comienza tu estrategia",
-      "primaryHref": "/contacto"
+      "primaryHref": "/contact"
     }
   },
   "whatSubtitle": "¿Qué hacemos?",
@@ -149,7 +149,7 @@
         "Diseño profesional"
       ],
       "ctaSecondaryText": "Solicitar propuesta",
-      "ctaSecondaryHref": "/contacto"
+      "ctaSecondaryHref": "/contact"
     },
     {
       "title": "Tiendas en linea",
@@ -160,7 +160,7 @@
         "Gestión simple"
       ],
       "ctaSecondaryText": "Solicitar propuesta",
-      "ctaSecondaryHref": "/contacto"
+      "ctaSecondaryHref": "/contact"
     },
     {
       "title": "Software de Gestión de Clientes (CRM) & Dashboards",
@@ -171,7 +171,7 @@
         "Automatizaciones"
       ],
       "ctaSecondaryText": "Solicitar propuesta",
-      "ctaSecondaryHref": "/contacto"
+      "ctaSecondaryHref": "/contact"
     },
     {
       "title": "Software a Medida",
@@ -182,7 +182,7 @@
         "Escalable"
       ],
       "ctaSecondaryText": "Solicitar propuesta",
-      "ctaSecondaryHref": "/contacto"
+      "ctaSecondaryHref": "/contact"
     }
   ],
   "pricingSubtitle": "Planes",
@@ -260,17 +260,17 @@
     {
       "date": "Agosto 10, 2025",
       "title": "SEO 2025: qué prioriza Google este año",
-      "href": "/blog-details"
+      "href": "/faqs"
     },
     {
       "date": "Agosto 02, 2025",
       "title": "Cómo convertir visitas en clientes con tu web",
-      "href": "/blog-details"
+      "href": "/faqs"
     },
     {
       "date": "Julio 28, 2025",
       "title": "Redes sociales: tácticas de performance",
-      "href": "/blog-details"
+      "href": "/faqs"
     }
   ]
 }

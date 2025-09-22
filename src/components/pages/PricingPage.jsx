@@ -3,6 +3,7 @@ import PageBanner from "@/src/components/PageBanner";
 import { NextSeo } from "next-seo";
 import DefaultSEO from "@/next-seo.config";
 import Link from "next/link";
+import { buildPlanWhatsUrl } from "@/src/lib/ctaUtils";
 import esPricing from "@/content/es/pricing.json";
 import enPricing from "@/content/en/pricing.json";
 
@@ -66,7 +67,7 @@ export default function PricingPage({ t, locale = "es" }) {
                     <p>{t.whyChoose.visionText}</p>
 
                     <Link legacyBehavior href={withLang("/about")}>
-                      <a className="theme-btn style-two mt-35" data-cta="pricing-why-choose">
+                      <a id="cta-pricing-why-choose" className="theme-btn style-two mt-35" data-cta="pricing-why-choose">
                         {t.whyChoose.cta} <i className="far fa-arrow-right" />
                       </a>
                     </Link>
@@ -157,8 +158,8 @@ export default function PricingPage({ t, locale = "es" }) {
                             <li key={f}>{f}</li>
                           ))}
                         </ul>
-                        <Link legacyBehavior href={withLang(plan.href || "/contact")}>
-                          <a className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name}>
+                        <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: plan.price })}>
+                          <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
                             {plan.cta} <i className="far fa-arrow-right" />
                           </a>
                         </Link>
@@ -199,8 +200,8 @@ export default function PricingPage({ t, locale = "es" }) {
                         <li key={f}>{f}</li>
                       ))}
                     </ul>
-                    <Link legacyBehavior href={withLang(plan.href || "/contact")}>
-                      <a className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name}>
+                    <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: plan.price })}>
+                      <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {plan.cta} <i className="far fa-arrow-right" />
                       </a>
                     </Link>
@@ -222,7 +223,7 @@ export default function PricingPage({ t, locale = "es" }) {
                 <span className="sub-title mb-15">{t.workWithUs.subtitle}</span>
                 <h2>{t.workWithUs.title}</h2>
                 <Link legacyBehavior href={withLang("/contact")}>
-                  <a className="explore-more text-start mt-30" data-cta="pricing-work-with-us">
+                  <a id="cta-pricing-work-with-us" className="explore-more text-start mt-30" data-cta="pricing-work-with-us">
                     <i className="fas fa-arrow-right" /> <span>{t.workWithUs.cta}</span>
                   </a>
                 </Link>

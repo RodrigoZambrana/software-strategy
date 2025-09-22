@@ -6,7 +6,7 @@
         "subtitle": "Software a Medida",
         "titleHtml": "<span>Integraciones y automatización</span><br /> para escalar tu operación",
         "ratingLabel": "Equipo senior",
-        "primary": { "href": "/contacto", "text": "Solicitar cotización" }
+        "primary": { "href": "/contact", "text": "Solicitar cotización" }
       }
     ]
   },

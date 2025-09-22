@@ -18,118 +18,58 @@ function App({ Component, pageProps }) {
     return () => clearTimeout(t);
   }, []);
 
-  // GTM: pageviews en cambios de ruta y tracking de CTAs con data-cta
-  useEffect(() => {
-    if (typeof window === 'undefined') return;
-
-    const gtmPush = (data) => {
-      try {
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push(data);
-      } catch (_) {}
-    };
-
-    const handleRouteChange = (url) => {
-      // Evita duplicar page_view del primer load; GTM con trigger All Pages lo emitirá
-      const page_location = typeof window !== 'undefined' ? window.location.href : url;
-      const page_title = typeof document !== 'undefined' ? document.title : undefined;
-      gtmPush({
-        event: 'page_view',
-        page_location,
-        page_path: url,
-        page_title,
-      });
-    };
-
-    router.events.on('routeChangeComplete', handleRouteChange);
-
-    const onClick = (e) => {
-      const el = e.target.closest('[data-cta]');
-      if (!el) return;
-      const href = el.getAttribute('href') || '';
-      const text = (el.textContent || '').trim();
-      const cta = el.getAttribute('data-cta') || '';
-      const id = el.getAttribute('id') || '';
-      const meta = { ...el.dataset };
-      delete meta.cta;
-      // Estandariza parámetros económicos
-      const currency = (meta.currency || 'USD').toString();
-      const value = typeof meta.value !== 'undefined' && !isNaN(Number(meta.value))
-        ? Number(meta.value)
-        : 0;
-      gtmPush({
-        event: 'cta_click',
-        cta_id: id,
-        cta,
-        link_url: href,
-        link_text: text,
-        page_path: (typeof window !== 'undefined' ? window.location.pathname : ''),
-        cta_meta: meta,
-        value,
-        currency,
-      });
-
-      // Google Ads-friendly events (custom) for easy GTM mappings
-      const pushEvent = (name, params = {}) => gtmPush({ event: name, ...params });
-
-      // Plan click (pricing/comparison/services) -> click_plan
-      const isPlanCta = cta.includes('pricing') || cta.includes('comparison') || typeof meta.plan !== 'undefined';
-      if (isPlanCta) {
-        const plan = (meta.plan || '').toString();
-        const price = (meta.price || '').toString();
-        pushEvent('click_plan', {
-          plan_name: plan,
-          plan_price: price,
-          currency,
-          link_url: href,
-          page_path: (typeof window !== 'undefined' ? window.location.pathname : ''),
-          value: price && !isNaN(Number(price)) ? Number(price) : value,
-        });
-      }
-
-      // WhatsApp click -> whatsapp_click
-      const isWhatsapp = href.includes('wa.me') || href.includes('api.whatsapp.com') || cta.includes('whatsapp');
-      if (isWhatsapp) {
-        const phone = (href.match(/(\+?\d{6,15})/) || [,''])[1];
-        pushEvent('whatsapp_click', {
-          phone,
-          link_url: href,
-          page_path: (typeof window !== 'undefined' ? window.location.pathname : ''),
-          value,
-          currency,
-        });
-      }
-
-      // Email click -> email_click
-      if (href.startsWith('mailto:')) {
-        pushEvent('email_click', {
-          email: href.replace('mailto:', ''),
-          link_url: href,
-          page_path: (typeof window !== 'undefined' ? window.location.pathname : ''),
-          value,
-          currency,
-        });
-      }
-
-      // Phone click -> phone_click
-      if (href.startsWith('tel:')) {
-        pushEvent('phone_click', {
-          phone: href.replace('tel:', ''),
-          link_url: href,
-          page_path: (typeof window !== 'undefined' ? window.location.pathname : ''),
-          value,
-          currency,
-        });
-      }
-    };
-
-    document.addEventListener('click', onClick);
-
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-      document.removeEventListener('click', onClick);
-    };
-  }, [router.events]);
+  // GTM tracking deshabilitado temporalmente para evitar duplicaciones.
+  // Se está configurando la medición directamente desde Google Tag Manager.
+  // useEffect(() => {
+  //   if (typeof window === 'undefined') return;
+  //   const gtmPush = (data) => {
+  //     try {
+  //       window.dataLayer = window.dataLayer || [];
+  //       window.dataLayer.push(data);
+  //     } catch (_) {}
+  //   };
+  //   const handleRouteChange = (url) => {
+  //     const page_location = typeof window !== 'undefined' ? window.location.href : url;
+  //     const page_title = typeof document !== 'undefined' ? document.title : undefined;
+  //     gtmPush({ event: 'page_view', page_location, page_path: url, page_title });
+  //   };
+  //   router.events.on('routeChangeComplete', handleRouteChange);
+  //   const onClick = (e) => {
+  //     const el = e.target.closest('[data-cta]');
+  //     if (!el) return;
+  //     const href = el.getAttribute('href') || '';
+  //     const text = (el.textContent || '').trim();
+  //     const cta = el.getAttribute('data-cta') || '';
+  //     const id = el.getAttribute('id') || '';
+  //     const meta = { ...el.dataset }; delete meta.cta;
+  //     const currency = (meta.currency || 'USD').toString();
+  //     const value = typeof meta.value !== 'undefined' && !isNaN(Number(meta.value)) ? Number(meta.value) : 0;
+  //     gtmPush({ event: 'cta_click', cta_id: id, cta, link_url: href, link_text: text, page_path: (typeof window !== 'undefined' ? window.location.pathname : ''), cta_meta: meta, value, currency });
+  //     const pushEvent = (name, params = {}) => gtmPush({ event: name, ...params });
+  //     const isPlanCta = cta.includes('pricing') || cta.includes('comparison') || typeof meta.plan !== 'undefined';
+  //     if (isPlanCta) {
+  //       const plan = (meta.plan || '').toString();
+  //       const price = (meta.price || '').toString();
+  //       pushEvent('click_plan', { plan_name: plan, plan_price: price, currency, link_url: href, page_path: (typeof window !== 'undefined' ? window.location.pathname : ''), value: price && !isNaN(Number(price)) ? Number(price) : value });
+  //     }
+  //     const isWhatsapp = href.includes('wa.me') || href.includes('api.whatsapp.com') || cta.includes('whatsapp');
+  //     if (isWhatsapp) {
+  //       const phone = (href.match(/(\+?\d{6,15})/) || [,''])[1];
+  //       pushEvent('whatsapp_click', { phone, link_url: href, page_path: (typeof window !== 'undefined' ? window.location.pathname : ''), value, currency });
+  //     }
+  //     if (href.startsWith('mailto:')) {
+  //       pushEvent('email_click', { email: href.replace('mailto:', ''), link_url: href, page_path: (typeof window !== 'undefined' ? window.location.pathname : ''), value, currency });
+  //     }
+  //     if (href.startsWith('tel:')) {
+  //       pushEvent('phone_click', { phone: href.replace('tel:', ''), link_url: href, page_path: (typeof window !== 'undefined' ? window.location.pathname : ''), value, currency });
+  //     }
+  //   };
+  //   document.addEventListener('click', onClick);
+  //   return () => {
+  //     router.events.off('routeChangeComplete', handleRouteChange);
+  //     document.removeEventListener('click', onClick);
+  //   };
+  // }, [router.events]);
 
   return (
     <Fragment>

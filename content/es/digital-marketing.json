@@ -111,14 +111,14 @@
         "subtitle": "Agencia de Marketing",
         "titleHtml": "<span>Marketing Perfecto</span><br /> Para Hacer Crecer tu Negocio",
         "ratingLabel": "Servicio de calidad",
-        "primary": { "href": "/contacto", "text": "Empezar ahora" }
+        "primary": { "href": "/contact", "text": "Empezar ahora" }
       },
       {
         "bg": "/assets/images/slider/slide2.jpg",
         "subtitle": "Agencia de Marketing",
         "titleHtml": "<span>Marketing Perfecto</span><br /> Para Hacer Crecer tu Negocio",
         "ratingLabel": "Servicio de calidad",
-        "primary": { "href": "/contacto", "text": "Empezar ahora" }
+        "primary": { "href": "/contact", "text": "Empezar ahora" }
       }
     ]
   },

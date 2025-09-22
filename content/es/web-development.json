@@ -6,7 +6,7 @@
         "subtitle": "Desarrollo Web",
         "titleHtml": "<span>Sitios rápidos y seguros</span><br /> para hacer crecer tu negocio",
         "ratingLabel": "Calidad garantizada",
-        "primary": { "href": "/contacto", "text": "Solicitar propuesta" }
+        "primary": { "href": "/contact", "text": "Solicitar propuesta" }
       }
     ]
   },
@@ -52,7 +52,28 @@
       "A/B testing de mensajes y CTAs para mejorar resultados"
     ],
     "ctaText": "Solicitar propuesta",
-    "ctaHref": "/contacto"
+    "ctaHref": "/contact"
+  },
+  "existingWebsite": {
+    "subtitle": "¿Ya tenés un sitio?",
+    "title": "Auditoría, actualización y mejoras para tu web",
+    "description": "Si ya contás con un sitio, te ayudamos a detectar cuellos de botella y priorizar mejoras para ganar velocidad, SEO y conversiones.",
+    "image": "/assets/images/about/about-five1.jpg",
+    "imageAlt": "Auditoría y mejoras de sitio web",
+    "bulletsCol1": [
+      "Auditoría técnica SEO (CWV, indexación, metadatos)",
+      "Optimización de velocidad y Core Web Vitals",
+      "Mejoras de UX/UI y arquitectura de información"
+    ],
+    "bulletsCol2": [
+      "Actualización de CMS/Plugins y seguridad",
+      "Implementación de GA4 y eventos de conversión",
+      "Revisión de landing pages para campañas"
+    ],
+    "ctaPrimary": "Solicitar auditoría",
+    "ctaPrimaryHref": "/contact",
+    "ctaSecondary": "Ver SEO & SEM",
+    "ctaSecondaryHref": "/services/google-seo"
   },
   "extra": {
     "projectTimeline": {

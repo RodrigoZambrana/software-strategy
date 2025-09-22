@@ -7,6 +7,7 @@ import { sliderProps } from "@/src/sliderProps";
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import YgencyAccordionLite from "@/src/components/YgencyAccordionLite";
 import PageBanner from "@/src/components/PageBanner";
+import { buildPlanWhatsUrl } from "@/src/lib/ctaUtils";
 
 export default function MarketingPage({ t, locale = "es" }) {
   const isEn = locale === "en";
@@ -24,6 +25,10 @@ export default function MarketingPage({ t, locale = "es" }) {
   const siteBase = (DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "");
   const canonicalPath = isEn ? "/en/services/digital-marketing" : "/services/digital-marketing";
   const canonicalUrl = `${siteBase}${canonicalPath}`;
+
+  // Helper centralizado
+  const buildWhatsUrl = (planLabel, price) =>
+    buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: planLabel, price, phone: t?.whatsappDial });
 
   return (
     <>
@@ -274,9 +279,9 @@ export default function MarketingPage({ t, locale = "es" }) {
               <div className="col-xl-10 col-lg-11">
                 <MarketingFaqAccordion items={t.faqs.items} />
                 <div className="text-center mt-40">
-          <Link href={withLang('/services/digital-marketing')} className="theme-btn" data-cta="faq">
-            {isEn ? 'See digital marketing services' : 'Ver servicios de marketing digital'} <i className="far fa-arrow-right" />
-          </Link>
+                  <Link id="cta-faq-digital-marketing" href={withLang('/services/digital-marketing')} className="theme-btn" data-cta="faq">
+                    {isEn ? 'See digital marketing services' : 'Ver servicios de marketing digital'} <i className="far fa-arrow-right" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -355,13 +360,16 @@ export default function MarketingPage({ t, locale = "es" }) {
                         <li key={f}>{f}</li>
                       ))}
                     </ul>
-                    <Link legacyBehavior href={withLang("/contact")}>
+                    <Link legacyBehavior href={buildWhatsUrl(plan.name, plan.price)}>
                       <a
+                        id={`cta-mkt-pricing-${(plan.slug || plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`}
                         className="theme-btn w-100"
                         data-cta="pricing"
                         data-plan={(plan.slug || plan.name || '').toString().toLowerCase().replace(/\s+/g, '-')}
                         data-price={plan.price}
+                        data-currency="USD"
                         aria-label={(isEn ? 'Get started with ' : 'Empezar con ') + plan.name}
+                        target="_blank" rel="noopener noreferrer"
                       >
                         {plan.cta || (isEn ? "Get started" : "Empezar")} <i className="far fa-arrow-right" />
                       </a>
@@ -414,17 +422,17 @@ export default function MarketingPage({ t, locale = "es" }) {
                   <tr>
                     <td></td>
                     <td>
-                      <Link href={withLang('/contact')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="starter" data-price={t.plansComparison.starterPrice}>
+                      <Link id="cta-mkt-comparison-starter" href={buildWhatsUrl(t.plansComparison?.starterLabel || 'Starter')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="starter" data-price={t.plansComparison.starterPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {t.plansComparison.ctaStarter || (isEn ? 'Choose Starter' : 'Elegir Starter')} <i className="far fa-arrow-right" />
                       </Link>
                     </td>
                     <td className="bg-light">
-                      <Link href={withLang('/contact')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="growth" data-price={t.plansComparison.growthPrice}>
+                      <Link id="cta-mkt-comparison-growth" href={buildWhatsUrl(t.plansComparison?.growthLabel || 'Growth')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="growth" data-price={t.plansComparison.growthPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {t.plansComparison.ctaGrowth || (isEn ? 'Choose Growth' : 'Elegir Growth')} <i className="far fa-arrow-right" />
                       </Link>
                     </td>
                     <td>
-                      <Link href={withLang('/contact')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="pro" data-price={t.plansComparison.proPrice}>
+                      <Link id="cta-mkt-comparison-pro" href={buildWhatsUrl(t.plansComparison?.proLabel || 'Pro')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="pro" data-price={t.plansComparison.proPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {t.plansComparison.ctaPro || (isEn ? 'Choose Pro' : 'Elegir Pro')} <i className="far fa-arrow-right" />
                       </Link>
                     </td>
@@ -480,7 +488,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                     <h2>{t.workWithUs.title}</h2>
                   </div>
                   <p>{t.workWithUs.text || (isEn ? "Let's talk about your project." : "Hablemos de tu proyecto.")}</p>
-                  <Link href={withLang("/contact")} className="theme-btn mt-15" data-cta="work-with-us">
+                  <Link id="cta-mkt-work-with-us" href={withLang("/contact")} className="theme-btn mt-15" data-cta="work-with-us">
                     {isEn ? "Let’s Work Together" : "Trabajemos Juntos"} <i className="far fa-arrow-right" />
                   </Link>
                 </div>
