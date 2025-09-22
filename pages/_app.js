@@ -12,7 +12,48 @@ function App({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
   const router = useRouter();
 
+  // Detectar idioma del navegador y redirigir a /en si corresponde.
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      const getCookie = (name) =>
+        (document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)')) || [])[1];
+      const setCookie = (name, value) => {
+        document.cookie = `${name}=${value}; path=/; max-age=31536000; samesite=lax`;
+      };
 
+      const pathname = window.location.pathname || '/';
+      const search = window.location.search || '';
+      const hash = window.location.hash || '';
+      const isEnPath = pathname === '/en' || pathname.startsWith('/en/');
+
+      const pref = getCookie('ss_locale');
+      if (pref) {
+        // Si el usuario ya tiene preferencia guardada, respetarla.
+        if (pref === 'en' && !isEnPath) {
+          router.replace(`/en${pathname}${search}${hash}`);
+          return;
+        }
+        // Actualizar cookie si la URL actual no coincide
+        if (pref !== 'en' && isEnPath) setCookie('ss_locale', 'en');
+        if (pref === 'en' && !isEnPath) setCookie('ss_locale', 'en');
+        if (pref !== 'en' && !isEnPath) setCookie('ss_locale', 'es');
+        return;
+      }
+
+      const langs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]).filter(Boolean);
+      const prefersEn = langs.some((l) => (l || '').toLowerCase().startsWith('en'));
+      if (prefersEn && !isEnPath) {
+        setCookie('ss_locale', 'en');
+        router.replace(`/en${pathname}${search}${hash}`);
+        return;
+      }
+      // Si no se puede obtener o no es EN, mantener español.
+      setCookie('ss_locale', isEnPath ? 'en' : 'es');
+    } catch (_) {}
+  }, [router]);
+
+  
   useEffect(() => {
     const t = setTimeout(() => setLoaded(true), 1500);
     return () => clearTimeout(t);

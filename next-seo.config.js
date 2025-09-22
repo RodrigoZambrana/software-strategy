@@ -1,6 +1,7 @@
 // next-seo.config.js
 export default {
-  defaultTitle: "Software Strategy",
+  // Usar una descripción extendida como título por defecto para evitar que quede solo la marca.
+  defaultTitle: "Agencia de Desarrollo Web y SEO | Software Strategy",
   titleTemplate: "%s | Software Strategy",
   description:
     "Software Strategy ofrece desarrollo web, software a medida, SEO/SEM y marketing digital para potenciar tu presencia online.",
