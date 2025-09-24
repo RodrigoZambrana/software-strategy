@@ -27,6 +27,10 @@ export default function LanguageSelect() {
   const navigate = (lang) => {
     const href = lang === "en" ? toEn : toEs;
     try {
+      // Persistir preferencia del usuario por encima de la detección automática
+      document.cookie = `ss_locale=${lang}; path=/; max-age=31536000; samesite=lax`;
+    } catch {}
+    try {
       window.location.assign(href);
     } catch {
       window.location.href = href;

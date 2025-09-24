@@ -23,6 +23,25 @@ export default function MarketingPage({ t, locale = "es" }) {
   };
 
   const siteBase = (DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "");
+  const toAbsoluteUrl = (url) => {
+    if (!url) return null;
+    if (/^https?:\/\//i.test(url)) return url;
+    const path = url.startsWith("/") ? url : `/${url}`;
+    return `${siteBase}${path}`;
+  };
+
+  // Launch promo: -20% until 2025-10-31
+  const PROMO_DEADLINE_ISO = '2025-10-31';
+  const promoActive = Date.now() <= new Date(`${PROMO_DEADLINE_ISO}T23:59:59Z`).getTime();
+  const discountPct = 20;
+  const promoLabel = isEn ? 'Launch -20%' : 'Lanzamiento -20%';
+  const promoUntilText = isEn ? 'Until Oct 31, 2025' : 'Hasta 31/10/2025';
+  const discountPrice = (raw) => {
+    const n = parseFloat(`${raw}`);
+    if (Number.isNaN(n)) return `${raw}`;
+    const d = Math.round(n * (1 - discountPct / 100) * 100) / 100;
+    return Number.isInteger(d) ? `${d}` : d.toFixed(2);
+  };
   const canonicalPath = isEn ? "/en/services/digital-marketing" : "/services/digital-marketing";
   const canonicalUrl = `${siteBase}${canonicalPath}`;
 
@@ -326,10 +345,11 @@ export default function MarketingPage({ t, locale = "es" }) {
               {t.plans.items.slice(0, 3).map((plan, i) => (
                 <div className="col-xl-4 col-md-6" key={plan.name}>
                   <article
-                    className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${i === 1 ? "style-two" : ""}`}
-                    itemScope
-                    itemType="https://schema.org/Product"
+                    className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${i === 1 ? "style-two" : ""}${promoActive ? ' has-promo' : ''}`}
                   >
+                    {promoActive && (
+                      <div className="promo-badge" aria-label={promoLabel}>{promoLabel}</div>
+                    )}
                     {plan.badge && (
                       <span className="badge">
                         <i className="fas fa-star-of-life" />
@@ -341,32 +361,40 @@ export default function MarketingPage({ t, locale = "es" }) {
                         <i className="flaticon-abstract" />
                       </div>
                       <div className={i === 1 ? "right-part" : ""}>
-                        <h5 itemProp="name">{plan.name}</h5>
+                        <h5>{plan.name}</h5>
                         {plan.price && (
-                          <span className="price-text" itemProp="offers" itemScope itemType="https://schema.org/Offer">
-                            <meta itemProp="priceCurrency" content="USD" />
-                            <span className="before">$</span>
-                            <span className="price" itemProp="price">{plan.price}</span> <span className="after">{plan.unit}</span>
-                            <link itemProp="availability" href="https://schema.org/InStock" />
+                          <span className="price-text">
+                            {promoActive && (
+                              <span className="old-price">
+                                <span className="price">{plan.price}</span>
+                              </span>
+                            )}
+                            <span className="new-price">
+                              <span className="price">{promoActive ? discountPrice(plan.price) : plan.price}</span>
+                            </span>{' '}
+                            <span className="after">{plan.unit}</span>
                           </span>
                         )}
                       </div>
                     </div>
                     {plan.description && (
-                      <p className="mt-10" itemProp="description">{plan.description}</p>
+                      <p className="mt-10">{plan.description}</p>
+                    )}
+                    {promoActive && (
+                      <p className="promo-until mt-10">{promoUntilText}</p>
                     )}
                     <ul className={`list-style-one ${plan.twoColumn || i === 1 ? "two-column" : ""}`}>
                       {plan.features?.map((f) => (
                         <li key={f}>{f}</li>
                       ))}
                     </ul>
-                    <Link legacyBehavior href={buildWhatsUrl(plan.name, plan.price)}>
+                    <Link legacyBehavior href={buildWhatsUrl(plan.name, promoActive ? discountPrice(plan.price) : plan.price)}>
                       <a
                         id={`cta-mkt-pricing-${(plan.slug || plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`}
                         className="theme-btn w-100"
                         data-cta="pricing"
                         data-plan={(plan.slug || plan.name || '').toString().toLowerCase().replace(/\s+/g, '-')}
-                        data-price={plan.price}
+                        data-price={promoActive ? discountPrice(plan.price) : plan.price}
                         data-currency="USD"
                         aria-label={(isEn ? 'Get started with ' : 'Empezar con ') + plan.name}
                         target="_blank" rel="noopener noreferrer"
@@ -398,15 +426,30 @@ export default function MarketingPage({ t, locale = "es" }) {
                     <th>{t.plansComparison.featuresLabel || (isEn ? 'Features' : 'Características')}</th>
                     <th>
                       {t.plansComparison.starterLabel || 'Starter'}<br />
-                      <span className="text-muted">${t.plansComparison.starterPrice} {isEn ? 'USD/mo' : 'USD/mes'}</span>
+                      <span className="text-muted">
+                        {promoActive && (
+                          <span className="old-price me-1">{t.plansComparison.starterPrice}</span>
+                        )}
+                        <span className="new-price">{promoActive ? discountPrice(t.plansComparison.starterPrice) : t.plansComparison.starterPrice}</span> {isEn ? 'USD/mo' : 'USD/mes'}
+                      </span>
                     </th>
                     <th className="bg-light">
                       {t.plansComparison.growthLabel || 'Growth'} {t.plansComparison.growthBadge || '⭐'}<br />
-                      <span className="text-muted">${t.plansComparison.growthPrice} {isEn ? 'USD/mo' : 'USD/mes'}</span>
+                      <span className="text-muted">
+                        {promoActive && (
+                          <span className="old-price me-1">{t.plansComparison.growthPrice}</span>
+                        )}
+                        <span className="new-price">{promoActive ? discountPrice(t.plansComparison.growthPrice) : t.plansComparison.growthPrice}</span> {isEn ? 'USD/mo' : 'USD/mes'}
+                      </span>
                     </th>
                     <th>
                       {t.plansComparison.proLabel || 'Pro'}<br />
-                      <span className="text-muted">${t.plansComparison.proPrice} {isEn ? 'USD/mo' : 'USD/mes'}</span>
+                      <span className="text-muted">
+                        {promoActive && (
+                          <span className="old-price me-1">{t.plansComparison.proPrice}</span>
+                        )}
+                        <span className="new-price">{promoActive ? discountPrice(t.plansComparison.proPrice) : t.plansComparison.proPrice}</span> {isEn ? 'USD/mo' : 'USD/mes'}
+                      </span>
                     </th>
                   </tr>
                 </thead>
@@ -422,17 +465,17 @@ export default function MarketingPage({ t, locale = "es" }) {
                   <tr>
                     <td></td>
                     <td>
-                      <Link id="cta-mkt-comparison-starter" href={buildWhatsUrl(t.plansComparison?.starterLabel || 'Starter')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="starter" data-price={t.plansComparison.starterPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
+                      <Link id="cta-mkt-comparison-starter" href={buildWhatsUrl(t.plansComparison?.starterLabel || 'Starter', promoActive ? discountPrice(t.plansComparison.starterPrice) : t.plansComparison.starterPrice)} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="starter" data-price={promoActive ? discountPrice(t.plansComparison.starterPrice) : t.plansComparison.starterPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {t.plansComparison.ctaStarter || (isEn ? 'Choose Starter' : 'Elegir Starter')} <i className="far fa-arrow-right" />
                       </Link>
                     </td>
                     <td className="bg-light">
-                      <Link id="cta-mkt-comparison-growth" href={buildWhatsUrl(t.plansComparison?.growthLabel || 'Growth')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="growth" data-price={t.plansComparison.growthPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
+                      <Link id="cta-mkt-comparison-growth" href={buildWhatsUrl(t.plansComparison?.growthLabel || 'Growth', promoActive ? discountPrice(t.plansComparison.growthPrice) : t.plansComparison.growthPrice)} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="growth" data-price={promoActive ? discountPrice(t.plansComparison.growthPrice) : t.plansComparison.growthPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {t.plansComparison.ctaGrowth || (isEn ? 'Choose Growth' : 'Elegir Growth')} <i className="far fa-arrow-right" />
                       </Link>
                     </td>
                     <td>
-                      <Link id="cta-mkt-comparison-pro" href={buildWhatsUrl(t.plansComparison?.proLabel || 'Pro')} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="pro" data-price={t.plansComparison.proPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
+                      <Link id="cta-mkt-comparison-pro" href={buildWhatsUrl(t.plansComparison?.proLabel || 'Pro', promoActive ? discountPrice(t.plansComparison.proPrice) : t.plansComparison.proPrice)} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="pro" data-price={promoActive ? discountPrice(t.plansComparison.proPrice) : t.plansComparison.proPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {t.plansComparison.ctaPro || (isEn ? 'Choose Pro' : 'Elegir Pro')} <i className="far fa-arrow-right" />
                       </Link>
                     </td>
@@ -459,9 +502,13 @@ export default function MarketingPage({ t, locale = "es" }) {
                 '@type': 'Product',
                 name: p.name,
                 description: p.description || '',
+                image: toAbsoluteUrl(
+                  p.image || t.plans?.image || '/assets/images/banner/banner-bg.jpg'
+                ),
                 offers: {
                   '@type': 'Offer',
-                  price: `${p.price}`,
+                  price: promoActive ? discountPrice(p.price) : `${p.price}`,
+                  priceValidUntil: promoActive ? PROMO_DEADLINE_ISO : undefined,
                   priceCurrency: 'USD',
                   availability: 'https://schema.org/InStock',
                 },

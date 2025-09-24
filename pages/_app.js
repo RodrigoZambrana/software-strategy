@@ -12,7 +12,7 @@ function App({ Component, pageProps }) {
   const [loaded, setLoaded] = useState(false);
   const router = useRouter();
 
-  // Detectar idioma del navegador y redirigir a /en si corresponde.
+  // Detectar idioma del navegador y respetar preferencia del usuario (cookie) por encima.
   useEffect(() => {
     if (typeof window === 'undefined') return;
     try {
@@ -26,18 +26,21 @@ function App({ Component, pageProps }) {
       const search = window.location.search || '';
       const hash = window.location.hash || '';
       const isEnPath = pathname === '/en' || pathname.startsWith('/en/');
+      const toEsPath = (p) => (p === '/en' ? '/' : (p.replace(/^\/en(?=\/|$)/, '') || '/'));
 
       const pref = getCookie('ss_locale');
       if (pref) {
-        // Si el usuario ya tiene preferencia guardada, respetarla.
-        if (pref === 'en' && !isEnPath) {
-          router.replace(`/en${pathname}${search}${hash}`);
+        // Si el usuario ya tiene preferencia guardada, respetarla SIEMPRE.
+        if (pref === 'en') {
+          if (!isEnPath) {
+            router.replace(`/en${pathname}${search}${hash}`);
+          }
           return;
         }
-        // Actualizar cookie si la URL actual no coincide
-        if (pref !== 'en' && isEnPath) setCookie('ss_locale', 'en');
-        if (pref === 'en' && !isEnPath) setCookie('ss_locale', 'en');
-        if (pref !== 'en' && !isEnPath) setCookie('ss_locale', 'es');
+        // Cualquier valor distinto de 'en' lo tratamos como 'es'.
+        if (isEnPath) {
+          router.replace(`${toEsPath(pathname)}${search}${hash}`);
+        }
         return;
       }
 

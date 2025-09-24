@@ -29,6 +29,26 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
     const c = DefaultSEO?.canonical || "https://software-strategy.com/";
     return c.endsWith("/") ? c : `${c}/`;
   }, []);
+  const toAbsoluteUrl = (url) => {
+    if (!url) return null;
+    if (/^https?:\/\//i.test(url)) return url;
+    const base = siteBase.replace(/\/$/, "");
+    const path = url.startsWith("/") ? url : `/${url}`;
+    return `${base}${path}`;
+  };
+
+  // Launch promo: -20% until 2025-10-31
+  const PROMO_DEADLINE_ISO = '2025-10-31';
+  const promoActive = Date.now() <= new Date(`${PROMO_DEADLINE_ISO}T23:59:59Z`).getTime();
+  const discountPct = 20;
+  const promoLabel = isEn ? 'Launch -20%' : 'Lanzamiento -20%';
+  const promoUntilText = isEn ? 'Until Oct 31, 2025' : 'Hasta 31/10/2025';
+  const discountPrice = (raw) => {
+    const n = parseFloat(`${raw}`);
+    if (Number.isNaN(n)) return `${raw}`;
+    const d = Math.round(n * (1 - discountPct / 100) * 100) / 100;
+    return Number.isInteger(d) ? `${d}` : d.toFixed(2);
+  };
 
   const path = slug ? `/services/${slug}` : "/services";
   const canonicalPath = isEn ? `/en${path}` : path;
@@ -56,7 +76,8 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
   const offers = hidePrices
     ? []
     : (t?.pricingSection?.plans || []).map((p) => ({
-        price: `${p.price}`,
+        price: promoActive ? discountPrice(p.price) : `${p.price}`,
+        priceValidUntil: promoActive ? PROMO_DEADLINE_ISO : undefined,
         priceCurrency: "USD",
         itemCondition: "https://schema.org/NewCondition",
         availability: "https://schema.org/InStock",
@@ -87,7 +108,8 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
             "@type": "Offer",
             url: canonicalUrl,
             priceCurrency: "USD",
-            price: `${minPrice}`,
+            price: promoActive ? discountPrice(minPrice) : `${minPrice}`,
+            ...(promoActive ? { priceValidUntil: PROMO_DEADLINE_ISO } : {}),
             availability: "https://schema.org/InStock",
           },
         }
@@ -149,6 +171,13 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
           productName={t?.pageBanner || (isEn ? "Service" : "Servicio")}
           description={seoDesc}
           brand={{ name: "Software Strategy" }}
+          images={[
+            toAbsoluteUrl(
+              t?.pricingSection?.image ||
+                t?.about?.image ||
+                "/assets/images/banner/banner-bg.jpg"
+            ),
+          ].filter(Boolean)}
           offers={offers}
         />
       )}
@@ -538,8 +567,10 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
           <div className="row">
             {t.pricingSection?.plans?.slice(0, 3).map((plan, i) => (
               <div className="col-xl-4 col-md-6" key={plan.name}>
-                <article className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${i === 1 ? "style-two" : ""}`} itemScope itemType="https://schema.org/Product">
-                  {plan.category && <meta itemProp="category" content={plan.category} />}
+                <article className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${i === 1 ? "style-two" : ""}${promoActive ? ' has-promo' : ''}`}>
+                  {promoActive && (
+                    <div className="promo-badge" aria-label={promoLabel}>{promoLabel}</div>
+                  )}
                   {plan.badge && (
                     <span className="badge">
                       <i className="fas fa-star-of-life" />
@@ -555,20 +586,25 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                       <i className={planIcons[i % planIcons.length]} />
                     </div>
                     <div className={i === 1 ? "right-part" : ""}>
-                      <h5 itemProp="name">{plan.name}</h5>
+                      <h5>{plan.name}</h5>
                       {!hidePrices && (
-                        <span className="price-text" itemProp="offers" itemScope itemType="https://schema.org/Offer">
-                          <meta itemProp="priceCurrency" content="USD" />
-                          <span className="before">$</span>
-                          <span className="price" itemProp="price">{plan.price}</span> <span className="after">{plan.unit}</span>
-                          <link itemProp="availability" href="https://schema.org/InStock" />
+                        <span className="price-text">
+                          {promoActive && (
+                            <span className="old-price">
+                              <span className="price">{plan.price}</span>
+                            </span>
+                          )}
+                          <span className="new-price">
+                            <span className="price">{promoActive ? discountPrice(plan.price) : plan.price}</span>
+                          </span>{' '}
+                          <span className="after">{plan.unit}</span>
                         </span>
                       )}
                     </div>
                   </div>
 
                   {plan.description && (
-                    <p className="mt-10" itemProp="description">{plan.description}</p>
+                    <p className="mt-10">{plan.description}</p>
                   )}
 
                   <ul className={`list-style-one ${plan.twoColumn || i === 1 ? "two-column" : ""}`}>
@@ -577,13 +613,17 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                     ))}
                   </ul>
 
-                  <Link legacyBehavior href={buildWhatsUrl(plan.name, plan.price)}>
+                  {promoActive && (
+                    <p className="promo-until mt-10">{promoUntilText}</p>
+                  )}
+
+                  <Link legacyBehavior href={buildWhatsUrl(plan.name, promoActive ? discountPrice(plan.price) : plan.price)}>
                     <a
                       id={`cta-service-pricing-${(plan.slug || plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`}
                       className="theme-btn w-100"
                       data-cta="pricing"
                       data-plan={(plan.slug || plan.name || '').toString().toLowerCase().replace(/\s+/g, '-')}
-                      data-price={plan.price}
+                      data-price={promoActive ? discountPrice(plan.price) : plan.price}
                       data-currency="USD"
                       aria-label={(isEn ? 'Speak with a specialist about ' : 'Hablar con un especialista sobre ') + plan.name}
                       target="_blank" rel="noopener noreferrer"
@@ -617,9 +657,13 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                 name: p.name,
                 category: p.category || (isEn ? 'Web development' : 'Desarrollo web'),
                 description: p.description || '',
+                image: toAbsoluteUrl(
+                  p.image || t?.pricingSection?.image || t?.about?.image || '/assets/images/banner/banner-bg.jpg'
+                ),
                 offers: {
                   '@type': 'Offer',
-                  price: `${p.price}`,
+                  price: promoActive ? discountPrice(p.price) : `${p.price}`,
+                  priceValidUntil: promoActive ? PROMO_DEADLINE_ISO : undefined,
                   priceCurrency: 'USD',
                   availability: 'https://schema.org/InStock',
                 },

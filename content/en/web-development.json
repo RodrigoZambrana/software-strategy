@@ -86,7 +86,7 @@
           "slug": "basic-site",
           "category": "Web development",
           "description": "Professional one‑page to present services, brand and contact. Ideal to get presence on Google quickly.",
-          "price": "300",
+          "price": "200",
           "unit": "USD one-time",
           "features": [
             "Single‑page site: services, contact and about",
@@ -102,7 +102,7 @@
           "category": "Web development & digital advertising",
           "description": "Conversion‑optimized website with initial search campaigns setup to capture qualified leads.",
           "badge": "Most Popular",
-          "price": "600",
+          "price": "500",
           "unit": "USD one-time",
           "twoColumn": true,
           "features": [
@@ -118,7 +118,7 @@
           "slug": "site-ads-social",
           "category": "Web development, advertising and social",
           "description": "End‑to‑end solution: complete website, Google Ads campaigns and ongoing social media management.",
-          "price": "900",
+          "price": "700",
           "unit": "USD + monthly social",
           "features": [
             "Complete website (architecture and content)",

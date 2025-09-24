@@ -1,0 +1,9 @@
+src/components/pages/ServiceDetailPage.jsx:594:                              <span className="before">$</span>
+src/components/pages/ServiceDetailPage.jsx:599:                            <span className="before">$</span>
+src/components/pages/PricingPage.jsx:167:                                    <span className="before">$</span>
+src/components/pages/PricingPage.jsx:172:                                  <span className="before">$</span>
+src/components/pages/PricingPage.jsx:225:                              <span className="before">$</span>
+src/components/pages/PricingPage.jsx:230:                            <span className="before">$</span>
+src/components/pages/HomePage.jsx:388:                        <span className="before">$</span>
+src/components/pages/MarketingPage.jsx:369:                                <span className="before">$</span>
+src/components/pages/MarketingPage.jsx:374:                              <span className="before">$</span>

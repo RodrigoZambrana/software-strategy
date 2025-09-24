@@ -33,7 +33,7 @@
     "plans": [
       {
         "name": "Starter",
-        "price": "200",
+        "price": "100",
         "unit": "USD/mo",
         "features": [
           "Setup + 1 network",
@@ -45,7 +45,7 @@
       {
         "name": "Performance",
         "badge": "Most Popular",
-        "price": "400",
+        "price": "200",
         "unit": "USD/mo",
         "features": [
           "2–3 networks",
@@ -56,7 +56,7 @@
       },
       {
         "name": "Full-Funnel",
-        "price": "600",
+        "price": "400",
         "unit": "USD/mo",
         "features": [
           "Full funnel",
@@ -216,7 +216,7 @@
       { 
         "name": "Starter",
         "slug": "starter",
-        "price": "200",
+        "price": "100",
         "unit": "USD/mo",
         "description": "Ideal for entrepreneurs or businesses starting to build their digital presence.",
         "features": ["1 social network managed", "Basic publishing calendar", "Initial campaigns on Google or Meta", "Monthly performance reports"],
@@ -226,7 +226,7 @@
         "name": "Growth",
         "slug": "growth",
         "badge": "Most Popular",
-        "price": "400",
+        "price": "200",
         "unit": "USD/mo",
         "description": "Perfect for growing companies aiming to scale reach and conversions.",
         "twoColumn": true,
@@ -236,7 +236,7 @@
       { 
         "name": "Pro",
         "slug": "pro",
-        "price": "600",
+        "price": "400",
         "unit": "USD/mo",
         "description": "Designed for established brands needing advanced strategies, automation and scalability.",
         "features": ["Comprehensive social media management", "Full digital marketing funnel", "Automations and remarketing", "Advanced optimization + monthly consulting"],
@@ -253,9 +253,9 @@
     "growthLabel": "Growth",
     "growthBadge": "⭐",
     "proLabel": "Pro",
-    "starterPrice": "200",
-    "growthPrice": "400",
-    "proPrice": "600",
+    "starterPrice": "100",
+    "growthPrice": "200",
+    "proPrice": "400",
     "rows": [
       { "feature": "Managed social networks", "starter": "1", "growth": "2–3", "pro": "3+" },
       { "feature": "Custom creatives and copy", "starter": "—", "growth": "Included", "pro": "Included + A/B variations" },

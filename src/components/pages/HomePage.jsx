@@ -385,7 +385,6 @@ export default function HomePage({ t, locale }) {
                   {plan.price && (
                     <div className="price-offer">
                       <span className="price-text">
-                        <span className="before">$</span>
                         <span className="price">{plan.price}</span>
                       </span>
                       <img src="/assets/images/shapes/right-arrow.png" alt="Arrow" loading="lazy" decoding="async" />

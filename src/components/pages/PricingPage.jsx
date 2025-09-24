@@ -29,6 +29,19 @@ export default function PricingPage({ t, locale = "es" }) {
     return isEn ? 'Plans' : 'Planes';
   };
 
+  // Launch promo: -20% until 2025-10-31
+  const PROMO_DEADLINE_ISO = '2025-10-31';
+  const promoActive = Date.now() <= new Date(`${PROMO_DEADLINE_ISO}T23:59:59Z`).getTime();
+  const discountPct = 20;
+  const promoLabel = isEn ? 'Launch -20%' : 'Lanzamiento -20%';
+  const promoUntilText = isEn ? 'Until Oct 31, 2025' : 'Hasta 31/10/2025';
+  const discountPrice = (raw) => {
+    const n = parseFloat(`${raw}`);
+    if (Number.isNaN(n)) return `${raw}`;
+    const d = Math.round(n * (1 - discountPct / 100) * 100) / 100;
+    return Number.isInteger(d) ? `${d}` : d.toFixed(2);
+  };
+
   return (
     <>
       <NextSeo
@@ -128,7 +141,10 @@ export default function PricingPage({ t, locale = "es" }) {
                 <div className="row">
                   {g.plans.map((plan, i) => (
                     <div className="col-xl-4 col-md-6" key={`${g.key}-${plan.name}`}>
-                      <div className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${plan.twoColumn ? "style-two" : ""}`}>
+                      <div className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${plan.twoColumn ? "style-two" : ""}${promoActive ? ' has-promo' : ''}`}>
+                        {promoActive && (
+                          <div className="promo-badge" aria-label={promoLabel}>{promoLabel}</div>
+                        )}
                         {plan.badge && (
                           <span className="badge">
                             <i className="fas fa-star-of-life" />
@@ -146,8 +162,14 @@ export default function PricingPage({ t, locale = "es" }) {
                             <h5>{plan.name}</h5>
                             {plan.price && (
                               <span className="price-text">
-                                <span className="before">$</span>
-                                <span className="price">{plan.price}</span>{" "}
+                                {promoActive && (
+                                  <span className="old-price">
+                                    <span className="price">{plan.price}</span>
+                                  </span>
+                                )}
+                                <span className="new-price">
+                                  <span className="price">{promoActive ? discountPrice(plan.price) : plan.price}</span>
+                                </span>{" "}
                                 <span className="after">{plan.unit}</span>
                               </span>
                             )}
@@ -158,8 +180,11 @@ export default function PricingPage({ t, locale = "es" }) {
                             <li key={f}>{f}</li>
                           ))}
                         </ul>
-                        <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: plan.price })}>
-                          <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
+                        {promoActive && (
+                          <p className="promo-until mt-10">{promoUntilText}</p>
+                        )}
+                        <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: promoActive ? discountPrice(plan.price) : plan.price })}>
+                          <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={promoActive ? discountPrice(plan.price) : plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
                             {plan.cta} <i className="far fa-arrow-right" />
                           </a>
                         </Link>
@@ -173,7 +198,10 @@ export default function PricingPage({ t, locale = "es" }) {
             <div className="row">
               {t.pricingSection?.plans?.map((plan, i) => (
                 <div className="col-xl-4 col-md-6" key={plan.name}>
-                  <div className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${i === 1 ? "style-two" : ""}`}>
+                  <div className={`pricing-plan-item wow fadeInUp delay-0-${2 + i * 2}s ${i === 1 ? "style-two" : ""}${promoActive ? ' has-promo' : ''}`}>
+                    {promoActive && (
+                      <div className="promo-badge" aria-label={promoLabel}>{promoLabel}</div>
+                    )}
                     {plan.badge && (
                       <span className="badge">
                         <i className="fas fa-star-of-life" />
@@ -190,8 +218,14 @@ export default function PricingPage({ t, locale = "es" }) {
                       <div className={i === 1 ? "right-part" : ""}>
                         <h5>{plan.name}</h5>
                         <span className="price-text">
-                          <span className="before">$</span>
-                          <span className="price">{plan.price}</span> <span className="after">{plan.unit}</span>
+                          {promoActive && (
+                            <span className="old-price">
+                              <span className="price">{plan.price}</span>
+                            </span>
+                          )}
+                          <span className="new-price">
+                            <span className="price">{promoActive ? discountPrice(plan.price) : plan.price}</span>
+                          </span> <span className="after">{plan.unit}</span>
                         </span>
                       </div>
                     </div>
@@ -200,8 +234,11 @@ export default function PricingPage({ t, locale = "es" }) {
                         <li key={f}>{f}</li>
                       ))}
                     </ul>
-                    <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: plan.price })}>
-                      <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
+                    {promoActive && (
+                      <p className="promo-until mt-10">{promoUntilText}</p>
+                    )}
+                    <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: promoActive ? discountPrice(plan.price) : plan.price })}>
+                      <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={promoActive ? discountPrice(plan.price) : plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
                         {plan.cta} <i className="far fa-arrow-right" />
                       </a>
                     </Link>

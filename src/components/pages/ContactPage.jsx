@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { NextSeo } from "next-seo";
 import DefaultSEO from "@/next-seo.config";
 import PageBanner from "@/src/components/PageBanner";
@@ -56,6 +56,20 @@ export default function ContactPage({ t = {}, locale = "es" }) {
 
   const siteBase = (DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "");
   const canonical = `${siteBase}${isEn ? "/en/contact" : "/contact"}`;
+
+  // Dispara un evento de página vista específico para GTM/Google Ads en la página de Contacto
+  useEffect(() => {
+    try {
+      if (typeof window !== "undefined") {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: "ads_contact_pageview",
+          page_locale: locale,
+          page_path: isEn ? "/en/contact" : "/contact",
+        });
+      }
+    } catch (_) {}
+  }, [isEn, locale]);
 
   return (
     <>

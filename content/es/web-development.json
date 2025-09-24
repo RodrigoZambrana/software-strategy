@@ -97,7 +97,7 @@
         "slug": "sitio-basico",
         "category": "Desarrollo web",
         "description": "One-page profesional para presentar servicios, marca y contacto. Ideal para comenzar con presencia en Google rápidamente.",
-        "price": "300",
+        "price": "200",
         "unit": "USD único",
         "features": [
           "Sitio de una sola página: servicios, contacto y sobre la empresa",
@@ -113,7 +113,7 @@
         "category": "Desarrollo web y publicidad digital",
         "description": "Sitio optimizado para conversión con configuración inicial de campañas de búsqueda para captar clientes potenciales.",
         "badge": "Más Popular",
-        "price": "600",
+        "price": "500",
         "unit": "USD único",
         "twoColumn": true,
         "features": [
@@ -129,7 +129,7 @@
         "slug": "sitio-ads-redes",
         "category": "Desarrollo web, publicidad y redes sociales",
         "description": "Solución integral: sitio completo, campañas en Google Ads y gestión de redes sociales orientada a resultados.",
-        "price": "900",
+        "price": "700",
         "unit": "USD + mensual redes",
         "features": [
           "Sitio web completo (arquitectura y contenido)",

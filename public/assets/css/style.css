@@ -10730,6 +10730,12 @@ blockquote .blockquote-footer:before {
   margin-bottom: 0;
 }
 
+/* add space above plan titles in cards */
+.pricing-plan-item .icon-title h5,
+.pricing-plan-item .icon-title-price h5 {
+  margin-top: 50px;
+}
+
 .pricing-plan-item .price-offer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10778,7 +10784,7 @@ blockquote .blockquote-footer:before {
 
 @media only screen and (min-width: 576px) {
   .pricing-plan-item.style-two {
-    padding: 50px 70px;
+    padding: 20px 20px;
   }
 }
 
@@ -14452,4 +14458,76 @@ blockquote .blockquote-footer:before {
 .hero-six-wrapper .hero-six-content h1 {
   font-size: 36px !important;
   margin-bottom: 20px !important;
+}
+
+/* Promo styles */
+.pricing-plan-item {
+  position: relative;
+}
+
+.pricing-plan-item.has-promo {
+  padding-top: 28px;
+}
+
+.promo-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: linear-gradient(135deg, #ff4d4f, #ff7a45);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  box-shadow: 0 8px 16px rgba(255, 77, 79, 0.25);
+}
+
+.pricing-plan-item .price-text {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.price-text .old-price,
+.old-price {
+  position: relative;
+  opacity: 0.65;
+  font-weight: 500;
+  margin-right: 6px;
+  text-decoration: none; /* custom strike via ::after */
+  display: inline-block;
+}
+.price-text .old-price::after,
+.old-price::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 46%;
+  height: 4px;
+  /* Match promo badge tones */
+  background: linear-gradient(90deg, #ff4d4f, #ff7a45);
+  transform: translateY(-50%);
+  opacity: 1;
+  border-radius: 3px;
+}
+
+.price-text .new-price {
+  color: var(--ygency-primary-color);
+  font-weight: 800;
+}
+
+.promo-until {
+  font-size: 12px;
+  color: var(--ygency-secondary-color);
+  opacity: 0.9;
+}
+
+/* prevent overflow */
+.price-text .price {
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
