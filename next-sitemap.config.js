@@ -62,27 +62,14 @@ module.exports = {
     // additionalSitemaps: [`${siteUrl}/sitemap.xml`],
   },
 
-  // Hreflang para ES, EN y x-default por ruta (ver transform)
-
-  // Control fino por URL
-  transform: async (config, path) => {
-    const isEn = path === '/en' || path.startsWith('/en/');
-    const esPath = isEn ? (path.replace(/^\/en/, '') || '/') : path;
-    const enPath = isEn ? path : (path === '/' ? '/en' : `/en${path}`);
-    const alts = [
-      { href: `${siteUrl}${esPath}`, hreflang: 'es' },
-      // Solo incluir EN si existe en el conjunto calculado
-      ...(EN_SET.has(enPath) ? [{ href: `${siteUrl}${enPath}`, hreflang: 'en' }] : []),
-      { href: `${siteUrl}${esPath}`, hreflang: 'x-default' },
-    ];
-    return {
-      loc: path,
-      changefreq: 'weekly',
-      priority: (path === '/' || path === '/en') ? 1.0 : 0.8,
-      lastmod: new Date().toISOString(),
-      alternateRefs: alts,
-    };
-  },
+  // Control fino por URL (sin hreflang en sitemap para evitar duplicados con subpath /en)
+  // Nota: next-seo ya emite hreflang en el HTML. Mantener el sitemap simple evita confusiones.
+  transform: async (_config, path) => ({
+    loc: path,
+    changefreq: 'weekly',
+    priority: (path === '/' || path === '/en') ? 1.0 : 0.8,
+    lastmod: new Date().toISOString(),
+  }),
 
   // Rutas adicionales (mantén solo las que existen)
   additionalPaths: async () => {

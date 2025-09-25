@@ -5,8 +5,11 @@ DirectoryIndex index.html
   RewriteBase /
 
   # Canonical domain: force HTTPS and non-www (software-strategy.com)
+  # Consider proxies (X-Forwarded-Proto) and avoid multi-hop redirects.
+  RewriteCond %{ENV:REDIRECT_STATUS} ^$
+  RewriteCond %{HTTP_HOST} !^software-strategy\.com$ [NC,OR]
   RewriteCond %{HTTPS} !=on [OR]
-  RewriteCond %{HTTP_HOST} !^software-strategy\.com$ [NC]
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^(.*)$ https://software-strategy.com/$1 [L,R=301]
 
   # Special case: /services/ is a page (services.html) and also a folder for details
