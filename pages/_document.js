@@ -7,8 +7,8 @@ export default class MyDocument extends Document {
     // Detecta idioma por la URL (/en/* => en)
     let lang = "es";
     try {
-      const url = ctx?.req?.url || "";
-      if (typeof url === "string" && url.startsWith("/en")) lang = "en";
+      const url = ctx?.pathname || ctx?.req?.url || "";
+      if (typeof url === "string" && (url === "/en" || url.startsWith("/en/"))) lang = "en";
     } catch (_) {}
     return { ...initialProps, lang };
   }
@@ -46,18 +46,9 @@ export default class MyDocument extends Document {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#0A1019" />
 
-        {/* Google Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-
         {/* CSS globales – mover desde _app.js a _document.js */}
-        <link rel="stylesheet" href="/assets/css/flaticon.min.css" />
         <link rel="stylesheet" href="/assets/css/fontawesome-5.14.0.min.css" />
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/assets/css/magnific-popup.min.css" />
-        <link rel="stylesheet" href="/assets/css/nice-select.min.css" />
         <link rel="stylesheet" href="/assets/css/animate.min.css" />
         <link rel="stylesheet" href="/assets/css/slick.min.css" />
           <link rel="stylesheet" href="/assets/css/style.css" />

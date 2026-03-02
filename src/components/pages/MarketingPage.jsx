@@ -114,7 +114,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                 <div className="col-xl-3 col-lg-4 col-md-6" key={`${it.title}-${idx}`}>
                   <div className="service-item style-three wow fadeInUp delay-0-2s">
                     <div className="icon">
-                      <i className={it.icon || "flaticon-optimization"} />
+                      <i className={it.icon || "fas fa-chart-line"} />
                     </div>
                     {it.number && <div className="number">{it.number}</div>}
                     <h4>{it.title}</h4>
@@ -225,7 +225,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                     <div className="image">
                       <img src={g.image} alt="Work Gallery" loading="lazy" decoding="async" />
                       <Link href={withLang(g.detailsHref || g.href || "/project-details")} className="project-btn" aria-label={isEn ? 'View details' : 'Ver detalles'}>
-                        <i className="far fa-arrow-right" />
+                        <i className="fas fa-arrow-right" />
                       </Link>
                     </div>
                     <div className="content">
@@ -242,11 +242,11 @@ export default function MarketingPage({ t, locale = "es" }) {
             </Swiper>
             <div className="work-gallery-controls">
               <button className="work-gallery-prev slick-arrow">
-                <i className="far fa-chevron-left" />
+                <i className="fas fa-chevron-left" />
               </button>
               <div className="work-gallery-dots slick-dots" />
               <button className="work-gallery-next slick-arrow">
-                <i className="far fa-chevron-right" />
+                <i className="fas fa-chevron-right" />
               </button>
             </div>
           </div>
@@ -271,7 +271,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                 <div className="col-lg-4 col-md-6" key={`${p.title}-${i}`}>
                   <div className={`work-process-five wow fadeInUp delay-0-${2 + i * 2}s`}>
                     <div className="icon-title">
-                      <i className={p.icon || "flaticon-optimization"} />
+                      <i className={p.icon || "fas fa-chart-line"} />
                       <h4>{p.title}</h4>
                     </div>
                     <div className="content">
@@ -290,7 +290,7 @@ export default function MarketingPage({ t, locale = "es" }) {
         <section className="faq-area py-100 rpy-70 rel z-1" aria-label={isEn ? "Digital marketing FAQs" : "Preguntas frecuentes de marketing digital, Google Ads y redes sociales"}>
           <div className="container container-1290">
             <div className="section-title text-center mb-50">
-              <span className="sub-title mb-15">{t.faqs?.subtitle || (isEn ? 'FAQs' : 'Preguntas Frecuentes')}</span>
+              <span className="sub-title mb-15">{t.faqs?.subtitle || (isEn ? 'FAQs' : 'Preguntas frecuentes')}</span>
               <h2>{t.faqs?.title || (isEn ? 'Frequently Asked Questions' : 'Preguntas frecuentes sobre marketing digital')}</h2>
               {t.faqs?.description && <p className="mt-10">{t.faqs.description}</p>}
             </div>
@@ -299,7 +299,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                 <MarketingFaqAccordion items={t.faqs.items} />
                 <div className="text-center mt-40">
                   <Link id="cta-faq-digital-marketing" href={withLang('/services/digital-marketing')} className="theme-btn" data-cta="faq">
-                    {isEn ? 'See digital marketing services' : 'Ver servicios de marketing digital'} <i className="far fa-arrow-right" />
+                    {isEn ? 'See digital marketing services' : 'Ver servicios de marketing digital'} <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
               </div>
@@ -358,7 +358,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                     )}
                     <div className={i === 1 ? "icon-title-price" : "icon-title"}>
                       <div className="icon">
-                        <i className="flaticon-abstract" />
+                        <i className="fas fa-rocket" />
                       </div>
                       <div className={i === 1 ? "right-part" : ""}>
                         <h5>{plan.name}</h5>
@@ -399,7 +399,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                         aria-label={(isEn ? 'Get started with ' : 'Empezar con ') + plan.name}
                         target="_blank" rel="noopener noreferrer"
                       >
-                        {plan.cta || (isEn ? "Get started" : "Empezar")} <i className="far fa-arrow-right" />
+                        {plan.cta || (isEn ? "Get started" : "Empezar")} <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
                   </article>
@@ -466,17 +466,17 @@ export default function MarketingPage({ t, locale = "es" }) {
                     <td></td>
                     <td>
                       <Link id="cta-mkt-comparison-starter" href={buildWhatsUrl(t.plansComparison?.starterLabel || 'Starter', promoActive ? discountPrice(t.plansComparison.starterPrice) : t.plansComparison.starterPrice)} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="starter" data-price={promoActive ? discountPrice(t.plansComparison.starterPrice) : t.plansComparison.starterPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
-                        {t.plansComparison.ctaStarter || (isEn ? 'Choose Starter' : 'Elegir Starter')} <i className="far fa-arrow-right" />
+                        {t.plansComparison.ctaStarter || (isEn ? 'Choose Starter' : 'Elegir Starter')} <i className="fas fa-arrow-right" />
                       </Link>
                     </td>
                     <td className="bg-light">
                       <Link id="cta-mkt-comparison-growth" href={buildWhatsUrl(t.plansComparison?.growthLabel || 'Growth', promoActive ? discountPrice(t.plansComparison.growthPrice) : t.plansComparison.growthPrice)} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="growth" data-price={promoActive ? discountPrice(t.plansComparison.growthPrice) : t.plansComparison.growthPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
-                        {t.plansComparison.ctaGrowth || (isEn ? 'Choose Growth' : 'Elegir Growth')} <i className="far fa-arrow-right" />
+                        {t.plansComparison.ctaGrowth || (isEn ? 'Choose Growth' : 'Elegir Growth')} <i className="fas fa-arrow-right" />
                       </Link>
                     </td>
                     <td>
                       <Link id="cta-mkt-comparison-pro" href={buildWhatsUrl(t.plansComparison?.proLabel || 'Pro', promoActive ? discountPrice(t.plansComparison.proPrice) : t.plansComparison.proPrice)} className="theme-btn w-100 mt-2" data-cta="comparison" data-plan="pro" data-price={promoActive ? discountPrice(t.plansComparison.proPrice) : t.plansComparison.proPrice} data-currency="USD" target="_blank" rel="noopener noreferrer">
-                        {t.plansComparison.ctaPro || (isEn ? 'Choose Pro' : 'Elegir Pro')} <i className="far fa-arrow-right" />
+                        {t.plansComparison.ctaPro || (isEn ? 'Choose Pro' : 'Elegir Pro')} <i className="fas fa-arrow-right" />
                       </Link>
                     </td>
                   </tr>
@@ -536,7 +536,7 @@ export default function MarketingPage({ t, locale = "es" }) {
                   </div>
                   <p>{t.workWithUs.text || (isEn ? "Let's talk about your project." : "Hablemos de tu proyecto.")}</p>
                   <Link id="cta-mkt-work-with-us" href={withLang("/contact")} className="theme-btn mt-15" data-cta="work-with-us">
-                    {isEn ? "Let’s Work Together" : "Trabajemos Juntos"} <i className="far fa-arrow-right" />
+                    {isEn ? "Let’s Work Together" : "Trabajemos Juntos"} <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
               </div>

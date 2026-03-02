@@ -9,6 +9,8 @@ import enPricing from "@/content/en/pricing.json";
 
 export default function PricingPage({ t, locale = "es" }) {
   const isEn = locale === "en";
+  const siteBase = (DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "");
+  const canonicalUrl = `${siteBase}${isEn ? "/en/pricing" : "/pricing"}`;
   const withLang = (href) => {
     if (!href) return "/";
     if (/^(https?:)?\/\//.test(href) || href.startsWith("mailto:") || href.startsWith("tel:")) return href;
@@ -21,8 +23,9 @@ export default function PricingPage({ t, locale = "es" }) {
   };
 
   // Iconitos para los 3 planes (mantengo el look & feel del template)
-  const planIcons = ["flaticon-abstract", "flaticon-liquid", "flaticon-petals"];
+  const planIcons = ["fas fa-rocket", "fas fa-briefcase", "fas fa-layer-group"];
   const groups = t?.pricingSection?.groups || [];
+  const whyChooseHref = withLang(t?.whyChoose?.ctaHref || (isEn ? "/services/web-development" : "/desarrollo-sitios-web-uruguay"));
   const groupTitle = (key) => {
     if (key === 'web') return isEn ? 'Web Development Plans' : 'Planes de Desarrollo Web';
     if (key === 'marketing') return isEn ? 'Digital Marketing Plans' : 'Planes de Marketing Digital';
@@ -47,12 +50,23 @@ export default function PricingPage({ t, locale = "es" }) {
       <NextSeo
         title={t?.seo?.title || (isEn ? "Pricing" : "Precios")}
         description={t?.seo?.description || (isEn ? "Plans and pricing for web development, SEO/SEM and marketing services." : "Planes y precios para desarrollo web, SEO/SEM y marketing.")}
-        canonical={`${(DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "")}${isEn ? "/en/pricing" : "/pricing"}`}
+        canonical={canonicalUrl}
         languageAlternates={[
-          { hrefLang: "es", href: `${(DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "")}/pricing` },
-          { hrefLang: "en", href: `${(DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "")}/en/pricing` },
-          { hrefLang: "x-default", href: `${(DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "")}/pricing` },
+          { hrefLang: "es", href: `${siteBase}/pricing` },
+          { hrefLang: "en", href: `${siteBase}/en/pricing` },
+          { hrefLang: "x-default", href: `${siteBase}/pricing` },
         ]}
+        openGraph={{
+          url: canonicalUrl,
+          title: t?.seo?.title || (isEn ? "Pricing" : "Precios"),
+          description:
+            t?.seo?.description ||
+            (isEn
+              ? "Plans and pricing for web development, SEO/SEM and marketing services."
+              : "Planes y precios para desarrollo web, SEO/SEM y marketing."),
+          locale: isEn ? "en_US" : "es_UY",
+          type: "website",
+        }}
       />
       {/* Page Banner */}
       <PageBanner pageName={t.pageBanner} />
@@ -79,9 +93,9 @@ export default function PricingPage({ t, locale = "es" }) {
                     <h5>{t.whyChoose.visionTitle}</h5>
                     <p>{t.whyChoose.visionText}</p>
 
-                    <Link legacyBehavior href={withLang("/about")}>
+                    <Link legacyBehavior href={whyChooseHref}>
                       <a id="cta-pricing-why-choose" className="theme-btn style-two mt-35" data-cta="pricing-why-choose">
-                        {t.whyChoose.cta} <i className="far fa-arrow-right" />
+                        {t.whyChoose.cta} <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
                   </div>
@@ -99,7 +113,7 @@ export default function PricingPage({ t, locale = "es" }) {
                         <i className={s.icon} />
                       </div>
                       <h5>
-                        <Link legacyBehavior href={withLang("/service-details")}>
+                        <Link legacyBehavior href={withLang(s.href || (isEn ? "/services/web-development" : "/desarrollo-sitios-web-uruguay"))}>
                           <a>{s.title}</a>
                         </Link>
                       </h5>
@@ -123,6 +137,7 @@ export default function PricingPage({ t, locale = "es" }) {
               <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
                 <span className="sub-title mb-20">{t.pricingSection.subtitle}</span>
                 <h2>{t.pricingSection.title}</h2>
+                {t.pricingSection.description && <p className="mt-15">{t.pricingSection.description}</p>}
               </div>
             </div>
           </div>
@@ -185,7 +200,7 @@ export default function PricingPage({ t, locale = "es" }) {
                         )}
                         <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: promoActive ? discountPrice(plan.price) : plan.price })}>
                           <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={promoActive ? discountPrice(plan.price) : plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
-                            {plan.cta} <i className="far fa-arrow-right" />
+                            {plan.cta} <i className="fas fa-arrow-right" />
                           </a>
                         </Link>
                       </div>
@@ -239,7 +254,7 @@ export default function PricingPage({ t, locale = "es" }) {
                     )}
                     <Link legacyBehavior href={buildPlanWhatsUrl({ locale: isEn ? 'en' : 'es', label: plan.name, price: promoActive ? discountPrice(plan.price) : plan.price })}>
                       <a id={`cta-pricing-plan-${(plan.name || i).toString().toLowerCase().replace(/\s+/g, '-')}`} className="theme-btn w-100" data-cta="pricing-plan" data-plan={plan.name} data-price={promoActive ? discountPrice(plan.price) : plan.price} data-currency="USD" target="_blank" rel="noopener noreferrer">
-                        {plan.cta} <i className="far fa-arrow-right" />
+                        {plan.cta} <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
                   </div>
@@ -259,7 +274,7 @@ export default function PricingPage({ t, locale = "es" }) {
               <div className="section-title text-center wow fadeInUp delay-0-2s">
                 <span className="sub-title mb-15">{t.workWithUs.subtitle}</span>
                 <h2>{t.workWithUs.title}</h2>
-                <Link legacyBehavior href={withLang("/contact")}>
+                <Link legacyBehavior href={withLang(t?.workWithUs?.href || "/contact")}>
                   <a id="cta-pricing-work-with-us" className="explore-more text-start mt-30" data-cta="pricing-work-with-us">
                     <i className="fas fa-arrow-right" /> <span>{t.workWithUs.cta}</span>
                   </a>

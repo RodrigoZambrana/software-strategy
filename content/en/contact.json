@@ -1,26 +1,26 @@
 {
   "seo": {
-    "title": "Contact | Request a Proposal",
-    "description": "Let’s talk about your project: web development, custom software, SEO/SEM and digital marketing. Quick response. Write now."
+    "title": "Contact | Schedule an introductory call",
+    "description": "Tell us your current situation and goals. We will propose a clear next step for your digital growth."
   },
   "pageName": "Contact",
-  "subTitle": "Contact us",
-  "heroTitle": "Ready to work on your next project",
+  "subTitle": "Introductory call",
+  "heroTitle": "Tell us your current stage and we’ll define the best next step",
   "contactHeading": "Contact",
-  "contactDescription": "Write to us or send a WhatsApp:",
+  "contactDescription": "Message us on WhatsApp or email. We reply with a clear initial plan:",
   "email": "info@software-strategy.com",
-  "whatsappDisplay": "+598 912 58 107",
-  "whatsappDial": "59891258107",
+  "whatsappDisplay": "+59898488759",
+  "whatsappDial": "59898488759",
   "followUs": "Follow us",
   "form": {
-    "subtitle": "Get a quote",
-    "title": "Drop us a message",
+    "subtitle": "Let’s talk",
+    "title": "Complete the form and schedule an introductory call",
     "namePlaceholder": "Full name",
     "phonePlaceholder": "Phone",
-    "emailPlaceholder": "Email address",
-    "messagePlaceholder": "Message",
-    "send": "Send message",
+    "emailPlaceholder": "Email address (optional)",
+    "messagePlaceholder": "Tell us your current situation and the result you want to achieve",
+    "send": "Schedule introductory call",
     "sending": "Sending…",
-    "success": "Message sent successfully!"
+    "success": "We received your message. We will contact you shortly."
   }
 }

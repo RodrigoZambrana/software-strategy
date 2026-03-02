@@ -3,32 +3,31 @@
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "Digital Agency",
-        "titleHtml": "<span>Grow your brand</span><br /> with websites, SEO and ads",
-        "ratingLabel": "Experience & results",
+        "subtitle": "SMB digital growth",
+        "titleHtml": "<span>Your business needs more than an online presence.</span><br /> It needs to generate real opportunities.",
+        "ratingLabel": "Business-first execution",
         "primary": {
           "href": "/contact",
-          "text": "Request proposal"
+          "text": "Schedule an introductory call"
         },
         "secondary": {
-          "href": "/en/services",
-          "text": "View services"
+          "href": "/services/web-development",
+          "text": "Let’s talk about your project"
         }
       }
     ]
   },
-  "seoTitle": "Web Development & SEO Agency",
-  "seoDescription": "Fast, secure, SEO‑first websites. SEM and social to drive leads. Get a proposal.",
-  "heroTitleHtml": "Boost your <span>digital brand</span> with a high-impact website",
-  "heroParagraphHtml": "We design <strong>fast, secure, SEO-optimized pages</strong> that drive real visibility on Google. We also grow your business with <strong>high-impact online ads and digital marketing strategies</strong> across social networks.",
+  "seoTitle": "Professional Website Development for SMBs",
+  "seoDescription": "We help small and medium-sized businesses build a stronger digital presence, improve trust, and generate real opportunities.",
+  "heroTitleHtml": "Your business needs more than an online presence.<br />It needs to generate real opportunities.",
+  "heroParagraphHtml": "We build professional websites for small and medium-sized businesses looking to strengthen their digital presence and attract new clients.<br /><br />Our goal is simple: create digital platforms that communicate credibility, clarity, and long-term value.",
   "heroBenefits": [
-    "Domain and hosting included",
-    "Corporate email",
-    "SSL certificate for security and trust",
-    "Mobile-friendly responsive design",
-    "Initial SEO optimization included"
+    "Clear value proposition from the first seconds",
+    "Stronger trust and professional perception",
+    "More inquiries through your own channels",
+    "Scalable structure for future growth"
   ],
-  "heroCtaText": "Request proposal",
+  "heroCtaText": "Schedule an introductory call",
   "heroCtaHref": "/contact",
   "heroRightImageAlt": "Web design and digital marketing",
   "aboutSubtitle": "About us",
@@ -36,59 +35,59 @@
   "aboutText": "At Software Strategy we design and build modern, fast and secure websites. We improve your visibility with SEO and acquire qualified leads through SEM and social strategies.",
   "aboutCtaText": "Learn more",
   "aboutCustom": {
-    "subtitle": "Digital Marketing",
-    "title": "Grow your brand with strategies that convert",
-    "paragraphHtml": "At <strong>Software Strategy</strong> we boost your business with <a href=\"/services/digital-marketing\">digital marketing strategies</a> designed to increase visibility, attract clients and strengthen your online brand. We create effective campaigns on <strong>Google and social networks</strong> with a focus on measurable, sustainable results.",
+    "subtitle": "The problem",
+    "title": "A weak digital presence quietly costs you opportunities",
+    "paragraphHtml": "Many businesses still rely only on social media, use outdated websites, or fail to appear when potential clients search for their services.",
     "benefits": [
-      "Strategic <strong>social media</strong> management (content, community and ads)",
-      "Digital advertising on Google and Meta to acquire leads",
-      "SEO optimization to rank your brand in search",
-      "Metrics analysis and clear reporting to measure ROI",
-      "End‑to‑end strategies: from awareness to conversion"
+      "Relying only on social media channels",
+      "Outdated websites that hurt trust",
+      "Low search visibility for relevant intent",
+      "Losing potential clients without clear signals"
     ],
     "badges": [
-      "80+ campaigns managed",
-      "Clients in 10+ industries",
-      "Measurable results in 90 days"
+      "SMB focus",
+      "Business clarity",
+      "Long-term value"
     ],
     "ctas": {
-      "readMoreLabel": "Discover more",
-      "readMoreHref": "/services/digital-marketing",
-      "primaryLabel": "Start your strategy",
+      "readMoreLabel": "See how we solve this",
+      "readMoreHref": "/services/web-development",
+      "primaryLabel": "Schedule an introductory call",
       "primaryHref": "/contact"
     }
   },
-  "whatSubtitle": "What we do",
-  "whatTitle": "Solutions to grow online",
+  "whatSubtitle": "The solution",
+  "whatTitle": "We turn digital presence into business opportunities",
   "whatCustom": {
-    "subtitle": "What we do",
-    "title": "Solutions to grow on the internet",
+    "subtitle": "How we deliver value",
+    "title": "Not just beautiful pages. Clear, structured business platforms.",
+    "intro": "Every project is aligned with business objectives: visibility, trust and conversion.",
     "items": [
       {
         "number": "01",
-        "title": "Web Design & Development",
-        "text": "Fast, responsive, conversion-oriented websites.",
+        "title": "Professional website development",
+        "text": "Modern, fast and clear websites designed to communicate credibility from the first interaction.",
         "href": "/services/web-development",
         "cta": "See more"
       },
       {
         "number": "02",
-        "title": "Google SEO",
-        "text": "SEO to improve organic visibility and Google Ads to drive qualified traffic that converts into customers.",
+        "title": "Search visibility optimization",
+        "text": "Structure and content to help your business appear in relevant searches.",
         "href": "/services/google-seo",
         "cta": "See more"
       },
       {
         "number": "03",
-        "title": "Digital Marketing",
-        "text": "End-to-end strategies focused on measurable results and sustained growth.",
+        "title": "Digital strategy consulting",
+        "text": "Strategic guidance to keep your online presence coherent, focused and measurable.",
         "href": "/services/digital-marketing",
         "cta": "See more"
       },
       {
         "number": "04",
-        "title": "Custom Software",
-        "text": "We build tailored software solutions that adapt to your processes, optimizing resources and scaling efficiently.",
+        "title": "Custom technology solutions",
+        "text": "Tailored systems when your business requires more than a corporate website.",
         "href": "/services/custom-software",
         "cta": "See more"
       }
@@ -137,120 +136,147 @@
       "label": "% quality focus"
     }
   ],
+  "faqPreview": {
+    "subtitle": "Common questions before moving forward",
+    "title": "What a growing business usually needs to clarify before investing",
+    "text": "These quick answers help define the right website approach and the next practical step for your business.",
+    "items": [
+      {
+        "q": "What kind of website fits your current stage?",
+        "a": "If you are starting, a landing page or a simple first website is often enough. If you need stronger credibility and clearer service communication, a full website is the better move."
+      },
+      {
+        "q": "How long does a professional website usually take?",
+        "a": "Standard projects usually take between 3 and 6 weeks, depending on scope, content availability and required integrations."
+      },
+      {
+        "q": "Can you start simple and expand later?",
+        "a": "Yes. We build a clear foundation so your business can grow in stages without rebuilding everything from scratch."
+      }
+    ],
+    "primaryLabel": "View website development service",
+    "primaryHref": "/services/web-development",
+    "secondaryLabel": "Read more questions",
+    "secondaryHref": "/faqs"
+  },
   "servicesSubtitle": "Services",
-  "servicesTitle": "Software solutions for your business",
+  "servicesTitle": "Solutions designed for real business outcomes",
   "services": [
     {
-      "title": "Corporate Websites",
-      "text": "A solid, professional presence ready to convert.",
+      "title": "Professional Website Development",
+      "text": "Websites built to improve trust and generate qualified inquiries.",
       "href": "/services/web-development",
       "bullets": [
-        "Fast and secure",
-        "Professional design"
+        "Business clarity",
+        "Conversion-focused structure"
       ],
-      "ctaSecondaryText": "Request proposal",
+      "ctaSecondaryText": "Schedule an introductory call",
       "ctaSecondaryHref": "/contact"
     },
     {
-      "title": "Online Stores",
-      "text": "Agile, secure e-commerce that’s easy to manage.",
-      "href": "/services/custom-software",
+      "title": "Search Visibility Optimization",
+      "text": "Improve how your company appears when potential clients are actively searching.",
+      "href": "/services/google-seo",
       "bullets": [
-        "Integrated payments",
-        "Easy management"
+        "Relevant visibility",
+        "Better inquiry flow"
       ],
-      "ctaSecondaryText": "Request proposal",
+      "ctaSecondaryText": "Schedule an introductory call",
       "ctaSecondaryHref": "/contact"
     },
     {
-      "title": "Customer Management Software (CRM) & Dashboards",
-      "text": "Centralize customers, deals and follow-ups with tailored CRM and admin dashboards. Metrics, automations and integrations to inform decisions and scale.",
-      "href": "/services/custom-software",
+      "title": "Digital Strategy Consulting",
+      "text": "Prioritized, practical guidance to align your channels with business goals.",
+      "href": "/services/digital-marketing",
       "bullets": [
-        "Dashboards & reports",
-        "Automations"
+        "Clear direction",
+        "Measured progress"
       ],
-      "ctaSecondaryText": "Request proposal",
+      "ctaSecondaryText": "Schedule an introductory call",
       "ctaSecondaryHref": "/contact"
     },
     {
-      "title": "Custom Software",
-      "text": "Tailored developments for your operations.",
+      "title": "Custom Technology Solutions",
+      "text": "Tailored systems to support operational growth and decision-making.",
       "href": "/services/custom-software",
       "bullets": [
-        "Tailored",
-        "Scalable"
+        "Built for your operation",
+        "Scalable architecture"
       ],
-      "ctaSecondaryText": "Request proposal",
+      "ctaSecondaryText": "Schedule an introductory call",
       "ctaSecondaryHref": "/contact"
     }
   ],
-  "pricingSubtitle": "Plans",
-  "pricingTitle": "Choose the plan that fits your business",
-  "pricingBannerTitle": "Flexible solutions to grow online",
+  "pricingSubtitle": "Options by stage",
+  "pricingTitle": "Choose the right path for your current business stage",
+  "pricingBannerTitle": "Start with clarity. Scale without rebuilding from scratch.",
   "pricingBannerCta": "See details",
   "pricingPlans": [
     {
-      "name": "Website Plans",
-      "desc": "Options to build or refresh your site with performance and SEO focus.",
+      "name": "Website Development Plans",
+      "desc": "From first launch to scalable business presence.",
       "features": [
-        "Responsive design",
-        "Initial SEO",
-        "Support"
+        "Fast implementation",
+        "Business-first structure",
+        "Ongoing support"
       ],
-      "priceNote": "See plans",
+      "priceNote": "View options",
       "href": "/services/web-development"
     },
     {
       "name": "Digital Marketing Plans",
-      "desc": "Google and social campaigns to grow measurable results.",
+      "desc": "Turn online attention into measurable demand and qualified conversations.",
       "features": [
-        "Google Ads",
-        "Meta Ads",
-        "Metrics & optimization"
+        "Campaign execution",
+        "Performance tracking",
+        "Continuous optimization"
       ],
-      "priceNote": "See plans",
+      "priceNote": "View options",
       "href": "/services/digital-marketing"
     }
   ],
-  "whySubtitle": "Why choose us",
-  "whyTitle": "Measurable results and close support",
+  "whySubtitle": "Why we work differently",
+  "whyTitle": "A website should be a business asset, not a decorative cost",
   "whyItems": [
     {
-      "title": "Tailored solutions",
-      "text": "Each project is designed to your goals and processes.",
-      "href": "/service-details"
+      "title": "No one-size-fits-all packages",
+      "text": "Each business has a different context. We design solutions around that context.",
+      "href": "/services"
     },
     {
-      "title": "Transparency & metrics",
-      "text": "Data-driven decisions with clear reports.",
-      "href": "/service-details"
+      "title": "Business-focused execution",
+      "text": "Our priority is simple: help your company be understood, trusted and contacted.",
+      "href": "/services/web-development"
     },
     {
-      "title": "Continuous evolution",
-      "text": "Support and improvements to keep growing.",
-      "href": "/service-details"
+      "title": "Direct and professional collaboration",
+      "text": "Clear communication, practical decisions and close support throughout the process.",
+      "href": "/contact"
     }
   ],
   "trustBar": {
     "subtitle": "Trust & reliability",
-    "title": "Included in every plan",
+    "title": "Included in every project",
     "items": [
       {
         "icon": "fas fa-shield-alt",
-        "text": "SSL certificate & security"
+        "text": "SSL certificate and security",
+        "detail": "Secure connections protect contact data and increase trust from the first visit."
       },
       {
         "icon": "fas fa-server",
-        "text": "Hosting and domain included"
+        "text": "Hosting and domain support",
+        "detail": "Stable infrastructure and professional setup without fragmented tools."
       },
       {
         "icon": "fas fa-mobile-alt",
-        "text": "Responsive design (mobile & tablets)"
+        "text": "Responsive design",
+        "detail": "A consistent experience across mobile, tablet and desktop devices."
       },
       {
         "icon": "fas fa-tachometer-alt",
-        "text": "Optimized performance"
+        "text": "Optimized speed",
+        "detail": "Fast pages reduce drop-off and improve the probability of conversion."
       }
     ]
   },
@@ -272,5 +298,7 @@
       "title": "Social media: performance tactics",
       "href": "/faqs"
     }
-  ]
+  ],
+  "heroSecondaryCtaText": "Let’s talk about your project",
+  "heroSecondaryCtaHref": "/services/web-development"
 }

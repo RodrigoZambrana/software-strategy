@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useMemo } from "react";
 import { useRouter } from "next/router";
+import Head from "next/head";
 import ImageView from "../components/ImageView";
 import VideoPopup from "../components/VideoPopup";
 import ScrollTop from "./ScrollTop";
@@ -9,6 +10,7 @@ import SideBar from "./header/SideBar";
 import esFooter from "@/content/es/footer.json";
 import enFooter from "@/content/en/footer.json";
 import { animation, sidebarClick, stickyNav, scrollTopFun } from "@/src/utils";
+import { WhatsAppIcon } from "@/src/components/icons/SimpleIcons";
 
 const Layout = ({ children, header, footer, singleMenu, dark, locale }) => {
   const router = useRouter();
@@ -42,6 +44,9 @@ useEffect(() => {
 
   return (
     <Fragment>
+      <Head>
+        <meta httpEquiv="content-language" content={resolvedLocale === "en" ? "en" : "es-UY"} />
+      </Head>
       <VideoPopup />
       <ImageView />
       <div className="page-wrapper">
@@ -50,13 +55,14 @@ useEffect(() => {
         {children}
         {/* Floating WhatsApp button */}
         <a
-          href="https://wa.me/59891258107"
+          href="https://wa.me/59898488759"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="WhatsApp"
+          title="WhatsApp"
           className="whatsapp-float"
         >
-          <i className="fab fa-whatsapp" />
+          <WhatsAppIcon size={22} />
         </a>
         <Footer footer={footer} dark={dark} locale={resolvedLocale} t={t} />
         <ScrollTop />

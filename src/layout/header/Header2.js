@@ -54,7 +54,7 @@ const Header2 = ({ singleMenu, dark, locale = "es" }) => {
               </div>
               <Link legacyBehavior href="/">
                 <a className="theme-btn style-two me-4">
-                  {isEn ? "Let’s Talk" : "Hablemos"} <i className="far fa-arrow-right" />
+                  {isEn ? "Let’s Talk" : "Hablemos"} <i className="fas fa-arrow-right" />
                 </a>
               </Link>
               {/* menu sidebar */}

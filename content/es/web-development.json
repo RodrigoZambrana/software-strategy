@@ -6,176 +6,233 @@
         "subtitle": "Desarrollo Web",
         "titleHtml": "<span>Sitios rápidos y seguros</span><br /> para hacer crecer tu negocio",
         "ratingLabel": "Calidad garantizada",
-        "primary": { "href": "/contact", "text": "Solicitar propuesta" }
+        "primary": {
+          "href": "/contact",
+          "text": "Solicitar propuesta"
+        }
       }
     ]
   },
   "seo": {
-    "title": "Desarrollo de Sitios Web a Medida | SEO, SEM y Marketing Digital",
-    "description": "Creamos sitios web rápidos, seguros y optimizados para SEO. Integramos SEM y redes sociales para impulsar tu presencia en buscadores y captar clientes."
+    "title": "Desarrollo web para PYMEs en Uruguay | Sitios que generan oportunidades",
+    "description": "Creamos sitios web profesionales para empresas que necesitan transmitir confianza y recibir consultas reales."
   },
-  "ctaPrimary": "Hablar con un especialista",
+  "ctaPrimary": "Solicitar una reunión inicial",
   "ctaSecondary": "Ver planes",
   "pageBanner": "Desarrollo de Sitios Web a Medida",
   "about": {
-    "subtitle": "Qué Ofrecemos",
-    "title": "Creamos sitios web profesionales, escalables y optimizados",
+    "subtitle": "¿Qué hacemos por tu empresa?",
+    "title": "Creamos sitios web pensados para atraer consultas",
     "featuresCol1": [
-      "Diseño web responsivo",
-      "Optimización SEO técnica",
-      "Estrategia de contenido"
+      "Mensaje claro para tu cliente",
+      "Estructura para aparecer en Google",
+      "Contenido orientado a consulta"
     ],
     "featuresCol2": [
-      "Compatibilidad multi-dispositivo",
-      "Optimización de velocidad",
-      "Experiencia de usuario (UX/UI)"
+      "Diseño adaptable a cualquier dispositivo",
+      "Carga rápida y navegación simple",
+      "Base lista para sumar mejoras después"
     ],
     "imageAlt": "Desarrollo Web"
   },
   "whatWeDo": {
-    "subtitle": "Cómo lo hacemos",
-    "title": "Soluciones web a medida para empresas que buscan crecer",
-    "text": "En Software Strategy diseñamos y desarrollamos sitios profesionales, rápidos y seguros, con foco en SEO y conversión. Desde landing pages corporativas hasta ecommerce completos, alineamos diseño, desarrollo y estrategia para obtener resultados reales.",
+    "subtitle": "¿Qué resultados buscamos?",
+    "title": "Que te entiendan, confíen y te contacten",
+    "text": "Diseñamos y desarrollamos sitios web para PYMEs que necesitan dejar de depender solo de redes sociales y empezar a recibir más consultas desde internet.",
     "bullets": [
-      "Diseño responsivo y accesible: experiencia óptima en móviles, tablets y escritorio",
-      "SEO técnico de base: estructura, metadatos, rendimiento e indexación",
-      "Contenido orientado a conversión: beneficios claros, pruebas sociales y CTAs",
-      "Velocidad y performance: Core Web Vitals optimizados",
-      "UX/UI profesional: navegación simple, clara y confiable",
-      "Escalabilidad: arquitectura lista para crecer con tu negocio",
-      "Analítica y eventos: medición para decisiones basadas en datos"
+      "Propuesta de valor clara desde el primer bloque",
+      "Estructura preparada para búsquedas relevantes",
+      "Secciones pensadas para facilitar el contacto",
+      "Carga rápida para reducir abandono",
+      "Navegación simple y confiable",
+      "Base lista para sumar mejoras sin rehacer todo",
+      "Medición de consultas para saber qué funciona mejor"
     ],
     "ads": [
-      "Landing pages enfocadas en performance para campañas",
-      "Etiquetado y conversiones: configuración de eventos y tracking",
-      "UTMs estandarizadas para atribución y reporting",
-      "A/B testing de mensajes y CTAs para mejorar resultados"
+      "Landing pages enfocadas en convertir visitas en consultas",
+      "Medición de formularios, WhatsApp y llamadas desde el primer día",
+      "Seguimiento de campañas para saber qué canal trae mejores consultas",
+      "Pruebas de mensajes y llamados a la acción para mejorar resultados"
     ],
-    "ctaText": "Solicitar propuesta",
+    "ctaText": "Solicitar una reunión inicial",
     "ctaHref": "/contact"
   },
   "existingWebsite": {
     "subtitle": "¿Ya tenés un sitio?",
     "title": "Auditoría, actualización y mejoras para tu web",
-    "description": "Si ya contás con un sitio, te ayudamos a detectar cuellos de botella y priorizar mejoras para ganar velocidad, SEO y conversiones.",
+    "description": "Si tu web no está generando consultas, trabajamos por etapas para recuperar claridad, confianza y resultados.",
     "image": "/assets/images/about/about-five1.jpg",
     "imageAlt": "Auditoría y mejoras de sitio web",
     "bulletsCol1": [
-      "Auditoría técnica SEO (CWV, indexación, metadatos)",
-      "Optimización de velocidad y Core Web Vitals",
-      "Mejoras de UX/UI y arquitectura de información"
+      "Diagnóstico comercial y de contenido",
+      "Mejoras de velocidad y experiencia de navegación",
+      "Ajustes para aumentar consultas"
     ],
     "bulletsCol2": [
-      "Actualización de CMS/Plugins y seguridad",
-      "Implementación de GA4 y eventos de conversión",
-      "Revisión de landing pages para campañas"
+      "Actualización y seguridad",
+      "Medición de contactos clave",
+      "Plan de mejora continua"
     ],
-    "ctaPrimary": "Solicitar auditoría",
+    "ctaPrimary": "Solicitar revisión inicial",
     "ctaPrimaryHref": "/contact",
-    "ctaSecondary": "Ver SEO & SEM",
+    "ctaSecondary": "Ver presencia en Google y anuncios",
     "ctaSecondaryHref": "/services/google-seo"
+  },
+  "decisionBlocks": {
+    "subtitle": "Antes de contratar",
+    "title": "¿Qué incluye, qué no incluye y cuándo conviene cada opción?",
+    "text": "La decisión no pasa solo por tener una web, sino por elegir la opción que mejor encaja con lo que tu empresa necesita hoy.",
+    "includesTitle": "Incluye desde el inicio",
+    "includes": [
+      "Estructura comercial del sitio",
+      "Textos orientados a consultas",
+      "Base para aparecer en Google",
+      "Versión móvil optimizada",
+      "Configuración de formulario y WhatsApp"
+    ],
+    "notIncludesTitle": "No incluye por defecto",
+    "notIncludes": [
+      "Gestión mensual de campañas pagas",
+      "Carga masiva de catálogo complejo",
+      "Integraciones enterprise no definidas",
+      "Producción audiovisual profesional"
+    ],
+    "whenToChooseTitle": "¿Cuándo conviene cada opción?",
+    "whenToChoose": [
+      {
+        "title": "Landing para empezar",
+        "description": "Si no tenés sitio web y necesitás comenzar rápido con un canal de consultas.",
+        "href": "/landing-page-uruguay",
+        "cta": "Ver servicio de landing page"
+      },
+      {
+        "title": "Sitio corporativo",
+        "description": "Si necesitás mostrar mejor tus servicios y hacer que tu empresa se vea más confiable.",
+        "href": "/crear-sitio-web-uruguay",
+        "cta": "Ver opción en Uruguay"
+      },
+      {
+        "title": "Renovar sitio obsoleto",
+        "description": "Si ya tenés web pero no está generando contactos ni ventas.",
+        "href": "/mantenimiento-web-uruguay",
+        "cta": "Ver mantenimiento web"
+      }
+    ],
+    "localTitle": "Uruguay como prioridad, LATAM como siguiente paso",
+    "localText": "Diseñamos cada sitio para funcionar bien primero en Uruguay y dejarlo listo para ampliar después a otros mercados de LATAM sin rehacer la base.",
+    "localPoints": [
+      "Foco inicial en Uruguay",
+      "Proceso remoto o híbrido según tu operación",
+      "Escalable a nuevos mercados regionales"
+    ]
   },
   "extra": {
     "projectTimeline": {
       "subtitle": "Nuestro proceso",
-      "title": "Cómo lo hacemos: de la idea al lanzamiento",
+      "title": "¿Cómo hacemos que tu web empiece a generar consultas?",
       "items": [
-        { "number": "01", "title": "Descubrimiento y estrategia" },
-        { "number": "02", "title": "UX/UI y contenido" },
-        { "number": "03", "title": "Desarrollo y performance" },
-        { "number": "04", "title": "Lanzamiento y optimización" }
+        {
+          "number": "01",
+          "title": "Diagnóstico del negocio"
+        },
+        {
+          "number": "02",
+          "title": "Estructura y mensaje claro"
+        },
+        {
+          "number": "03",
+          "title": "Desarrollo e implementación"
+        },
+        {
+          "number": "04",
+          "title": "Publicación y mejoras posteriores"
+        }
       ]
     }
   },
   "pricingSection": {
     "subtitle": "Paquetes Web",
-    "title": "Opciones de desarrollo web para todo tipo de negocios",
-    "description": "Sitios profesionales optimizados para SEO, listos para escalar y conectarse con campañas de Google Ads y redes sociales.",
+    "title": "Opciones para lanzar o mejorar tu presencia en internet",
+    "description": "Sitios profesionales listos para aparecer en Google, generar consultas y conectarse con campañas de Google Ads y redes sociales.",
     "plans": [
       {
-        "name": "Paquete 1 · Sitio Básico",
+        "name": "Landing para empezar",
         "slug": "sitio-basico",
         "category": "Desarrollo web",
-        "description": "One-page profesional para presentar servicios, marca y contacto. Ideal para comenzar con presencia en Google rápidamente.",
+        "description": "Una web simple para salir rápido, mostrar lo esencial y empezar a recibir consultas.",
         "price": "200",
         "unit": "USD único",
         "features": [
-          "Sitio de una sola página: servicios, contacto y sobre la empresa",
-          "Diseño web básico y profesional",
-          "Dominio y Certificado SSL",
-          "Optimización para móviles (responsive)"
+          "Una sola página con mensaje claro",
+          "Contacto por formulario o WhatsApp",
+          "Base para aparecer en Google",
+          "Diseño adaptable a celular y desktop"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Quiero esta opción"
       },
       {
-        "name": "Paquete 2 · Sitio + Google Ads",
+        "name": "Sitio web para empresa",
         "slug": "sitio-mas-ads",
         "category": "Desarrollo web y publicidad digital",
-        "description": "Sitio optimizado para conversión con configuración inicial de campañas de búsqueda para captar clientes potenciales.",
-        "badge": "Más Popular",
+        "description": "La opción más elegida para empresas que necesitan verse más profesionales y explicar mejor sus servicios.",
+        "badge": "Más elegida",
         "price": "500",
         "unit": "USD único",
         "twoColumn": true,
         "features": [
-          "Diseño de sitio web (hasta 5 secciones)",
-          "Optimización para campañas de búsqueda (landing & tracking)",
-          "Instalación de etiquetas: Google Tag, GA4 y Conversiones",
-          "Optimización para móviles (responsive)"
+          "Sitio con varias secciones de servicios",
+          "Textos pensados para generar confianza",
+          "Formulario y WhatsApp visibles",
+          "Base lista para aparecer mejor en Google"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Quiero esta opción"
       },
       {
-        "name": "Paquete 3 · Sitio + Ads + Redes",
+        "name": "Web + captación continua",
         "slug": "sitio-ads-redes",
         "category": "Desarrollo web, publicidad y redes sociales",
-        "description": "Solución integral: sitio completo, campañas en Google Ads y gestión de redes sociales orientada a resultados.",
+        "description": "Para empresas que además de la web necesitan empezar a mover campañas y trabajar una captación más activa.",
         "price": "700",
-        "unit": "USD + mensual redes",
+        "unit": "USD + gestión mensual",
         "features": [
-          "Sitio web completo (arquitectura y contenido)",
-          "Configuración y gestión de Google Ads (búsqueda/remarketing)",
-          "Gestión mensual de redes sociales (Meta/Instagram/LinkedIn)",
-          "Creatividades base y calendario editorial",
-          "Optimización continua y reportes mensuales",
-          "Responsive, SEO técnico y velocidad optimizados"
+          "Sitio web completo para tu empresa",
+          "Configuración inicial de campañas",
+          "Base para medir consultas y contactos",
+          "Acompañamiento para seguir mejorando"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Quiero esta opción"
       }
     ],
     "note": "*Dominio y SSL sujetos a disponibilidad. Los planes pueden ajustarse según alcance, idioma, integraciones y volumen de campañas."
   },
-    "faqs": {
-      "subtitle": "Preguntas Frecuentes",
-      "title": "Lo que más nos consultan",
-      "image": "/assets/images/faqs/faq-two.jpg",
-      "imageAlt": "Sección de preguntas frecuentes",
-      "items": [
-        {
-          "q": "¿Cuánto tarda en desarrollarse un sitio web a medida?",
-          "a": "Depende del alcance. Un sitio básico toma 2–4 semanas; proyectos con ecommerce o integraciones pueden requerir 6–10 semanas."
-        },
-        {
-          "q": "¿Incluyen optimización SEO en todos los planes?",
-          "a": "Sí. Incluimos SEO técnico inicial (metadatos, performance, indexación). Podemos sumar SEO avanzado bajo demanda."
-        },
-        {
-          "q": "¿Ofrecen mantenimiento posterior al lanzamiento?",
-          "a": "Sí. Contamos con planes de soporte y mantenimiento para actualizaciones, seguridad y mejoras continuas."
-        },
-        {
-          "q": "¿Pueden gestionar campañas en Google y Meta?",
-          "a": "Sí. Tenemos paquetes combinados de sitio + campañas. Incluyen configuración, seguimiento y optimización mensual."
-        },
-        {
-          "q": "¿Preparan landing pages y conversiones para Google Ads?",
-          "a": "Sí. Diseñamos landing pages orientadas a performance, configuramos conversiones y UTMs para medir resultados desde el primer día."
-        }
-      ]
-    },
+  "faqs": {
+    "subtitle": "Preguntas frecuentes",
+    "title": "Preguntas frecuentes antes de contratar",
+    "image": "/assets/images/faqs/faq-two.jpg",
+    "imageAlt": "Sección de preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuánto tarda en desarrollarse un sitio web?",
+        "a": "Depende del alcance. Un sitio inicial suele tomar 2–4 semanas y proyectos más completos entre 6–10 semanas."
+      },
+      {
+        "q": "¿El sitio queda preparado para aparecer en Google?",
+        "a": "Sí. Incluimos estructura, metadatos y contenido base para que Google entienda tu empresa desde el inicio."
+      },
+      {
+        "q": "¿Ofrecen mantenimiento después del lanzamiento?",
+        "a": "Sí. Podemos acompañarte con mejoras continuas, seguridad y ajustes según resultados."
+      },
+      {
+        "q": "¿Pueden trabajar sobre mi sitio actual?",
+        "a": "Sí. Evaluamos tu situación actual y definimos si conviene mejorar tu web existente o construir una base nueva."
+      }
+    ]
+  },
   "workWithUs": {
     "subtitle": "Trabaja con Nosotros",
-    "title": "¿Tenés un proyecto en mente? Contáctanos",
-    "cta": "Explorar más",
+    "title": "¿Listo para tener una web que ayude a conseguir más consultas?",
+    "cta": "Solicitar una reunión inicial",
     "bigText": "Trabajemos Juntos"
   }
 }

@@ -1,24 +1,42 @@
 {
   "seo": {
-    "title": "FAQs",
-    "description": "Answers about web development, custom software, SEO/SEM and digital marketing: timelines, pricing, process and support."
+    "title": "Frequently Asked Questions",
+    "description": "Clear answers about website development, digital strategy, custom software and ongoing support."
   },
   "pageBanner": "Frequently Asked Questions",
-  "subtitle": "Get clarity",
-  "title": "Everything you need to know",
+  "subtitle": "Clear answers",
+  "title": "Key questions to make better decisions",
   "image": "/assets/images/faqs/faq-two.jpg",
   "imageAlt": "Frequently asked questions",
   "items": [
-    { "q": "How long does a website take?", "a": "A basic site usually takes 2–4 weeks. Ecommerce or integrations take 6–10 weeks depending on scope." },
-    { "q": "Do you work on SEO from day one?", "a": "Yes. We implement technical SEO (metadata, indexing, performance) and content structure. Advanced SEO can be added." },
-    { "q": "Can you manage Google and Meta campaigns?", "a": "Yes. We set up, measure and optimize results-driven campaigns with periodic reports." },
-    { "q": "How do you price custom software?", "a": "We run discovery, define scope and estimate by modules. We propose MVPs to validate quickly and reduce risk." },
-    { "q": "Do you offer maintenance and support?", "a": "Yes. Support plans with improvements, security and monitoring. Also on-demand support." }
+    {
+      "q": "How long does a website project take?",
+      "a": "A focused website usually takes 2–4 weeks. Broader projects can take 6–10 weeks depending on scope."
+    },
+    {
+      "q": "Will my website be ready to appear in Google?",
+      "a": "Yes. We include structure, metadata and content foundations so Google can understand your business from day one."
+    },
+    {
+      "q": "Can you help if we currently rely only on social media?",
+      "a": "Yes. We build a professional website base so your business has its own reliable channel."
+    },
+    {
+      "q": "How do you estimate custom software projects?",
+      "a": "We first map the process to solve, then propose phased implementation with clear priorities."
+    },
+    {
+      "q": "Do you provide maintenance and ongoing support?",
+      "a": "Yes. We can support post-launch improvements, updates and security as your business evolves."
+    }
   ],
   "cta": {
     "subtitle": "Still have questions?",
-    "title": "Let’s talk about your project and the best path forward",
-    "linkLabel": "Talk to a specialist",
+    "title": "If your business needs a stronger website, this is the best place to continue",
+    "linkLabel": "View website development service",
+    "primaryHref": "/en/services/web-development",
+    "secondaryLabel": "Schedule an introductory call",
+    "secondaryHref": "/en/contact",
     "bigText": "We’re Here To Help"
   }
 }

@@ -1,57 +1,96 @@
 {
-    "seo": {
-      "title": "Nuestros servicios",
-      "description": "Diseño y desarrollo web, SEO técnico, Google Ads y marketing digital para crecer con resultados medibles. Conoce nuestros servicios."
+  "seo": {
+    "title": "Servicios para PYMEs en Uruguay | Web, estrategia y soluciones a medida",
+    "description": "Servicios enfocados en resultados comerciales para PYMEs: desarrollo web, visibilidad en Google, estrategia digital y software a medida."
+  },
+  "pageBanner": "Servicios digitales para PYMEs en Uruguay",
+  "intro": {
+    "subtitle": "Cómo ordenar la decisión",
+    "title": "Encontrá la opción que mejor encaja con lo que tu empresa necesita hoy",
+    "text": "No todas las PYMEs necesitan lo mismo. Algunas necesitan su primer sitio web, otras mejorar una web vieja y otras resolver tareas o sistemas más complejos. Si hoy tu prioridad es verte profesional en Google y empezar a recibir más consultas, lo más conveniente es avanzar con nuestro servicio de desarrollo web para PYMEs en Uruguay.",
+    "identity": "Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.",
+    "primaryLabel": "Ver desarrollo de sitios web para PYMEs",
+    "primaryHref": "/desarrollo-sitios-web-uruguay",
+    "secondaryLabel": "Solicitar una reunión inicial",
+    "secondaryHref": "/contact"
+  },
+  "ctaReadMore": "Ver solución",
+  "items": [
+    {
+      "category": "Presencia digital",
+      "titlePrefix": "Desarrollo",
+      "titleEmphasis": "Web Profesional",
+      "title": "Desarrollo web profesional",
+      "description": "Sitios diseñados para que tu empresa se vea sólida, comunique con claridad y reciba consultas reales.",
+      "href": "/desarrollo-sitios-web-uruguay",
+      "image": "/assets/images/projects/project-list1.jpg",
+      "imageAlt": "Desarrollo web profesional para empresas"
     },
-    "pageBanner": "Servicios",
-    "ctaReadMore": "Ver detalle",
-    "items": [
-      {
-        "category": "Diseño",
-        "titlePrefix": "Diseño",
-        "titleEmphasis": "& Desarrollo Web",
-        "title": "Diseño & Desarrollo Web",
-        "description": "Sitios rápidos, responsivos y pensados para convertir. Integramos diseño UX/UI, performance y accesibilidad desde el primer día.",
-        "href": "/services/web-development",
-        "image": "/assets/images/projects/project-list1.jpg",
-        "imageAlt": "Diseño y Desarrollo Web"
-      },
-      {
-        "category": "Desarrollo",
-        "titlePrefix": "Soluciones de Software",
-        "titleEmphasis": "a Medida",
-        "title": "Desarrollo de soluciones de software a medida",
-        "description": "Aplicaciones y herramientas específicas para tu negocio. Escalables, seguras y preparadas para integraciones.",
-        "href": "/services/custom-software",
-        "image": "/assets/images/projects/project-list2.jpg",
-        "imageAlt": "Software a medida"
-      },
-      {
-        "category": "Marketing",
-        "titlePrefix": "Marketing",
-        "titleEmphasis": "Digital",
-        "title": "Marketing Digital",
-        "description": "Campañas de alto impacto en Google y Meta, contenidos y gestión de comunidades orientadas a objetivos.",
-        "href": "/services/digital-marketing",
-        "image": "/assets/images/projects/project-list3.jpg",
-        "imageAlt": "Marketing digital y redes"
-      },
-      {
-        "category": "Posicionamiento",
-        "titlePrefix": "SEO Técnico",
-        "titleEmphasis": "& SEM de Alto Rendimiento",
-        "title": "SEO & SEM (Optimización y Campañas)",
-        "description": "Mejoramos tu visibilidad orgánica y ejecutamos campañas rentables en buscadores con métricas claras.",
-        "href": "/services/google-seo",
-        "image": "/assets/images/projects/project-list4.jpg",
-        "imageAlt": "SEO y SEM"
-      }
-    ],
-    "workWithUs": {
-      "subtitle": "Trabaja con Nosotros",
-      "title": "¿Tenés un proyecto? Hablemos.",
-      "cta": "Explorar más",
-      "bigText": "Trabajemos Juntos"
+    {
+      "category": "Uruguay",
+      "titlePrefix": "Crear Sitio Web",
+      "titleEmphasis": "en Uruguay",
+      "title": "Crear sitio web en Uruguay para PYMEs",
+      "description": "Para empresas que todavía no tienen web y necesitan una primera presencia profesional clara, confiable y orientada a generar consultas.",
+      "href": "/crear-sitio-web-uruguay",
+      "image": "/assets/images/projects/project-list4.jpg",
+      "imageAlt": "Crear sitio web en Uruguay para PYMEs"
+    },
+    {
+      "category": "Tecnología",
+      "titlePrefix": "Software",
+      "titleEmphasis": "a Medida",
+      "title": "Soluciones tecnológicas a medida",
+      "description": "Desarrollos pensados para empresas que necesitan ordenar tareas, ahorrar tiempo y trabajar con más control.",
+      "href": "/desarrollo-software-medida-uruguay",
+      "image": "/assets/images/projects/project-list2.jpg",
+      "imageAlt": "Software a medida para empresas"
+    },
+    {
+      "category": "Gestión",
+      "titlePrefix": "Facturación",
+      "titleEmphasis": "& Stock",
+      "title": "Software de facturación y gestión comercial",
+      "description": "Herramientas para ordenar ventas, inventario y operaciones sin depender de procesos manuales.",
+      "href": "/software-facturacion-stock-uruguay",
+      "image": "/assets/images/projects/project-list3.jpg",
+      "imageAlt": "Software de facturación y stock"
+    },
+    {
+      "category": "Actualización",
+      "titlePrefix": "Mantenimiento",
+      "titleEmphasis": "Web",
+      "title": "Mejora de sitios obsoletos",
+      "description": "Recuperá credibilidad y rendimiento en una web que hoy no está ayudando a vender ni a captar contactos.",
+      "href": "/mantenimiento-web-uruguay",
+      "image": "/assets/images/projects/project-list2.jpg",
+      "imageAlt": "Mantenimiento y mejora de sitio web"
+    },
+    {
+      "category": "Estrategia",
+      "titlePrefix": "Marketing",
+      "titleEmphasis": "Digital",
+      "title": "Estrategia digital y campañas",
+      "description": "Servicio complementario para empresas que ya tienen una base web clara y quieren sumar campañas para recibir más consultas.",
+      "href": "/services/digital-marketing",
+      "image": "/assets/images/projects/project-list4.jpg",
+      "imageAlt": "Estrategia digital y campañas"
+    },
+    {
+      "category": "Google",
+      "titlePrefix": "Visibilidad en Google",
+      "titleEmphasis": "& anuncios",
+      "title": "Visibilidad en Google y anuncios",
+      "description": "Servicio de apoyo para aparecer mejor en Google y captar demanda activa. Funciona mucho mejor cuando tu empresa ya tiene una web clara y confiable.",
+      "href": "/services/google-seo",
+      "image": "/assets/images/projects/project-list1.jpg",
+      "imageAlt": "Visibilidad en Google y anuncios"
     }
+  ],
+  "workWithUs": {
+    "subtitle": "Trabaja con nosotros",
+    "title": "¿Querés una presencia digital que realmente ayude a vender?",
+    "cta": "Solicitar una reunión inicial",
+    "bigText": "Trabajemos Juntos"
   }
-  
+}

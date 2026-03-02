@@ -11,7 +11,7 @@ const Nav = ({ singleMenu, variant, locale }) => {
       <div className="navbar-header py-10">
         <div className="mobile-logo">
           <Link legacyBehavior href={isEn ? "/en" : "/"}>
-            <a className="gtm-menu-link" data-cta="nav-brand">
+            <a className="gtm-menu-link" data-cta="nav-brand" title="Software Strategy">
               <Image
                 src="/assets/images/logos/logo-and-text.png"
                 alt="Logo"

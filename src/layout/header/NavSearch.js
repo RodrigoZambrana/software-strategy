@@ -4,7 +4,7 @@ const NavSearch = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="nav-search py-10">
-      <button className="far fa-search" onClick={() => setToggle(!toggle)} />
+      <button className="fas fa-search" onClick={() => setToggle(!toggle)} />
       <form
         action="#"
         onSubmit={(e) => {
@@ -19,7 +19,7 @@ const NavSearch = () => {
           className="searchbox"
           required
         />
-        <button type="submit" className="searchbutton far fa-search" />
+        <button type="submit" className="searchbutton fas fa-search" />
       </form>
     </div>
   );

@@ -3,171 +3,166 @@
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "Web Development",
-        "titleHtml": "<span>Fast, secure websites</span><br /> to grow your business",
-        "ratingLabel": "Quality Service",
-        "primary": { "href": "/contact", "text": "Request proposal" }
+        "subtitle": "Website Development",
+        "titleHtml": "<span>Professional websites for growing businesses</span><br /> focused on trust and real inquiries",
+        "ratingLabel": "Business-focused approach",
+        "primary": {
+          "href": "/contact",
+          "text": "Schedule an introductory call"
+        }
       }
     ]
   },
-    "seo": {
-      "title": "Custom Website Development | SEO, SEM & Digital Marketing",
-      "description": "We build fast, secure, SEO-optimized websites. We integrate SEM and social to boost your search presence and acquire customers."
-    },
-    "ctaPrimary": "Talk to a specialist",
-    "ctaSecondary": "View plans",
-    "pageBanner": "Custom Website Development",
-    "about": {
-      "subtitle": "What We Offer",
-      "title": "We build professional, scalable and optimized websites",
-      "featuresCol1": [
-        "Responsive web design",
-        "Technical SEO optimization",
-        "CMS & E-commerce integration",
-        "Content strategy"
-      ],
-      "featuresCol2": [
-        "Multi-device compatibility",
-        "Performance optimization",
-        "User experience (UX/UI)"
-      ],
-      "imageAlt": "Web Development"
-    },
-    "whatWeDo": {
-      "subtitle": "How We Work",
-      "title": "Custom web solutions for growing businesses",
-      "text": "At Software Strategy we design and develop professional, fast and secure websites focused on SEO and conversion. From corporate landing pages to full ecommerce, we align design, development and strategy to deliver real results.",
-      "bullets": [
-        "Responsive and accessible design: optimal UX on mobile, tablet and desktop",
-        "Technical SEO foundation: structure, metadata, performance and indexation",
-        "Conversion‑oriented content: clear benefits, social proof and effective CTAs",
-        "Speed and performance: optimized Core Web Vitals",
-        "Professional UX/UI: simple, clear and trustworthy navigation",
-        "Scalability: architecture ready to grow with your business",
-        "Analytics and events: measurement to drive data‑based decisions"
-      ],
-      "ads": [
-        "Performance‑focused landing pages for campaigns",
-        "Tagging and conversions: events and tracking setup",
-        "Standardized UTMs for attribution and reporting",
-        "A/B testing of messages and CTAs to improve results"
-      ],
-      "ctaText": "Request proposal",
-      "ctaHref": "/contact"
-    },
-    "existingWebsite": {
-      "subtitle": "Already have a website?",
-      "title": "Audit, updates and improvements for your site",
-      "description": "If you already have a website, we help you find bottlenecks and prioritize improvements to gain speed, SEO and conversions.",
-      "image": "/assets/images/about/about-five1.jpg",
-      "imageAlt": "Website audit and improvements",
-      "bulletsCol1": [
-        "Technical SEO audit (CWV, indexation, metadata)",
-        "Speed optimization and Core Web Vitals",
-        "UX/UI improvements and information architecture"
-      ],
-      "bulletsCol2": [
-        "CMS/Plugins updates and security",
-        "GA4 setup and conversion events",
-        "Landing page review for campaigns"
-      ],
-      "ctaPrimary": "Request audit",
-      "ctaPrimaryHref": "/contact",
-      "ctaSecondary": "See SEO & SEM",
-      "ctaSecondaryHref": "/en/services/google-seo"
-    },
-    "pricingSection": {
-      "subtitle": "Web Packages",
-      "title": "Website options for every kind of business",
-      "description": "Professional, SEO‑optimized sites ready to scale and connect with Google Ads and social campaigns.",
-      "plans": [
-        {
-          "name": "Package 1 · Basic Site",
-          "slug": "basic-site",
-          "category": "Web development",
-          "description": "Professional one‑page to present services, brand and contact. Ideal to get presence on Google quickly.",
-          "price": "200",
-          "unit": "USD one-time",
-          "features": [
-            "Single‑page site: services, contact and about",
-            "Basic, professional web design",
-            "Domain and SSL Certificate",
-            "Mobile optimization (responsive)"
-          ],
-          "cta": "Talk to a specialist"
-        },
-        {
-          "name": "Package 2 · Site + Google Ads",
-          "slug": "site-plus-ads",
-          "category": "Web development & digital advertising",
-          "description": "Conversion‑optimized website with initial search campaigns setup to capture qualified leads.",
-          "badge": "Most Popular",
-          "price": "500",
-          "unit": "USD one-time",
-          "twoColumn": true,
-          "features": [
-            "Website design (up to 5 sections)",
-            "Search campaign optimization (landing & tracking)",
-            "Tag setup: Google Tag, GA4 and Conversions",
-            "Mobile optimization (responsive)"
-          ],
-          "cta": "Talk to a specialist"
-        },
-        {
-          "name": "Package 3 · Site + Ads + Social",
-          "slug": "site-ads-social",
-          "category": "Web development, advertising and social",
-          "description": "End‑to‑end solution: complete website, Google Ads campaigns and ongoing social media management.",
-          "price": "700",
-          "unit": "USD + monthly social",
-          "features": [
-            "Complete website (architecture and content)",
-            "Google Ads setup and management (search/remarketing)",
-            "Monthly social media management (Meta/Instagram/LinkedIn)",
-            "Base creatives and editorial calendar",
-            "Ongoing optimization and monthly reports",
-            "Responsive, technical SEO and speed optimized"
-          ],
-          "cta": "Talk to a specialist"
-        }
-      ],
-      "note": "*Domain and SSL subject to availability. Plans may vary based on scope, language, integrations and campaign volume."
-    },
-    
-      "faqs": {
-        "subtitle": "FAQs",
-        "title": "Most common questions",
-        "image": "/assets/images/faqs/faq-two.jpg",
-        "imageAlt": "Frequently asked questions section",
-        "items": [
-          {
-            "q": "How long does a custom website take?",
-            "a": "It depends on scope. A basic site takes 2–4 weeks; ecommerce or integrations may require 6–10 weeks."
-          },
-          {
-            "q": "Is SEO included in every plan?",
-            "a": "Yes. We include initial technical SEO (metadata, performance, indexing). Advanced SEO can be added on demand."
-          },
-          {
-            "q": "Do you provide post-launch maintenance?",
-            "a": "Yes. We offer support and maintenance plans for updates, security and continuous improvements."
-          },
-        {
-          "q": "Can you manage Google and Meta campaigns?",
-          "a": "Yes. We have combined packages (site + campaigns) including setup, tracking and monthly optimization."
-        },
-        {
-          "q": "Do you prepare landing pages and conversions for Google Ads?",
-          "a": "Yes. We design performance‑focused landing pages and configure conversions and UTMs to measure results from day one."
-        }
-      ]
-    },
-    
-    "workWithUs": {
-      "subtitle": "Work With Us",
-      "title": "Have a project in mind? Contact us",
-      "cta": "Explore more",
-      "bigText": "Let’s Work Together"
-    }
+  "seo": {
+    "title": "Professional Website Development | Business-focused websites",
+    "description": "We build clear, high-trust websites for growing businesses that need better visibility and more qualified inquiries."
+  },
+  "ctaPrimary": "Schedule an introductory call",
+  "ctaSecondary": "View options",
+  "pageBanner": "Professional Website Development",
+  "about": {
+    "subtitle": "What we do for your business",
+    "title": "Websites built to support real commercial goals",
+    "featuresCol1": [
+      "Clear offer and positioning",
+      "Search-ready structure",
+      "Content focused on inquiry generation"
+    ],
+    "featuresCol2": [
+      "Responsive across devices",
+      "Fast loading and simple navigation",
+      "Scalable base for future growth"
+    ],
+    "imageAlt": "Website development for growing businesses"
+  },
+  "whatWeDo": {
+    "subtitle": "What outcomes we prioritize",
+    "title": "Be understood, trusted and contacted",
+    "text": "We design and build professional websites for businesses that need stronger positioning, better trust and more qualified inquiries.",
+    "bullets": [
+      "Clear value proposition from the first section",
+      "Structure prepared for relevant search intent",
+      "Conversion-oriented sections and calls to action",
+      "Fast pages to reduce bounce and improve engagement",
+      "Simple and credible navigation",
+      "Scalable base to grow without rebuilding everything",
+      "Inquiry tracking for better decision making"
+    ],
+    "ads": [
+      "Landing pages focused on qualified inquiries",
+      "Tracking setup for forms, WhatsApp and calls",
+      "Channel-level visibility for lead performance",
+      "Message and CTA testing to improve conversion"
+    ],
+    "ctaText": "Schedule an introductory call",
+    "ctaHref": "/contact"
+  },
+  "existingWebsite": {
+    "subtitle": "Already have a website?",
+    "title": "Audit, update and improvement plan",
+    "description": "If your current site is not generating inquiries, we define practical improvements in clear stages.",
+    "image": "/assets/images/about/about-five1.jpg",
+    "imageAlt": "Website audit and improvement plan",
+    "bulletsCol1": [
+      "Business and messaging review",
+      "Speed and navigation improvements",
+      "Contact flow optimization"
+    ],
+    "bulletsCol2": [
+      "Security and platform updates",
+      "Inquiry tracking setup",
+      "Priority roadmap for improvements"
+    ],
+    "ctaPrimary": "Request initial review",
+    "ctaPrimaryHref": "/contact",
+    "ctaSecondary": "See Google visibility services",
+    "ctaSecondaryHref": "/en/services/google-seo"
+  },
+  "pricingSection": {
+    "subtitle": "Website Packages",
+    "title": "Options based on your business stage",
+    "description": "From first launch to scalable digital presence with a clear commercial focus.",
+    "plans": [
+      {
+        "name": "Package 1 · Basic Site",
+        "slug": "basic-site",
+        "category": "Web development",
+        "description": "Professional one‑page to present services, brand and contact. Ideal to get presence on Google quickly.",
+        "price": "200",
+        "unit": "USD one-time",
+        "features": [
+          "Single‑page site: services, contact and about",
+          "Basic, professional web design",
+          "Domain and SSL Certificate",
+          "Mobile optimization (responsive)"
+        ],
+        "cta": "Schedule an introductory call"
+      },
+      {
+        "name": "Package 2 · Site + Google Ads",
+        "slug": "site-plus-ads",
+        "category": "Web development & digital advertising",
+        "description": "Conversion‑optimized website with initial search campaigns setup to capture qualified leads.",
+        "badge": "Most Popular",
+        "price": "500",
+        "unit": "USD one-time",
+        "twoColumn": true,
+        "features": [
+          "Website design (up to 5 sections)",
+          "Search campaign optimization (landing & tracking)",
+          "Tag setup: Google Tag, GA4 and Conversions",
+          "Mobile optimization (responsive)"
+        ],
+        "cta": "Schedule an introductory call"
+      },
+      {
+        "name": "Package 3 · Site + Ads + Social",
+        "slug": "site-ads-social",
+        "category": "Web development, advertising and social",
+        "description": "End‑to‑end solution: complete website, Google Ads campaigns and ongoing social media management.",
+        "price": "700",
+        "unit": "USD + monthly social",
+        "features": [
+          "Complete website (architecture and content)",
+          "Google Ads setup and management (search/remarketing)",
+          "Monthly social media management (Meta/Instagram/LinkedIn)",
+          "Base creatives and editorial calendar",
+          "Ongoing optimization and monthly reports",
+          "Responsive, technical SEO and speed optimized"
+        ],
+        "cta": "Schedule an introductory call"
+      }
+    ],
+    "note": "*Domain and SSL subject to availability. Plans may vary based on scope, language, integrations and campaign volume."
+  },
+  "faqs": {
+    "subtitle": "Frequently asked questions",
+    "title": "Key questions before starting",
+    "image": "/assets/images/faqs/faq-two.jpg",
+    "imageAlt": "Frequently asked questions section",
+    "items": [
+      {
+        "q": "How long does a website project take?",
+        "a": "A focused website usually takes 2–4 weeks. Broader projects can take 6–10 weeks depending on scope."
+      },
+      {
+        "q": "Will the website be ready to appear in Google?",
+        "a": "Yes. We include a clear structure, metadata and content foundation so Google can understand your business."
+      },
+      {
+        "q": "Do you provide support after launch?",
+        "a": "Yes. We can support continuous improvements, updates and security based on your goals."
+      },
+      {
+        "q": "Can you work with our current website?",
+        "a": "Yes. We assess your current site and recommend whether to improve it or build a new base."
+      }
+    ]
+  },
+  "workWithUs": {
+    "subtitle": "Work with us",
+    "title": "Ready to turn your website into a business channel?",
+    "cta": "Schedule an introductory call",
+    "bigText": "Let’s Work Together"
   }
-  
+}

@@ -29,15 +29,15 @@ const Footer5 = ({ dark }) => {
             <div className="footer-widget footer-info wow fadeInUp delay-0-4s">
               <ul className="list-style-two">
                 <li>
-                  <i className="far fa-envelope" />{" "}
+                  <i className="fas fa-envelope" />{" "}
                   <a href="mailto:support@gmail.com">support@gmail.com</a>
                 </li>
                 <li>
-                  <i className="far fa-phone" />{" "}
-                  <a href="callto:+59891258107">+598 912 58 107</a>
+                  <i className="fas fa-phone" />{" "}
+                  <a href="callto:+59898488759">+59898488759</a>
                 </li>
                 <li>
-                  <i className="far fa-clock" />{" "}
+                  <i className="fas fa-clock" />{" "}
                   <span>Monday - Friday, 10am - 5pm</span>
                 </li>
               </ul>

@@ -6,7 +6,10 @@
         "subtitle": "Software a Medida",
         "titleHtml": "<span>Integraciones y automatización</span><br /> para escalar tu operación",
         "ratingLabel": "Equipo senior",
-        "primary": { "href": "/contact", "text": "Solicitar cotización" }
+        "primary": {
+          "href": "/contact",
+          "text": "Solicitar cotización"
+        }
       }
     ]
   },
@@ -15,32 +18,32 @@
     "description": "Desarrollamos soluciones de software a medida: integraciones, APIs, backoffice y automatización de procesos con foco en escalabilidad y seguridad."
   },
   "pageBanner": "Desarrollo de Software a Medida",
-  "ctaPrimary": "Hablar con un especialista",
+  "ctaPrimary": "Solicitar una reunión inicial",
   "ctaSecondary": "Ver opciones",
   "about": {
-    "subtitle": "Qué Ofrecemos",
-    "title": "Aplicaciones y herramientas hechas a tu medida",
+    "subtitle": "¿Qué resolvemos en tu operación?",
+    "title": "Soluciones a medida para ordenar y escalar tu operación",
     "featuresCol1": [
-      "APIs y microservicios",
+      "Integraciones entre tus sistemas",
       "Integraciones (ERP/CRM/Pagos)",
       "Automatización de procesos",
       "Dashboards y backoffice"
     ],
     "featuresCol2": [
-      "Arquitectura escalable",
-      "Seguridad y compliance",
-      "DevOps y CI/CD"
+      "Base preparada para crecer",
+      "Seguridad y buenas prácticas",
+      "Implementación y mejoras continuas"
     ],
     "imageAlt": "Software a medida"
   },
   "whatWeDo": {
-    "subtitle": "Cómo lo hacemos",
-    "title": "Soluciones robustas, seguras y escalables",
-    "text": "Analizamos tu operación y diseñamos software a medida para resolver cuellos de botella. Priorizamos calidad, performance y mantenibilidad."
+    "subtitle": "¿Cómo generamos impacto en tu operación?",
+    "title": "Más control operativo y menos fricción",
+    "text": "Diseñamos herramientas según tu operación real para simplificar procesos, reducir errores y sostener crecimiento."
   },
   "pricingSection": {
     "subtitle": "Paquetes",
-    "title": "Opciones de desarrollo a medida",
+    "title": "Opciones para desarrollar por etapas según tu negocio",
     "hidePrices": true,
     "plans": [
       {
@@ -52,7 +55,7 @@
           "Entrega rápida",
           "Base técnica sólida"
         ],
-        "cta": "Solicitar cotización"
+        "cta": "Solicitar una reunión inicial"
       },
       {
         "name": "Business",
@@ -62,9 +65,9 @@
         "features": [
           "Módulos clave",
           "Integraciones externas",
-          "CI/CD + QA"
+          "Pruebas y mejoras continuas"
         ],
-        "cta": "Solicitar cotización"
+        "cta": "Solicitar una reunión inicial"
       },
       {
         "name": "Enterprise",
@@ -75,25 +78,34 @@
           "Seguridad avanzada",
           "Soporte premium"
         ],
-        "cta": "Solicitar cotización"
+        "cta": "Solicitar una reunión inicial"
       }
     ]
   },
   "faqs": {
-    "subtitle": "Preguntas Frecuentes",
+    "subtitle": "Preguntas frecuentes",
     "title": "Dudas habituales",
     "image": "/assets/images/faqs/faq-two.jpg",
     "imageAlt": "Sección de preguntas frecuentes",
     "items": [
-      { "q": "¿Cómo definen el alcance del proyecto?", "a": "Realizamos workshops y documentación de requerimientos para acordar entregables, costos y cronograma." },
-      { "q": "¿Utilizan metodologías ágiles?", "a": "Sí, trabajamos con iteraciones cortas, demos periódicas y seguimiento en tablero." },
-      { "q": "¿Qué stack utilizan?", "a": "Seleccionamos el stack según el caso de uso. Siempre priorizamos estándares, pruebas y seguridad." }
+      {
+        "q": "¿Cómo definen el alcance del proyecto?",
+        "a": "Realizamos workshops y documentación de requerimientos para acordar entregables, costos y cronograma."
+      },
+      {
+        "q": "¿Utilizan metodologías ágiles?",
+        "a": "Sí, trabajamos con iteraciones cortas, demos periódicas y seguimiento en tablero."
+      },
+      {
+        "q": "¿Con qué tecnología trabajan?",
+        "a": "Elegimos la tecnología según tus objetivos y presupuesto. Priorizamos herramientas confiables, seguridad y una base que pueda crecer con tu negocio."
+      }
     ]
   },
   "workWithUs": {
-    "subtitle": "Trabaja con Nosotros",
-    "title": "¿Necesitas software a medida?",
-    "cta": "Explorar más",
+    "subtitle": "Trabaja con nosotros",
+    "title": "¿Necesitás una solución tecnológica alineada a tu negocio?",
+    "cta": "Solicitar una reunión inicial",
     "bigText": "Construyamos Juntos"
   },
   "extra": {
@@ -110,24 +122,63 @@
       }
     },
     "skills": [
-      { "image": "/assets/images/skills/skill8.png", "label": "Node.js" },
-      { "image": "/assets/images/skills/skill5.png", "label": "React" },
-      { "image": "/assets/images/skills/skill13.png", "label": "Vue.js" },
-      { "image": "/assets/images/skills/skill10.png", "label": "Angular" },
-      { "image": "/assets/images/skills/skill7.png", "label": "PHP" },
-      { "image": "/assets/images/skills/skill9.png", "label": "Sass" },
-      { "image": "/assets/images/skills/skill2.png", "label": "HTML" },
-      { "image": "/assets/images/skills/skill3.png", "label": "CSS" },
-      { "image": "/assets/images/skills/skill14.png", "label": "Next.js" }
+      {
+        "image": "/assets/images/skills/skill8.png",
+        "label": "Node.js"
+      },
+      {
+        "image": "/assets/images/skills/skill5.png",
+        "label": "React"
+      },
+      {
+        "image": "/assets/images/skills/skill13.png",
+        "label": "Vue.js"
+      },
+      {
+        "image": "/assets/images/skills/skill10.png",
+        "label": "Angular"
+      },
+      {
+        "image": "/assets/images/skills/skill7.png",
+        "label": "PHP"
+      },
+      {
+        "image": "/assets/images/skills/skill9.png",
+        "label": "Sass"
+      },
+      {
+        "image": "/assets/images/skills/skill2.png",
+        "label": "HTML"
+      },
+      {
+        "image": "/assets/images/skills/skill3.png",
+        "label": "CSS"
+      },
+      {
+        "image": "/assets/images/skills/skill14.png",
+        "label": "Next.js"
+      }
     ],
     "aboutCounters": {
       "subtitle": "Nuestra Manera de Trabajar",
       "title": "Equipo senior enfocado en resultados",
       "text": "Planificamos, priorizamos y entregamos valor continuo con calidad y seguridad.",
       "counters": [
-        { "value": 100, "suffix": "%", "label": "Clientes satisfechos" },
-        { "value": 93, "suffix": "%", "label": "Tasa de éxito" },
-        { "value": 35, "suffix": "+", "label": "Proyectos entregados" }
+        {
+          "value": 100,
+          "suffix": "%",
+          "label": "Clientes satisfechos"
+        },
+        {
+          "value": 93,
+          "suffix": "%",
+          "label": "Tasa de éxito"
+        },
+        {
+          "value": 35,
+          "suffix": "+",
+          "label": "Proyectos entregados"
+        }
       ],
       "image": "/assets/images/about/about-image-shape.png",
       "imageAlt": "Equipo y procesos"
@@ -136,10 +187,26 @@
       "subtitle": "Casos y procesos",
       "title": "De la idea al producto",
       "items": [
-        { "number": "01", "title": "Diseño de arquitectura y alcance", "image": "/assets/images/projects/project-timeline-two1.jpg" },
-        { "number": "02", "title": "Integraciones y APIs seguras", "image": "/assets/images/projects/project-timeline-two1.jpg" },
-        { "number": "03", "title": "Paneles y backoffice a medida", "image": "/assets/images/projects/project-timeline-two1.jpg" },
-        { "number": "04", "title": "Automatización y CI/CD", "image": "/assets/images/projects/project-timeline-two1.jpg" }
+        {
+          "number": "01",
+          "title": "Definición de alcance y plan de trabajo",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        },
+        {
+          "number": "02",
+          "title": "Integraciones entre sistemas clave",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        },
+        {
+          "number": "03",
+          "title": "Paneles y backoffice a medida",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        },
+        {
+          "number": "04",
+          "title": "Automatización y mejora continua",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        }
       ]
     }
   }

@@ -1,39 +1,86 @@
 {
-    "brandName": "Software Strategy",
-    "brandAlt": "software strategy logo",
-    "letsWorkAlt": "Trabajemos",
-    "letsWork": "¡Trabajemos juntos!",
-    "contacts": {
-      "email": "info@software-strategy.com",
-      "phoneDisplay": "+598 912 58 107",
-      "phoneDial": "+59891258107"
+  "brandName": "Software Strategy",
+  "brandAlt": "software strategy logo",
+  "letsWorkAlt": "Trabajemos",
+  "letsWork": "¡Trabajemos juntos!",
+  "contacts": {
+    "email": "info@software-strategy.com",
+    "phoneDisplay": "+59898488759",
+    "phoneDial": "+59898488759"
+  },
+  "social": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/software.strategy/",
+      "icon": "fab fa-facebook-f"
     },
-    "social": [
-      { "label": "Facebook",  "href": "https://www.facebook.com/software.strategy/",  "icon": "fab fa-facebook-f" },
-      { "label": "Instagram", "href": "https://www.instagram.com/software.strategy/", "icon": "fab fa-instagram" }
-    ],
-    "quickLinksTitle": "Enlaces rápidos",
-    "quickLinksCol1": [
-      { "label": "Inicio",          "href": "/" },
-      { "label": "Servicios",       "href": "/services" },
-      { "label": "Contacto",        "href": "/contact" }
-    ],
-    "quickLinksCol2": [
-      { "label": "Desarrollo Web",     "href": "/services/web-development" },
-      { "label": "Posicionamiento en Google",          "href": "/services/google-seo" },
-      { "label": "Marketing Digital",  "href": "/services/digital-marketing" },
-      { "label": "Sobre nosotros",     "href": "/about" },
-      { "label": "FAQs",               "href": "/faqs" }
-    ],
-    "bottomMenu": [
-      { "label": "Nosotros",  "href": "/about" },
-      { "label": "Servicios", "href": "/services" },
-      { "label": "FAQs",      "href": "/faqs" },
-      { "label": "Cómo trabajamos", "href": "/services" }
-    ],
-    "copyright": {
-      "prefix": "Copyright ©2025,",
-      "suffix": "Todos los derechos reservados"
+    {
+      "label": "Instagram",
+      "href": "https://www.instagram.com/software.strategy/",
+      "icon": "fab fa-instagram"
     }
+  ],
+  "quickLinksTitle": "Enlaces rápidos",
+  "quickLinksCol1": [
+    {
+      "label": "Inicio",
+      "href": "/"
+    },
+    {
+      "label": "Servicios",
+      "href": "/services"
+    },
+    {
+      "label": "Contacto",
+      "href": "/contact"
+    }
+  ],
+  "quickLinksCol2": [
+    {
+      "label": "Sitios Web para PYMEs en Uruguay",
+      "href": "/desarrollo-sitios-web-uruguay"
+    },
+    {
+      "label": "Software a medida en Uruguay",
+      "href": "/desarrollo-software-medida-uruguay"
+    },
+    {
+      "label": "Visibilidad en Google y anuncios",
+      "href": "/services/google-seo"
+    },
+    {
+      "label": "Estrategia digital",
+      "href": "/services/digital-marketing"
+    },
+    {
+      "label": "Sobre nosotros",
+      "href": "/about"
+    },
+    {
+      "label": "Preguntas frecuentes",
+      "href": "/faqs"
+    }
+  ],
+  "bottomMenu": [
+    {
+      "label": "Nosotros",
+      "href": "/about"
+    },
+    {
+      "label": "Servicios",
+      "href": "/services"
+    },
+    {
+      "label": "Preguntas frecuentes",
+      "href": "/faqs"
+    },
+    {
+      "label": "Cómo trabajamos",
+      "href": "/services"
+    }
+  ],
+  "copyright": {
+    "prefix": "Copyright ©2025,",
+    "suffix": "Todos los derechos reservados"
   }
-  
+}

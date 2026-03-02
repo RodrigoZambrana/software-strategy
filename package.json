@@ -11,6 +11,7 @@
     "sitemap": "next-sitemap --config next-sitemap.config.js",
     "postexport": "sh -c 'next-sitemap --config next-sitemap.config.js && cp -f public/favicon.ico out/ || true && cp -f public/site.webmanifest out/ || true && cp -f public/.htaccess out/ || true && node scripts/postexport-fix-en.js'",
     "preview": "serve out -l 5050",
+    "preview:php": "php -S localhost:3000 -t out scripts/php-router.php",
     "build:export:sitemap": "npm run build && npm run export",
     "gen:favicon": "node scripts/gen-favicon.js"
   },

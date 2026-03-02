@@ -1,5 +1,6 @@
 import { Fragment, useState } from "react";
 import MobileSlideMenu from "@/src/layout/header/MobileSlideMenu";
+import { FacebookIcon, InstagramIcon } from "@/src/components/icons/SimpleIcons";
 const SideBar = ({ locale = "es" }) => {
   const isEn = locale === "en";
   const [name, setName] = useState("");
@@ -113,11 +114,11 @@ const SideBar = ({ locale = "es" }) => {
           )}
           {/*Social Icons*/}
           <div className="social-style-one">
-            <a href="https://www.facebook.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-              <i className="fab fa-facebook-f" />
+            <a href="https://www.facebook.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+              <FacebookIcon />
             </a>
-            <a href="https://www.instagram.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-              <i className="fab fa-instagram" />
+            <a href="https://www.instagram.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+              <InstagramIcon />
             </a>
           </div>
         </div>

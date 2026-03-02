@@ -7,7 +7,7 @@ export function buildPlanWhatsUrl({
   label = '',
   price,
   currency = 'USD',
-  phone = '59891258107', // Fallback al número publicado en Contact
+  phone = '59898488759', // Fallback al número publicado en Contact
   siteName = 'Software Strategy',
 }) {
   const planPart = label ? `${label}` : 'plan';

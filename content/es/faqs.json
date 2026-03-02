@@ -1,24 +1,42 @@
 {
   "seo": {
-    "title": "Preguntas Frecuentes",
-    "description": "Respuestas sobre desarrollo web, software a medida, SEO/SEM y marketing digital: tiempos, precios, procesos y soporte."
+    "title": "Preguntas frecuentes",
+    "description": "Respuestas claras sobre desarrollo web, estrategia digital, software a medida y soporte para PYMEs."
   },
-  "pageBanner": "Preguntas Frecuentes",
-  "subtitle": "Resuelve tus dudas",
-  "title": "Todo lo que necesitas saber",
+  "pageBanner": "Preguntas frecuentes",
+  "subtitle": "Respuestas claras",
+  "title": "Preguntas frecuentes para tomar una mejor decisión",
   "image": "/assets/images/faqs/faq-two.jpg",
   "imageAlt": "Preguntas frecuentes",
   "items": [
-    { "q": "¿Cuánto tarda un sitio web?", "a": "Un sitio básico suele tomar 2–4 semanas. Proyectos con ecommerce o integraciones requieren 6–10 semanas, según alcance." },
-    { "q": "¿Trabajan SEO desde el inicio?", "a": "Sí. Implementamos SEO técnico (metadatos, indexación, performance) y estructura de contenidos. Podemos sumar SEO avanzado." },
-    { "q": "¿Pueden gestionar campañas en Google y Meta?", "a": "Sí. Configuramos, medimos y optimizamos campañas orientadas a resultados, con reportes periódicos." },
-    { "q": "¿Cómo presupuestan software a medida?", "a": "Hacemos un discovery, definimos alcance y estimamos por módulos. Proponemos MVPs para validar rápido y reducir riesgos." },
-    { "q": "¿Ofrecen mantenimiento y soporte?", "a": "Sí. Planes de soporte con mejoras, seguridad y monitoreo. También soporte on-demand." }
+    {
+      "q": "¿Cuánto tarda un sitio web para una PYME?",
+      "a": "Un sitio inicial suele tomar entre 2 y 4 semanas. Proyectos más completos pueden requerir entre 6 y 10 semanas."
+    },
+    {
+      "q": "¿Mi sitio queda listo para aparecer en Google?",
+      "a": "Sí. Incluimos estructura, metadatos y contenido base para que Google entienda tu negocio desde el inicio."
+    },
+    {
+      "q": "¿Pueden ayudar si hoy solo dependo de redes sociales?",
+      "a": "Sí. Diseñamos una base web profesional para que tu empresa tenga un canal propio y no dependa solo de terceros."
+    },
+    {
+      "q": "¿Cómo definen el presupuesto de software a medida?",
+      "a": "Primero entendemos el proceso a resolver y luego proponemos etapas de implementación con alcance y prioridades claras."
+    },
+    {
+      "q": "¿Ofrecen mantenimiento y acompañamiento?",
+      "a": "Sí. Podemos acompañarte después del lanzamiento con mejoras continuas, seguridad y seguimiento."
+    }
   ],
   "cta": {
     "subtitle": "¿Aún con dudas?",
-    "title": "Hablemos sobre tu proyecto y el mejor camino para avanzar",
-    "linkLabel": "Hablar con un especialista",
+    "title": "Si tu empresa necesita una web profesional, este es el mejor siguiente paso",
+    "linkLabel": "Ver desarrollo de sitios web para PYMEs",
+    "primaryHref": "/desarrollo-sitios-web-uruguay",
+    "secondaryLabel": "Solicitar una reunión inicial",
+    "secondaryHref": "/contact",
     "bigText": "Estamos Para Ayudarte"
   }
 }

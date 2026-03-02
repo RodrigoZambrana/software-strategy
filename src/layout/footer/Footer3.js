@@ -43,7 +43,7 @@ const Footer3 = ({ dark }) => {
                 <p>55 Main Street, 2nd block Malborne, Australia</p>
                 <a href="mailto:support@gmail.com">support@gmail.com</a>
                 <br />
-                <a href="callto:+59891258107">+598 912 58 107</a>
+                <a href="callto:+59898488759">+59898488759</a>
               </div>
             </div>
           </div>

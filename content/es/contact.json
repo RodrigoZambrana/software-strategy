@@ -1,26 +1,26 @@
 {
   "seo": {
-    "title": "Contacto | Solicita una Propuesta",
-    "description": "Hablemos de tu proyecto: desarrollo web, software a medida, SEO/SEM y marketing digital. Respuesta rápida. Escribe ahora."
+    "title": "Contacto | Reunión inicial para tu proyecto digital",
+    "description": "Contanos qué necesita hoy tu empresa y te decimos cuál es el siguiente paso más conveniente para empezar a recibir más consultas."
   },
   "pageName": "Contacto",
-  "subTitle": "Contáctanos",
-  "heroTitle": "Listos para trabajar en tu próximo proyecto",
+  "subTitle": "Reunión inicial",
+  "heroTitle": "Contanos qué necesita hoy tu empresa y vemos cómo avanzar",
   "contactHeading": "Contacto",
-  "contactDescription": "Escríbenos o envíanos un WhatsApp:",
+  "contactDescription": "Escribinos por WhatsApp o email. Te respondemos claro y sin vueltas:",
   "email": "info@software-strategy.com",
-  "whatsappDisplay": "+598 912 58 107",
-  "whatsappDial": "59891258107",
+  "whatsappDisplay": "+59898488759",
+  "whatsappDial": "59898488759",
   "followUs": "Síguenos",
   "form": {
-    "subtitle": "Solicitá una cotización",
-    "title": "Envíanos un mensaje",
+    "subtitle": "Conversemos",
+    "title": "Completá el formulario y coordinamos una reunión inicial",
     "namePlaceholder": "Nombre completo",
     "phonePlaceholder": "Teléfono",
-    "emailPlaceholder": "Correo electrónico",
-    "messagePlaceholder": "Mensaje",
-    "send": "Enviar mensaje",
+    "emailPlaceholder": "Correo electrónico (opcional)",
+    "messagePlaceholder": "Contanos qué necesitás y qué te gustaría mejorar",
+    "send": "Solicitar reunión inicial",
     "sending": "Enviando…",
-    "success": "¡Mensaje enviado con éxito!"
+    "success": "Recibimos tu mensaje. Te contactamos a la brevedad."
   }
 }

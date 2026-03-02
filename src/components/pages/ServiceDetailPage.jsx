@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import YgencyAccordionLite from "@/src/components/YgencyAccordionLite";
 import { buildPlanWhatsUrl } from "@/src/lib/ctaUtils";
-import { NextSeo, BreadcrumbJsonLd, FAQPageJsonLd, ProductJsonLd } from "next-seo";
+import { NextSeo, BreadcrumbJsonLd, FAQPageJsonLd } from "next-seo";
 import DefaultSEO from "@/next-seo.config";
 
 export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
@@ -22,20 +22,13 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
     return path.startsWith("/en/") || path === "/en" ? (path.replace(/^\/en/, "") || "/") : path;
   };
 
-  const planIcons = ["flaticon-abstract", "flaticon-liquid", "flaticon-petals"];
+  const planIcons = ["fas fa-rocket", "fas fa-briefcase", "fas fa-layer-group"];
 
   // SEO helpers
   const siteBase = useMemo(() => {
     const c = DefaultSEO?.canonical || "https://software-strategy.com/";
     return c.endsWith("/") ? c : `${c}/`;
   }, []);
-  const toAbsoluteUrl = (url) => {
-    if (!url) return null;
-    if (/^https?:\/\//i.test(url)) return url;
-    const base = siteBase.replace(/\/$/, "");
-    const path = url.startsWith("/") ? url : `/${url}`;
-    return `${base}${path}`;
-  };
 
   // Launch promo: -20% until 2025-10-31
   const PROMO_DEADLINE_ISO = '2025-10-31';
@@ -50,7 +43,8 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
     return Number.isInteger(d) ? `${d}` : d.toFixed(2);
   };
 
-  const path = slug ? `/services/${slug}` : "/services";
+  const publicSlug = slug === "seo-sem" ? "google-seo" : slug;
+  const path = publicSlug ? `/services/${publicSlug}` : "/services";
   const canonicalPath = isEn ? `/en${path}` : path;
   const canonicalUrl = `${siteBase.replace(/\/$/, "")}${canonicalPath}`;
   const altEsUrl = `${siteBase.replace(/\/$/, "")}${path}`;
@@ -60,7 +54,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
   const seoDesc = t?.seo?.description || t?.whatWeDo?.text || (isEn
     ? "We deliver tailored digital solutions to grow your business."
     : "Entregamos soluciones digitales a medida para hacer crecer tu negocio.");
-  const ogLocale = isEn ? "en_US" : "es_ES";
+  const ogLocale = isEn ? "en_US" : "es_UY";
 
   // Helper centralizado para URL de WhatsApp
   const buildWhatsUrl = (planLabel, price) =>
@@ -73,16 +67,22 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
 
   const hidePrices = t?.pricingSection?.hidePrices || slug === 'custom-software';
 
-  const offers = hidePrices
+  const catalogOffers = hidePrices
     ? []
     : (t?.pricingSection?.plans || []).map((p) => ({
+        "@type": "Offer",
         price: promoActive ? discountPrice(p.price) : `${p.price}`,
-        priceValidUntil: promoActive ? PROMO_DEADLINE_ISO : undefined,
+        ...(promoActive ? { priceValidUntil: PROMO_DEADLINE_ISO } : {}),
         priceCurrency: "USD",
-        itemCondition: "https://schema.org/NewCondition",
         availability: "https://schema.org/InStock",
         url: canonicalUrl,
-        seller: { name: "Software Strategy" },
+        seller: { "@type": "Organization", name: "Software Strategy" },
+        itemOffered: {
+          "@type": "Service",
+          name: p.name,
+          description: p.description || seoDesc,
+          areaServed: { "@type": "Country", name: isEn ? "Latin America" : "Uruguay" },
+        },
       }));
 
   // Service JSON-LD (manual, next-seo no expone ServiceJsonLd)
@@ -95,14 +95,14 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
     "@type": "Service",
     name: t?.pageBanner || (isEn ? "Service" : "Servicio"),
     description: seoDesc,
-    serviceType: slug || (isEn ? "service" : "servicio"),
+    serviceType: publicSlug || (isEn ? "service" : "servicio"),
     inLanguage: isEn ? "en" : "es",
     provider: {
       "@type": "Organization",
       name: "Software Strategy",
       url: siteBase,
     },
-    ...(minPrice
+    ...(catalogOffers.length > 0
       ? {
           offers: {
             "@type": "Offer",
@@ -112,9 +112,24 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
             ...(promoActive ? { priceValidUntil: PROMO_DEADLINE_ISO } : {}),
             availability: "https://schema.org/InStock",
           },
+          hasOfferCatalog: {
+            "@type": "OfferCatalog",
+            name: isEn ? "Service options" : "Opciones del servicio",
+            itemListElement: catalogOffers,
+          },
         }
       : {}),
   };
+
+  const offerCatalogJsonLd = catalogOffers.length > 0
+    ? {
+        "@context": "https://schema.org",
+        "@type": "OfferCatalog",
+        name: isEn ? "Service options" : "Opciones del servicio",
+        url: canonicalUrl,
+        itemListElement: catalogOffers,
+      }
+    : null;
 
   return (
     <>
@@ -166,24 +181,11 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
         <FAQPageJsonLd mainEntity={faqItems} />
       )}
 
-      {offers?.length > 0 && (
-        <ProductJsonLd
-          productName={t?.pageBanner || (isEn ? "Service" : "Servicio")}
-          description={seoDesc}
-          brand={{ name: "Software Strategy" }}
-          images={[
-            toAbsoluteUrl(
-              t?.pricingSection?.image ||
-                t?.about?.image ||
-                "/assets/images/banner/banner-bg.jpg"
-            ),
-          ].filter(Boolean)}
-          offers={offers}
-        />
-      )}
-
       {/* Service JSON-LD */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      {offerCatalogJsonLd && (
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(offerCatalogJsonLd) }} />
+      )}
 
       {/* Banner */}
       <PageBanner
@@ -226,8 +228,8 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                     </div>
 
                     <Link legacyBehavior href={withLang("/contact")}>
-                      <a id="cta-service-about" className="theme-btn style-two mt-35" data-cta="service-about">
-                        {t?.ctaPrimary ?? (isEn ? "Request a quote" : "Pedir cotización")} <i className="far fa-arrow-right" />
+                      <a id="cta-service-about" className="theme-btn style-two mt-35" data-cta="service-about" title={t?.ctaPrimary ?? (isEn ? "Request a quote" : "Pedir cotización")}>
+                        {t?.ctaPrimary ?? (isEn ? "Request a quote" : "Pedir cotización")} <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
                   </div>
@@ -240,7 +242,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
               <div className="row">
                 <div className="col-12">
                   <div className="image wow zoomIn delay-0-2s text-center">
-                    <img src={t.about?.image || "/assets/images/banner/banner-bg.jpg"} alt={t.about?.imageAlt || (isEn ? "Service" : "Servicio")} style={{ maxWidth: "100%", height: "auto" }} loading="lazy" decoding="async" />
+                    <img src={t.about?.image || "/assets/images/banner/banner-bg.jpg"} alt={t.about?.imageAlt || (isEn ? "Service" : "Servicio")} title={t.about?.imageAlt || (isEn ? "Service" : "Servicio")} width="1920" height="500" style={{ maxWidth: "100%", height: "auto" }} loading="lazy" decoding="async" />
                   </div>
                 </div>
               </div>
@@ -262,6 +264,9 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                   <img
                     src={t.existingWebsite.image || "/assets/images/about/about-five2.jpg"}
                     alt={t.existingWebsite.imageAlt || (isEn ? "Website audit and improvements" : "Auditoría y mejoras de sitio")}
+                    title={t.existingWebsite.imageAlt || (isEn ? "Website audit and improvements" : "Auditoría y mejoras de sitio")}
+                    width="300"
+                    height="260"
                     style={{ maxWidth: "100%", height: "auto" }}
                     loading="lazy"
                     decoding="async"
@@ -295,14 +300,14 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                   </div>
                   <div className="d-flex gap-3 flex-wrap mt-25">
                     <Link legacyBehavior href={withLang(t.existingWebsite.ctaPrimaryHref || "/contact")}>
-                      <a id="cta-service-existing-primary" className="theme-btn" data-cta="service-existing-primary">
-                        {t.existingWebsite.ctaPrimary || (isEn ? "Request audit" : "Solicitar auditoría")} <i className="far fa-arrow-right" />
+                      <a id="cta-service-existing-primary" className="theme-btn" data-cta="service-existing-primary" title={t.existingWebsite.ctaPrimary || (isEn ? "Request audit" : "Solicitar auditoría")}>
+                        {t.existingWebsite.ctaPrimary || (isEn ? "Request audit" : "Solicitar auditoría")} <i className="fas fa-arrow-right" />
                       </a>
                     </Link>
                     {t.existingWebsite.ctaSecondary && (
                       <Link legacyBehavior href={withLang(t.existingWebsite.ctaSecondaryHref || "/services/google-seo")}>
-                        <a id="cta-service-existing-secondary" className="read-more" data-cta="service-existing-secondary">
-                          {t.existingWebsite.ctaSecondary} <i className="far fa-arrow-right" />
+                        <a id="cta-service-existing-secondary" className="read-more" data-cta="service-existing-secondary" title={t.existingWebsite.ctaSecondary}>
+                          {t.existingWebsite.ctaSecondary} <i className="fas fa-arrow-right" />
                         </a>
                       </Link>
                     )}
@@ -310,6 +315,122 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+      )}
+
+      {/* Commercial decision block: clearer card layout */}
+      {t.decisionBlocks && (
+        <section
+          className="pricing-area-three pb-100 rpb-70"
+          style={{ backgroundImage: "url(/assets/images/background/pricing-bg-dot-shape.png)" }}
+        >
+          <div className="container container-1290">
+            <div className="row justify-content-center">
+              <div className="col-xl-8 col-lg-10">
+                <div className="section-title text-center mb-50 wow fadeInUp delay-0-2s">
+                  {t.decisionBlocks.subtitle && <span className="sub-title mb-20">{t.decisionBlocks.subtitle}</span>}
+                  <h2>{t.decisionBlocks.title}</h2>
+                  {t.decisionBlocks.text && <p className="mt-15">{t.decisionBlocks.text}</p>}
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-xl-4 col-md-6">
+                <div className="pricing-plan-item wow fadeInUp delay-0-2s" style={{ minHeight: "100%" }}>
+                  {t.decisionBlocks.includesTitle && <h5>{t.decisionBlocks.includesTitle}</h5>}
+                  <ul className="list-style-one mt-25 mb-0">
+                    {(t.decisionBlocks.includes || []).map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-xl-4 col-md-6">
+                <div className="pricing-plan-item wow fadeInUp delay-0-4s" style={{ minHeight: "100%" }}>
+                  {t.decisionBlocks.notIncludesTitle && <h5>{t.decisionBlocks.notIncludesTitle}</h5>}
+                  <ul className="list-style-one mt-25 mb-0">
+                    {(t.decisionBlocks.notIncludes || []).map((item) => (
+                      <li key={item}>{item}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-xl-4 col-md-12">
+                <div className="pricing-plan-item wow fadeInUp delay-0-6s" style={{ minHeight: "100%" }}>
+                  {t.decisionBlocks.whenToChooseTitle && <h5>{t.decisionBlocks.whenToChooseTitle}</h5>}
+                  {(t.decisionBlocks.whenToChoose || []).map((item, index) => (
+                    <div
+                      className={index > 0 ? "pt-20 mt-20" : "mt-25"}
+                      key={item.title}
+                      style={index > 0 ? { borderTop: "1px solid rgba(18, 18, 18, 0.08)" } : undefined}
+                    >
+                      <h6
+                        style={{
+                          fontSize: "18px",
+                          lineHeight: 1.45,
+                          marginBottom: "8px",
+                          display: "flex",
+                          alignItems: "flex-start",
+                          gap: "10px",
+                        }}
+                      >
+                        <span
+                          style={{
+                            color: "#2db57d",
+                            fontSize: "16px",
+                            lineHeight: 1.4,
+                            marginTop: "2px",
+                            flexShrink: 0,
+                          }}
+                          aria-hidden="true"
+                        >
+                          <i className="fas fa-check-circle" />
+                        </span>
+                        <span>{item.title}</span>
+                      </h6>
+                      <p className="mb-10">{item.description}</p>
+                      {item.href && (
+                        <Link legacyBehavior href={withLang(item.href)}>
+                          <a
+                            className="theme-btn style-two"
+                            data-cta="service-decision-route"
+                            data-route={item.title}
+                            title={item.cta || (isEn ? "See details" : "Ver detalles")}
+                            style={{ marginTop: "6px" }}
+                          >
+                            {item.cta || (isEn ? "See details" : "Ver detalles")} <i className="fas fa-arrow-right" />
+                          </a>
+                        </Link>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {(t.decisionBlocks.localTitle || t.decisionBlocks.localText) && (
+              <div className="row justify-content-center mt-30">
+                <div className="col-xl-8 col-lg-10">
+                  <div className="pricing-plan-item wow fadeInUp delay-0-8s text-center">
+                    {t.decisionBlocks.localTitle && <h5>{t.decisionBlocks.localTitle}</h5>}
+                    {t.decisionBlocks.localText && <p className="mt-15">{t.decisionBlocks.localText}</p>}
+                    {(t.decisionBlocks.localPoints || []).length > 0 && (
+                      <div className="mt-20" style={{ maxWidth: "520px", marginLeft: "auto", marginRight: "auto", textAlign: "left" }}>
+                        <ul className="list-style-one mb-0">
+                          {(t.decisionBlocks.localPoints || []).map((item) => (
+                            <li key={item}>{item}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </section>
       )}
@@ -500,8 +621,8 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                 )}
                 {t.whatWeDo?.ctaHref && (
                   <Link legacyBehavior href={withLang(t.whatWeDo.ctaHref)}>
-                    <a id="cta-service-what" className="theme-btn mt-25" data-cta="service-what-cta">
-                      {t.whatWeDo?.ctaText || (isEn ? 'Request proposal' : 'Solicitar propuesta')} <i className="far fa-arrow-right" />
+                    <a id="cta-service-what" className="theme-btn mt-25" data-cta="service-what-cta" title={t.whatWeDo?.ctaText || (isEn ? 'Request proposal' : 'Solicitar propuesta')}>
+                      {t.whatWeDo?.ctaText || (isEn ? 'Request proposal' : 'Solicitar propuesta')} <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                 )}
@@ -509,7 +630,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
             </div>
             <div className="col-xl-4 text-xl-end mt-25 rmt-15">
               <Link legacyBehavior href="#paquetes-web">
-                <a id="cta-service-view-plans" className="explore-more" data-cta="service-view-plans">
+                <a id="cta-service-view-plans" className="explore-more" data-cta="service-view-plans" title={t?.ctaSecondary ?? (isEn ? "View plans" : "Ver planes")}>
                   <i className="fas fa-arrow-right" /> <span>{t?.ctaSecondary ?? (isEn ? "View plans" : "Ver planes")}</span>
                 </a>
               </Link>
@@ -627,8 +748,9 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                       data-currency="USD"
                       aria-label={(isEn ? 'Speak with a specialist about ' : 'Hablar con un especialista sobre ') + plan.name}
                       target="_blank" rel="noopener noreferrer"
+                      title={plan.cta || (isEn ? 'Request a quote' : 'Hablar con un especialista')}
                     >
-                      {plan.cta || (isEn ? 'Request a quote' : 'Hablar con un especialista')} <i className="far fa-arrow-right" />
+                      {plan.cta || (isEn ? 'Request a quote' : 'Hablar con un especialista')} <i className="fas fa-arrow-right" />
                     </a>
                   </Link>
                 </article>
@@ -645,33 +767,6 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
           )}
         </div>
       </section>
-      {/* Products JSON-LD for pricing plans */}
-      {Array.isArray(t.pricingSection?.plans) && t.pricingSection.plans.length > 0 && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@graph': t.pricingSection.plans.map((p) => ({
-                '@type': 'Product',
-                name: p.name,
-                category: p.category || (isEn ? 'Web development' : 'Desarrollo web'),
-                description: p.description || '',
-                image: toAbsoluteUrl(
-                  p.image || t?.pricingSection?.image || t?.about?.image || '/assets/images/banner/banner-bg.jpg'
-                ),
-                offers: {
-                  '@type': 'Offer',
-                  price: promoActive ? discountPrice(p.price) : `${p.price}`,
-                  priceValidUntil: promoActive ? PROMO_DEADLINE_ISO : undefined,
-                  priceCurrency: 'USD',
-                  availability: 'https://schema.org/InStock',
-                },
-              })),
-            }),
-          }}
-        />
-      )}
       {/* /Pricing */}
 
       {/* FAQ's Area start */}
@@ -681,7 +776,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
             {/* Imagen izquierda */}
             <div className="col-lg-5">
               <div className="faq-iamge-part rmb-55 wow fadeInLeft delay-0-2s">
-                <img src={t.faqs?.image || "/assets/images/faqs/faq-two.jpg"} alt={t.faqs?.imageAlt || (isEn ? "FAQs" : "Preguntas frecuentes")} loading="lazy" decoding="async" />
+                <img src={t.faqs?.image || "/assets/images/faqs/faq-two.jpg"} alt={t.faqs?.imageAlt || (isEn ? "FAQs" : "Preguntas frecuentes")} title={t.faqs?.imageAlt || (isEn ? "FAQs" : "Preguntas frecuentes")} width="520" height="600" loading="lazy" decoding="async" />
               </div>
             </div>
 
@@ -702,8 +797,8 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
 
         {/* Shapes decorativos */}
         <div className="faq-shapes">
-          <img className="shape left" src="/assets/images/shapes/ellipse-left.png" alt="" aria-hidden="true" loading="lazy" decoding="async" />
-          <img className="shape right" src="/assets/images/shapes/ellipse-right.png" alt="" aria-hidden="true" loading="lazy" decoding="async" />
+          <img className="shape left" src="/assets/images/shapes/ellipse-left.png" alt="" title="Forma decorativa izquierda" width="50" height="100" aria-hidden="true" loading="lazy" decoding="async" />
+          <img className="shape right" src="/assets/images/shapes/ellipse-right.png" alt="" title="Forma decorativa derecha" width="50" height="100" aria-hidden="true" loading="lazy" decoding="async" />
         </div>
       </section>
       {/* FAQ's Area end */}
@@ -717,7 +812,7 @@ export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
                 <span className="sub-title mb-15">{t.workWithUs?.subtitle}</span>
                 <h2>{t.workWithUs?.title}</h2>
                 <Link legacyBehavior href={withLang("/contact")}>
-                  <a id="cta-service-work-with-us" className="explore-more text-start mt-30" data-cta="service-work-with-us">
+                  <a id="cta-service-work-with-us" className="explore-more text-start mt-30" data-cta="service-work-with-us" title={t.workWithUs?.cta}>
                     <i className="fas fa-arrow-right" /> <span>{t.workWithUs?.cta}</span>
                   </a>
                 </Link>

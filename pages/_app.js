@@ -3,14 +3,63 @@ import "../styles/globals.css";
 import PreLoader from "@/src/layout/PreLoader";
 import { Fragment, useEffect, useState } from "react";
 import { useRouter } from 'next/router';
-import { DefaultSeo, OrganizationJsonLd } from "next-seo";
+import { DefaultSeo } from "next-seo";
+import { Inter } from "next/font/google";
 import SEO from "../next-seo.config";
 import { appWithTranslation } from "next-i18next";
 import Head from "next/head";
+import esFooter from "@/content/es/footer.json";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-inter",
+});
 
 function App({ Component, pageProps }) {
-  const [loaded, setLoaded] = useState(false);
+  const [showPreloader, setShowPreloader] = useState(true);
   const router = useRouter();
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://software-strategy.com/#organization",
+    name: "Software Strategy",
+    legalName: "Software Strategy",
+    url: "https://software-strategy.com/",
+    logo: "https://software-strategy.com/android-chrome-192x192.png",
+    email: esFooter?.contacts?.email || "info@software-strategy.com",
+    telephone: esFooter?.contacts?.phoneDisplay || "+59898488759",
+    areaServed: [
+      { "@type": "Country", name: "Uruguay" },
+      { "@type": "Place", name: "Latin America" }
+    ],
+    availableLanguage: ["es", "en"],
+    sameAs: (esFooter?.social || []).map((item) => item.href),
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        contactType: "sales",
+        email: esFooter?.contacts?.email || "info@software-strategy.com",
+        telephone: esFooter?.contacts?.phoneDisplay || "+59898488759",
+        areaServed: ["UY", "LATAM"],
+        availableLanguage: ["es", "en"],
+      },
+    ],
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "UY",
+      addressRegion: "Uruguay",
+    },
+    knowsAbout: [
+      "Desarrollo web para PYMEs",
+      "Desarrollo de software a medida",
+      "Visibilidad en Google",
+      "Marketing digital",
+      "Automatización de procesos",
+      "Integraciones empresariales",
+    ],
+  };
 
   // Detectar idioma del navegador y respetar preferencia del usuario (cookie) por encima.
   useEffect(() => {
@@ -26,19 +75,20 @@ function App({ Component, pageProps }) {
       const search = window.location.search || '';
       const hash = window.location.hash || '';
       const isEnPath = pathname === '/en' || pathname.startsWith('/en/');
+      const isLocaleRoot = pathname === '/' || pathname === '/en';
       const toEsPath = (p) => (p === '/en' ? '/' : (p.replace(/^\/en(?=\/|$)/, '') || '/'));
 
       const pref = getCookie('ss_locale');
       if (pref) {
         // Si el usuario ya tiene preferencia guardada, respetarla SIEMPRE.
         if (pref === 'en') {
-          if (!isEnPath) {
+          if (!isEnPath && isLocaleRoot) {
             router.replace(`/en${pathname}${search}${hash}`);
           }
           return;
         }
         // Cualquier valor distinto de 'en' lo tratamos como 'es'.
-        if (isEnPath) {
+        if (isEnPath && isLocaleRoot) {
           router.replace(`${toEsPath(pathname)}${search}${hash}`);
         }
         return;
@@ -46,7 +96,7 @@ function App({ Component, pageProps }) {
 
       const langs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language]).filter(Boolean);
       const prefersEn = langs.some((l) => (l || '').toLowerCase().startsWith('en'));
-      if (prefersEn && !isEnPath) {
+      if (prefersEn && !isEnPath && isLocaleRoot) {
         setCookie('ss_locale', 'en');
         router.replace(`/en${pathname}${search}${hash}`);
         return;
@@ -58,7 +108,7 @@ function App({ Component, pageProps }) {
 
   
   useEffect(() => {
-    const t = setTimeout(() => setLoaded(true), 1500);
+    const t = setTimeout(() => setShowPreloader(false), 1200);
     return () => clearTimeout(t);
   }, []);
 
@@ -125,22 +175,12 @@ function App({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       </Head>
 
-      {/* JSON-LD global de Organization */}
-      <OrganizationJsonLd
-        type="Organization"
-        id="https://software-strategy.com/#organization"
-        legalName="Software Strategy"
-        name="Software Strategy"
-        url="https://software-strategy.com/"
-        logo="https://software-strategy.com/android-chrome-192x192.png"
-        sameAs={[
-          "https://www.facebook.com/software.strategy/",
-          "https://www.instagram.com/software.strategy/",
-        ]}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }} />
 
-      {!loaded && <PreLoader />}
-      {loaded && <Component {...pageProps} />}
+      <div className={inter.variable}>
+        <Component {...pageProps} />
+        {showPreloader && <PreLoader />}
+      </div>
     </Fragment>
   );
 }

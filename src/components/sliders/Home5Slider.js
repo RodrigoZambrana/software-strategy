@@ -59,13 +59,13 @@ export default class Home5Slider extends Component {
                         </div>
                       )}
                       {s.primary && (
-                        <Link id={`cta-slider-primary-${i}`} href={s.primary.href} className="theme-btn style-two" data-cta="slider-primary" data-slide-index={i}>
-                          {s.primary.text} <i className="far fa-arrow-right" />
+                        <Link id={`cta-slider-primary-${i}`} href={s.primary.href} className="theme-btn style-two" data-cta="slider-primary" data-slide-index={i} title={s.primary.text}>
+                          {s.primary.text} <i className="fas fa-arrow-right" />
                         </Link>
                       )}
                       {s.secondary && (
-                        <Link id={`cta-slider-secondary-${i}`} className="read-more" href={s.secondary.href} data-cta="slider-secondary" data-slide-index={i}>
-                          {s.secondary.text} <i className="far fa-arrow-right" />
+                        <Link id={`cta-slider-secondary-${i}`} className="read-more" href={s.secondary.href} data-cta="slider-secondary" data-slide-index={i} title={s.secondary.text}>
+                          {s.secondary.text} <i className="fas fa-arrow-right" />
                         </Link>
                       )}
                     </div>
@@ -79,10 +79,10 @@ export default class Home5Slider extends Component {
           <div className="container">
             <div className="main-slider-arrows">
               <button className="main-slider-prev" onClick={this.previous}>
-                <i className="fal fa-long-arrow-left" /> prev
+                <i className="fas fa-long-arrow-left" /> prev
               </button>
               <button className="main-slider-next" onClick={this.next}>
-                next <i className="fal fa-long-arrow-right" />
+                next <i className="fas fa-long-arrow-right" />
               </button>
             </div>
           </div>

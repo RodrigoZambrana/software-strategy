@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+return [
+    'recaptcha_secret' => 'replace-with-recaptcha-secret',
+    'recaptcha_min_score' => 0.5,
+    'recaptcha_action' => 'contact_form_submit',
+    'smtp_host' => 'mail.example.com',
+    'smtp_port' => 465,
+    'smtp_secure' => true,
+    'smtp_user' => 'info@example.com',
+    'smtp_password' => 'replace-with-smtp-password',
+    'mail_from' => 'info@example.com',
+    'mail_to' => 'info@example.com',
+    'mail_subject' => 'Nueva consulta desde software-strategy.com',
+    'allowed_hosts' => [
+        'software-strategy.com',
+        'www.software-strategy.com',
+        'localhost',
+        '127.0.0.1',
+    ],
+    'allowed_origins' => [
+        'https://software-strategy.com',
+        'https://www.software-strategy.com',
+        'http://localhost:3000',
+        'http://127.0.0.1:3000',
+    ],
+];

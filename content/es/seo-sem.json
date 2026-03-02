@@ -3,107 +3,195 @@
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "SEO & Google Ads",
-        "titleHtml": "<span>Más visibilidad en Google</span><br /> campañas que convierten",
-        "ratingLabel": "Orientado a ROI",
-        "primary": { "href": "/contact", "text": "Empezar ahora" }
+        "subtitle": "Google para empresas",
+        "titleHtml": "<span>Haz que te encuentren en Google</span><br /> y convertí búsquedas en consultas reales",
+        "ratingLabel": "Resultados medibles",
+        "primary": {
+          "href": "/contact",
+          "text": "Empezar ahora"
+        }
       }
     ]
   },
   "seo": {
-    "title": "Posicionamiento en Google | Optimización técnica y anuncios",
-    "description": "Mejoramos tu visibilidad orgánica con SEO técnico y de contenidos. Ejecutamos anuncios en Google con seguimiento y optimización continua."
+    "title": "Visibilidad en Google y anuncios",
+    "description": "Mejoramos cómo aparece tu empresa en Google y gestionamos anuncios para generar consultas con intención real."
   },
-  "pageBanner": "Posicionamiento en Google (SEO)",
-  "ctaPrimary": "Hablar con un especialista",
+  "pageBanner": "Visibilidad en Google y anuncios",
+  "ctaPrimary": "Solicitar una reunión inicial",
   "ctaSecondary": "Ver planes",
   "about": {
-    "subtitle": "Qué Ofrecemos",
-    "title": "Posicionamiento orgánico y campañas de alto rendimiento",
+    "subtitle": "¿Qué resolvemos?",
+    "title": "Que te encuentren y que tu empresa transmita confianza",
     "featuresCol1": [
-      "SEO técnico (Core Web Vitals)",
-      "Arquitectura e indexación",
-      "Investigación de keywords",
-      "On-page y contenidos"
+      "Web clara para que tu empresa se entienda rápido",
+      "Contenido pensado para búsquedas reales",
+      "Más visibilidad cuando te están buscando"
     ],
     "featuresCol2": [
-      "Google Ads (Search/Display)",
-      "Tracking y conversiones",
-      "Optimización de landing pages"
+      "Campañas en Google",
+      "Dominio propio para verse más profesional",
+      "Correo personalizado para generar más confianza"
     ],
     "imageAlt": "SEO y SEM"
   },
+  "existingWebsite": {
+    "subtitle": "Antes de invertir en Google",
+    "title": "Para que te encuentren, primero tu empresa tiene que verse seria",
+    "description": "Aparecer en Google ayuda mucho más cuando tu empresa ya tiene una base profesional. Si alguien entra y encuentra una web débil, un dominio poco claro o un correo genérico, la confianza baja antes del primer contacto.",
+    "image": "/assets/images/about/about-five1.jpg",
+    "imageAlt": "Base profesional para aparecer en Google",
+    "bulletsCol1": [
+      "Un sitio web propio ordena lo que hacés y facilita el contacto.",
+      "Depender solo de redes sociales te deja con menos control sobre tu presencia.",
+      "Una web clara convierte mejor las visitas en consultas."
+    ],
+    "bulletsCol2": [
+      "Un dominio propio hace que tu empresa se vea más seria y fácil de recordar.",
+      "Un correo con tu dominio transmite más confianza que uno genérico.",
+      "Todo eso mejora cómo te perciben antes de escribirte."
+    ],
+    "ctaPrimary": "Ver desarrollo web para PYMEs",
+    "ctaPrimaryHref": "/desarrollo-sitios-web-uruguay",
+    "ctaSecondary": "Solicitar una reunión inicial",
+    "ctaSecondaryHref": "/contact"
+  },
+  "decisionBlocks": {
+    "subtitle": "Qué conviene tener resuelto",
+    "title": "Lo que más ayuda a que Google y tus clientes te tomen en serio",
+    "text": "La visibilidad no depende solo de anuncios o palabras clave. También depende de que tu empresa se vea confiable, explique bien lo que hace y ofrezca un contacto claro.",
+    "includesTitle": "Lo que más suma",
+    "includes": [
+      "Sitio web claro y actualizado",
+      "Servicios explicados de forma simple",
+      "Dominio propio",
+      "Correo profesional con tu marca",
+      "Botones de contacto visibles"
+    ],
+    "notIncludesTitle": "Lo que suele jugar en contra",
+    "notIncludes": [
+      "Depender solo de Instagram o Facebook",
+      "Usar correos genéricos para vender",
+      "Webs viejas o confusas",
+      "Mensajes poco claros sobre lo que hacés"
+    ],
+    "whenToChooseTitle": "¿Cuándo conviene este servicio?",
+    "whenToChoose": [
+      {
+        "title": "Si ya tenés web pero no te encuentran",
+        "description": "Trabajamos la visibilidad para que más personas lleguen a tu empresa cuando buscan lo que ofrecés.",
+        "href": "/contact",
+        "cta": "Solicitar una reunión inicial"
+      },
+      {
+        "title": "Si todavía no tenés una web sólida",
+        "description": "Primero conviene ordenar tu base digital para que Google y tus clientes entiendan mejor tu empresa.",
+        "href": "/desarrollo-sitios-web-uruguay",
+        "cta": "Ver desarrollo web para PYMEs"
+      },
+      {
+        "title": "Si querés empezar con algo simple",
+        "description": "Podés arrancar con una web inicial y luego sumar más trabajo de visibilidad.",
+        "href": "/crear-sitio-web-uruguay",
+        "cta": "Ver opción para crear sitio web"
+      }
+    ],
+    "localTitle": "Uruguay como foco principal",
+    "localText": "Trabajamos con foco en empresas que venden y operan principalmente en Uruguay. Si más adelante tu negocio necesita llegar a otros mercados, dejamos una base ordenada para acompañar esa expansión sin perder claridad local.",
+    "localPoints": [
+      "Búsquedas con intención real en Uruguay",
+      "Más claridad sobre lo que hace tu empresa dentro del mercado uruguayo",
+      "Base preparada para empresas que más adelante quieran abrirse a otros mercados"
+    ]
+  },
   "whatWeDo": {
-    "subtitle": "Cómo lo hacemos",
-    "title": "Diagnóstico, plan y ejecución",
-    "text": "Auditamos tu sitio, priorizamos quick wins y plan de mediano plazo. Configuramos campañas con medición clara y optimizamos para ROI."
+    "subtitle": "¿Cómo trabajamos?",
+    "title": "Primero hacemos que tu empresa se vea profesional. Después trabajamos para que más personas la encuentren y la contacten.",
+    "text": "Revisamos cómo está presentada tu empresa hoy y mejoramos lo necesario para que transmita más confianza, se entienda con claridad y tenga más posibilidades de aparecer en Google y generar nuevas consultas."
   },
   "pricingSection": {
     "subtitle": "Planes",
-    "title": "Opciones para tu estrategia: SEO y anuncios en Google",
-    "description": "Mejora tu visibilidad en buscadores (SEO) y atrae clientes hoy con anuncios en Google.",
+    "title": "Opciones para aumentar visibilidad y captar demanda activa",
+    "description": "Combinamos mejoras de visibilidad orgánica con campañas para generar resultados sostenibles.",
     "plans": [
       {
-        "name": "SEO Básico",
+        "name": "Visibilidad inicial",
         "slug": "seo-basico",
         "price": "300",
-        "unit": "USD/mes",
-        "description": "Ideal para comenzar a aparecer en Google con mejoras esenciales dentro del sitio.",
+        "unit": "USD única vez",
+        "description": "Ideal para comenzar a mejorar cómo aparece tu empresa en Google con ajustes esenciales dentro del sitio.",
         "features": [
           "Revisión del sitio (auditoría básica)",
           "Títulos y descripciones claros para Google",
           "Mejora de velocidad y estructura",
-          "Reporte mensual de avances"
+          "Entrega inicial con recomendaciones claras"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Solicitar una reunión inicial"
       },
       {
-        "name": "SEO + Anuncios en Google",
+        "name": "Visibilidad + anuncios",
         "slug": "seo-mas-anuncios-google",
         "badge": "Más Popular",
         "price": "500",
-        "unit": "USD/mes",
-        "description": "Combina mejoras de SEO con anuncios en Google para resultados visibles en poco tiempo.",
+        "unit": "USD única vez",
+        "description": "Combina mejoras dentro del sitio con una base inicial para trabajar campañas en Google con más claridad.",
         "twoColumn": true,
         "features": [
           "Optimización del sitio y contenidos",
-          "Campañas en Google (búsqueda + remarketing)",
+          "Configuración base para campañas en Google",
           "Medición completa con GA4/Google Tag",
-          "Optimización quincenal de campañas"
+          "Entrega inicial y lineamientos de seguimiento"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Solicitar una reunión inicial"
       },
       {
-        "name": "SEO Avanzado + Anuncios en Google",
+        "name": "Escalamiento",
         "slug": "seo-avanzado-mas-anuncios-google",
         "price": "800",
-        "unit": "USD/mes",
-        "description": "Para empresas que buscan escalar con estrategias avanzadas, automatización y pruebas constantes.",
+        "unit": "USD única vez",
+        "description": "Para empresas que necesitan una base más completa de visibilidad, medición y preparación comercial.",
         "features": [
-          "Estrategia completa de contenidos y enlaces",
-          "Pruebas A/B de anuncios y páginas",
-          "Automatizaciones y tableros de métricas",
-          "Optimización avanzada para mejorar ROI"
+          "Estrategia más completa de contenidos y estructura",
+          "Recomendaciones de mejora para páginas y campañas",
+          "Tablero base de medición",
+          "Plan inicial de próximos pasos"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Solicitar una reunión inicial"
       }
     ]
   },
   "faqs": {
-    "subtitle": "Preguntas Frecuentes",
+    "subtitle": "Preguntas frecuentes",
     "title": "Dudas habituales",
     "image": "/assets/images/faqs/faq-two.jpg",
     "imageAlt": "Sección de preguntas frecuentes",
     "items": [
-      { "q": "¿Cuándo se ven resultados en SEO?", "a": "Depende del punto de partida. Suelen verse mejoras entre 2 y 3 meses; consolidación en 6+ meses." },
-      { "q": "¿Cómo definen el presupuesto de SEM?", "a": "Según objetivos, mercado y CPC estimado. Recomendamos iniciar con un mínimo para validar performance." },
-      { "q": "¿Qué miden?", "a": "Ranking, tráfico orgánico, CTR, conversiones y costo por adquisición, entre otros KPIs clave." }
+      {
+        "q": "¿Sirve trabajar Google si mi empresa no tiene una buena web?",
+        "a": "Ayuda mucho más cuando tu empresa ya tiene una web clara, confiable y fácil de entender. Si no hay una buena base, primero conviene ordenarla para que las visitas no se pierdan."
+      },
+      {
+        "q": "¿Por qué conviene usar dominio y correo personalizados?",
+        "a": "Porque hacen que tu empresa se vea más seria y confiable. Un correo con tu propio dominio genera mejor impresión que uno genérico y ayuda a que el contacto se sienta más profesional."
+      },
+      {
+        "q": "¿Cuándo se ven resultados al mejorar presencia en Google?",
+        "a": "Depende del punto de partida. Generalmente se observan avances en los primeros meses y consolidación en etapas posteriores."
+      },
+      {
+        "q": "¿Cómo definen la inversión en anuncios?",
+        "a": "La definimos según objetivos, mercado y volumen de búsquedas para iniciar con una base validable."
+      },
+      {
+        "q": "¿Qué indicadores priorizan?",
+        "a": "Priorizamos consultas calificadas, costo por oportunidad y evolución de visibilidad en búsquedas relevantes."
+      }
     ]
   },
   "workWithUs": {
-    "subtitle": "Trabaja con Nosotros",
-    "title": "¿Listo para mejorar tu posicionamiento?",
-    "cta": "Explorar más",
-    "bigText": "Crezcamos en Buscadores"
+    "subtitle": "Trabaja con nosotros",
+    "title": "¿Querés que te encuentren y te consulten más?",
+    "cta": "Solicitar una reunión inicial",
+    "bigText": "Más Visibilidad"
   }
 }
