@@ -1,57 +1,66 @@
 {
-    "seo": {
-      "title": "Web Development, SEO & Digital Marketing Services",
-      "description": "Design and web development, technical SEO, Google Ads and digital marketing to grow with measurable results. Explore our services."
+  "seo": {
+    "title": "Services for growing businesses | Websites, strategy and custom solutions",
+    "description": "Business-oriented services for growing companies: professional websites, search visibility, digital strategy and custom technology."
+  },
+  "pageBanner": "Services",
+  "intro": {
+    "subtitle": "How to navigate the options",
+    "title": "Find the right solution based on your business stage and real need",
+    "text": "Not every business needs the same thing. Some need a first professional website, others need to improve an outdated one, and others need more advanced processes or systems. If your priority is to build a stronger digital presence and generate more qualified inquiries, professional website development is the clearest place to start.",
+    "identity": "Software Strategy builds professional websites and custom technology for growing businesses that need stronger visibility, trust and operational clarity.",
+    "primaryLabel": "View website development",
+    "primaryHref": "/services/web-development",
+    "secondaryLabel": "Schedule an introductory call",
+    "secondaryHref": "/contact"
+  },
+  "ctaReadMore": "View solution",
+  "items": [
+    {
+      "category": "Digital Presence",
+      "titlePrefix": "Professional",
+      "titleEmphasis": "Website Development",
+      "title": "Professional Website Development",
+      "description": "Websites designed to communicate trust, clarify your offer, and generate qualified inquiries.",
+      "href": "/services/web-development",
+      "image": "/assets/images/projects/project-list1.jpg",
+      "imageAlt": "Professional website development"
     },
-    "pageBanner": "Services",
-    "ctaReadMore": "View details",
-    "items": [
-      {
-        "category": "Design",
-        "titlePrefix": "Design",
-        "titleEmphasis": "& Web Development",
-        "title": "Design & Web Development",
-        "description": "Fast, responsive websites built to convert. We integrate UX/UI, performance and accessibility from day one.",
-        "href": "/services/web-development",
-        "image": "/assets/images/projects/project-list1.jpg",
-        "imageAlt": "Design and Web Development"
-      },
-      {
-        "category": "Development",
-        "titlePrefix": "Custom",
-        "titleEmphasis": "Software Solutions",
-        "title": "Custom Software Development",
-        "description": "Business-specific applications and tools. Scalable, secure, and ready for integrations.",
-        "href": "/services/custom-software",
-        "image": "/assets/images/projects/project-list2.jpg",
-        "imageAlt": "Custom software"
-      },
-      {
-        "category": "Marketing",
-        "titlePrefix": "Digital",
-        "titleEmphasis": "Marketing",
-        "title": "Digital Marketing",
-        "description": "High-impact campaigns on Google and Meta, content strategy and community management focused on results.",
-        "href": "/services/digital-marketing",
-        "image": "/assets/images/projects/project-list3.jpg",
-        "imageAlt": "Digital marketing and social"
-      },
-      {
-        "category": "Visibility",
-        "titlePrefix": "Technical SEO",
-        "titleEmphasis": "& High-Performance SEM",
-        "title": "SEO & SEM (Optimization & Campaigns)",
-        "description": "Boost your organic visibility and run profitable search campaigns with clear metrics.",
-        "href": "/services/google-seo",
-        "image": "/assets/images/projects/project-list4.jpg",
-        "imageAlt": "SEO and SEM"
-      }
-    ],
-    "workWithUs": {
-      "subtitle": "Work With Us",
-      "title": "Have a project? Let’s talk.",
-      "cta": "Explore more",
-      "bigText": "Let’s Work Together"
+    {
+      "category": "Business Growth",
+      "titlePrefix": "Search Visibility",
+      "titleEmphasis": "Optimization",
+      "title": "Search Visibility Optimization",
+      "description": "Structure and content improvements so your business can appear in relevant searches.",
+      "href": "/services/google-seo",
+      "image": "/assets/images/projects/project-list4.jpg",
+      "imageAlt": "Search visibility optimization"
+    },
+    {
+      "category": "Strategy",
+      "titlePrefix": "Digital Strategy",
+      "titleEmphasis": "Consulting",
+      "title": "Digital Strategy Consulting",
+      "description": "Practical guidance to align message, channels and growth priorities.",
+      "href": "/services/digital-marketing",
+      "image": "/assets/images/projects/project-list3.jpg",
+      "imageAlt": "Digital strategy consulting"
+    },
+    {
+      "category": "Technology",
+      "titlePrefix": "Custom",
+      "titleEmphasis": "Technology Solutions",
+      "title": "Custom Technology Solutions",
+      "description": "Tailored systems to streamline operations and support business scale.",
+      "href": "/services/custom-software",
+      "image": "/assets/images/projects/project-list2.jpg",
+      "imageAlt": "Custom technology solutions"
     }
+  ],
+  "workWithUs": {
+    "subtitle": "Work with us",
+    "title": "Need a digital strategy with real business impact?",
+    "cta": "Schedule an introductory call",
+    "bigText": "Let’s Work Together"
   }
-  
+}

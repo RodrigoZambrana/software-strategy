@@ -1,94 +1,93 @@
 {
-    "seo": {
-      "title": "Plans & Pricing | Web Development, SEO and Marketing",
-      "description": "Tailored packages for web, SEO/SEM and digital marketing. Transparent and results‑driven. Check pricing."
+  "seo": {
+    "title": "Plans and Options | Websites and digital strategy for growing businesses",
+    "description": "Choose the right option for your current business stage and invest in actions that generate real opportunities."
+  },
+  "pageBanner": "Plans and Options",
+  "whyChoose": {
+    "subtitle": "Before you decide",
+    "title": "Choose the right path for your business stage",
+    "missionTitle": "Our approach",
+    "missionText": "Help you prioritize the actions that create real commercial impact.",
+    "visionTitle": "How we work",
+    "visionText": "Simple process, direct communication and practical execution.",
+    "cta": "See how we work"
+  },
+  "services": [
+    {
+      "icon": "fal fa-bezier-curve",
+      "title": "Clear initial diagnosis",
+      "text": "We define priorities based on your current context and business objective."
     },
-    "pageBanner": "Pricing Plans",
-    "whyChoose": {
-      "subtitle": "Why Choose Us",
-      "title": "Benefits of Working With Us",
-      "missionTitle": "Our Mission",
-      "missionText": "We help companies and entrepreneurs build a professional, scalable digital presence.",
-      "visionTitle": "Our Vision",
-      "visionText": "To be your strategic partner in web development, SEO and digital marketing with measurable results.",
-      "cta": "Learn More"
+    {
+      "icon": "fal fa-cogs",
+      "title": "Stage-based implementation",
+      "text": "Build a professional, scalable base without overspending from day one."
     },
-    "services": [
-      {
-        "icon": "fal fa-bezier-curve",
-        "title": "On-time meetings with experts",
-        "text": "Our team responds quickly to keep your projects moving forward."
-      },
-      {
-        "icon": "fal fa-cogs",
-        "title": "Quality checks by specialists",
-        "text": "We validate every delivery to ensure professional standards."
-      },
-      {
-        "icon": "fal fa-chart-pie",
-        "title": "Detailed reports",
-        "text": "Full transparency on progress at every stage of the project."
-      },
-      {
-        "icon": "fal fa-shield-cross",
-        "title": "Project filtering",
-        "text": "We prioritize strategies that ensure high impact and efficiency."
-      }
-    ],
-    "pricingSection": {
-      "subtitle": "Pricing Packages",
-      "title": "Options for every type of web project",
-      "plans": [
-        {
-          "name": "Basic Package",
-          "price": "18.3",
-          "unit": "/per month",
-          "features": [
-            "Landing Page",
-            "Web Development",
-            "SEO Optimization",
-            "Responsive Design",
-            "Quality Assurance",
-            "Basic Support"
-          ],
-          "cta": "Choose Package"
-        },
-        {
-          "name": "Silver Package",
-          "badge": "Popular Package",
-          "price": "49.3",
-          "unit": "/per month",
-          "features": [
-            "Landing Page + Blog",
-            "Web Development",
-            "SEO & SEM",
-            "Basic Mobile Apps",
-            "Quality Assurance",
-            "Advanced Support"
-          ],
-          "cta": "Choose Package"
-        },
-        {
-          "name": "Gold Package",
-          "price": "98.3",
-          "unit": "/per month",
-          "features": [
-            "Full Website + Ecommerce",
-            "Web Development",
-            "Advanced SEO",
-            "Mobile Applications",
-            "Quality Assurance",
-            "Premium Support"
-          ],
-          "cta": "Choose Package"
-        }
-      ]
+    {
+      "icon": "fal fa-chart-pie",
+      "title": "Real performance follow-up",
+      "text": "Track inquiries and outcomes to improve decisions with data."
     },
-    "workWithUs": {
-      "subtitle": "Work With Us",
-      "title": "Have a project in mind? Feel free to contact us.",
-      "cta": "Explore more",
-      "bigText": "Let’s Work Together"
+    {
+      "icon": "fal fa-shield-cross",
+      "title": "Direct collaboration",
+      "text": "No inflated structure, no unnecessary complexity, just practical progress."
     }
+  ],
+  "pricingSection": {
+    "subtitle": "Pricing Packages",
+    "title": "Options for every type of web project",
+    "plans": [
+      {
+        "name": "Basic Package",
+        "price": "18.3",
+        "unit": "/per month",
+        "features": [
+          "Landing Page",
+          "Web Development",
+          "SEO Optimization",
+          "Responsive Design",
+          "Quality Assurance",
+          "Basic Support"
+        ],
+        "cta": "Choose Package"
+      },
+      {
+        "name": "Silver Package",
+        "badge": "Popular Package",
+        "price": "49.3",
+        "unit": "/per month",
+        "features": [
+          "Landing Page + Blog",
+          "Web Development",
+          "SEO & SEM",
+          "Basic Mobile Apps",
+          "Quality Assurance",
+          "Advanced Support"
+        ],
+        "cta": "Choose Package"
+      },
+      {
+        "name": "Gold Package",
+        "price": "98.3",
+        "unit": "/per month",
+        "features": [
+          "Full Website + Ecommerce",
+          "Web Development",
+          "Advanced SEO",
+          "Mobile Applications",
+          "Quality Assurance",
+          "Premium Support"
+        ],
+        "cta": "Choose Package"
+      }
+    ]
+  },
+  "workWithUs": {
+    "subtitle": "Let’s talk",
+    "title": "Need help choosing the right option for your business?",
+    "cta": "Schedule an introductory call",
+    "bigText": "Let’s Work Together"
   }
-  
+}

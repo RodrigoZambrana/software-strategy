@@ -112,9 +112,9 @@ export const sliderProps = {
     focusOnSelect: true,
     autoplay: false,
     autoplaySpeed: 5000,
-    prevArrow: <Arrow extraClass={"prev-arrow"} icon={"fal fa-chevron-left"} />,
+    prevArrow: <Arrow extraClass={"prev-arrow"} icon={"fas fa-chevron-left"} />,
     nextArrow: (
-      <Arrow extraClass={"next-arrow"} icon={"fal fa-chevron-right"} />
+      <Arrow extraClass={"next-arrow"} icon={"fas fa-chevron-right"} />
     ),
     responsive: [
       {

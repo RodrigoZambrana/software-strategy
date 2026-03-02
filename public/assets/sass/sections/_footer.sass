@@ -57,6 +57,25 @@
         display: flex
         flex-wrap: wrap
         justify-content: space-between
+    .quick-links-grid
+        gap: 24px
+        align-items: flex-start
+        .quick-links-list
+            flex: 1 1 220px
+            margin-bottom: 0
+            li
+                margin-bottom: 12px
+            a
+                display: inline-flex
+                align-items: center
+                line-height: 1.5
+    +res-bl(md)
+        .quick-links-grid
+            display: block
+        .quick-links-list
+            width: 100%
+            &:not(:last-child)
+                margin-bottom: 4px
                 
 .footer-title
     margin-bottom: 28px

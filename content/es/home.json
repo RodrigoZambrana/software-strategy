@@ -3,98 +3,99 @@
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "Agencia Digital",
-        "titleHtml": "<span>Impulsa tu marca</span><br /> con sitios, SEO y campañas",
-        "ratingLabel": "Experiencia y resultados",
+        "subtitle": "Desarrollo web para PYMEs",
+        "titleHtml": "<span>Tu empresa necesita algo más que presencia online.</span><br /> Necesita generar oportunidades reales.",
+        "ratingLabel": "Resultados comerciales, no solo diseño",
         "primary": {
           "href": "/contact",
-          "text": "Solicitar propuesta"
+          "text": "Solicitar una reunión inicial"
         },
         "secondary": {
-          "href": "/services",
-          "text": "Ver servicios"
+          "href": "/desarrollo-sitios-web-uruguay",
+          "text": "Conversemos sobre tu proyecto"
         }
       }
     ]
   },
-  "seoTitle": "Agencia de Desarrollo Web y SEO",
-  "seoDescription": "Sitios web rápidos y seguros, optimizados para SEO. SEM y redes para captar clientes. Solicita tu propuesta.",
-  "heroTitleHtml": "Potencia tu <span>marca digital</span> con un sitio web de alto impacto",
-  "heroParagraphHtml": "Diseñamos páginas <strong>rápidas, seguras y optimizadas para SEO</strong> que generan visibilidad real en Google. Además, impulsamos tu negocio con <strong>publicidad online de alto impacto y estrategias de marketing digital</strong> en redes sociales.",
+  "seoTitle": "Desarrollo web para PYMEs en Uruguay",
+  "seoDescription": "Desarrollamos sitios web para PYMEs de Uruguay que necesitan transmitir confianza, aparecer en Google y empezar a recibir consultas reales.",
+  "heroTitleHtml": "Tu empresa necesita una web que transmita confianza<br />y ayude a generar consultas reales.",
+  "heroParagraphHtml": "Desarrollamos sitios web profesionales para pequeñas y medianas empresas de Uruguay que necesitan dejar de ser invisibles en internet y empezar a transmitir confianza, profesionalismo y solidez.<br /><br />Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.",
   "heroBenefits": [
-    "Dominio y hosting incluidos",
-    "Correo electrónico corporativo",
-    "Certificado SSL para mayor seguridad y confianza",
-    "Diseño adaptable a móviles (responsive)",
-    "Optimización SEO inicial incluida"
+    "Claridad inmediata sobre lo que hace tu empresa",
+    "Más consultas desde canales propios",
+    "Contacto simple por formulario y WhatsApp",
+    "Base preparada para crecer en Uruguay y LATAM"
   ],
-  "heroCtaText": "Solicitar propuesta",
+  "heroCtaText": "Solicitar una reunión inicial",
   "heroCtaHref": "/contact",
+  "heroSecondaryCtaText": "Conversemos sobre tu proyecto",
+  "heroSecondaryCtaHref": "/desarrollo-sitios-web-uruguay",
   "heroRightImageAlt": "Diseño web y marketing digital",
   "aboutSubtitle": "Sobre la empresa",
-  "aboutTitle": "Impulsamos tu presencia digital con foco en resultados",
-  "aboutText": "En Software Strategy diseñamos y desarrollamos sitios web modernos, rápidos y seguros. Te ayudamos a posicionarte en buscadores con SEO y a captar clientes con campañas SEM y estrategias de marketing digital.",
+  "aboutTitle": "No diseñamos webs para mostrar. Diseñamos webs para convertir.",
+  "aboutText": "Ordenamos tu web, tus mensajes y tus llamados a la acción para que tu empresa aparezca en Google, transmita confianza y reciba más consultas.",
   "aboutCtaText": "Conócenos más",
   "aboutCustom": {
-    "subtitle": "Marketing Digital",
-    "title": "Haz crecer tu marca con estrategias que convierten",
-    "paragraphHtml": "En <strong>Software Strategy</strong> potenciamos tu negocio con <a href=\"/services/digital-marketing\">estrategias de marketing digital</a> diseñadas para aumentar tu visibilidad, atraer clientes y fortalecer tu marca en línea. Creamos campañas efectivas en <strong>Google y redes sociales</strong>, con un enfoque en resultados medibles y sostenibles.",
+    "subtitle": "¿Qué está pasando hoy?",
+    "title": "Muchas PYMEs están perdiendo oportunidades sin notarlo",
+    "paragraphHtml": "Muchas empresas en Uruguay no tienen sitio web, o tienen uno desactualizado que no representa su nivel real. Cuando eso pasa, pierden consultas frente a competidores mejor posicionados.",
     "benefits": [
-      "Gestión estratégica de <strong>redes sociales</strong> (contenido, comunidad y anuncios)",
-      "Publicidad digital en Google y Meta para captar clientes potenciales",
-      "Optimización SEO para posicionar tu marca en buscadores",
-      "Análisis de métricas y reportes claros para medir el retorno de inversión",
-      "Estrategias integrales: desde awareness hasta conversión"
+      "No tienen sitio web propio y dependen solo de redes sociales",
+      "Tienen una web que no transmite confianza ni profesionalismo",
+      "No aparecen cuando un potencial cliente las busca en Google",
+      "Pierden oportunidades sin darse cuenta"
     ],
     "badges": [
-      "+80 campañas gestionadas",
-      "Clientes en 10+ sectores",
-      "Resultados medibles en 90 días"
+      "Foco en PYMEs",
+      "Uruguay primero",
+      "Escalable a LATAM"
     ],
     "ctas": {
-      "readMoreLabel": "Descubre más",
-      "readMoreHref": "/services/digital-marketing",
-      "primaryLabel": "Comienza tu estrategia",
+      "readMoreLabel": "Ver cómo resolverlo",
+      "readMoreHref": "/desarrollo-sitios-web-uruguay",
+      "primaryLabel": "Solicitar una reunión inicial",
       "primaryHref": "/contact"
     }
   },
-  "whatSubtitle": "¿Qué hacemos?",
-  "whatTitle": "Soluciones para crecer en la web",
+  "whatSubtitle": "Nuestra solución",
+  "whatTitle": "Transformamos tu web en una herramienta para generar oportunidades",
   "whatCustom": {
-    "subtitle": "¿Qué hacemos?",
-    "title": "Soluciones para crecer en internet",
+    "subtitle": "Transformamos tu web",
+    "title": "Una web bien construida puede cambiar la forma en que te perciben y te contactan",
+    "intro": "No hacemos páginas para cumplir. Creamos webs claras, modernas y pensadas para ayudar a vender.",
     "items": [
       {
         "number": "01",
-        "title": "Diseño & Desarrollo Web",
-        "text": "Sitios rápidos, responsivos y orientados a conversión.",
-        "href": "/services/web-development",
+        "title": "Desarrollo web profesional",
+        "text": "Sitios modernos, rápidos y pensados para transmitir confianza desde el primer contacto.",
+        "href": "/desarrollo-sitios-web-uruguay",
         "cta": "Ver más"
       },
       {
         "number": "02",
-        "title": "Posicionamiento en Google",
-        "text": "SEO para mejorar tu visibilidad orgánica y publicidad digital en Google Ads para atraer tráfico calificado que se convierta en clientes.",
+        "title": "Visibilidad en Google",
+        "text": "Estructura y contenido para que tu empresa pueda aparecer cuando un cliente te está buscando.",
         "href": "/services/google-seo",
         "cta": "Ver más"
       },
       {
         "number": "03",
-        "title": "Marketing Digital",
-        "text": "Estrategias integrales con foco en resultados medibles y crecimiento sostenido.",
+        "title": "Estrategia digital",
+        "text": "Ordenamos tu mensaje y tus acciones para que tu empresa se vea más clara y genere mejores consultas.",
         "href": "/services/digital-marketing",
         "cta": "Ver más"
       },
       {
         "number": "04",
-        "title": "Software a Medida",
-        "text": "Desarrollamos soluciones de software personalizadas que se adaptan a los procesos de tu negocio, optimizando recursos y escalando de forma eficiente.",
-        "href": "/services/custom-software",
+        "title": "Soluciones tecnológicas a medida",
+        "text": "Cuando tu empresa necesita algo más que una web, desarrollamos herramientas adaptadas a cómo trabaja tu negocio.",
+        "href": "/desarrollo-software-medida-uruguay",
         "cta": "Ver más"
       }
     ],
     "image": "/assets/images/services/what-we-do.jpg",
-    "imageAlt": "Servicios de Software Strategy"
+    "imageAlt": "Servicios de Software Strategy para PYMEs"
   },
   "whatItems": [
     {
@@ -107,14 +108,14 @@
     {
       "number": "02",
       "title": "Posicionamiento en Google",
-      "text": "SEO para aumentar visibilidad y resultados: optimizamos tu web y contenidos para posicionar orgánicamente; gestionamos campañas en Google Ads para atraer tráfico calificado y convertir en clientes.",
+      "text": "Mejoramos cómo aparece tu empresa en Google y sumamos campañas para atraer visitas que sí se conviertan en clientes.",
       "href": "/services/google-seo",
       "cta": "Ver más"
     },
     {
       "number": "03",
       "title": "Marketing Digital",
-      "text": "Estrategias con foco en performance y medición.",
+      "text": "Estrategias enfocadas en generar consultas y ventas con seguimiento claro de resultados.",
       "href": "/services/digital-marketing",
       "cta": "Ver más"
     }
@@ -137,99 +138,247 @@
       "label": "% enfoque en calidad"
     }
   ],
+  "socialProof": {
+    "subtitle": "Empresas de Uruguay que ya dieron el paso",
+    "title": "Empresas de Uruguay que ya dieron el paso",
+    "text": "Resultados reales, no promesas. Trabajamos con PYMEs que pasaron de depender solo de redes a tener una web que transmite confianza y genera consultas reales.",
+    "logos": [
+      "PYME Servicios B2B",
+      "Comercio Minorista",
+      "Estudio Profesional",
+      "Empresa Industrial",
+      "Distribuidora Regional",
+      "Startup de Servicios"
+    ],
+    "cases": [
+      {
+        "title": "Caso 1 · Empresa de servicios",
+        "metric": "+42% consultas en 90 días",
+        "description": "Nuevo sitio con propuesta clara y formularios visibles para captar demanda comercial."
+      },
+      {
+        "title": "Caso 2 · Comercio con web obsoleta",
+        "metric": "+58% contactos calificados",
+        "description": "Reestructura de mensajes, secciones clave y CTA para reducir rebote y mejorar contacto."
+      },
+      {
+        "title": "Caso 3 · Empresa sin sitio",
+        "metric": "Primera consulta en 12 días",
+        "description": "Lanzamiento inicial para validar mercado local en Uruguay y luego ampliar a LATAM."
+      }
+    ],
+    "testimonials": [
+      {
+        "quote": "Pasamos de no tener consultas web a recibir contactos semanales de clientes reales.",
+        "name": "Mariana P.",
+        "role": "Directora",
+        "company": "PYME de servicios"
+      },
+      {
+        "quote": "El cambio no fue solo visual: ahora explicamos mejor lo que hacemos y eso se nota en ventas.",
+        "name": "Gonzalo R.",
+        "role": "Socio",
+        "company": "Empresa comercial"
+      },
+      {
+        "quote": "Nos ordenaron el mensaje y el sitio empezó a trabajar como canal comercial de verdad.",
+        "name": "Laura M.",
+        "role": "Gerente",
+        "company": "Estudio profesional"
+      }
+    ]
+  },
+  "offerByNeed": {
+    "subtitle": "¿Qué necesitás hoy?",
+    "title": "Elegí la opción que mejor encaja con tu empresa hoy",
+    "text": "No todas las PYMEs necesitan lo mismo. Algunas necesitan salir rápido, otras mostrar mejor lo que hacen y otras preparar una base más completa para crecer.",
+    "items": [
+      {
+        "title": "Landing para empezar",
+        "description": "Para empresas que todavía no tienen sitio y necesitan validar rápido su presencia profesional.",
+        "bullets": [
+          "Página enfocada en consulta",
+          "Mensaje comercial claro",
+          "Implementación rápida"
+        ],
+        "href": "/landing-page-uruguay",
+        "cta": "Ver opción Landing"
+      },
+      {
+        "title": "Sitio corporativo",
+        "description": "Para empresas que necesitan presencia sólida en Google y mejorar su credibilidad comercial.",
+        "bullets": [
+          "Secciones de servicios y confianza",
+          "Estructura para aparecer en Google",
+          "Captación por formulario y WhatsApp"
+        ],
+        "href": "/crear-sitio-web-uruguay",
+        "cta": "Ver opción Corporativa"
+      },
+      {
+        "title": "Tienda o escalamiento",
+        "description": "Para negocios que quieren vender online o escalar su operación digital por etapas.",
+        "bullets": [
+          "Flujo de venta y seguimiento",
+          "Integraciones clave",
+          "Plan de mejora continua"
+        ],
+        "href": "/desarrollo-sitios-web-uruguay",
+        "cta": "Ver opción Escalable"
+      }
+    ]
+  },
+  "faqPreview": {
+    "subtitle": "Preguntas habituales antes de avanzar",
+    "title": "Lo que una PYME suele necesitar saber antes de contratar",
+    "text": "Estas respuestas rápidas ayudan a decidir qué tipo de sitio conviene y cuál es el siguiente paso lógico para tu empresa.",
+    "items": [
+      {
+        "q": "¿Qué tipo de sitio necesita una PYME según su momento?",
+        "a": "Si recién empezás, conviene una landing o una web inicial. Si necesitás mostrar mejor tus servicios y transmitir más confianza, conviene avanzar a un sitio web más completo."
+      },
+      {
+        "q": "¿Cuánto demora lanzar una web profesional?",
+        "a": "En proyectos estándar, una PYME suele estar entre 3 y 6 semanas. El plazo depende del alcance, los contenidos y si hay integraciones."
+      },
+      {
+        "q": "¿Se puede empezar simple y escalar después?",
+        "a": "Sí. Diseñamos una base clara para que tu empresa pueda sumar secciones y mejoras sin rehacer todo desde cero."
+      }
+    ],
+    "primaryLabel": "Ver desarrollo de sitios web para PYMEs",
+    "primaryHref": "/desarrollo-sitios-web-uruguay",
+    "secondaryLabel": "Ver más preguntas frecuentes",
+    "secondaryHref": "/faqs"
+  },
   "servicesSubtitle": "Servicios",
-  "servicesTitle": "Soluciones de software para tu negocio",
+  "servicesTitle": "Soluciones pensadas para generar oportunidades reales",
   "services": [
     {
-      "title": "Sitios Web Corporativos",
-      "text": "Presencia sólida y profesional, preparada para convertir.",
-      "href": "/services/web-development",
+      "title": "Desarrollo Web Profesional",
+      "text": "Sitios claros y confiables para convertir visitas en consultas.",
+      "href": "/desarrollo-sitios-web-uruguay",
       "bullets": [
-        "Rápidos y seguros",
-        "Diseño profesional"
+        "Mensaje claro",
+        "Contacto visible"
       ],
-      "ctaSecondaryText": "Solicitar propuesta",
+      "ctaSecondaryText": "Solicitar una reunión inicial",
       "ctaSecondaryHref": "/contact"
     },
     {
-      "title": "Tiendas en linea",
-      "text": "E-commerce ágil, seguro y fácil de gestionar.",
-      "href": "/services/custom-software",
+      "title": "Visibilidad en Google",
+      "text": "Mejoramos cómo te encuentran y conectamos esas búsquedas con lo que tu empresa ofrece.",
+      "href": "/services/google-seo",
       "bullets": [
-        "Pagos integrados",
-        "Gestión simple"
+        "Búsquedas relevantes",
+        "Más oportunidades"
       ],
-      "ctaSecondaryText": "Solicitar propuesta",
+      "ctaSecondaryText": "Solicitar una reunión inicial",
       "ctaSecondaryHref": "/contact"
     },
     {
-      "title": "Software de Gestión de Clientes (CRM) & Dashboards",
-      "text": "Centraliza clientes, oportunidades y seguimiento con CRM y paneles administrativos a medida. Métricas, automatizaciones e integraciones para tomar decisiones y escalar.",
-      "href": "/services/custom-software",
+      "title": "Estrategia Digital",
+      "text": "Te ayudamos a ordenar cómo se ve tu empresa en internet y qué conviene hacer primero.",
+      "href": "/services/digital-marketing",
       "bullets": [
-        "Dashboards y reportes",
-        "Automatizaciones"
+        "Prioridades claras",
+        "Ejecución por etapas"
       ],
-      "ctaSecondaryText": "Solicitar propuesta",
+      "ctaSecondaryText": "Solicitar una reunión inicial",
       "ctaSecondaryHref": "/contact"
     },
     {
       "title": "Software a Medida",
-      "text": "Desarrollos personalizados para tu operación.",
-      "href": "/services/custom-software",
+      "text": "Desarrollos específicos para procesos que requieren control y escalabilidad.",
+      "href": "/desarrollo-software-medida-uruguay",
       "bullets": [
-        "A medida",
+        "Adaptado a tu operación",
         "Escalable"
       ],
-      "ctaSecondaryText": "Solicitar propuesta",
+      "ctaSecondaryText": "Solicitar una reunión inicial",
       "ctaSecondaryHref": "/contact"
     }
   ],
-  "pricingSubtitle": "Planes",
-  "pricingTitle": "Elige el plan que mejor se adapta a tu negocio",
-  "pricingBannerTitle": "Soluciones flexibles para crecer online",
+  "pricingSubtitle": "Opciones según lo que necesitás hoy",
+  "pricingTitle": "No todas las empresas necesitan lo mismo",
+  "pricingBannerTitle": "Elegí una base sólida y escalá sin rehacer todo",
   "pricingBannerCta": "Ver detalles",
   "pricingPlans": [
     {
-      "name": "Planes Desarrollo Web",
-      "desc": "Opciones para construir o renovar tu sitio con foco en performance y SEO.",
+      "name": "Planes de Desarrollo Web",
+      "desc": "Opciones para empezar, mostrarte mejor o preparar una base más completa.",
       "features": [
-        "Diseño responsivo",
-        "SEO inicial",
-        "Soporte"
+        "Implementación rápida",
+        "Pensado para vender mejor",
+        "Acompañamiento"
       ],
-      "priceNote": "Ver planes",
-      "href": "/services/web-development"
+      "priceNote": "Ver opciones",
+      "href": "/desarrollo-sitios-web-uruguay"
     },
     {
-      "name": "Planes Marketing Digital",
-      "desc": "Campañas en Google y redes sociales para crecer en resultados.",
+      "name": "Planes de Marketing Digital",
+      "desc": "Para generar más consultas cuando la base web ya está bien resuelta.",
       "features": [
-        "Google Ads",
-        "Meta Ads",
-        "Métricas y optimización"
+        "Campañas activas",
+        "Seguimiento de resultados",
+        "Optimización continua"
       ],
-      "priceNote": "Ver planes",
+      "priceNote": "Ver opciones",
       "href": "/services/digital-marketing"
     }
   ],
-  "whySubtitle": "Por qué elegirnos",
-  "whyTitle": "Resultados medibles y soporte cercano",
+  "commercialClarity": {
+    "subtitle": "¿Quiénes somos?",
+    "title": "Software Strategy es una empresa uruguaya enfocada en resultados para PYMEs",
+    "text": "Trabajamos de forma directa, sin estructuras infladas ni procesos innecesarios. Cada proyecto se construye entendiendo primero el negocio, su mercado y sus objetivos.",
+    "includesTitle": "Cómo trabajamos",
+    "includes": [
+      "Entendemos primero tu negocio antes de diseñar",
+      "Definimos prioridades claras para no dispersar inversión",
+      "Construimos una base profesional que puedas ampliar",
+      "Acompañamos con comunicación directa y seguimiento real"
+    ],
+    "notIncludesTitle": "Lo que no hacemos",
+    "notIncludes": [
+      "No vendemos paquetes genéricos",
+      "No usamos plantillas impersonales como solución final",
+      "No prometemos resultados irreales",
+      "No complejizamos procesos sin necesidad"
+    ],
+    "methodologyTitle": "En qué nos enfocamos",
+    "methodology": [
+      "Claridad",
+      "Simplicidad",
+      "Rendimiento",
+      "Escalabilidad"
+    ],
+    "localTitle": "Cobertura",
+    "localText": "Uruguay es el foco inicial y la base queda preparada para expansión a LATAM sin rehacer el proyecto.",
+    "localPoints": [
+      "Cobertura nacional en Uruguay",
+      "Trabajo remoto o híbrido",
+      "Escalable para expansión regional"
+    ],
+    "ctaText": "Conversemos sobre tu proyecto",
+    "ctaHref": "/contact"
+  },
+  "whySubtitle": "Por qué trabajamos diferente",
+  "whyTitle": "Una web debe ser una inversión, no un gasto decorativo",
   "whyItems": [
     {
-      "title": "Soluciones a medida",
-      "text": "Cada proyecto se diseña según tus objetivos y procesos.",
-      "href": "/service-details"
+      "title": "Sin soluciones estándar",
+      "text": "Cada empresa tiene una realidad distinta. El proyecto se diseña según esa realidad, no desde un paquete fijo.",
+      "href": "/services"
     },
     {
-      "title": "Transparencia y métricas",
-      "text": "Decisiones guiadas por datos y reportes claros.",
-      "href": "/service-details"
+      "title": "Enfoque comercial real",
+      "text": "Priorizamos que te entiendan, confíen en tu empresa y te contacten.",
+      "href": "/desarrollo-sitios-web-uruguay"
     },
     {
-      "title": "Evolución continua",
-      "text": "Soporte y mejoras constantes para seguir creciendo.",
-      "href": "/service-details"
+      "title": "Relación directa y profesional",
+      "text": "Comunicación clara, decisiones concretas y acompañamiento durante todo el proceso.",
+      "href": "/contact"
     }
   ],
   "trustBar": {
@@ -238,38 +387,42 @@
     "items": [
       {
         "icon": "fas fa-shield-alt",
-        "text": "Certificado SSL y seguridad"
+        "text": "Certificado SSL y seguridad",
+        "detail": "El SSL cifra la información entre tu cliente y tu web. Protege datos de contacto y transmite confianza inmediata al navegar."
       },
       {
         "icon": "fas fa-server",
-        "text": "Hosting y dominio incluidos"
+        "text": "Hosting y dominio incluidos",
+        "detail": "Tu sitio queda publicado en infraestructura estable y con dominio profesional, sin depender de servicios dispersos o configuraciones improvisadas."
       },
       {
         "icon": "fas fa-mobile-alt",
-        "text": "Diseño responsive (móviles y tablets)"
+        "text": "Diseño responsive (móviles y tablets)",
+        "detail": "La web se adapta a celular, tablet y desktop para mejorar experiencia, retención y conversión en cualquier dispositivo."
       },
       {
         "icon": "fas fa-tachometer-alt",
-        "text": "Performance optimizada"
+        "text": "Performance optimizada",
+        "detail": "Reducimos tiempos de carga para mejorar posicionamiento en Google y evitar que potenciales clientes abandonen antes de consultar."
       }
     ]
   },
   "blogSubtitle": "Blog & Noticias",
-  "blogTitle": "Aprendé sobre SEO, Web y Marketing",
+  "blogTitle": "Aprendé sobre presencia digital, web y marketing",
   "blogItems": [
     {
       "date": "Agosto 10, 2025",
-      "title": "SEO 2025: qué prioriza Google este año",
+      "title": "¿Qué prioriza Google para mostrar empresas en 2025?",
       "href": "/faqs"
     },
     {
       "date": "Agosto 02, 2025",
-      "title": "Cómo convertir visitas en clientes con tu web",
+      "title": "¿Cómo convertir visitas en clientes con tu web?",
       "href": "/faqs"
     },
     {
       "date": "Julio 28, 2025",
-      "title": "Redes sociales: tácticas de performance",
+      "title": "Redes sociales: tácticas para generar más consultas",
       "href": "/faqs"
     }
   ]

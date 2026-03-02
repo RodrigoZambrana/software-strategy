@@ -6,37 +6,39 @@
         "subtitle": "Custom Software",
         "titleHtml": "<span>Integrations & automation</span><br /> to scale your operations",
         "ratingLabel": "Senior team",
-        "primary": { "href": "/contact", "text": "Request a quote" }
+        "primary": {
+          "href": "/contact",
+          "text": "Request a quote"
+        }
       }
     ]
   },
   "seo": {
-    "title": "Custom Software Development | Integrations, APIs & Automation",
-    "description": "We build custom software solutions: integrations, APIs, backoffice and process automation with scalability and security in mind."
+    "title": "Custom Software Solutions | Business-focused development",
+    "description": "We build custom software aligned with real operations to improve control, reduce friction and support growth."
   },
   "pageBanner": "Custom Software Development",
-  "ctaPrimary": "Talk to a specialist",
+  "ctaPrimary": "Schedule an introductory call",
   "ctaSecondary": "See options",
   "about": {
-    "subtitle": "What We Offer",
-    "title": "Applications and tools tailored to your business",
+    "subtitle": "What we solve in your operation",
+    "title": "Custom solutions to organize, automate and scale",
     "featuresCol1": [
-      "APIs and microservices",
-      "Integrations (ERP/CRM/Payments)",
-      "Process automation",
+      "System integrations",
+      "Operational automation",
       "Dashboards and backoffice"
     ],
     "featuresCol2": [
       "Scalable architecture",
-      "Security and compliance",
-      "DevOps and CI/CD"
+      "Security and reliability",
+      "Continuous improvement roadmap"
     ],
     "imageAlt": "Custom software"
   },
   "whatWeDo": {
-    "subtitle": "How We Work",
-    "title": "Robust, secure and scalable solutions",
-    "text": "We analyze your operation and design tailored software to remove bottlenecks. We prioritize quality, performance and maintainability."
+    "subtitle": "How we create impact",
+    "title": "More control, less operational friction",
+    "text": "We map your current operation and design practical software solutions focused on usability, control and growth."
   },
   "pricingSection": {
     "subtitle": "Packages",
@@ -52,7 +54,7 @@
           "Fast delivery",
           "Solid technical base"
         ],
-        "cta": "Request a quote"
+        "cta": "Schedule an introductory call"
       },
       {
         "name": "Business",
@@ -64,7 +66,7 @@
           "External integrations",
           "CI/CD + QA"
         ],
-        "cta": "Request a quote"
+        "cta": "Schedule an introductory call"
       },
       {
         "name": "Enterprise",
@@ -75,25 +77,34 @@
           "Advanced security",
           "Premium support"
         ],
-        "cta": "Request a quote"
+        "cta": "Schedule an introductory call"
       }
     ]
   },
   "faqs": {
-    "subtitle": "FAQs",
+    "subtitle": "Frequently asked questions",
     "title": "Common questions",
     "image": "/assets/images/faqs/faq-two.jpg",
     "imageAlt": "Frequently asked questions",
     "items": [
-      { "q": "How do you define project scope?", "a": "We run workshops and requirements documentation to agree deliverables, budget and timeline." },
-      { "q": "Do you use agile methodologies?", "a": "Yes, we work with short iterations, regular demos and a transparent board." },
-      { "q": "What tech stack do you use?", "a": "We select the stack per use case. We always prioritize standards, testing and security." }
+      {
+        "q": "How do you define project scope?",
+        "a": "We run workshops and requirements documentation to agree deliverables, budget and timeline."
+      },
+      {
+        "q": "Do you use agile methodologies?",
+        "a": "Yes, we work with short iterations, regular demos and a transparent board."
+      },
+      {
+        "q": "What tech stack do you use?",
+        "a": "We select the stack per use case. We always prioritize standards, testing and security."
+      }
     ]
   },
   "workWithUs": {
-    "subtitle": "Work With Us",
-    "title": "Need custom software?",
-    "cta": "Explore more",
+    "subtitle": "Work with us",
+    "title": "Need technology that truly fits your operation?",
+    "cta": "Schedule an introductory call",
     "bigText": "Build Together"
   },
   "extra": {
@@ -110,24 +121,63 @@
       }
     },
     "skills": [
-      { "image": "/assets/images/skills/skill8.png", "label": "Node.js" },
-      { "image": "/assets/images/skills/skill5.png", "label": "React" },
-      { "image": "/assets/images/skills/skill13.png", "label": "Vue.js" },
-      { "image": "/assets/images/skills/skill10.png", "label": "Angular" },
-      { "image": "/assets/images/skills/skill7.png", "label": "PHP" },
-      { "image": "/assets/images/skills/skill9.png", "label": "Sass" },
-      { "image": "/assets/images/skills/skill2.png", "label": "HTML" },
-      { "image": "/assets/images/skills/skill3.png", "label": "CSS" },
-      { "image": "/assets/images/skills/skill14.png", "label": "Next.js" }
+      {
+        "image": "/assets/images/skills/skill8.png",
+        "label": "Node.js"
+      },
+      {
+        "image": "/assets/images/skills/skill5.png",
+        "label": "React"
+      },
+      {
+        "image": "/assets/images/skills/skill13.png",
+        "label": "Vue.js"
+      },
+      {
+        "image": "/assets/images/skills/skill10.png",
+        "label": "Angular"
+      },
+      {
+        "image": "/assets/images/skills/skill7.png",
+        "label": "PHP"
+      },
+      {
+        "image": "/assets/images/skills/skill9.png",
+        "label": "Sass"
+      },
+      {
+        "image": "/assets/images/skills/skill2.png",
+        "label": "HTML"
+      },
+      {
+        "image": "/assets/images/skills/skill3.png",
+        "label": "CSS"
+      },
+      {
+        "image": "/assets/images/skills/skill14.png",
+        "label": "Next.js"
+      }
     ],
     "aboutCounters": {
       "subtitle": "How We Work",
       "title": "Senior team focused on outcomes",
       "text": "We plan, prioritize and deliver continuous value with quality and security.",
       "counters": [
-        { "value": 100, "suffix": "%", "label": "Client satisfaction" },
-        { "value": 93, "suffix": "%", "label": "Success rate" },
-        { "value": 35, "suffix": "+", "label": "Projects delivered" }
+        {
+          "value": 100,
+          "suffix": "%",
+          "label": "Client satisfaction"
+        },
+        {
+          "value": 93,
+          "suffix": "%",
+          "label": "Success rate"
+        },
+        {
+          "value": 35,
+          "suffix": "+",
+          "label": "Projects delivered"
+        }
       ],
       "image": "/assets/images/about/about-image-shape.png",
       "imageAlt": "Team and process"
@@ -136,10 +186,26 @@
       "subtitle": "Cases & process",
       "title": "From idea to product",
       "items": [
-        { "number": "01", "title": "Architecture and scope design", "image": "/assets/images/projects/project-timeline-two1.jpg" },
-        { "number": "02", "title": "Secure integrations and APIs", "image": "/assets/images/projects/project-timeline-two1.jpg" },
-        { "number": "03", "title": "Custom admin panels & backoffice", "image": "/assets/images/projects/project-timeline-two1.jpg" },
-        { "number": "04", "title": "Automation and CI/CD", "image": "/assets/images/projects/project-timeline-two1.jpg" }
+        {
+          "number": "01",
+          "title": "Architecture and scope design",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        },
+        {
+          "number": "02",
+          "title": "Secure integrations and APIs",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        },
+        {
+          "number": "03",
+          "title": "Custom admin panels & backoffice",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        },
+        {
+          "number": "04",
+          "title": "Automation and CI/CD",
+          "image": "/assets/images/projects/project-timeline-two1.jpg"
+        }
       ]
     }
   }

@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useState } from "react";
 import useClickOutside from "../useClickOutside";
+import MagnificPopupStyles from "./MagnificPopupStyles";
 
 const ImgViews = ({ close, src }) => {
   let domNode = useClickOutside(() => {
@@ -7,6 +8,7 @@ const ImgViews = ({ close, src }) => {
   });
   return (
     <Fragment>
+      <MagnificPopupStyles />
       <div className="mfp-bg mfp-ready" onClick={() => close(false)}></div>
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"

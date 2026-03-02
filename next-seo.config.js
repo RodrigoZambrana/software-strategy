@@ -1,14 +1,14 @@
 // next-seo.config.js
 export default {
-  // Usar una descripción extendida como título por defecto para evitar que quede solo la marca.
-  defaultTitle: "Agencia de Desarrollo Web y SEO | Software Strategy",
+  // Fallback centrado en el mercado objetivo actual.
+  defaultTitle: "Desarrollo Web para PYMEs en Uruguay y LATAM | Software Strategy",
   titleTemplate: "%s | Software Strategy",
   description:
-    "Software Strategy ofrece desarrollo web, software a medida, SEO/SEM y marketing digital para potenciar tu presencia online.",
+    "Software Strategy desarrolla sitios web y software a medida para PYMEs con foco en Uruguay y expansión LATAM, orientado a posicionamiento en Google y resultados comerciales.",
   canonical: "https://software-strategy.com/",
   openGraph: {
     type: "website",
-    locale: "es_ES",
+    locale: "es_UY",
     url: "https://software-strategy.com/",
     siteName: "Software Strategy",
     images: [

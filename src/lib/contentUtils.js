@@ -61,7 +61,9 @@ export function buildPricingGroups(locale = 'es') {
   if (web?.pricingSection?.plans?.length) {
     groups.push({
       key: 'web',
-      plans: web.pricingSection.plans.map((p) => toPlan(p, '/services/web-development')),
+      plans: web.pricingSection.plans.map((p) =>
+        toPlan(p, locale === 'en' ? '/services/web-development' : '/desarrollo-sitios-web-uruguay')
+      ),
     });
   }
   if (marketing?.pricingSection?.plans?.length) {

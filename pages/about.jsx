@@ -5,17 +5,26 @@ import Link from "next/link";
 import PageBanner from "@/src/components/PageBanner";
 
 const About = () => {
+  const siteBase = (DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "");
+  const canonical = `${siteBase}/about`;
   return (
     <Layout dark locale="es">
       <NextSeo
         title="Sobre Nosotros"
-        description="Conocé nuestra misión, cómo trabajamos y servicios."
-        canonical={`${(DefaultSEO?.canonical || 'https://software-strategy.com/').replace(/\/$/, '')}/about`}
+        description="Software Strategy es una empresa uruguaya especializada en desarrollo web y soluciones tecnológicas para PYMEs."
+        canonical={canonical}
         languageAlternates={[
-          { hrefLang: 'es', href: `${(DefaultSEO?.canonical || 'https://software-strategy.com/').replace(/\/$/, '')}/about` },
-          { hrefLang: 'en', href: `${(DefaultSEO?.canonical || 'https://software-strategy.com/').replace(/\/$/, '')}/en/about` },
-          { hrefLang: 'x-default', href: `${(DefaultSEO?.canonical || 'https://software-strategy.com/').replace(/\/$/, '')}/about` },
+          { hrefLang: "es", href: `${siteBase}/about` },
+          { hrefLang: "en", href: `${siteBase}/en/about` },
+          { hrefLang: "x-default", href: `${siteBase}/about` },
         ]}
+        openGraph={{
+          url: canonical,
+          title: "Sobre Nosotros | Software Strategy",
+          description: "Software Strategy es una empresa uruguaya especializada en desarrollo web y soluciones tecnológicas para PYMEs.",
+          locale: "es_UY",
+          type: "website",
+        }}
       />
       <PageBanner pageName="Sobre Nosotros" homeLabel="Inicio" homeHref="/" />
 
@@ -28,28 +37,28 @@ const About = () => {
                   <div className="why-choose-left-content mb-30 rmb-55 wow fadeInLeft delay-0-2s">
                     <div className="section-title mb-40">
                       <span className="sub-title mb-15">Sobre la empresa</span>
-                      <h2>Nuestros servicios y soluciones</h2>
+                      <h2>Desarrollo web y soluciones tecnológicas para PYMEs</h2>
                     </div>
-                    <h5>Misión</h5>
+                    <h5>¿Quiénes somos?</h5>
                     <p>
-                      Diseñamos y desarrollamos experiencias digitales con foco en performance, SEO y conversión. Combinamos tecnología,
-                      diseño y estrategia para generar resultados medibles.
+                      Software Strategy es una empresa uruguaya que trabaja con pequeñas y medianas empresas que necesitan mejorar su presencia digital,
+                      transmitir más confianza y convertir esa presencia en oportunidades reales.
                     </p>
                     <br />
-                    <h5>Cómo trabajamos</h5>
+                    <h5>¿Cómo trabajamos?</h5>
                     <p>
-                      Priorizamos entregas iterativas, métricas claras y decisiones guiadas por datos. Acompañamos con soporte cercano y
-                      evolución continua.
+                      Trabajamos de forma directa, sin estructuras infladas ni procesos innecesarios. Primero entendemos el negocio, luego definimos la
+                      solución y recién después desarrollamos. Buscamos claridad, simplicidad y resultados sostenibles.
                     </p>
                     <div className="mt-35 d-flex gap-3 flex-wrap">
-                      <Link legacyBehavior href="/services">
-                        <a className="theme-btn style-two" data-cta="about-services">
-                          Ver servicios <i className="far fa-arrow-right" />
+                      <Link legacyBehavior href="/desarrollo-sitios-web-uruguay">
+                        <a className="theme-btn style-two" data-cta="about-services" title="Ver desarrollo web para PYMEs">
+                          Ver desarrollo web para PYMEs <i className="fas fa-arrow-right" />
                         </a>
                       </Link>
                       <Link legacyBehavior href="/contact">
-                        <a className="theme-btn" data-cta="about-contact">
-                          Hablemos <i className="far fa-arrow-right" />
+                        <a className="theme-btn" data-cta="about-contact" title="Hablemos">
+                          Hablemos <i className="fas fa-arrow-right" />
                         </a>
                       </Link>
                     </div>
@@ -61,42 +70,42 @@ const About = () => {
               <div className="row">
                 <div className="col-md-6">
                   <div className="service-item wow fadeInRight delay-0-2s">
-                    <div className="icon"><i className="fal fa-laptop-code" /></div>
+                    <div className="icon"><i className="fas fa-laptop-code" /></div>
                     <h5>
-                      <Link legacyBehavior href="/services/web-development">
-                        <a>Desarrollo Web</a>
+                      <Link legacyBehavior href="/desarrollo-sitios-web-uruguay">
+                        <a title="Desarrollo Web Profesional">Desarrollo Web Profesional</a>
                       </Link>
                     </h5>
-                    <p>Sitios rápidos, seguros y orientados a conversión. Listos para SEO y campañas.</p>
+                    <p>Sitios claros y confiables para que tu empresa se vea profesional y reciba consultas reales.</p>
                   </div>
                   <div className="service-item wow fadeInRight delay-0-3s">
-                    <div className="icon"><i className="fal fa-bullhorn" /></div>
+                    <div className="icon"><i className="fas fa-bullhorn" /></div>
                     <h5>
                       <Link legacyBehavior href="/services/digital-marketing">
-                        <a>Marketing Digital</a>
+                        <a title="Estrategia Digital">Estrategia Digital</a>
                       </Link>
                     </h5>
-                    <p>Estrategias en Google y redes sociales con medición de resultados.</p>
+                    <p>Definimos prioridades, campañas y acciones para que tu presencia online tenga dirección y foco comercial.</p>
                   </div>
                 </div>
                 <div className="col-md-6">
                   <div className="service-item mt-30 wow fadeInRight delay-0-4s">
-                    <div className="icon"><i className="fal fa-search" /></div>
+                    <div className="icon"><i className="fas fa-search" /></div>
                     <h5>
                       <Link legacyBehavior href="/services/google-seo">
-                        <a>Posicionamiento en Google (SEO)</a>
+                        <a title="Visibilidad en Google y anuncios">Visibilidad en Google y anuncios</a>
                       </Link>
                     </h5>
-                    <p>SEO técnico y de contenidos para aumentar visibilidad orgánica.</p>
+                    <p>Mejoramos cómo aparece tu empresa cuando la buscan y conectamos esa demanda con oportunidades reales.</p>
                   </div>
                   <div className="service-item wow fadeInRight delay-0-5s">
-                    <div className="icon"><i className="fal fa-cogs" /></div>
+                    <div className="icon"><i className="fas fa-cogs" /></div>
                     <h5>
-                      <Link legacyBehavior href="/services/custom-software">
-                        <a>Software a Medida</a>
+                      <Link legacyBehavior href="/desarrollo-software-medida-uruguay">
+                        <a title="Soluciones a Medida">Soluciones a Medida</a>
                       </Link>
                     </h5>
-                    <p>Integraciones, automatización y paneles a medida para escalar tu operación.</p>
+                    <p>Desarrollos específicos para ordenar procesos, mejorar control y acompañar el crecimiento de tu operación.</p>
                   </div>
                 </div>
               </div>
@@ -110,20 +119,20 @@ const About = () => {
           <div className="row gap-90">
             <div className="col-lg-4 col-md-6">
               <div className="why-choose-item style-two wow fadeInUp delay-0-2s">
-                <div className="why-choose-header"><i className="flaticon-optimization-1" /><h5>Performance y SEO</h5></div>
-                <p>Core Web Vitals, indexación y estructura para maximizar visibilidad y conversión.</p>
+                <div className="why-choose-header"><i className="fas fa-bullseye" /><h5>Claridad y posicionamiento</h5></div>
+                <p>Ordenamos mensaje, estructura y presencia digital para que tu empresa sea más fácil de entender y de elegir.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="why-choose-item style-two wow fadeInUp delay-0-3s">
-                <div className="why-choose-header"><i className="flaticon-mobile-banking" /><h5>Medición y datos</h5></div>
-                <p>GA4, eventos y dashboards para decisiones informadas y mejora continua.</p>
+                <div className="why-choose-header"><i className="fas fa-mobile-alt" /><h5>Decisiones con criterio</h5></div>
+                <p>Definimos prioridades concretas para avanzar sin dispersión ni complejidad innecesaria.</p>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="why-choose-item style-two wow fadeInUp delay-0-4s">
-                <div className="why-choose-header"><i className="flaticon-creativity" /><h5>Equipo senior</h5></div>
-                <p>Procesos claros, entregas iterativas y soporte cercano en cada etapa.</p>
+                <div className="why-choose-header"><i className="fas fa-lightbulb" /><h5>Relación directa</h5></div>
+                <p>Sin intermediarios innecesarios ni procesos eternos: comunicación clara y foco en ejecución.</p>
               </div>
             </div>
           </div>

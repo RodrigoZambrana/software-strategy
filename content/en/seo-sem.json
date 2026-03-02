@@ -3,48 +3,50 @@
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "SEO & Google Ads",
-        "titleHtml": "<span>More visibility on Google</span><br /> campaigns that convert",
-        "ratingLabel": "ROI-focused",
-        "primary": { "href": "/contact", "text": "Get started now" }
+        "subtitle": "Google Visibility",
+        "titleHtml": "<span>Be visible when clients search</span><br /> and turn demand into qualified inquiries",
+        "ratingLabel": "Practical, measurable approach",
+        "primary": {
+          "href": "/contact",
+          "text": "Schedule an introductory call"
+        }
       }
     ]
   },
   "seo": {
-    "title": "Google SEO | Technical Optimization and Google Ads",
-    "description": "Improve organic visibility with technical and content SEO. Run effective Google Ads campaigns with tracking and continuous optimization."
+    "title": "Google Visibility & Ads",
+    "description": "We improve how your business appears in Google and run campaigns focused on qualified inquiries."
   },
-  "pageBanner": "Google SEO (Optimization & Campaigns)",
-  "ctaPrimary": "Talk to a specialist",
+  "pageBanner": "Google Visibility & Ads",
+  "ctaPrimary": "Schedule an introductory call",
   "ctaSecondary": "View plans",
   "about": {
-    "subtitle": "What We Offer",
-    "title": "Organic ranking and high-performance campaigns",
+    "subtitle": "What we solve",
+    "title": "Make your business easier to find and easier to trust",
     "featuresCol1": [
-      "Technical SEO (Core Web Vitals)",
-      "Architecture and indexing",
-      "Keyword research",
-      "On-page and content"
+      "Clear search structure",
+      "Relevant intent-focused content",
+      "Progressive visibility improvements"
     ],
     "featuresCol2": [
-      "Google Ads (Search/Display)",
-      "Tracking and conversions",
-      "Landing page optimization"
+      "Google campaigns",
+      "Inquiry tracking",
+      "Continuous optimization"
     ],
-    "imageAlt": "SEO and SEM"
+    "imageAlt": "Google visibility services"
   },
   "whatWeDo": {
-    "subtitle": "How We Work",
-    "title": "Audit, plan and execution",
-    "text": "We audit your site, prioritize quick wins and mid-term plan. We set up campaigns with clear tracking and optimize for ROI."
+    "subtitle": "How we work",
+    "title": "Diagnosis, execution and continuous refinement",
+    "text": "We define short- and mid-term priorities to improve visibility and convert search demand into opportunities."
   },
   "pricingSection": {
     "subtitle": "Plans",
-    "title": "Options for your strategy: SEO and Google Ads",
-    "description": "Improve your visibility on search engines (SEO) and attract customers today with Google Ads.",
+    "title": "Options to increase visibility and capture active demand",
+    "description": "A practical mix of organic visibility improvements and campaign execution.",
     "plans": [
       {
-        "name": "Basic SEO",
+        "name": "Initial Visibility",
         "slug": "basic-seo",
         "price": "300",
         "unit": "USD/mo",
@@ -55,10 +57,10 @@
           "Speed and structure improvements",
           "Monthly progress report"
         ],
-        "cta": "Talk to a specialist"
+        "cta": "Schedule an introductory call"
       },
       {
-        "name": "SEO + Google Ads",
+        "name": "Visibility + Ads",
         "slug": "seo-plus-google-ads",
         "badge": "Most Popular",
         "price": "500",
@@ -71,10 +73,10 @@
           "Full measurement with GA4/Google Tag",
           "Bi‑weekly campaign optimization"
         ],
-        "cta": "Talk to a specialist"
+        "cta": "Schedule an introductory call"
       },
       {
-        "name": "Advanced SEO + Google Ads",
+        "name": "Growth Plan",
         "slug": "advanced-seo-plus-google-ads",
         "price": "800",
         "unit": "USD/mo",
@@ -85,25 +87,34 @@
           "Automations and metric dashboards",
           "Advanced optimization to improve ROI"
         ],
-        "cta": "Talk to a specialist"
+        "cta": "Schedule an introductory call"
       }
     ]
   },
   "faqs": {
-    "subtitle": "FAQs",
+    "subtitle": "Frequently asked questions",
     "title": "Common questions",
     "image": "/assets/images/faqs/faq-two.jpg",
     "imageAlt": "Frequently asked questions",
     "items": [
-      { "q": "When do SEO results show?", "a": "It depends on your baseline. Improvements are common in 2–3 months; consolidation in 6+ months." },
-      { "q": "How do you define SEM budget?", "a": "Based on goals, market and estimated CPC. We suggest a starting budget to validate performance." },
-      { "q": "What do you measure?", "a": "Rankings, organic traffic, CTR, conversions and cost per acquisition among other key KPIs." }
+      {
+        "q": "When should we expect visibility improvements?",
+        "a": "Timelines depend on your starting point. Early signals usually appear within the first months, with stronger consolidation over time."
+      },
+      {
+        "q": "How do you define ad budget?",
+        "a": "We define it based on goals, market demand and expected cost per qualified inquiry."
+      },
+      {
+        "q": "What metrics matter most?",
+        "a": "We prioritize qualified inquiries, cost per opportunity and visibility progress in relevant searches."
+      }
     ]
   },
   "workWithUs": {
-    "subtitle": "Work With Us",
-    "title": "Ready to improve your ranking?",
-    "cta": "Explore more",
-    "bigText": "Grow in Search"
+    "subtitle": "Work with us",
+    "title": "Want stronger visibility and more qualified inquiries?",
+    "cta": "Schedule an introductory call",
+    "bigText": "Grow Visibility"
   }
 }

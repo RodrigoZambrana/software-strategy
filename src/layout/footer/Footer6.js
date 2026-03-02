@@ -25,7 +25,7 @@ const Footer6 = ({ dark }) => {
               <form className="footer-newsletter" action="#">
                 <input type="email" placeholder="Email Address" required />
                 <button type="submit">
-                  <i className="far fa-long-arrow-right" />
+                  <i className="fas fa-long-arrow-right" />
                 </button>
               </form>
             </div>
@@ -107,16 +107,16 @@ const Footer6 = ({ dark }) => {
               <h5 className="footer-title">Contact</h5>
               <ul className="list-style-two">
                 <li>
-                  <i className="far fa-map-marker-alt" />{" "}
+                  <i className="fas fa-map-marker-alt" />{" "}
                   <span>Baird House, 15-17 St Cross StLondon EC1N 8UW</span>
                 </li>
                 <li>
-                  <i className="far fa-envelope" />{" "}
+                  <i className="fas fa-envelope" />{" "}
                   <a href="mailto:support@gmail.com">support@gmail.com</a>
                 </li>
                 <li>
-                  <i className="far fa-phone" />{" "}
-                  <a href="callto:+59891258107">+598 912 58 107</a>
+                  <i className="fas fa-phone" />{" "}
+                  <a href="callto:+59898488759">+59898488759</a>
                 </li>
               </ul>
             </div>
@@ -147,7 +147,7 @@ const Footer6 = ({ dark }) => {
           </div>
           {/* Scroll Top Button */}
           <button className="scroll-top scroll-to-target" data-target="html">
-            <span className="far fa-chevron-double-up" />
+            <span className="fas fa-chevron-double-up" />
           </button>
         </div>
       </div>

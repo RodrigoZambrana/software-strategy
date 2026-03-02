@@ -27,13 +27,13 @@ export default function E404({ t, locale = "es" }) {
                   <h2>{t.subtitle}</h2>
                 </div>
                 <Link legacyBehavior href={withLang("/")}>
-                  <a className="theme-btn style-two" data-cta="404-home">
-                    {t.cta} <i className="far fa-arrow-right" />
+                  <a className="theme-btn style-two" data-cta="404-home" title={t.cta}>
+                    {t.cta} <i className="fas fa-arrow-right" />
                   </a>
                 </Link>
                 <div className="social-style-four d-flex mt-60 rmt-35">
                   {t.social?.map((s) => (
-                    <a href={s.href} key={s.label}>
+                    <a href={s.href} key={s.label} title={s.label} aria-label={s.label}>
                       <i className={s.icon} /> <span>{s.label}</span>
                     </a>
                   ))}
@@ -42,7 +42,7 @@ export default function E404({ t, locale = "es" }) {
             </div>
             <div className="col-lg-7">
               <div className="error-image wow zoomIn delay-0-2s">
-                <img src="/assets/images/background/404-error.png" alt="404 Error" />
+                <img src="/assets/images/background/404-error.png" alt="404 Error" title="404 Error" />
               </div>
             </div>
           </div>

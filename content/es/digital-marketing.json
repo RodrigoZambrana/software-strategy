@@ -1,14 +1,14 @@
 {
   "seo": {
-    "title": "Marketing Digital y Redes Sociales | Contenidos y Campañas",
-    "description": "Estrategia, contenidos y campañas en Google y Meta. Gestión de redes y optimización basada en métricas para crecer tu audiencia y ventas."
+    "title": "Estrategia digital y campañas",
+    "description": "Diseñamos estrategias digitales para generar oportunidades reales y acompañar el crecimiento comercial de tu empresa."
   },
   "pageBanner": "Marketing Digital",
-  "ctaPrimary": "Hablar con un especialista",
+  "ctaPrimary": "Solicitar una reunión inicial",
   "ctaSecondary": "Ver planes",
   "about": {
-    "subtitle": "Qué Ofrecemos",
-    "title": "Estrategias de marketing orientadas a resultados",
+    "subtitle": "¿Qué hacemos por tu negocio?",
+    "title": "Estrategia y campañas orientadas a oportunidades reales",
     "featuresCol1": [
       "Calendario y producción de contenidos",
       "Gestión de comunidades",
@@ -16,59 +16,59 @@
       "Email marketing"
     ],
     "featuresCol2": [
-      "Google Ads (Search/Display)",
-      "Medición y analítica",
-      "Optimización continua (CRO)"
+      "Campañas en Google",
+      "Medición de consultas",
+      "Mejora continua enfocada en resultados"
     ],
     "imageAlt": "Marketing digital"
   },
   "whatWeDo": {
-    "subtitle": "Cómo lo hacemos",
-    "title": "Contenido + campañas + análisis",
-    "text": "Definimos objetivos claros, creamos contenidos coherentes con tu marca y ejecutamos campañas de alto impacto, midiendo y optimizando cada etapa."
+    "subtitle": "¿Cómo trabajamos?",
+    "title": "Definimos foco, ejecutamos y mejoramos",
+    "text": "Alineamos objetivos comerciales, mensajes y campañas para que la inversión digital se convierta en oportunidades concretas."
   },
   "pricingSection": {
     "subtitle": "Planes",
-    "title": "Opciones para cada etapa",
+    "title": "Opciones para campañas y seguimiento",
     "plans": [
       {
-        "name": "Starter",
+        "name": "Presencia inicial",
         "price": "100",
         "unit": "USD/mes",
         "features": [
-          "Setup + 1 red",
-          "Calendario básico",
+          "Una red social activa",
+          "Calendario simple de contenidos",
           "Campañas iniciales"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Quiero esta opción"
       },
       {
-        "name": "Performance",
-        "badge": "Más Popular",
+        "name": "Captación activa",
+        "badge": "Más elegida",
         "price": "200",
         "unit": "USD/mes",
         "features": [
-          "2-3 redes",
-          "Creatividades + copys",
-          "Campañas Google + Meta"
+          "Dos o tres canales activos",
+          "Piezas y textos para campañas",
+          "Campañas en Google y Meta"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Quiero esta opción"
       },
       {
-        "name": "Full-Funnel",
+        "name": "Crecimiento continuo",
         "price": "400",
         "unit": "USD/mes",
         "features": [
-          "Embudo completo",
+          "Campañas y seguimiento más completo",
           "Automatizaciones",
-          "Optimización avanzada"
+          "Optimización continua"
         ],
-        "cta": "Hablar con un especialista"
+        "cta": "Quiero esta opción"
       }
     ]
   },
   "faqs": {
-    "subtitle": "FAQs",
+    "subtitle": "Preguntas frecuentes",
     "title": "Preguntas frecuentes sobre marketing digital",
     "description": "Resolvemos las dudas más comunes antes de comenzar tu estrategia en Google Ads y redes sociales.",
     "items": [
@@ -78,7 +78,7 @@
       },
       {
         "q": "¿Necesito una landing específica para los anuncios?",
-        "a": "Es altamente recomendable. Una landing orientada a conversión mejora la tasa de contacto: mensaje claro, propuesta de valor, prueba social y formulario/WhatsApp visibles. Nosotros la diseñamos y medimos con GA4/Google Tag."
+        "a": "Es altamente recomendable. Una landing orientada a conversión mejora la tasa de contacto: mensaje claro, propuesta de valor, prueba social y formulario o WhatsApp visibles. Nosotros la diseñamos y dejamos la medición lista desde el inicio."
       },
       {
         "q": "¿Cuál es el presupuesto mínimo sugerido para Google Ads?",
@@ -86,7 +86,7 @@
       },
       {
         "q": "¿Cómo medimos las conversiones y el ROI?",
-        "a": "Implementamos Google Tag y GA4 para registrar eventos clave (formularios, llamadas, WhatsApp, compras). Optimizamos campañas por CPA o ROAS y compartimos reportes periódicos con recomendaciones accionables."
+        "a": "Configuramos la medición para registrar acciones clave (formularios, llamadas, WhatsApp y ventas). Ajustamos las campañas según costo por consulta y retorno, y compartimos reportes con recomendaciones accionables."
       },
       {
         "q": "¿Qué incluye la gestión de redes sociales?",
@@ -99,26 +99,32 @@
     ]
   },
   "workWithUs": {
-    "subtitle": "Trabaja con Nosotros",
-    "title": "¿Listo para crecer tu audiencia?",
-    "cta": "Explorar más",
+    "subtitle": "Trabaja con nosotros",
+    "title": "¿Querés una estrategia digital más clara y efectiva?",
+    "cta": "Solicitar una reunión inicial",
     "bigText": "Impulsemos Tu Marca"
   },
   "slider": {
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "Agencia de Marketing",
-        "titleHtml": "<span>Marketing Perfecto</span><br /> Para Hacer Crecer tu Negocio",
-        "ratingLabel": "Servicio de calidad",
-        "primary": { "href": "/contact", "text": "Empezar ahora" }
+        "subtitle": "Marketing para PYMEs",
+        "titleHtml": "<span>Atraé clientes con campañas</span><br /> y contenido que convierte",
+        "ratingLabel": "Foco en consultas y ventas",
+        "primary": {
+          "href": "/contact",
+          "text": "Empezar ahora"
+        }
       },
       {
         "bg": "/assets/images/slider/slide2.jpg",
-        "subtitle": "Agencia de Marketing",
-        "titleHtml": "<span>Marketing Perfecto</span><br /> Para Hacer Crecer tu Negocio",
-        "ratingLabel": "Servicio de calidad",
-        "primary": { "href": "/contact", "text": "Empezar ahora" }
+        "subtitle": "Marketing para PYMEs",
+        "titleHtml": "<span>Transformá tu inversión digital</span><br /> en oportunidades de negocio",
+        "ratingLabel": "Foco en consultas y ventas",
+        "primary": {
+          "href": "/contact",
+          "text": "Empezar ahora"
+        }
       }
     ]
   },
@@ -131,12 +137,12 @@
     "/assets/images/client-logos/client-logo6.png"
   ],
   "offer": {
-    "subtitle": "Qué Ofrecemos",
-    "title": "Servicios de marketing digital para impulsar tu negocio",
+    "subtitle": "¿Qué hacemos diferente?",
+    "title": "Marketing digital con foco en oportunidades reales",
     "description": "Aumenta tu visibilidad, genera clientes y fortalece tu marca con campañas en Google Ads y redes sociales, complementadas por estrategias digitales integrales.",
     "items": [
       {
-        "icon": "flaticon-optimization-1",
+        "icon": "fas fa-bullseye",
         "number": "01",
         "title": "Publicidad en Google Ads",
         "desc": "Campañas de búsqueda, display y remarketing para atraer clientes potenciales en el momento exacto en que buscan tu servicio.",
@@ -150,7 +156,7 @@
         "provider": "Software Strategy"
       },
       {
-        "icon": "flaticon-engineering",
+        "icon": "fas fa-cogs",
         "number": "02",
         "title": "Marketing en redes sociales",
         "desc": "Gestión estratégica de Facebook, Instagram y LinkedIn para aumentar alcance, comunidad y conversiones.",
@@ -164,7 +170,7 @@
         "provider": "Software Strategy"
       },
       {
-        "icon": "flaticon-ux",
+        "icon": "fas fa-lightbulb",
         "number": "03",
         "title": "Estrategia de marketing digital",
         "desc": "Planes integrales que combinan Google Ads, redes sociales y email marketing para lograr resultados sostenidos.",
@@ -182,7 +188,7 @@
   "about5": {
     "subtitle": "Sobre la Empresa",
     "title": "Agencia de marketing digital con foco en resultados",
-    "text": "En Software Estrategy diseñamos y ejecutamos estrategias de marketing digital que combinan contenido, publicidad en Google Ads y redes sociales, y analítica avanzada. Nuestro objetivo es claro: que tu negocio logre crecimiento real y medible.",
+    "text": "En Software Strategy diseñamos y ejecutamos estrategias de marketing digital que combinan contenido, publicidad en Google Ads y redes sociales, y analítica avanzada. Nuestro objetivo es claro: que tu negocio logre crecimiento real y medible.",
     "authorsText": "Contamos con <span>5k+ clientes</span> en todo el mundo",
     "authorsImages": [
       "/assets/images/about/author1.jpg",
@@ -196,33 +202,48 @@
     "bg": "/assets/images/about/about-five-bg.png",
     "imageAlt": "Sobre nosotros"
   },
-  
   "process": {
     "subtitle": "Nuestro proceso de trabajo",
     "title": "De la investigación a resultados medibles",
-    "description": "Así logramos que cada campaña en Google Ads y redes sociales esté orientada a performance y ROI.",
+    "description": "Así logramos que cada campaña en Google Ads y redes sociales esté orientada a resultados comerciales reales.",
     "items": [
-      { "icon": "flaticon-optimization-1", "title": "Investigación y estrategia", "text": "Analizamos tu marca, mercado y audiencia para definir canales, mensajes y tácticas digitales." },
-      { "icon": "flaticon-mobile-banking", "title": "Target & análisis", "text": "Segmentación precisa, pruebas A/B de anuncios y análisis constante para optimizar conversiones." },
-      { "icon": "flaticon-optimization", "title": "Resultados", "text": "Reportes claros, métricas accionables y optimización semanal para maximizar ROI y crecimiento." }
+      {
+        "icon": "fas fa-bullseye",
+        "title": "Investigación y estrategia",
+        "text": "Analizamos tu marca, mercado y audiencia para definir canales, mensajes y tácticas digitales."
+      },
+      {
+        "icon": "fas fa-mobile-alt",
+        "title": "Segmentación y mejora",
+        "text": "Definimos públicos, probamos mensajes y ajustamos constantemente para aumentar conversiones."
+      },
+      {
+        "icon": "fas fa-chart-line",
+        "title": "Resultados",
+        "text": "Reportes claros, métricas accionables y optimización semanal para maximizar crecimiento rentable."
+      }
     ]
-  }
-  ,
+  },
   "plans": {
     "subtitle": "Planes",
     "title": "Paquetes de marketing digital a medida de tus objetivos",
     "description": "Elige el plan que mejor se adapta a tu negocio: desde una gestión básica de redes hasta campañas integrales en Google Ads y automatización avanzada.",
     "items": [
-      { 
+      {
         "name": "Starter",
         "slug": "starter",
         "price": "100",
         "unit": "USD/mes",
         "description": "Ideal para emprendedores o negocios que quieren comenzar a tener presencia digital.",
-        "features": ["1 red social gestionada", "Calendario básico de publicaciones", "Campañas iniciales en Google o Meta", "Reportes mensuales de desempeño"],
+        "features": [
+          "1 red social gestionada",
+          "Calendario básico de publicaciones",
+          "Campañas iniciales en Google o Meta",
+          "Reportes mensuales de desempeño"
+        ],
         "cta": "Empezar"
       },
-      { 
+      {
         "name": "Growth",
         "slug": "growth",
         "badge": "Más Popular",
@@ -230,21 +251,30 @@
         "unit": "USD/mes",
         "description": "Perfecto para empresas en crecimiento que buscan escalar con mayor alcance y conversiones.",
         "twoColumn": true,
-        "features": ["2–3 redes sociales gestionadas", "Creatividades y copys personalizados", "Campañas en Google Ads + Meta Ads", "Reportes quincenales con métricas clave"],
+        "features": [
+          "2–3 redes sociales gestionadas",
+          "Creatividades y copys personalizados",
+          "Campañas en Google Ads + Meta Ads",
+          "Reportes quincenales con métricas clave"
+        ],
         "cta": "Empezar"
       },
-      { 
+      {
         "name": "Pro",
         "slug": "pro",
         "price": "400",
         "unit": "USD/mes",
         "description": "Diseñado para marcas consolidadas que necesitan estrategias avanzadas, automatización y escalabilidad.",
-        "features": ["Gestión integral de redes sociales", "Embudo completo de marketing digital", "Automatizaciones y remarketing", "Optimización avanzada + consultoría mensual"],
+        "features": [
+          "Gestión integral de redes sociales",
+          "Embudo completo de marketing digital",
+          "Automatizaciones y remarketing",
+          "Optimización avanzada + consultoría mensual"
+        ],
         "cta": "Empezar"
       }
     ]
-  }
-  ,
+  },
   "plansComparison": {
     "title": "Compará nuestros planes de marketing digital",
     "description": "Elige el plan que mejor se adapta a tus objetivos: desde presencia inicial hasta estrategias avanzadas con automatización y remarketing.",
@@ -257,12 +287,42 @@
     "growthPrice": "200",
     "proPrice": "400",
     "rows": [
-      { "feature": "Redes sociales gestionadas", "starter": "1", "growth": "2–3", "pro": "3+" },
-      { "feature": "Creatividades y copys personalizados", "starter": "—", "growth": "Incluido", "pro": "Incluido + variaciones A/B" },
-      { "feature": "Campañas en Google Ads", "starter": "Básicas", "growth": "Google + Meta Ads", "pro": "Google + Meta + Remarketing avanzado" },
-      { "feature": "Reportes", "starter": "Mensuales", "growth": "Quincenales", "pro": "Semanales + consultoría" },
-      { "feature": "Automatizaciones", "starter": "—", "growth": "Opcionales", "pro": "Incluidas (embudos + remarketing)" },
-      { "feature": "Optimización avanzada", "starter": "—", "growth": "Básica", "pro": "Completa (CPA, ROAS, funnel)" }
+      {
+        "feature": "Redes sociales gestionadas",
+        "starter": "1",
+        "growth": "2–3",
+        "pro": "3+"
+      },
+      {
+        "feature": "Creatividades y copys personalizados",
+        "starter": "—",
+        "growth": "Incluido",
+        "pro": "Incluido + variaciones A/B"
+      },
+      {
+        "feature": "Campañas en Google Ads",
+        "starter": "Básicas",
+        "growth": "Google + Meta Ads",
+        "pro": "Google + Meta + Remarketing avanzado"
+      },
+      {
+        "feature": "Reportes",
+        "starter": "Mensuales",
+        "growth": "Quincenales",
+        "pro": "Semanales + consultoría"
+      },
+      {
+        "feature": "Automatizaciones",
+        "starter": "—",
+        "growth": "Opcionales",
+        "pro": "Incluidas (embudos + remarketing)"
+      },
+      {
+        "feature": "Optimización avanzada",
+        "starter": "—",
+        "growth": "Básica",
+        "pro": "Completa (CPA, ROAS, funnel)"
+      }
     ],
     "ctaStarter": "Elegir Starter",
     "ctaGrowth": "Elegir Growth",

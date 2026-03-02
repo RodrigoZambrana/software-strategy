@@ -19,7 +19,44 @@ function copyDirOnce(src, dest) {
   }
 }
 
+function duplicateHtmlRoutesAsFolders(outDir) {
+  const skip = new Set(['404.html']);
+
+  function walk(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true });
+    for (const entry of entries) {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) {
+        walk(fullPath);
+        continue;
+      }
+
+      if (!entry.isFile() || !entry.name.endsWith('.html')) continue;
+      if (skip.has(entry.name)) continue;
+      if (entry.name === 'index.html') continue;
+
+      const relativeFile = path.relative(outDir, fullPath);
+      const relativeWithoutExt = relativeFile.replace(/\.html$/, '');
+      const targetDir = path.join(outDir, relativeWithoutExt);
+      const targetFile = path.join(targetDir, 'index.html');
+
+      if (fullPath === targetFile) continue;
+
+      fs.mkdirSync(targetDir, { recursive: true });
+      fs.copyFileSync(fullPath, targetFile);
+    }
+  }
+
+  walk(outDir);
+  console.log('[postexport] Duplicated HTML routes as folder index.html files');
+}
+
 function main() {
+  const outDir = path.join(process.cwd(), 'out');
+  if (!fs.existsSync(outDir)) return;
+
+  duplicateHtmlRoutesAsFolders(outDir);
+
   const dataRoot = path.join(process.cwd(), 'out', '_next', 'data');
   if (!fs.existsSync(dataRoot)) return;
   const builds = fs.readdirSync(dataRoot).filter((n) => fs.statSync(path.join(dataRoot, n)).isDirectory());

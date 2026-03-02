@@ -1,31 +1,30 @@
 {
   "seo": {
-    "title": "Digital Marketing & Social Media | Content and Campaigns",
-    "description": "Strategy, content and campaigns on Google and Meta. Social media management and metric-driven optimization to grow your audience and sales."
+    "title": "Digital Strategy & Campaigns",
+    "description": "We design practical digital strategies to generate qualified opportunities and support sustainable business growth."
   },
   "pageBanner": "Digital Marketing",
-  "ctaPrimary": "Talk to a specialist",
+  "ctaPrimary": "Schedule an introductory call",
   "ctaSecondary": "View plans",
   "about": {
-    "subtitle": "What We Offer",
-    "title": "Marketing strategies focused on results",
+    "subtitle": "What we do for your business",
+    "title": "Strategy and campaigns focused on real opportunities",
     "featuresCol1": [
-      "Content calendar and production",
+      "Content planning and production",
       "Community management",
-      "Meta Ads (FB/IG)",
-      "Email marketing"
+      "Campaign execution"
     ],
     "featuresCol2": [
-      "Google Ads (Search/Display)",
-      "Measurement and analytics",
-      "Continuous optimization (CRO)"
+      "Google and Meta campaigns",
+      "Inquiry tracking",
+      "Continuous optimization based on results"
     ],
-    "imageAlt": "Digital marketing"
+    "imageAlt": "Digital strategy and campaigns"
   },
   "whatWeDo": {
-    "subtitle": "How We Work",
-    "title": "Content + campaigns + analysis",
-    "text": "We set clear goals, create brand-aligned content and run high-impact campaigns, measuring and optimizing every stage."
+    "subtitle": "How we work",
+    "title": "Clear priorities, practical execution, continuous improvement",
+    "text": "We align business goals, messaging and channels to turn digital investment into measurable opportunities."
   },
   "pricingSection": {
     "subtitle": "Plans",
@@ -68,57 +67,55 @@
     ]
   },
   "faqs": {
-    "subtitle": "FAQs",
-    "title": "Digital marketing FAQs",
+    "subtitle": "Frequently asked questions",
+    "title": "Key questions before starting",
     "description": "We answer the most common questions before starting your Google Ads and social media strategy.",
     "items": [
       {
-        "q": "What results can I expect and in what timeframe?",
-        "a": "With Google Ads you can see impact from the first week (traffic and leads). On social media, growth is progressive: reach and engagement in 2–4 weeks and conversions as the community and paid media consolidate. We report clear metrics (leads, CPA, ROAS)."
+        "q": "What results can we expect and when?",
+        "a": "You can usually see early traction in the first weeks. Sustainable results come from consistent optimization over time."
       },
       {
-        "q": "Do I need a dedicated landing page for ads?",
-        "a": "Highly recommended. A conversion‑focused landing improves contact rate: clear message, value proposition, social proof and visible form/WhatsApp. We design it and measure with GA4/Google Tag."
+        "q": "Do we need a dedicated landing page?",
+        "a": "In most cases, yes. A focused landing page improves message clarity and increases inquiry conversion."
       },
       {
-        "q": "What is the minimum suggested budget for Google Ads?",
-        "a": "We suggest starting with USD 300–500/mo to get meaningful data in 2–4 weeks. We adjust investment based on cost per lead and market size."
+        "q": "How do you measure impact?",
+        "a": "We track key actions like forms, calls and WhatsApp, then optimize based on cost per qualified inquiry."
       },
       {
-        "q": "How do you measure conversions and ROI?",
-        "a": "We implement Google Tag and GA4 to track key events (forms, calls, WhatsApp, purchases). We optimize campaigns for CPA or ROAS and share periodic reports with actionable recommendations."
-      },
-      {
-        "q": "What does social media management include?",
-        "a": "Strategy, content calendar, asset design, publishing, community management and performance reports. It can be complemented with paid media to accelerate reach."
-      },
-      {
-        "q": "Can you work with my current website?",
-        "a": "Yes. We audit your site, propose quick wins (speed, message clarity, CTAs) and define whether to optimize it or build a dedicated landing for campaigns."
+        "q": "Can you work with our current website?",
+        "a": "Yes. We review your current setup and define whether to optimize it or launch a dedicated campaign landing."
       }
     ]
   },
   "workWithUs": {
-    "subtitle": "Work With Us",
-    "title": "Ready to grow your audience?",
-    "cta": "Explore more",
-    "bigText": "Boost Your Brand"
+    "subtitle": "Work with us",
+    "title": "Need a clearer digital growth plan?",
+    "cta": "Schedule an introductory call",
+    "bigText": "Let’s Grow"
   },
   "slider": {
     "slides": [
       {
         "bg": "/assets/images/slider/slide1.jpg",
-        "subtitle": "Marketing Agency",
-        "titleHtml": "<span>Perfect Marketing</span><br /> For Growth Your Dream Business",
-        "ratingLabel": "Quality Service",
-        "primary": { "href": "/contact", "text": "Get Started Now" }
+        "subtitle": "Digital Strategy",
+        "titleHtml": "<span>Turn online attention</span><br /> into real business opportunities",
+        "ratingLabel": "Focused on qualified inquiries",
+        "primary": {
+          "href": "/contact",
+          "text": "Schedule an introductory call"
+        }
       },
       {
         "bg": "/assets/images/slider/slide2.jpg",
-        "subtitle": "Marketing Agency",
-        "titleHtml": "<span>Perfect Marketing</span><br /> For Growth Your Dream Business",
-        "ratingLabel": "Quality Service",
-        "primary": { "href": "/contact", "text": "Get Started Now" }
+        "subtitle": "Digital Strategy",
+        "titleHtml": "<span>Campaigns with clear direction</span><br /> and measurable outcomes",
+        "ratingLabel": "Focused on qualified inquiries",
+        "primary": {
+          "href": "/contact",
+          "text": "Schedule an introductory call"
+        }
       }
     ]
   },
@@ -131,48 +128,45 @@
     "/assets/images/client-logos/client-logo6.png"
   ],
   "offer": {
-    "subtitle": "What We Offer",
-    "title": "Digital marketing services to grow your business",
+    "subtitle": "How we create impact",
+    "title": "Digital strategy with business focus",
     "description": "Increase visibility, generate leads and strengthen your brand with Google Ads and social media campaigns, complemented by integrated digital strategies.",
     "items": [
       {
-        "icon": "flaticon-optimization-1",
+        "icon": "fas fa-bullseye",
         "number": "01",
-        "title": "Google Ads Advertising",
-        "desc": "Search, display and remarketing campaigns to attract potential customers right when they are looking for your service.",
+        "title": "Demand capture campaigns",
+        "desc": "Campaigns built to reach people actively looking for your services.",
         "bullets": [
-          "Search and Display campaigns setup",
-          "Ad and extensions optimization",
-          "Conversions in GA4 and Google Tag",
-          "Clear reports and ongoing optimization"
+          "Search demand focus",
+          "Clear messaging",
+          "Ongoing optimization"
         ],
         "areaServed": "LatAm",
         "provider": "Software Strategy"
       },
       {
-        "icon": "flaticon-engineering",
+        "icon": "fas fa-cogs",
         "number": "02",
-        "title": "Social Media Marketing",
-        "desc": "Strategic management of Facebook, Instagram and LinkedIn to increase reach, community and conversions.",
+        "title": "Social and community strategy",
+        "desc": "Consistent content and campaign support to improve trust and contact volume.",
         "bullets": [
-          "Editorial plan and content design",
-          "Community management and responses",
-          "Segmented paid campaigns",
-          "Monthly reports with key metrics"
+          "Editorial consistency",
+          "Audience engagement",
+          "Paid support when needed"
         ],
         "areaServed": "LatAm",
         "provider": "Software Strategy"
       },
       {
-        "icon": "flaticon-ux",
+        "icon": "fas fa-lightbulb",
         "number": "03",
-        "title": "Digital marketing strategy",
-        "desc": "Integrated plans combining Google Ads, social media and email marketing to achieve sustainable results.",
+        "title": "Performance guidance",
+        "desc": "Practical reporting and decision support to improve results month after month.",
         "bullets": [
-          "Objectives and KPIs definition",
-          "Channel mix (Ads, social, email)",
-          "Dashboards and ROI measurement",
-          "Continuous optimization by sprint"
+          "Clear KPIs",
+          "Actionable reporting",
+          "Continuous iteration"
         ],
         "areaServed": "LatAm",
         "provider": "Software Strategy"
@@ -196,33 +190,48 @@
     "bg": "/assets/images/about/about-five-bg.png",
     "imageAlt": "About"
   },
-  
   "process": {
-    "subtitle": "Our Work Process",
-    "title": "From research to measurable results",
-    "description": "This is how we make every Google Ads and social media campaign performance- and ROI‑oriented.",
+    "subtitle": "Our process",
+    "title": "From diagnosis to measurable growth",
+    "description": "We follow a clear sequence to keep strategy and execution aligned with business goals.",
     "items": [
-      { "icon": "flaticon-optimization-1", "title": "Research & Strategy", "text": "We analyze your brand, market and audience to define channels, messages and digital tactics." },
-      { "icon": "flaticon-mobile-banking", "title": "Target & Analysis", "text": "Precise segmentation, A/B ad testing and ongoing analysis to optimize conversions." },
-      { "icon": "flaticon-optimization", "title": "Results", "text": "Clear reports, actionable metrics and weekly optimization to maximize ROI and growth." }
+      {
+        "icon": "fas fa-bullseye",
+        "title": "Research & Strategy",
+        "text": "We analyze your brand, market and audience to define channels, messages and digital tactics."
+      },
+      {
+        "icon": "fas fa-mobile-alt",
+        "title": "Target & Analysis",
+        "text": "Precise segmentation, A/B ad testing and ongoing analysis to optimize conversions."
+      },
+      {
+        "icon": "fas fa-chart-line",
+        "title": "Results",
+        "text": "Clear reports, actionable metrics and weekly optimization to maximize ROI and growth."
+      }
     ]
-  }
-  ,
+  },
   "plans": {
     "subtitle": "Plans",
     "title": "Digital marketing packages tailored to your goals",
     "description": "Choose the plan that best fits your business: from basic social management to integrated Google Ads campaigns and advanced automation.",
     "items": [
-      { 
+      {
         "name": "Starter",
         "slug": "starter",
         "price": "100",
         "unit": "USD/mo",
         "description": "Ideal for entrepreneurs or businesses starting to build their digital presence.",
-        "features": ["1 social network managed", "Basic publishing calendar", "Initial campaigns on Google or Meta", "Monthly performance reports"],
+        "features": [
+          "1 social network managed",
+          "Basic publishing calendar",
+          "Initial campaigns on Google or Meta",
+          "Monthly performance reports"
+        ],
         "cta": "Get started"
       },
-      { 
+      {
         "name": "Growth",
         "slug": "growth",
         "badge": "Most Popular",
@@ -230,21 +239,30 @@
         "unit": "USD/mo",
         "description": "Perfect for growing companies aiming to scale reach and conversions.",
         "twoColumn": true,
-        "features": ["2–3 social networks managed", "Custom creatives and copy", "Google Ads + Meta Ads campaigns", "Bi-weekly reports with key metrics"],
+        "features": [
+          "2–3 social networks managed",
+          "Custom creatives and copy",
+          "Google Ads + Meta Ads campaigns",
+          "Bi-weekly reports with key metrics"
+        ],
         "cta": "Get started"
       },
-      { 
+      {
         "name": "Pro",
         "slug": "pro",
         "price": "400",
         "unit": "USD/mo",
         "description": "Designed for established brands needing advanced strategies, automation and scalability.",
-        "features": ["Comprehensive social media management", "Full digital marketing funnel", "Automations and remarketing", "Advanced optimization + monthly consulting"],
+        "features": [
+          "Comprehensive social media management",
+          "Full digital marketing funnel",
+          "Automations and remarketing",
+          "Advanced optimization + monthly consulting"
+        ],
         "cta": "Get started"
       }
     ]
-  }
-  ,
+  },
   "plansComparison": {
     "title": "Compare our digital marketing plans",
     "description": "Choose the plan that best fits your goals: from initial presence to advanced strategies with automation and remarketing.",
@@ -257,12 +275,42 @@
     "growthPrice": "200",
     "proPrice": "400",
     "rows": [
-      { "feature": "Managed social networks", "starter": "1", "growth": "2–3", "pro": "3+" },
-      { "feature": "Custom creatives and copy", "starter": "—", "growth": "Included", "pro": "Included + A/B variations" },
-      { "feature": "Google Ads campaigns", "starter": "Basic", "growth": "Google + Meta Ads", "pro": "Google + Meta + Advanced remarketing" },
-      { "feature": "Reports", "starter": "Monthly", "growth": "Bi-weekly", "pro": "Weekly + consulting" },
-      { "feature": "Automations", "starter": "—", "growth": "Optional", "pro": "Included (funnels + remarketing)" },
-      { "feature": "Advanced optimization", "starter": "—", "growth": "Basic", "pro": "Full (CPA, ROAS, funnel)" }
+      {
+        "feature": "Managed social networks",
+        "starter": "1",
+        "growth": "2–3",
+        "pro": "3+"
+      },
+      {
+        "feature": "Custom creatives and copy",
+        "starter": "—",
+        "growth": "Included",
+        "pro": "Included + A/B variations"
+      },
+      {
+        "feature": "Google Ads campaigns",
+        "starter": "Basic",
+        "growth": "Google + Meta Ads",
+        "pro": "Google + Meta + Advanced remarketing"
+      },
+      {
+        "feature": "Reports",
+        "starter": "Monthly",
+        "growth": "Bi-weekly",
+        "pro": "Weekly + consulting"
+      },
+      {
+        "feature": "Automations",
+        "starter": "—",
+        "growth": "Optional",
+        "pro": "Included (funnels + remarketing)"
+      },
+      {
+        "feature": "Advanced optimization",
+        "starter": "—",
+        "growth": "Basic",
+        "pro": "Full (CPA, ROAS, funnel)"
+      }
     ],
     "ctaStarter": "Choose Starter",
     "ctaGrowth": "Choose Growth",

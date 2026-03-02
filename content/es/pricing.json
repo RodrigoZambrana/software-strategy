@@ -1,94 +1,55 @@
 {
-    "seo": {
-      "title": "Planes y Precios | Desarrollo Web, SEO y Marketing",
-      "description": "Opciones y paquetes a medida para web, SEO/SEM y marketing digital. Transparencia y resultados. Consulta precios."
+  "seo": {
+    "title": "Precios orientativos para sitios web y marketing en Uruguay",
+    "description": "Conocé opciones orientativas para sitios web y marketing digital según lo que hoy necesita tu empresa para empezar a recibir más consultas."
+  },
+  "pageBanner": "Precios y opciones",
+  "whyChoose": {
+    "subtitle": "Antes de elegir",
+    "title": "Te ayudamos a elegir sin invertir de más",
+    "missionTitle": "Qué conviene mirar primero",
+    "missionText": "No se trata de elegir el plan más grande. Se trata de elegir la opción que mejor encaja con lo que hoy necesita tu empresa.",
+    "visionTitle": "Cómo trabajamos",
+    "visionText": "Primero entendemos qué querés lograr. Después te recomendamos una opción clara, simple y posible de ampliar más adelante.",
+    "cta": "Ver desarrollo web para PYMEs",
+    "ctaHref": "/desarrollo-sitios-web-uruguay"
+  },
+  "services": [
+    {
+      "icon": "fal fa-bezier-curve",
+      "title": "Empezá por lo importante",
+      "text": "Definimos qué conviene resolver primero según tu situación actual.",
+      "href": "/desarrollo-sitios-web-uruguay"
     },
-    "pageBanner": "Planes de Precios",
-    "whyChoose": {
-      "subtitle": "Por qué elegirnos",
-      "title": "Beneficios de trabajar con nosotros",
-      "missionTitle": "Nuestra Misión",
-      "missionText": "Ayudar a empresas y emprendedores a tener presencia digital profesional, accesible y escalable.",
-      "visionTitle": "Nuestra Visión",
-      "visionText": "Ser tu aliado estratégico en desarrollo web, SEO y marketing digital, garantizando resultados medibles.",
-      "cta": "Conocer más"
+    {
+      "icon": "fal fa-cogs",
+      "title": "Invertí sin sobredimensionar",
+      "text": "Podés empezar con algo simple y después sumar mejoras cuando haga falta.",
+      "href": "/precio-pagina-web-uruguay"
     },
-    "services": [
-      {
-        "icon": "fal fa-bezier-curve",
-        "title": "Reuniones a tiempo con expertos",
-        "text": "Nuestro equipo responde con agilidad para impulsar tus proyectos."
-      },
-      {
-        "icon": "fal fa-cogs",
-        "title": "Control de calidad por especialistas",
-        "text": "Validamos cada entrega para asegurar estándares profesionales."
-      },
-      {
-        "icon": "fal fa-chart-pie",
-        "title": "Reportes detallados",
-        "text": "Transparencia total en el avance de cada fase del proyecto."
-      },
-      {
-        "icon": "fal fa-shield-cross",
-        "title": "Selección de proyectos adecuados",
-        "text": "Priorizamos estrategias de alto impacto y eficiencia."
-      }
-    ],
-    "pricingSection": {
-      "subtitle": "Paquetes de Precios",
-      "title": "Opciones para todo tipo de proyectos web",
-      "plans": [
-        {
-          "name": "Paquete Básico",
-          "price": "18.3",
-          "unit": "/por mes",
-          "features": [
-            "Landing Page",
-            "Desarrollo Web",
-            "Optimización SEO",
-            "Diseño Responsivo",
-            "Garantía de Calidad",
-            "Soporte Básico"
-          ],
-          "cta": "Elegir Paquete"
-        },
-        {
-          "name": "Paquete Plata",
-          "badge": "Paquete Popular",
-          "price": "49.3",
-          "unit": "/por mes",
-          "features": [
-            "Landing Page + Blog",
-            "Desarrollo Web",
-            "SEO & SEM",
-            "Aplicaciones móviles básicas",
-            "Garantía de Calidad",
-            "Soporte Personalizado"
-          ],
-          "cta": "Elegir Paquete"
-        },
-        {
-          "name": "Paquete Oro",
-          "price": "98.3",
-          "unit": "/por mes",
-          "features": [
-            "Sitio Completo + Ecommerce",
-            "Desarrollo Web",
-            "SEO avanzado",
-            "Aplicaciones móviles",
-            "Garantía de Calidad",
-            "Soporte Premium"
-          ],
-          "cta": "Elegir Paquete"
-        }
-      ]
+    {
+      "icon": "fal fa-chart-pie",
+      "title": "Elegí con más claridad",
+      "text": "Te mostramos qué cambia entre una opción y otra para que decidas mejor.",
+      "href": "/crear-sitio-web-uruguay"
     },
-    "workWithUs": {
-      "subtitle": "Trabaja con Nosotros",
-      "title": "¿Tenés un proyecto en mente? Contáctanos.",
-      "cta": "Explorar más",
-      "bigText": "Trabajemos Juntos"
+    {
+      "icon": "fal fa-shield-cross",
+      "title": "Acompañamiento directo",
+      "text": "Hablás con nosotros de forma simple, sin vueltas ni procesos innecesarios.",
+      "href": "/contact"
     }
+  ],
+  "pricingSection": {
+    "subtitle": "Valores orientativos",
+    "title": "Opciones según lo que hoy necesita tu empresa",
+    "description": "Estos valores sirven como referencia inicial. La recomendación final depende de cuántas secciones necesitás, si ya tenés contenido y si hace falta sumar campañas o funciones extra."
+  },
+  "workWithUs": {
+    "subtitle": "Hablemos",
+    "title": "¿Querés que te digamos qué opción conviene hoy para tu empresa?",
+    "cta": "Solicitar recomendación",
+    "href": "/contact",
+    "bigText": "Trabajemos Juntos"
   }
-  
+}

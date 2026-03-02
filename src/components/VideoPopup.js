@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import ReactPlayer from "react-player";
 import useClickOutside from "../useClickOutside";
+import MagnificPopupStyles from "./MagnificPopupStyles";
 
 const VideoPopup_ = ({ close, videoID }) => {
   let domNode = useClickOutside(() => {
@@ -8,6 +9,7 @@ const VideoPopup_ = ({ close, videoID }) => {
   });
   return (
     <Fragment>
+      <MagnificPopupStyles />
       <div className="mfp-bg mfp-ready" onClick={() => close(false)}></div>
       <div
         className="mfp-wrap mfp-close-btn-in mfp-auto-cursor mfp-ready"

@@ -3,6 +3,7 @@ import Image from "next/image";
 import LanguageSelect from "./LanguageSelect";
 import Nav from "./Nav"; // navBarOriginal (referencia)
 import NavSearch from "./NavSearch";
+import { FacebookIcon, InstagramIcon } from "@/src/components/icons/SimpleIcons";
 
 const Header5 = ({ singleMenu, dark, locale }) => {
   const isEn = locale === 'en';
@@ -16,11 +17,11 @@ const Header5 = ({ singleMenu, dark, locale }) => {
               <div className="top-right">
               <LanguageSelect />
                 <div className="social-style-two">
-                  <a href="https://www.facebook.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                    <i className="fab fa-facebook-f" />
+                  <a href="https://www.facebook.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+                    <FacebookIcon />
                   </a>
-                  <a href="https://www.instagram.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                    <i className="fab fa-instagram" />
+                  <a href="https://www.instagram.com/software.strategy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+                    <InstagramIcon />
                   </a>
                 </div>
               </div>
@@ -34,7 +35,7 @@ const Header5 = ({ singleMenu, dark, locale }) => {
             <div className="logo-outer">
               <div className="logo">
                 <Link legacyBehavior href={isEn ? "/en" : "/"}>
-                  <a className="gtm-menu-link" data-cta="nav-brand">
+                  <a className="gtm-menu-link" data-cta="nav-brand" title="Software Strategy">
                     <Image
                       src={
                         dark
@@ -63,10 +64,11 @@ const Header5 = ({ singleMenu, dark, locale }) => {
               {/* Mobile brand logo (visible on tablets/mobiles) */}
               <div className="mobile-brand d-xl-none" style={{marginRight: 12}}>
                 <Link legacyBehavior href={isEn ? "/en" : "/"}>
-                  <a className="gtm-menu-link" aria-label={isEn ? "Go to home" : "Ir al inicio"} data-cta="nav-brand-mobile">
+                  <a className="gtm-menu-link" aria-label={isEn ? "Go to home" : "Ir al inicio"} data-cta="nav-brand-mobile" title="Software Strategy">
                     <Image
                       src={dark ? "/assets/images/logos/logo-and-text.png" : "/assets/images/logos/logo-and-text.png"}
                       alt="Software Strategy"
+                      title="Software Strategy"
                       width={3163}
                       height={710}
                       priority
@@ -81,7 +83,7 @@ const Header5 = ({ singleMenu, dark, locale }) => {
                 </div>
                 <div className="content">
                   <span>{isEn ? 'Call Anytime' : 'Llámanos'}</span>
-                  <a href="callto:+59891258107">+598 912 58 107</a>
+                  <a href="callto:+59898488759" title={isEn ? "Call +59898488759" : "Llamar al +59898488759"}>+59898488759</a>
                 </div>
               </div>
               {/* menu sidebar */}

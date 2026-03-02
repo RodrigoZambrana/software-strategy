@@ -7,6 +7,7 @@ import ServicesPage from "@/src/components/pages/ServicesPage";
 import ServiceDetailPage from "@/src/components/pages/ServiceDetailPage";
 import MarketingPage from "@/src/components/pages/MarketingPage";
 import ContactPage from "@/src/components/pages/ContactPage";
+import FaqsPage from "@/src/components/pages/FaqsPage";
 import { enrichHomeWithServiceSlides, buildPricingGroups } from "@/src/lib/contentUtils";
 
 export default function CatchAll({ page, locale, t }) {
@@ -19,10 +20,10 @@ export default function CatchAll({ page, locale, t }) {
       {page === "digital-marketing" && <MarketingPage t={t} locale={locale} />}
       {page === "seo-sem" && <ServiceDetailPage t={t} locale={locale} slug="seo-sem" />}
       {page === "services" && <ServicesPage t={t} locale={locale} />}
-
       {page === "contact" && <ContactPage t={t} locale={locale} />}
+      {page === "faqs" && <FaqsPage t={t} locale={locale} />}
       {/* Fallback simple si no matchea */}
-      {!(page === "home" || page === "pricing") && null}
+      {!(page === "home" || page === "pricing" || page === "web-development" || page === "custom-software" || page === "digital-marketing" || page === "seo-sem" || page === "services" || page === "contact" || page === "faqs") && null}
     </Layout>
   );
 }
@@ -37,6 +38,8 @@ export async function getStaticPaths() {
       { params: { slug: ["en", "pricing"] } }, // /en/pricing
       { params: { slug: ["contact"] } }, // /contact (ES)
       { params: { slug: ["en", "contact"] } }, // /en/contact
+      { params: { slug: ["faqs"] } }, // /faqs
+      { params: { slug: ["en", "faqs"] } }, // /en/faqs
       { params: { slug: ["services"] } }, // /services
       { params: { slug: ["en", "services"] } }, // /en/services
       // Service details under /services/{slug}
@@ -73,6 +76,7 @@ export async function getStaticProps({ params }) {
 
     if (a === "pricing") page = "pricing";
     if (a === "contact") page = "contact";
+    if (a === "faqs") page = "faqs";
 
     // Listado de servicios
     if (a === "servicios" || a === "services") page = "services";
@@ -99,8 +103,8 @@ export async function getStaticProps({ params }) {
 
   // Enriquecer contenido dinámico mediante utilidades compartidas
   try {
-    // 1) Home: agregar slides de los servicios al slider inicial
-    if (page === "home") {
+    // 1) Home: solo agregar slides extra si está explícitamente habilitado en contenido
+    if (page === "home" && t?.slider?.appendServiceSlides) {
       enrichHomeWithServiceSlides(t, locale);
     }
     // 2) Pricing: grupos por servicio (Web y Marketing)
