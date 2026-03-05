@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { SearchIcon } from "@/src/components/icons/SimpleIcons";
 
 const NavSearch = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="nav-search py-10">
-      <button className="fas fa-search" onClick={() => setToggle(!toggle)} />
+      <button type="button" onClick={() => setToggle(!toggle)} aria-label="Search">
+        <SearchIcon />
+      </button>
       <form
         action="#"
         onSubmit={(e) => {
@@ -19,7 +22,9 @@ const NavSearch = () => {
           className="searchbox"
           required
         />
-        <button type="submit" className="searchbutton fas fa-search" />
+        <button type="submit" className="searchbutton" aria-label="Search">
+          <SearchIcon size={16} />
+        </button>
       </form>
     </div>
   );

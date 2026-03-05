@@ -6,6 +6,7 @@ import Layout from "@/src/layout/Layout";
 import PageBanner from "@/src/components/PageBanner";
 import YgencyAccordionLite from "@/src/components/YgencyAccordionLite";
 import { ArrowRightIcon, WhatsAppIcon } from "@/src/components/icons/SimpleIcons";
+import { buildWhatsUrl } from "@/src/lib/ctaUtils";
 
 const FAQS = [
   {
@@ -122,7 +123,11 @@ const RESULT_CASES = [
 export default function DesarrolloSitiosWebUruguayPage() {
   const siteBase = (DefaultSEO?.canonical || "https://software-strategy.com/").replace(/\/$/, "");
   const canonical = `${siteBase}/desarrollo-sitios-web-uruguay`;
-  const whatsappHref = "https://wa.me/59898488759?text=Hola%20Software%20Strategy%2C%20quiero%20consultar%20por%20un%20sitio%20web%20para%20mi%20empresa.";
+  const whatsappHref = buildWhatsUrl({
+    locale: "es",
+    phone: "59898488759",
+    context: "webDevelopment",
+  });
   const [openFaqIndex, setOpenFaqIndex] = useState(0);
 
   const serviceJsonLd = {
@@ -252,14 +257,14 @@ export default function DesarrolloSitiosWebUruguayPage() {
               </Link>
             </div>
             <div className="col-lg-6">
-              <div className="text-center mt-30 mt-lg-0">
+              <div className="text-center mt-30 mt-lg-0 service-money-hero-image">
                 <img
                   src="/assets/images/services/what-we-do.jpg"
                   alt="Desarrollo web para PYMEs en Uruguay"
                   title="Desarrollo web para PYMEs en Uruguay"
                   width="650"
                   height="905"
-                  style={{ maxWidth: "100%", borderRadius: 10 }}
+                  style={{ maxWidth: "100%", height: "auto", borderRadius: 10 }}
                 />
               </div>
             </div>

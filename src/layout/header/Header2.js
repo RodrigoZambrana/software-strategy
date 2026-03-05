@@ -22,6 +22,9 @@ const Header2 = ({ singleMenu, dark, locale = "es" }) => {
                       }
                       alt="Logo"
                       title="Logo"
+                      width="1000"
+                      height="224"
+                      style={{ height: 42, width: "auto" }}
                     />
                   </a>
                 </Link>
@@ -47,6 +50,9 @@ const Header2 = ({ singleMenu, dark, locale = "es" }) => {
                     <img
                       src={dark ? "/assets/images/logos/logo-and-text.png" : "/assets/images/logos/logo-and-text.png"}
                       alt="Software Strategy"
+                      title="Software Strategy"
+                      width="1000"
+                      height="224"
                       style={{ height: 42, width: "auto" }}
                     />
                   </a>

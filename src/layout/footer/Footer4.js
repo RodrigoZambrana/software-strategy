@@ -76,6 +76,9 @@ const Footer4 = ({ dark }) => {
                           : "/assets/images/logos/logo-and-text.png"
                       }
                       alt="Logo"
+                      title="Logo"
+                      width="1000"
+                      height="224"
                     />
                   </a>
                 </Link>

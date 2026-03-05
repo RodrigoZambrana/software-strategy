@@ -2,8 +2,6 @@ import Link from "next/link";
 import { useState } from "react";
 import { NextSeo } from "next-seo";
 import DefaultSEO from "@/next-seo.config";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { sliderProps } from "@/src/sliderProps";
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import YgencyAccordionLite from "@/src/components/YgencyAccordionLite";
 import PageBanner from "@/src/components/PageBanner";
@@ -84,21 +82,6 @@ export default function MarketingPage({ t, locale = "es" }) {
         parentLabel={isEn ? 'Services' : 'Servicios'}
         parentHref={withLang('/services')}
       />
-
-      {/* Client Logo Two (from index5) */}
-      {false && t.clientLogos?.length > 0 && (
-        <div className="client-logo-area pt-120 pb-90 rpt-100 rpb-70">
-          <div className="container">
-            <div className="client-logo-wrap">
-              {t.clientLogos.map((logo, i) => (
-                <Link className="client-logo-item wow fadeInUp delay-0-2s" href={withLang("/contact")} key={`logo-${i}`}>
-                  <img src={logo} alt="Client Logo" />
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-      )}
 
       {/* What We Offer (from index5) */}
       {t.offer && (
@@ -199,55 +182,6 @@ export default function MarketingPage({ t, locale = "es" }) {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Work Gallery (removed per requirements) */}
-      {false && t.gallery && (
-        <section className="work-gallery-area py-130 rpy-100">
-          <div className="container container-1290">
-            <div className="row justify-content-center">
-              <div className="col-xl-8 col-lg-10">
-                <div className="section-title text-center mb-60 wow fadeInUp delay-0-2s">
-                  <span className="sub-title mb-20">{t.gallery.subtitle}</span>
-                  <h2>{t.gallery.title}</h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="container-fluid">
-            <Swiper {...sliderProps.galleryFiveActive} className="gallery-five-active">
-              {(t.gallery.items || []).map((g, i) => (
-                <SwiperSlide key={`${g.title}-${i}`}>
-                  <div className="project-item style-five wow fadeInUp delay-0-2s">
-                    <div className="image">
-                      <img src={g.image} alt="Work Gallery" loading="lazy" decoding="async" />
-                      <Link href={withLang(g.detailsHref || g.href || "/project-details")} className="project-btn" aria-label={isEn ? 'View details' : 'Ver detalles'}>
-                        <i className="fas fa-arrow-right" />
-                      </Link>
-                    </div>
-                    <div className="content">
-                      <Link href={withLang(g.categoryHref || "/projects")} className="category">
-                        {g.category || (isEn ? "Marketing, Branding" : "Marketing, Branding")}
-                      </Link>
-                      <h4>
-                        <Link href={withLang(g.detailsHref || g.href || "/project-details")}>{g.title}</Link>
-                      </h4>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="work-gallery-controls">
-              <button className="work-gallery-prev slick-arrow">
-                <i className="fas fa-chevron-left" />
-              </button>
-              <div className="work-gallery-dots slick-dots" />
-              <button className="work-gallery-next slick-arrow">
-                <i className="fas fa-chevron-right" />
-              </button>
             </div>
           </div>
         </section>

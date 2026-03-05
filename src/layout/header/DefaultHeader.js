@@ -24,8 +24,8 @@ const DefaultHeader = ({ singleMenu, dark, locale = "es" }) => {
                       }
                       alt="Logo"
                       title="Logo"
-                      width={3163}
-                      height={710}
+                      width={1000}
+                      height={224}
                       priority
                       style={{ height: 42, width: "auto" }}
                     />
@@ -54,8 +54,8 @@ const DefaultHeader = ({ singleMenu, dark, locale = "es" }) => {
                       src={dark ? "/assets/images/logos/logo-and-text.png" : "/assets/images/logos/logo-and-text.png"}
                       alt="Software Strategy"
                       title="Software Strategy"
-                      width={3163}
-                      height={710}
+                      width={1000}
+                      height={224}
                       priority
                       style={{ height: 42, width: "auto" }}
                     />

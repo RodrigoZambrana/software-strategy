@@ -16,8 +16,8 @@ const Nav = ({ singleMenu, variant, locale }) => {
                 src="/assets/images/logos/logo-and-text.png"
                 alt="Logo"
                 title="Logo"
-                width={3163}
-                height={710}
+                width={1000}
+                height={224}
                 priority
                 style={{ height: 42, width: "auto" }}
               />

@@ -1,7 +1,7 @@
 import PageBanner from "@/src/components/PageBanner";
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import Link from "next/link";
-import dynamic from "next/dynamic";
+import Counter from "@/src/components/Counter";
 import { useMemo, useState } from "react";
 import YgencyAccordionLite from "@/src/components/YgencyAccordionLite";
 import { buildPlanWhatsUrl } from "@/src/lib/ctaUtils";
@@ -10,7 +10,6 @@ import DefaultSEO from "@/next-seo.config";
 
 export default function ServiceDetailPage({ t, locale = "es", slug = "" }) {
   const isEn = locale === "en";
-  const Counter = dynamic(() => import("@/src/components/Counter"), { ssr: false });
   const withLang = (href) => {
     if (!href) return "/";
     if (/^(https?:)?\/\//.test(href) || href.startsWith("mailto:") || href.startsWith("tel:")) return href;
