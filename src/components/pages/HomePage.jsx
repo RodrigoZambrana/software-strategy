@@ -1,14 +1,10 @@
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import Home5Slider from "@/src/components/sliders/Home5Slider";
 import { FAQPageJsonLd, NextSeo } from "next-seo";
 import DefaultSEO from "@/next-seo.config";
 import esFooter from "@/content/es/footer.json";
 import enFooter from "@/content/en/footer.json";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { sliderProps } from "@/src/sliderProps";
-
-const Counter = dynamic(() => import("@/src/components/Counter"), { ssr: false });
+import Counter from "@/src/components/Counter";
 
 export default function HomePage({ t, locale }) {
   const isEn = locale === "en";
@@ -656,47 +652,71 @@ export default function HomePage({ t, locale }) {
                   {t.commercialClarity.subtitle && (
                     <span className="sub-title mb-15">{t.commercialClarity.subtitle}</span>
                   )}
-                  <h2>{t.commercialClarity.title}</h2>
+                  <h2 className="commercial-clarity-title">{t.commercialClarity.title}</h2>
                   {t.commercialClarity.text && <p className="mt-15">{t.commercialClarity.text}</p>}
                 </div>
               </div>
             </div>
             <div className="row">
               <div className="col-lg-6">
-                <div className="why-choose-item-two wow fadeInUp delay-0-2s">
-                  {t.commercialClarity.includesTitle && <h4>{t.commercialClarity.includesTitle}</h4>}
-                  <ul className="list-style-one mt-10 mb-0">
-                    {(t.commercialClarity.includes || []).map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
+                <div className="why-choose-item-two commercial-clarity-split wow fadeInUp delay-0-2s">
+                  <div className="commercial-clarity-split-grid">
+                    <div className="commercial-clarity-split-copy">
+                      {t.commercialClarity.includesTitle && <h4 className="commercial-clarity-split-title">{t.commercialClarity.includesTitle}</h4>}
+                    </div>
+                    <div className="commercial-clarity-split-points">
+                      <ul className="list-style-one commercial-clarity-split-list mt-10 mb-0">
+                        {(t.commercialClarity.includes || []).map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div className="why-choose-item-two wow fadeInUp delay-0-3s mt-20">
-                  {t.commercialClarity.notIncludesTitle && <h4>{t.commercialClarity.notIncludesTitle}</h4>}
-                  <ul className="list-style-one mt-10 mb-0">
-                    {(t.commercialClarity.notIncludes || []).map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
+                <div className="why-choose-item-two commercial-clarity-split wow fadeInUp delay-0-3s mt-20">
+                  <div className="commercial-clarity-split-grid">
+                    <div className="commercial-clarity-split-copy">
+                      {t.commercialClarity.notIncludesTitle && <h4 className="commercial-clarity-split-title">{t.commercialClarity.notIncludesTitle}</h4>}
+                    </div>
+                    <div className="commercial-clarity-split-points">
+                      <ul className="list-style-one commercial-clarity-split-list mt-10 mb-0">
+                        {(t.commercialClarity.notIncludes || []).map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-6">
-                <div className="why-choose-item-two wow fadeInUp delay-0-4s">
-                  {t.commercialClarity.methodologyTitle && <h4>{t.commercialClarity.methodologyTitle}</h4>}
-                  <ul className="list-style-one mt-10 mb-0">
-                    {(t.commercialClarity.methodology || []).map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
+                <div className="why-choose-item-two commercial-clarity-split wow fadeInUp delay-0-4s">
+                  <div className="commercial-clarity-split-grid">
+                    <div className="commercial-clarity-split-copy">
+                      {t.commercialClarity.methodologyTitle && <h4 className="commercial-clarity-split-title">{t.commercialClarity.methodologyTitle}</h4>}
+                    </div>
+                    <div className="commercial-clarity-split-points">
+                      <ul className="list-style-one commercial-clarity-split-list mt-10 mb-0">
+                        {(t.commercialClarity.methodology || []).map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div className="why-choose-item-two wow fadeInUp delay-0-5s mt-20">
-                  {t.commercialClarity.localTitle && <h4>{t.commercialClarity.localTitle}</h4>}
-                  {t.commercialClarity.localText && <p className="mt-10">{t.commercialClarity.localText}</p>}
-                  <ul className="list-style-one mt-10 mb-0">
-                    {(t.commercialClarity.localPoints || []).map((item) => (
-                      <li key={item}>{item}</li>
-                    ))}
-                  </ul>
+                <div className="why-choose-item-two commercial-clarity-coverage wow fadeInUp delay-0-5s mt-20">
+                  <div className="commercial-clarity-coverage-grid">
+                    <div className="commercial-clarity-coverage-copy">
+                      {t.commercialClarity.localTitle && <h4 className="commercial-clarity-coverage-title">{t.commercialClarity.localTitle}</h4>}
+                      {t.commercialClarity.localText && <p className="commercial-clarity-coverage-text mt-10">{t.commercialClarity.localText}</p>}
+                    </div>
+                    <div className="commercial-clarity-coverage-points">
+                      <ul className="list-style-one commercial-clarity-coverage-list mt-10 mb-0">
+                        {(t.commercialClarity.localPoints || []).map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

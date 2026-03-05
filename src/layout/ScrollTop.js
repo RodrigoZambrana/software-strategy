@@ -1,16 +1,12 @@
-import { useEffect } from "react";
-import { scrollTopFun } from "../utils";
+import { DoubleChevronUpIcon } from "@/src/components/icons/SimpleIcons";
 
 const ScrollTop = () => {
-  useEffect(() => {
-    scrollTopFun();
-  }, []);
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
   return (
-    <button className="scroll-top scroll-to-target" onClick={() => scrollTop()}>
-      <span className="fas fa-angle-double-up" />
+    <button className="scroll-top scroll-to-target" onClick={() => scrollTop()} aria-label="Volver arriba" title="Volver arriba" type="button">
+      <DoubleChevronUpIcon />
     </button>
   );
 };

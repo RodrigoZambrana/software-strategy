@@ -1,8 +1,8 @@
 # Texto Completo del Sitio - Software Strategy
 
-Generado: 2026-03-02T14:00:57.973Z
+Generado: 2026-03-02T22:24:31.960Z
 Fuente: HTML exportado en `out/`
-Páginas incluidas: 28
+Páginas incluidas: 54
 
 ---
 
@@ -19,9 +19,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -36,8 +36,8 @@ Contenido:
 - Resultados comerciales, no solo diseño
 - Solicitar una reunión inicial
 - Conversemos sobre tu proyecto
-- prev
-- next
+- Tu empresa necesita una web que transmita confianza
+- y ayude a generar consultas reales.
 - Desarrollamos sitios web profesionales para pequeñas y medianas empresas de Uruguay que necesitan dejar de ser invisibles en internet y empezar a transmitir confianza, profesionalismo y solidez.
 - Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
 - Claridad inmediata sobre lo que hace tu empresa
@@ -80,10 +80,10 @@ Contenido:
 - 04
 - Soluciones tecnológicas a medida
 - Cuando tu empresa necesita algo más que una web, desarrollamos herramientas adaptadas a cómo trabaja tu negocio.
-- Años de experiencia
-- Proyectos completados
-- Especialistas
-- % enfoque en calidad
+- 8 Años de experiencia
+- 50 Proyectos completados
+- 8 Especialistas
+- 100 % enfoque en calidad
 - Empresas de Uruguay que ya dieron el paso
 - Resultados reales, no promesas. Trabajamos con PYMEs que pasaron de depender solo de redes a tener una web que transmite confianza y genera consultas reales.
 - PYME Servicios B2B Comercio Minorista Estudio Profesional Empresa Industrial Distribuidora Regional Startup de Servicios
@@ -197,6 +197,9 @@ Contenido:
 - Priorizamos que te entiendan, confíen en tu empresa y te contacten.
 - Relación directa y profesional
 - Comunicación clara, decisiones concretas y acompañamiento durante todo el proceso.
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -223,9 +226,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -240,6 +243,9 @@ Contenido:
 - Facebook
 - Twitter
 - Dribbble
+- Llamar
+- WhatsApp
+- Email
 - Instagram
 - ¡Trabajemos juntos!
 - info@software-strategy.com
@@ -267,9 +273,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -300,6 +306,71 @@ Contenido:
 - Definimos prioridades concretas para avanzar sin dispersión ni complejidad innecesaria.
 - Relación directa
 - Sin intermediarios innecesarios ni procesos eternos: comunicación clara y foco en ejecución.
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /about
+
+URL: https://software-strategy.com/about
+Título: Sobre Nosotros | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Sobre la empresa
+- Desarrollo web y soluciones tecnológicas para PYMEs
+- ¿Quiénes somos?
+- Software Strategy es una empresa uruguaya que trabaja con pequeñas y medianas empresas que necesitan mejorar su presencia digital, transmitir más confianza y convertir esa presencia en oportunidades reales.
+- ¿Cómo trabajamos?
+- Trabajamos de forma directa, sin estructuras infladas ni procesos innecesarios. Primero entendemos el negocio, luego definimos la solución y recién después desarrollamos. Buscamos claridad, simplicidad y resultados sostenibles.
+- Ver desarrollo web para PYMEs
+- Hablemos
+- Desarrollo Web Profesional
+- Sitios claros y confiables para que tu empresa se vea profesional y reciba consultas reales.
+- Estrategia Digital
+- Definimos prioridades, campañas y acciones para que tu presencia online tenga dirección y foco comercial.
+- Visibilidad en Google y anuncios
+- Mejoramos cómo aparece tu empresa cuando la buscan y conectamos esa demanda con oportunidades reales.
+- Soluciones a Medida
+- Desarrollos específicos para ordenar procesos, mejorar control y acompañar el crecimiento de tu operación.
+- Claridad y posicionamiento
+- Ordenamos mensaje, estructura y presencia digital para que tu empresa sea más fácil de entender y de elegir.
+- Decisiones con criterio
+- Definimos prioridades concretas para avanzar sin dispersión ni complejidad innecesaria.
+- Relación directa
+- Sin intermediarios innecesarios ni procesos eternos: comunicación clara y foco en ejecución.
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -326,9 +397,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -340,7 +411,7 @@ Contenido:
 - Home
 - Reunión inicial
 - Contanos qué necesita hoy tu empresa y vemos cómo avanzar
-- Escribinos por WhatsApp o email. Te respondemos claro y sin vueltas:
+- Escribinos por WhatsApp o email y aclararemos todas tus dudas:
 - info@software-strategy.com
 - Síguenos
 - Conversemos
@@ -348,6 +419,61 @@ Contenido:
 - Sitio web
 - Solicitar reunión inicial
 - Este formulario está protegido por reCAPTCHA y se aplican la Política de Privacidad y los Términos del Servicio de Google.
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /contact
+
+URL: https://software-strategy.com/contact
+Título: Contacto | Reunión inicial para tu proyecto digital | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Home
+- Reunión inicial
+- Contanos qué necesita hoy tu empresa y vemos cómo avanzar
+- Escribinos por WhatsApp o email y aclararemos todas tus dudas:
+- info@software-strategy.com
+- Síguenos
+- Conversemos
+- Completá el formulario y coordinamos una reunión inicial
+- Sitio web
+- Solicitar reunión inicial
+- Este formulario está protegido por reCAPTCHA y se aplican la Política de Privacidad y los Términos del Servicio de Google.
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -375,9 +501,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -425,6 +551,90 @@ Contenido:
 - Solicitar propuesta para mi empresa
 - Ver rangos de precio para sitio web en Uruguay
 - Ver servicio completo de desarrollo web para PYMEs
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /crear-sitio-web-uruguay
+
+URL: https://software-strategy.com/crear-sitio-web-uruguay
+Título: Crear sitio web para tu empresa en Uruguay | Primera presencia profesional | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Crear sitio web para tu empresa en Uruguay
+- Crear sitio web en Uruguay para empezar a recibir consultas reales
+- Si tu empresa todavía no tiene sitio web, esta es una forma clara y rentable de empezar. Creamos una presencia profesional para que tu negocio gane credibilidad, aparezca mejor en Google y tenga un canal propio de contacto.
+- Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
+- ¿Qué incluye esta primera versión de tu sitio?
+- Estructura clara para que más visitas se conviertan en consultas.
+- Textos claros para que el cliente entienda rápido qué hacés.
+- Base para aparecer en Google con contenidos y metadatos correctos.
+- Diseño adaptable a celulares, tablets y desktop.
+- Formulario y WhatsApp integrados para contacto directo.
+- Publicación con dominio y hosting configurados.
+- Acompañamiento inicial para ajustes post-lanzamiento.
+- Plan simple para sumar mejoras más adelante.
+- ¿Cómo trabajamos?
+- 1. Diagnóstico comercial
+- Entendemos qué ofrecés, a quién querés llegar y qué resultado buscás.
+- 2. Estructura y mensaje
+- Definimos secciones, textos y llamados a la acción para que te entiendan rápido.
+- 3. Diseño y desarrollo
+- Construimos el sitio con foco en confianza, claridad y conversión.
+- 4. Publicación y mejora
+- Lanzamos, medimos resultados y proponemos mejoras por etapas.
+- ¿Cuánto demora crear un sitio web para una PYME en Uruguay?
+- En la mayoría de los casos entre 3 y 6 semanas, según cantidad de secciones, contenidos e integraciones requeridas.
+- ¿Puedo empezar con algo simple y mejorar después?
+- Sí. Podés empezar con una versión simple y después sumar mejoras según cómo responda tu negocio.
+- ¿El sitio queda preparado para aparecer en Google?
+- Sí. Incluimos estructura, metadatos y contenidos base para que Google entienda claramente tu negocio.
+- ¿Trabajan solo en Uruguay?
+- Uruguay es la prioridad comercial. También acompañamos empresas que luego quieran escalar a otros mercados de LATAM.
+- ¿Incluyen soporte luego de publicar?
+- Sí. Podemos incluir mantenimiento, ajustes de contenido y mejoras continuas según objetivos.
+- ¿Cuándo conviene pasar al servicio completo de desarrollo web?
+- Cuando necesitás más secciones, explicar mejor tus servicios o tener una base más completa para aparecer en Google y recibir más consultas.
+- ¿Listo para crear tu sitio web en Uruguay?
+- Te proponemos una primera versión clara, profesional y fácil de ampliar después.
+- Solicitar propuesta para mi empresa
+- Ver rangos de precio para sitio web en Uruguay
+- Ver servicio completo de desarrollo web para PYMEs
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -453,9 +663,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -470,7 +680,7 @@ Contenido:
 - Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
 - Queda claro en segundos qué hace tu empresa y por qué conviene contactarla.
 - Formulario y WhatsApp visibles para generar consultas reales.
-- Base preparada para crecer en Uruguay y ampliar luego a LATAM sin rehacer el sitio.
+- Base preparada para crecer en Uruguay.
 - Quiero una propuesta para mi empresa
 - Qué incluye un sitio web pensado para vender
 - Mensaje comercial claro
@@ -549,6 +759,136 @@ Contenido:
 - ¿Querés que tu empresa aparezca en Google y empiece a recibir consultas reales?
 - Escribinos y te mostramos qué tipo de sitio conviene hoy para tu empresa.
 - Quiero aparecer en Google y recibir consultas
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /desarrollo-sitios-web-uruguay
+
+URL: https://software-strategy.com/desarrollo-sitios-web-uruguay
+Título: Desarrollo de sitios web para PYMEs en Uruguay | Aparecé en Google y generá consultas | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Desarrollo de sitios web para PYMEs en Uruguay
+- ¿Qué mejora en tu empresa con un sitio web bien planteado?
+- Si hoy tu empresa no aparece bien en Google o depende solo de redes sociales, estás perdiendo consultas antes de hablar con un cliente. Desarrollamos sitios web para PYMEs en Uruguay pensados para transmitir confianza, ordenar tu propuesta comercial y generar oportunidades reales.
+- Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
+- Queda claro en segundos qué hace tu empresa y por qué conviene contactarla.
+- Formulario y WhatsApp visibles para generar consultas reales.
+- Base preparada para crecer en Uruguay.
+- Quiero una propuesta para mi empresa
+- Qué incluye un sitio web pensado para vender
+- Mensaje comercial claro
+- Tu empresa explica mejor qué hace, a quién ayuda y por qué conviene escribirte.
+- Base para aparecer en Google
+- Los títulos, los textos y la estructura ayudan a que Google entienda tu negocio desde el primer día.
+- Contacto visible y medible
+- Formulario y WhatsApp quedan integrados para transformar visitas en consultas comerciales reales.
+- Compará opciones según tu etapa
+- Acá tenés una comparación rápida para elegir la mejor opción según tu objetivo y presupuesto.
+- Característica
+- Landing para empezar
+- Sitio corporativo
+- Plan escalable
+- Objetivo principal
+- Empezar rápido
+- Posicionarte profesionalmente
+- Escalar con integraciones
+- Ideal para
+- Empresas sin web
+- PYMEs con oferta definida
+- Operaciones en crecimiento
+- Tiempo estimado
+- 2 a 3 semanas
+- 3 a 6 semanas
+- Por etapas
+- Inversión referencial
+- Desde USD 200
+- Desde USD 500
+- Desde USD 1.300
+- Ver opción Landing
+- Ver opción Corporativa
+- Ver rangos de inversión
+- Proceso simple en 4 pasos
+- 01
+- Diagnóstico
+- Definimos qué querés lograr y a quién querés llegar.
+- 02
+- Estructura
+- Organizamos mensajes y secciones para convertir mejor.
+- 03
+- Desarrollo
+- Construimos un sitio claro, rápido y confiable.
+- 04
+- Lanzamiento
+- Publicamos y dejamos la base lista para sumar mejoras después.
+- Resultados reales en proyectos similares
+- Servicios profesionales
+- +42% consultas en 90 días
+- Pasó de depender solo de redes a recibir contactos desde Google y formulario web.
+- Comercio local
+- +58% contactos calificados
+- Se mejoró estructura del sitio y CTA para aumentar intención de compra.
+- Empresa sin sitio previo
+- Primera consulta en 12 días
+- Lanzó presencia digital inicial orientada a confianza y captación comercial.
+- ¿Ya tenés web pero no funciona bien? Ver mantenimiento web en Uruguay
+- Preguntas clave antes de contratar
+- ¿Cuánto demora lanzar un sitio web para una PYME?
+- En proyectos estándar, el rango habitual es de 3 a 6 semanas. El plazo final depende de alcance y contenidos disponibles.
+- ¿Qué opción conviene: landing, sitio corporativo o plan escalable?
+- Depende de lo que necesite hoy tu empresa. Si recién empezás, conviene una landing. Si necesitás mostrar mejor tus servicios y generar más confianza, conviene un sitio corporativo. Si después querés sumar funciones o integraciones, podés pasar a una opción más completa.
+- ¿Qué inversión inicial necesita una PYME en Uruguay?
+- Depende del alcance. Una landing puede empezar desde USD 200, un sitio corporativo desde USD 500 y una base escalable desde USD 1.300.
+- ¿El sitio queda listo para aparecer en Google?
+- Sí. Incluimos estructura clara, metadatos y contenido base para que Google entienda tu empresa desde el inicio.
+- ¿Qué pasa si ya tengo una web pero no funciona?
+- Primero evaluamos si conviene mejorar la web actual o avanzar directamente con una nueva estructura. Si la base existente limita demasiado, recomendamos rediseñar sobre una base más sólida.
+- ¿Qué necesito entregar para empezar el proyecto?
+- Lo ideal es contar con una explicación clara de tus servicios, referencias de tu negocio, datos de contacto y material visual básico. Si falta parte de eso, te ayudamos a ordenarlo.
+- ¿Puedo comenzar con algo simple y ampliarlo después?
+- Sí. Podemos arrancar con una versión simple y dejar el sitio preparado para sumar secciones, contenidos o funciones más adelante.
+- ¿Aún tenés dudas? Podés ver más respuestas o escribirnos por WhatsApp.
+- Ver preguntas frecuentes
+- Contactar por WhatsApp
+- ¿Querés que tu empresa aparezca en Google y empiece a recibir consultas reales?
+- Escribinos y te mostramos qué tipo de sitio conviene hoy para tu empresa.
+- Quiero aparecer en Google y recibir consultas
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -577,9 +917,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -648,6 +988,111 @@ Contenido:
 - Coordinemos una reunión y veamos qué conviene resolver primero para que tu empresa trabaje mejor.
 - Solicitar diagnóstico
 - Si todavía no tenés una web sólida, empezá por desarrollo web para PYMEs
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /desarrollo-software-medida-uruguay
+
+URL: https://software-strategy.com/desarrollo-software-medida-uruguay
+Título: Desarrollo de software a medida en Uruguay | Automatización, integraciones y backoffice | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Desarrollo de software a medida en Uruguay
+- Cuando tu operación crece, el software genérico empieza a frenarte
+- Cuando una empresa crece, las planillas, los procesos manuales y las herramientas sueltas empiezan a hacer perder tiempo y control. En Software Strategy desarrollamos software a medida en Uruguay para ordenar tareas, conectar sistemas y trabajar con más claridad.
+- Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
+- ¿Qué resolvemos con software a medida?
+- Problemas operativos frecuentes
+- Procesos críticos que dependen de planillas o tareas manuales.
+- Información duplicada o desordenada entre diferentes plataformas.
+- Falta de control para detectar dónde se está perdiendo tiempo o dinero.
+- Sistemas que obligan al negocio a adaptarse, en lugar de lo contrario.
+- Tipos de soluciones
+- Paneles internos y tableros para ver mejor qué está pasando en cada área.
+- Integraciones entre ERP, CRM, pagos, logística y e-commerce.
+- Automatización de tareas repetitivas y procesos de alto impacto.
+- Módulos específicos para ventas, operaciones, administración y reportes.
+- ¿Qué tipo de empresa suele necesitar esta solución?
+- Suele tener más sentido cuando el trabajo diario ya se volvió demasiado complejo para resolverlo bien con un sistema genérico.
+- Comercios y distribución
+- Cuando hay ventas, stock, precios y movimientos que hoy se resuelven entre planillas, WhatsApp y sistemas desconectados.
+- Empresas de servicios
+- Cuando el seguimiento de clientes, tareas, aprobaciones o reportes depende demasiado de trabajo manual.
+- Operaciones con varias áreas
+- Cuando administración, ventas y operaciones necesitan ver la misma información sin duplicaciones ni errores.
+- Negocios en expansión
+- Cuando el crecimiento empieza a exigir conexiones entre sistemas, menos trabajo manual y más control del día a día.
+- Software de facturación y stock para PYMEs
+- Detectamos una alta demanda en Uruguay para consultas como programa de facturación y stock, sistema de facturación web y software de gestión empresarial. Por eso creamos una solución específica para comercios y PYMEs de Uruguay y LATAM que necesitan integrar operación y control.
+- Ver solución de facturación, stock e inventario
+- Proceso de implementación
+- 1. Discovery y priorización
+- Revisamos cómo trabaja hoy tu empresa, dónde se tranca el proceso y qué conviene resolver primero.
+- 2. Diseño funcional y técnico
+- Definimos cómo va a funcionar la herramienta, qué sistemas hay que conectar y cómo avanzar paso a paso.
+- 3. Desarrollo incremental
+- Construimos en iteraciones cortas con validación continua del equipo de negocio.
+- 4. QA, seguridad y despliegue
+- Probamos, aseguramos estabilidad y lanzamos con monitoreo de desempeño.
+- 5. Evolución continua
+- Escalamos funcionalidades según nuevos objetivos y crecimiento de la empresa.
+- Preguntas frecuentes sobre software a medida
+- ¿Cuándo conviene desarrollar software a medida en una PYME?
+- Cuando las planillas o herramientas genéricas ya no alcanzan y empiezan a hacerte perder tiempo, control o dinero.
+- ¿Cómo se define el alcance y presupuesto?
+- Primero vemos qué problema hace más ruido hoy en tu empresa. Después definimos qué conviene resolver primero y cómo avanzar sin sobredimensionar el proyecto.
+- ¿Pueden integrar el software con sistemas existentes?
+- Sí. Diseñamos integraciones con APIs, ERPs, CRMs, pasarelas de pago y otras plataformas según el caso.
+- ¿Trabajan con MVP para reducir riesgo?
+- Sí. Recomendamos comenzar con un MVP para validar valor de negocio y después escalar por módulos.
+- ¿Incluyen soporte y evolución posterior?
+- Sí. Podemos incluir mantenimiento, mejoras continuas y nuevas funcionalidades según evolución del negocio.
+- ¿Cuándo no conviene desarrollar software a medida?
+- Cuando una herramienta estándar ya resuelve bien el proceso y el costo de personalizar no se justifica. Primero evaluamos si conviene adaptar una solución existente o desarrollar algo propio.
+- ¿Qué módulo conviene resolver primero?
+- Conviene empezar por el módulo que hoy genera más fricción operativa o pérdida de tiempo: ventas, stock, aprobaciones, trazabilidad o integraciones críticas.
+- ¿Qué tipo de empresa obtiene retorno más rápido?
+- Las empresas que ya manejan bastante movimiento, repiten muchas tareas manuales o tienen información desordenada suelen notar más rápido el ahorro de tiempo y el mejor control.
+- ¿Necesitás ordenar y escalar tu operación?
+- Coordinemos una reunión y veamos qué conviene resolver primero para que tu empresa trabaje mejor.
+- Solicitar diagnóstico
+- Si todavía no tenés una web sólida, empezá por desarrollo web para PYMEs
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -676,9 +1121,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -687,31 +1132,12 @@ Contenido:
 - Call Anytime
 - +59898488759
 - Menu
-- Integrations & automation
-- to scale your operations
-- Senior team
-- Request a quote
 - SMB digital growth
 - Your business needs more than an online presence.
 - It needs to generate real opportunities.
 - Business-first execution
 - Schedule an introductory call
 - Let’s talk about your project
-- Website Development
-- Professional websites for growing businesses
-- focused on trust and real inquiries
-- Business-focused approach
-- Digital Strategy
-- Turn online attention
-- into real business opportunities
-- Focused on qualified inquiries
-- Campaigns with clear direction
-- and measurable outcomes
-- Be visible when clients search
-- and turn demand into qualified inquiries
-- Practical, measurable approach
-- prev
-- next
 - We build professional websites for small and medium-sized businesses looking to strengthen their digital presence and attract new clients.
 - Our goal is simple: create digital platforms that communicate credibility, clarity, and long-term value.
 - Clear value proposition from the first seconds
@@ -755,10 +1181,10 @@ Contenido:
 - 04
 - Custom technology solutions
 - Tailored systems when your business requires more than a corporate website.
-- Years experience
-- Projects delivered
-- Specialists
-- % quality focus
+- 8 Years experience
+- 50 Projects delivered
+- 8 Specialists
+- 100 % quality focus
 - Common questions before moving forward
 - What a growing business usually needs to clarify before investing
 - These quick answers help define the right website approach and the next practical step for your business.
@@ -806,11 +1232,159 @@ Contenido:
 - Our priority is simple: help your company be understood, trusted and contacted.
 - Direct and professional collaboration
 - Clear communication, practical decisions and close support throughout the process.
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - Let’s Work Together
 - info@software-strategy.com
 - Quick Links
+- Website Development
+- Digital Strategy
+- About
+- Frequently Asked Questions
+- How We Work
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en
+
+URL: https://software-strategy.com/en
+Título: Professional Website Development for SMBs | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- SMB digital growth
+- Your business needs more than an online presence.
+- It needs to generate real opportunities.
+- Business-first execution
+- Schedule an introductory call
+- Let’s talk about your project
+- We build professional websites for small and medium-sized businesses looking to strengthen their digital presence and attract new clients.
+- Our goal is simple: create digital platforms that communicate credibility, clarity, and long-term value.
+- Clear value proposition from the first seconds
+- Stronger trust and professional perception
+- More inquiries through your own channels
+- Scalable structure for future growth
+- Trust & reliability
+- Included in every project
+- SSL certificate and security
+- Secure connections protect contact data and increase trust from the first visit.
+- Hosting and domain support
+- Stable infrastructure and professional setup without fragmented tools.
+- Responsive design
+- A consistent experience across mobile, tablet and desktop devices.
+- Optimized speed
+- Fast pages reduce drop-off and improve the probability of conversion.
+- The problem
+- A weak digital presence quietly costs you opportunities
+- Many businesses still rely only on social media, use outdated websites, or fail to appear when potential clients search for their services.
+- Relying only on social media channels
+- Outdated websites that hurt trust
+- Low search visibility for relevant intent
+- Losing potential clients without clear signals
+- SMB focus
+- Business clarity
+- Long-term value
+- See how we solve this
+- How we deliver value
+- Not just beautiful pages. Clear, structured business platforms.
+- Every project is aligned with business objectives: visibility, trust and conversion.
+- 01
+- Professional website development
+- Modern, fast and clear websites designed to communicate credibility from the first interaction.
+- See more
+- 02
+- Search visibility optimization
+- Structure and content to help your business appear in relevant searches.
+- 03
+- Digital strategy consulting
+- Strategic guidance to keep your online presence coherent, focused and measurable.
+- 04
+- Custom technology solutions
+- Tailored systems when your business requires more than a corporate website.
+- 8 Years experience
+- 50 Projects delivered
+- 8 Specialists
+- 100 % quality focus
+- Common questions before moving forward
+- What a growing business usually needs to clarify before investing
+- These quick answers help define the right website approach and the next practical step for your business.
+- What kind of website fits your current stage?
+- If you are starting, a landing page or a simple first website is often enough. If you need stronger credibility and clearer service communication, a full website is the better move.
+- How long does a professional website usually take?
+- Standard projects usually take between 3 and 6 weeks, depending on scope, content availability and required integrations.
+- Can you start simple and expand later?
+- Yes. We build a clear foundation so your business can grow in stages without rebuilding everything from scratch.
+- View website development service
+- Read more questions
+- Solutions designed for real business outcomes
+- Websites built to improve trust and generate qualified inquiries.
+- Conversion-focused structure
+- Read more
+- Improve how your company appears when potential clients are actively searching.
+- Relevant visibility
+- Better inquiry flow
+- Prioritized, practical guidance to align your channels with business goals.
+- Clear direction
+- Measured progress
+- Tailored systems to support operational growth and decision-making.
+- Built for your operation
+- Scalable architecture
+- Options by stage
+- Choose the right path for your current business stage
+- Work with us
+- Start with clarity. Scale without rebuilding from scratch.
+- Website Development Plans
+- From first launch to scalable business presence.
+- Fast implementation
+- Business-first structure
+- Ongoing support
+- See details
+- Digital Marketing Plans
+- Turn online attention into measurable demand and qualified conversations.
+- Campaign execution
+- Performance tracking
+- Continuous optimization
+- Why we work differently
+- A website should be a business asset, not a decorative cost
+- No one-size-fits-all packages
+- Each business has a different context. We design solutions around that context.
+- Business-focused execution
+- Our priority is simple: help your company be understood, trusted and contacted.
+- Direct and professional collaboration
+- Clear communication, practical decisions and close support throughout the process.
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- Let’s Work Together
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- Digital Strategy
 - About
 - Frequently Asked Questions
 - How We Work
@@ -833,9 +1407,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -865,6 +1439,71 @@ Contenido:
 - We define clear priorities so your digital investment moves forward without noise or unnecessary complexity.
 - Direct collaboration
 - No unnecessary layers, no endless process. Just clear communication and business-focused execution.
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- Let’s Work Together
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- About
+- Frequently Asked Questions
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/about
+
+URL: https://software-strategy.com/en/about
+Título: About Us | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- About the Company
+- Professional websites and technology solutions for growing businesses
+- Who we are
+- Software Strategy is a technology-focused company specialized in professional website development and digital solutions for businesses that need stronger trust, clearer positioning and better commercial outcomes.
+- How we work
+- We work directly, without inflated structures or unnecessary complexity. We first understand the business, then define the right solution, and only then build it with a clear business focus.
+- View website development
+- Let’s talk
+- Professional Website Development
+- Websites built to improve trust, communicate clearly and generate qualified inquiries.
+- Digital Strategy
+- Practical strategy and execution to align channels, message and business priorities.
+- Improve how your business appears when potential clients are actively searching.
+- Custom Technology Solutions
+- Tailored systems designed to simplify operations and support long-term growth.
+- Clarity and positioning
+- We organize message, structure and digital presence so your business becomes easier to understand and easier to trust.
+- Practical decision-making
+- We define clear priorities so your digital investment moves forward without noise or unnecessary complexity.
+- Direct collaboration
+- No unnecessary layers, no endless process. Just clear communication and business-focused execution.
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - Let’s Work Together
@@ -892,9 +1531,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -913,6 +1552,61 @@ Contenido:
 - Website
 - Schedule introductory call
 - This form is protected by reCAPTCHA and Google’s Privacy Policy and Terms of Service apply.
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- Let’s Work Together
+- Quick Links
+- Website Development
+- Digital Strategy
+- About
+- Frequently Asked Questions
+- How We Work
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/contact
+
+URL: https://software-strategy.com/en/contact
+Título: Contact | Schedule an introductory call | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Introductory call
+- Tell us your current stage and we’ll define the best next step
+- Message us on WhatsApp or email. We reply with a clear initial plan:
+- info@software-strategy.com
+- Follow us
+- Let’s talk
+- Complete the form and schedule an introductory call
+- Website
+- Schedule introductory call
+- This form is protected by reCAPTCHA and Google’s Privacy Policy and Terms of Service apply.
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - Let’s Work Together
@@ -941,9 +1635,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -970,6 +1664,69 @@ Contenido:
 - View website development service
 - Schedule an introductory call
 - We’re Here To Help
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- Let’s Work Together
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- Digital Strategy
+- About
+- How We Work
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/faqs
+
+URL: https://software-strategy.com/en/faqs
+Título: Frequently Asked Questions | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Frequently Asked Questions
+- Clear answers
+- Key questions to make better decisions
+- How long does a website project take?
+- A focused website usually takes 2–4 weeks. Broader projects can take 6–10 weeks depending on scope.
+- Will my website be ready to appear in Google?
+- Yes. We include structure, metadata and content foundations so Google can understand your business from day one.
+- Can you help if we currently rely only on social media?
+- Yes. We build a professional website base so your business has its own reliable channel.
+- How do you estimate custom software projects?
+- We first map the process to solve, then propose phased implementation with clear priorities.
+- Do you provide maintenance and ongoing support?
+- Yes. We can support post-launch improvements, updates and security as your business evolves.
+- Still have questions?
+- If your business needs a stronger website, this is the best place to continue
+- View website development service
+- Schedule an introductory call
+- We’re Here To Help
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - Let’s Work Together
@@ -998,9 +1755,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -1069,6 +1826,110 @@ Contenido:
 - Let’s talk
 - Need help choosing the right option for your business?
 - Let’s Work Together
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- Digital Strategy
+- About
+- Frequently Asked Questions
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/pricing
+
+URL: https://software-strategy.com/en/pricing
+Título: Plans and Options | Websites and digital strategy for growing businesses | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Plans and Options
+- Before you decide
+- Choose the right path for your business stage
+- Our approach
+- Help you prioritize the actions that create real commercial impact.
+- How we work
+- Simple process, direct communication and practical execution.
+- See how we work
+- Clear initial diagnosis
+- We define priorities based on your current context and business objective.
+- Stage-based implementation
+- Build a professional, scalable base without overspending from day one.
+- Real performance follow-up
+- Track inquiries and outcomes to improve decisions with data.
+- Direct collaboration
+- No inflated structure, no unnecessary complexity, just practical progress.
+- Pricing Packages
+- Options for every type of web project
+- Web Development Plans
+- Package 1 · Basic Site
+- 200 USD one-time
+- Single‑page site: services, contact and about
+- Basic, professional web design
+- Domain and SSL Certificate
+- Mobile optimization (responsive)
+- Schedule an introductory call
+- Most Popular
+- Package 2 · Site + Google Ads
+- 500 USD one-time
+- Website design (up to 5 sections)
+- Search campaign optimization (landing & tracking)
+- Tag setup: Google Tag, GA4 and Conversions
+- Package 3 · Site + Ads + Social
+- 700 USD + monthly social
+- Complete website (architecture and content)
+- Google Ads setup and management (search/remarketing)
+- Monthly social media management (Meta/Instagram/LinkedIn)
+- Base creatives and editorial calendar
+- Ongoing optimization and monthly reports
+- Responsive, technical SEO and speed optimized
+- Digital Marketing Plans
+- Starter
+- 100 USD/mo
+- Setup + 1 network
+- Basic calendar
+- Initial campaigns
+- Talk to a specialist
+- Performance
+- 200 USD/mo
+- 2–3 networks
+- Creatives + copy
+- Google + Meta campaigns
+- Full-Funnel
+- 400 USD/mo
+- Full funnel
+- Automations
+- Advanced optimization
+- Let’s talk
+- Need help choosing the right option for your business?
+- Let’s Work Together
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - info@software-strategy.com
@@ -1096,9 +1957,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -1129,6 +1990,73 @@ Contenido:
 - Work with us
 - Need a digital strategy with real business impact?
 - Let’s Work Together
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- Digital Strategy
+- About
+- Frequently Asked Questions
+- How We Work
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/services
+
+URL: https://software-strategy.com/en/services
+Título: Services for growing businesses | Websites, strategy and custom solutions | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- How to navigate the options
+- Find the right solution based on your business stage and real need
+- Not every business needs the same thing. Some need a first professional website, others need to improve an outdated one, and others need more advanced processes or systems. If your priority is to build a stronger digital presence and generate more qualified inquiries, professional website development is the clearest place to start.
+- Software Strategy builds professional websites and custom technology for growing businesses that need stronger visibility, trust and operational clarity.
+- View website development
+- Schedule an introductory call
+- Digital Presence
+- Professional Website Development
+- Websites designed to communicate trust, clarify your offer, and generate qualified inquiries.
+- View solution
+- Business Growth
+- Search Visibility Optimization
+- Structure and content improvements so your business can appear in relevant searches.
+- Strategy
+- Digital Strategy Consulting
+- Practical guidance to align message, channels and growth priorities.
+- Technology
+- Custom Technology Solutions
+- Tailored systems to streamline operations and support business scale.
+- Work with us
+- Need a digital strategy with real business impact?
+- Let’s Work Together
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - info@software-strategy.com
@@ -1157,9 +2085,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -1172,8 +2100,6 @@ Contenido:
 - to scale your operations
 - Senior team
 - Request a quote
-- prev
-- next
 - Custom Software Development
 - What we solve in your operation
 - Custom solutions to organize, automate and scale
@@ -1207,8 +2133,9 @@ Contenido:
 - How We Work
 - Senior team focused on outcomes
 - We plan, prioritize and deliver continuous value with quality and security.
-- Client satisfaction
-- Success rate
+- 100 Client satisfaction
+- 93 Success rate
+- 35 Projects delivered
 - How we create impact
 - More control, less operational friction
 - We map your current operation and design practical software solutions focused on usability, control and growth.
@@ -1249,6 +2176,130 @@ Contenido:
 - Work with us
 - Need technology that truly fits your operation?
 - Build Together
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- Let’s Work Together
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- Digital Strategy
+- About
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/services/custom-software
+
+URL: https://software-strategy.com/en/services/custom-software
+Título: Custom Software Solutions | Business-focused development | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Integrations & automation
+- to scale your operations
+- Senior team
+- Request a quote
+- Custom Software Development
+- What we solve in your operation
+- Custom solutions to organize, automate and scale
+- System integrations
+- Operational automation
+- Dashboards and backoffice
+- Scalable architecture
+- Security and reliability
+- Continuous improvement roadmap
+- Schedule an introductory call
+- 150+
+- Projects delivered
+- From MVPs to enterprise platforms.
+- Innovative software solutions
+- Senior teams, iterative delivery and clear metrics.
+- Here are Numerous Topics That Will Enhance Your Skills
+- Bootstrap
+- HTML
+- CSS
+- javascript
+- React
+- WordPress
+- php
+- node.js
+- Sass
+- Angular
+- Shopify
+- Elementor
+- Vue.js
+- Java
+- How We Work
+- Senior team focused on outcomes
+- We plan, prioritize and deliver continuous value with quality and security.
+- 100 Client satisfaction
+- 93 Success rate
+- 35 Projects delivered
+- How we create impact
+- More control, less operational friction
+- We map your current operation and design practical software solutions focused on usability, control and growth.
+- See options
+- Cases & process
+- From idea to product
+- 01
+- Architecture and scope design
+- 02
+- Secure integrations and APIs
+- 03
+- Custom admin panels & backoffice
+- 04
+- Automation and CI/CD
+- Packages
+- Custom development options
+- MVP
+- Focused scope
+- Fast delivery
+- Solid technical base
+- Most Popular
+- Business
+- Core modules
+- External integrations
+- CI/CD + QA
+- Enterprise
+- High availability
+- Advanced security
+- Premium support
+- Frequently asked questions
+- Common questions
+- How do you define project scope?
+- We run workshops and requirements documentation to agree deliverables, budget and timeline.
+- Do you use agile methodologies?
+- Yes, we work with short iterations, regular demos and a transparent board.
+- What tech stack do you use?
+- We select the stack per use case. We always prioritize standards, testing and security.
+- Work with us
+- Need technology that truly fits your operation?
+- Build Together
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - Let’s Work Together
@@ -1276,9 +2327,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -1288,14 +2339,10 @@ Contenido:
 - +59898488759
 - Menu
 - Digital Strategy
-- Campaigns with clear direction
-- and measurable outcomes
-- Focused on qualified inquiries
-- Schedule an introductory call
 - Turn online attention
 - into real business opportunities
-- prev
-- next
+- Focused on qualified inquiries
+- Schedule an introductory call
 - How we create impact
 - Digital strategy with business focus
 - Increase visibility, generate leads and strengthen your brand with Google Ads and social media campaigns, complemented by integrated digital strategies.
@@ -1398,6 +2445,156 @@ Contenido:
 - Need a clearer digital growth plan?
 - Let's talk about your project.
 - Let’s Work Together
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- About
+- How We Work
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/services/digital-marketing
+
+URL: https://software-strategy.com/en/services/digital-marketing
+Título: Digital Strategy & Campaigns | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Digital Strategy
+- Turn online attention
+- into real business opportunities
+- Focused on qualified inquiries
+- Schedule an introductory call
+- How we create impact
+- Digital strategy with business focus
+- Increase visibility, generate leads and strengthen your brand with Google Ads and social media campaigns, complemented by integrated digital strategies.
+- 01
+- Demand capture campaigns
+- Campaigns built to reach people actively looking for your services.
+- Search demand focus
+- Clear messaging
+- Ongoing optimization
+- 02
+- Social and community strategy
+- Consistent content and campaign support to improve trust and contact volume.
+- Editorial consistency
+- Audience engagement
+- Paid support when needed
+- 03
+- Performance guidance
+- Practical reporting and decision support to improve results month after month.
+- Clear KPIs
+- Actionable reporting
+- Continuous iteration
+- About the Company
+- Digital marketing agency focused on results
+- At Software Strategy we design and execute digital marketing strategies that combine content, Google Ads and social media advertising, and advanced analytics. Our goal is clear: help your business achieve real, measurable growth.
+- We Have 5k+ Global Clients Around the World
+- Our process
+- From diagnosis to measurable growth
+- We follow a clear sequence to keep strategy and execution aligned with business goals.
+- Research & Strategy
+- We analyze your brand, market and audience to define channels, messages and digital tactics.
+- Target & Analysis
+- Precise segmentation, A/B ad testing and ongoing analysis to optimize conversions.
+- Results
+- Clear reports, actionable metrics and weekly optimization to maximize ROI and growth.
+- Frequently asked questions
+- Key questions before starting
+- We answer the most common questions before starting your Google Ads and social media strategy.
+- What results can we expect and when?
+- You can usually see early traction in the first weeks. Sustainable results come from consistent optimization over time.
+- Do we need a dedicated landing page?
+- In most cases, yes. A focused landing page improves message clarity and increases inquiry conversion.
+- How do you measure impact?
+- We track key actions like forms, calls and WhatsApp, then optimize based on cost per qualified inquiry.
+- Can you work with our current website?
+- Yes. We review your current setup and define whether to optimize it or launch a dedicated campaign landing.
+- See digital marketing services
+- Plans
+- Digital marketing packages tailored to your goals
+- Choose the plan that best fits your business: from basic social management to integrated Google Ads campaigns and advanced automation.
+- Starter
+- 100 USD/mo
+- Ideal for entrepreneurs or businesses starting to build their digital presence.
+- 1 social network managed
+- Basic publishing calendar
+- Initial campaigns on Google or Meta
+- Monthly performance reports
+- Get started
+- Most Popular
+- Growth
+- 200 USD/mo
+- Perfect for growing companies aiming to scale reach and conversions.
+- 2–3 social networks managed
+- Custom creatives and copy
+- Google Ads + Meta Ads campaigns
+- Bi-weekly reports with key metrics
+- Pro
+- 400 USD/mo
+- Designed for established brands needing advanced strategies, automation and scalability.
+- Comprehensive social media management
+- Full digital marketing funnel
+- Automations and remarketing
+- Advanced optimization + monthly consulting
+- Compare our digital marketing plans
+- Choose the plan that best fits your goals: from initial presence to advanced strategies with automation and remarketing.
+- Features
+- Growth ⭐
+- Managed social networks
+- 2–3
+- 3+
+- Included
+- Included + A/B variations
+- Google Ads campaigns
+- Basic
+- Google + Meta Ads
+- Google + Meta + Advanced remarketing
+- Reports
+- Monthly
+- Bi-weekly
+- Weekly + consulting
+- Automations
+- Optional
+- Included (funnels + remarketing)
+- Advanced optimization
+- Full (CPA, ROAS, funnel)
+- Choose Starter
+- Choose Growth
+- Choose Pro
+- *All plans include initial setup, mobile optimization and technical support. Prices may vary based on scope and campaign volume.
+- Work with us
+- Need a clearer digital growth plan?
+- Let's talk about your project.
+- Let’s Work Together
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - info@software-strategy.com
@@ -1424,9 +2621,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -1439,8 +2636,6 @@ Contenido:
 - and turn demand into qualified inquiries
 - Practical, measurable approach
 - Schedule an introductory call
-- prev
-- next
 - Google Visibility & Ads
 - What we solve
 - Make your business easier to find and easier to trust
@@ -1490,6 +2685,103 @@ Contenido:
 - Work with us
 - Want stronger visibility and more qualified inquiries?
 - Grow Visibility
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- Let’s Work Together
+- info@software-strategy.com
+- Quick Links
+- Website Development
+- Digital Strategy
+- About
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/services/google-seo
+
+URL: https://software-strategy.com/en/services/google-seo
+Título: Google Visibility & Ads | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Be visible when clients search
+- and turn demand into qualified inquiries
+- Practical, measurable approach
+- Schedule an introductory call
+- Google Visibility & Ads
+- What we solve
+- Make your business easier to find and easier to trust
+- Clear search structure
+- Relevant intent-focused content
+- Progressive visibility improvements
+- Google campaigns
+- Inquiry tracking
+- Continuous optimization
+- How we work
+- Diagnosis, execution and continuous refinement
+- We define short- and mid-term priorities to improve visibility and convert search demand into opportunities.
+- View plans
+- Plans
+- Options to increase visibility and capture active demand
+- A practical mix of organic visibility improvements and campaign execution.
+- Initial Visibility
+- 300 USD/mo
+- Ideal to start showing up on Google with essential on-site improvements.
+- Site review (basic audit)
+- Clear titles and descriptions for Google
+- Speed and structure improvements
+- Monthly progress report
+- Most Popular
+- Visibility + Ads
+- 500 USD/mo
+- Combine SEO improvements with Google Ads for visible results in a short time.
+- On‑site and content optimization
+- Google campaigns (search + remarketing)
+- Full measurement with GA4/Google Tag
+- Bi‑weekly campaign optimization
+- Growth Plan
+- 800 USD/mo
+- For companies looking to scale with advanced strategies, automation and constant testing.
+- Complete content and link strategy
+- A/B testing for ads and pages
+- Automations and metric dashboards
+- Advanced optimization to improve ROI
+- Frequently asked questions
+- Common questions
+- When should we expect visibility improvements?
+- Timelines depend on your starting point. Early signals usually appear within the first months, with stronger consolidation over time.
+- How do you define ad budget?
+- We define it based on goals, market demand and expected cost per qualified inquiry.
+- What metrics matter most?
+- We prioritize qualified inquiries, cost per opportunity and visibility progress in relevant searches.
+- Work with us
+- Want stronger visibility and more qualified inquiries?
+- Grow Visibility
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - Let’s Work Together
@@ -1517,9 +2809,9 @@ Contenido:
 - Home
 - Services
 - Web Development
-- Digital Marketing
 - Custom Software
 - Google Visibility
+- Digital Marketing
 - All Services
 - Pricing
 - FAQs
@@ -1533,8 +2825,6 @@ Contenido:
 - focused on trust and real inquiries
 - Business-focused approach
 - Schedule an introductory call
-- prev
-- next
 - Professional Website Development
 - What we do for your business
 - Websites built to support real commercial goals
@@ -1611,6 +2901,130 @@ Contenido:
 - Work with us
 - Ready to turn your website into a business channel?
 - Let’s Work Together
+- Call
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- info@software-strategy.com
+- Quick Links
+- Digital Strategy
+- About
+- How We Work
+- Copyright ©2025,
+- Software Strategy
+- All Rights Reserved
+
+---
+
+## /en/services/web-development
+
+URL: https://software-strategy.com/en/services/web-development
+Título: Professional Website Development | Business-focused websites | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Home
+- Services
+- Web Development
+- Custom Software
+- Google Visibility
+- Digital Marketing
+- All Services
+- Pricing
+- FAQs
+- About Us
+- Contact
+- Call Anytime
+- +59898488759
+- Menu
+- Website Development
+- Professional websites for growing businesses
+- focused on trust and real inquiries
+- Business-focused approach
+- Schedule an introductory call
+- Professional Website Development
+- What we do for your business
+- Websites built to support real commercial goals
+- Clear offer and positioning
+- Search-ready structure
+- Content focused on inquiry generation
+- Responsive across devices
+- Fast loading and simple navigation
+- Scalable base for future growth
+- Already have a website?
+- Audit, update and improvement plan
+- If your current site is not generating inquiries, we define practical improvements in clear stages.
+- Business and messaging review
+- Speed and navigation improvements
+- Contact flow optimization
+- Security and platform updates
+- Inquiry tracking setup
+- Priority roadmap for improvements
+- Request initial review
+- See Google visibility services
+- What outcomes we prioritize
+- Be understood, trusted and contacted
+- We design and build professional websites for businesses that need stronger positioning, better trust and more qualified inquiries.
+- Clear value proposition from the first section
+- Structure prepared for relevant search intent
+- Conversion-oriented sections and calls to action
+- Fast pages to reduce bounce and improve engagement
+- Simple and credible navigation
+- Scalable base to grow without rebuilding everything
+- Inquiry tracking for better decision making
+- Ready for Google Ads
+- Landing pages focused on qualified inquiries
+- Tracking setup for forms, WhatsApp and calls
+- Channel-level visibility for lead performance
+- Message and CTA testing to improve conversion
+- View options
+- Website Packages
+- Options based on your business stage
+- From first launch to scalable digital presence with a clear commercial focus.
+- Package 1 · Basic Site
+- 200 USD one-time
+- Professional one‑page to present services, brand and contact. Ideal to get presence on Google quickly.
+- Single‑page site: services, contact and about
+- Basic, professional web design
+- Domain and SSL Certificate
+- Mobile optimization (responsive)
+- Most Popular
+- Package 2 · Site + Google Ads
+- 500 USD one-time
+- Conversion‑optimized website with initial search campaigns setup to capture qualified leads.
+- Website design (up to 5 sections)
+- Search campaign optimization (landing & tracking)
+- Tag setup: Google Tag, GA4 and Conversions
+- Package 3 · Site + Ads + Social
+- 700 USD + monthly social
+- End‑to‑end solution: complete website, Google Ads campaigns and ongoing social media management.
+- Complete website (architecture and content)
+- Google Ads setup and management (search/remarketing)
+- Monthly social media management (Meta/Instagram/LinkedIn)
+- Base creatives and editorial calendar
+- Ongoing optimization and monthly reports
+- Responsive, technical SEO and speed optimized
+- *Domain and SSL subject to availability. Plans may vary based on scope, language, integrations and campaign volume.
+- Frequently asked questions
+- Key questions before starting
+- How long does a website project take?
+- A focused website usually takes 2–4 weeks. Broader projects can take 6–10 weeks depending on scope.
+- Will the website be ready to appear in Google?
+- Yes. We include a clear structure, metadata and content foundation so Google can understand your business.
+- Do you provide support after launch?
+- Yes. We can support continuous improvements, updates and security based on your goals.
+- Can you work with our current website?
+- Yes. We assess your current site and recommend whether to improve it or build a new base.
+- Work with us
+- Ready to turn your website into a business channel?
+- Let’s Work Together
+- Call
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - info@software-strategy.com
@@ -1637,9 +3051,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -1665,6 +3079,68 @@ Contenido:
 - Ver desarrollo de sitios web para PYMEs
 - Solicitar una reunión inicial
 - Estamos Para Ayudarte
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /faqs
+
+URL: https://software-strategy.com/faqs
+Título: Preguntas frecuentes | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Respuestas claras
+- Preguntas frecuentes para tomar una mejor decisión
+- ¿Cuánto tarda un sitio web para una PYME?
+- Un sitio inicial suele tomar entre 2 y 4 semanas. Proyectos más completos pueden requerir entre 6 y 10 semanas.
+- ¿Mi sitio queda listo para aparecer en Google?
+- Sí. Incluimos estructura, metadatos y contenido base para que Google entienda tu negocio desde el inicio.
+- ¿Pueden ayudar si hoy solo dependo de redes sociales?
+- Sí. Diseñamos una base web profesional para que tu empresa tenga un canal propio y no dependa solo de terceros.
+- ¿Cómo definen el presupuesto de software a medida?
+- Primero entendemos el proceso a resolver y luego proponemos etapas de implementación con alcance y prioridades claras.
+- ¿Ofrecen mantenimiento y acompañamiento?
+- Sí. Podemos acompañarte después del lanzamiento con mejoras continuas, seguridad y seguimiento.
+- ¿Aún con dudas?
+- Si tu empresa necesita una web profesional, este es el mejor siguiente paso
+- Ver desarrollo de sitios web para PYMEs
+- Solicitar una reunión inicial
+- Estamos Para Ayudarte
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -1693,9 +3169,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -1742,6 +3218,89 @@ Contenido:
 - Te ayudamos a publicar una primera versión clara, profesional y lista para crecer después.
 - Solicitar landing para mi empresa
 - Ver servicio completo de desarrollo web para PYMEs
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /landing-page-uruguay
+
+URL: https://software-strategy.com/landing-page-uruguay
+Título: Landing page en Uruguay para empezar a captar consultas | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Landing page en Uruguay
+- Landing page en Uruguay para validar demanda y captar consultas
+- Si todavía no necesitás un sitio completo, una landing page puede ser la forma más simple de salir rápido con una oferta concreta y empezar a captar consultas.
+- Diseñamos landing pages enfocadas en una sola oferta, con mensaje claro y contacto directo. Sirven para empezar bien, no para reemplazar una web más completa cuando tu empresa ya necesita más contenido.
+- ¿Qué incluye una landing page orientada a resultados?
+- Oferta clara y fácil de entender.
+- Secciones clave para generar confianza.
+- Llamados a la acción visibles.
+- Formulario y botón de WhatsApp.
+- Diseño adaptable a celular y desktop.
+- Base para aparecer en Google.
+- Lista para campañas en Google y redes.
+- Lista para ampliarse más adelante.
+- Cómo la lanzamos
+- 1. Definición de oferta
+- Aterrizamos propuesta, público objetivo y objetivo de captación.
+- 2. Redacción comercial
+- Construimos un mensaje claro para convertir visitas en contacto.
+- 3. Diseño y desarrollo
+- Publicamos una landing rápida, profesional y fácil de entender.
+- 4. Mejora continua
+- Revisamos resultados y proponemos ajustes para mejorar.
+- ¿Para qué sirve una landing page en una PYME?
+- Sirve para presentar una oferta concreta y convertir visitas en consultas con un mensaje simple y directo.
+- ¿Conviene una landing si no tengo sitio web completo?
+- Sí. Es una muy buena forma de empezar rápido y probar si tu oferta genera consultas antes de pasar a una web más completa.
+- ¿Incluye formulario y WhatsApp?
+- Sí. Incluimos canales de contacto visibles para facilitar consultas desde celular y desktop.
+- ¿Puede usarse para campañas en Google y redes?
+- Sí. La diseñamos para que funcione como página de destino en campañas de adquisición.
+- ¿Luego se puede transformar en sitio completo?
+- Sí. La base se puede ampliar después sin perder lo ya hecho.
+- ¿Cuándo conviene pasar a un sitio web completo?
+- Cuando tu empresa necesita más secciones, explicar mejor sus servicios, fortalecer posicionamiento en Google o sostener un proceso comercial más completo.
+- ¿Querés lanzar una landing y empezar a captar consultas?
+- Te ayudamos a publicar una primera versión clara, profesional y lista para crecer después.
+- Solicitar landing para mi empresa
+- Ver servicio completo de desarrollo web para PYMEs
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -1770,9 +3329,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -1819,6 +3378,89 @@ Contenido:
 - Te proponemos un plan simple y realista para mejorar tu web actual.
 - Solicitar diagnóstico de mi web actual
 - Ver desarrollo web completo para PYMEs
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /mantenimiento-web-uruguay
+
+URL: https://software-strategy.com/mantenimiento-web-uruguay
+Título: Mantenimiento web en Uruguay para mejorar una web obsoleta | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Mantenimiento web en Uruguay
+- Mantenimiento web en Uruguay para recuperar resultados sin rehacer todo
+- Muchas PYMEs ya tienen un sitio publicado, pero lento, desordenado o con mensajes que no ayudan a vender. Eso afecta la confianza y hace que la web deje de generar consultas.
+- Con este servicio mejoramos lo que ya existe, priorizando los cambios de mayor impacto. Si el sitio actual no da más, te orientamos hacia el servicio completo de desarrollo web para PYMEs.
+- ¿Qué mejoramos en una web obsoleta?
+- Velocidad y estabilidad del sitio.
+- Textos y estructura para que el cliente entienda rápido.
+- Llamados a la acción visibles y claros.
+- Base para aparecer mejor en Google.
+- Actualización de secciones clave y contenidos.
+- Ajustes técnicos para reducir errores y fricciones.
+- Integración de formulario y WhatsApp para contacto.
+- Plan mensual de mejora continua (opcional).
+- ¿Cómo se implementa?
+- 1. Diagnóstico inicial
+- Detectamos qué está frenando los contactos y qué hace que la web hoy no rinda.
+- 2. Prioridad de mejoras
+- Ordenamos cambios por impacto para mostrar resultados más rápido.
+- 3. Implementación por etapas
+- Aplicamos mejoras por partes para no complicar el día a día de tu empresa.
+- 4. Seguimiento
+- Medimos avances y proponemos próximos pasos de crecimiento.
+- ¿Qué incluye un servicio de mantenimiento web?
+- Incluye actualizaciones, mejoras de rendimiento, ajustes de contenido, revisión de seguridad y soporte según el plan acordado.
+- ¿Pueden mejorar una web vieja sin rehacerla completa?
+- Sí. Priorizamos mejoras de alto impacto para recuperar resultados rápidamente y luego definimos si conviene una renovación completa.
+- ¿Sirve para sitios desarrollados por otra agencia?
+- Sí. Trabajamos con sitios existentes aunque hayan sido desarrollados por otro proveedor.
+- ¿Cuánto tarda ver mejoras?
+- Los primeros ajustes técnicos y de contenido suelen verse dentro de las primeras semanas de trabajo.
+- ¿Está orientado solo a Uruguay?
+- Uruguay es la prioridad. También dejamos la base lista por si más adelante querés ampliar tu alcance a otros mercados de LATAM.
+- ¿Cuándo conviene rehacer el sitio en lugar de mantenerlo?
+- Cuando la estructura actual limita demasiado el crecimiento, la experiencia del usuario o la visibilidad en Google. En ese caso conviene pasar a una solución de desarrollo web más completa.
+- ¿Querés recuperar resultados sin rehacer todo tu sitio?
+- Te proponemos un plan simple y realista para mejorar tu web actual.
+- Solicitar diagnóstico de mi web actual
+- Ver desarrollo web completo para PYMEs
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -1847,9 +3489,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -1901,6 +3543,94 @@ Contenido:
 - Te compartimos una recomendación clara según lo que hoy necesita tu empresa.
 - Solicitar propuesta con precio estimado
 - Ver desarrollo de sitios web para PYMEs en Uruguay
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /precio-pagina-web-uruguay
+
+URL: https://software-strategy.com/precio-pagina-web-uruguay
+Título: Cuánto cuesta una página web en Uruguay para una PYME | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Precio de página web en Uruguay
+- ¿Cuánto cuesta una página web en Uruguay para una PYME?
+- Si sos PYME, la pregunta no es solo cuánto cuesta, sino qué necesitás hoy para empezar a recibir consultas sin invertir de más.
+- Estos rangos te ayudan a decidir mejor según el momento de tu empresa. Si necesitás algo más completo, podés avanzar a una propuesta de desarrollo web pensada para vender mejor y crecer con una base más firme.
+- Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
+- Landing profesional
+- USD 200 a 450
+- Ideal para empezar rápido y validar demanda con una propuesta concreta.
+- 1 página
+- Mensaje comercial + CTA
+- Base para aparecer en Google
+- Sitio corporativo PYME
+- USD 500 a 1.200
+- Para empresas que necesitan credibilidad, estructura de servicios y captación constante.
+- 4 a 8 secciones
+- Arquitectura comercial
+- Formulario + WhatsApp + analítica básica
+- Sitio escalable con integraciones
+- Desde USD 1.300
+- Para operaciones que requieren módulos, integraciones y plan de crecimiento por etapas.
+- Integraciones clave
+- Automatizaciones
+- Roadmap técnico y comercial
+- El precio final depende de cuántas secciones necesitás, si ya tenés contenido listo, si hace falta más de un idioma y si hay funciones o conexiones especiales.
+- Preguntas frecuentes sobre precios
+- ¿Por qué no hay un precio único para todos?
+- Porque cada empresa tiene objetivos y alcance distintos. Definimos el precio según complejidad, contenidos e integraciones necesarias.
+- ¿Se puede empezar con una versión básica?
+- Sí. Muchas veces es la mejor forma de empezar sin invertir de más y después sumar mejoras cuando haga falta.
+- ¿Incluye dominio y hosting?
+- Podemos incluirlo en la propuesta para que tengas todo resuelto en un solo proveedor.
+- ¿El precio incluye mantenimiento?
+- La implementación inicial y el mantenimiento son servicios distintos. Si lo necesitás, agregamos un plan mensual de mejora continua.
+- ¿Trabajan solo en Uruguay?
+- Uruguay es prioridad. También acompañamos empresas que quieren escalar su presencia hacia LATAM.
+- ¿Qué hace subir o bajar el precio?
+- Influyen la cantidad de secciones, el contenido disponible, el idioma, las integraciones necesarias y el nivel de personalización requerido.
+- ¿Qué conviene priorizar si el presupuesto es limitado?
+- Conviene priorizar una web clara, que explique bien lo que hacés y que tenga un canal directo de contacto. Después se pueden sumar mejoras según cómo responda tu negocio.
+- ¿Querés una propuesta con alcance y precio claro?
+- Te compartimos una recomendación clara según lo que hoy necesita tu empresa.
+- Solicitar propuesta con precio estimado
+- Ver desarrollo de sitios web para PYMEs en Uruguay
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -1919,7 +3649,7 @@ Contenido:
 ## /pricing
 
 URL: https://software-strategy.com/pricing
-Título: Opciones y planes | Sitios web y estrategia digital para PYMEs | Software Strategy
+Título: Precios orientativos para sitios web y marketing en Uruguay | Software Strategy
 
 Contenido:
 
@@ -1929,9 +3659,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -1940,67 +3670,172 @@ Contenido:
 - Llámanos
 - +59898488759
 - Menú
-- Opciones y planes
+- Precios y opciones
 - Home
-- Antes de decidir
-- Elegí el plan según lo que tu empresa necesita hoy
-- Nuestro enfoque
-- Ayudarte a invertir mejor, priorizando lo que hoy puede traerte más consultas.
+- Antes de elegir
+- Te ayudamos a elegir sin invertir de más
+- Qué conviene mirar primero
+- No se trata de elegir el plan más grande. Se trata de elegir la opción que mejor encaja con lo que hoy necesita tu empresa.
 - Cómo trabajamos
-- Procesos simples, decisiones claras y acompañamiento directo para avanzar sin fricción.
-- Conocer cómo trabajamos
-- Diagnóstico inicial claro
-- Definimos qué conviene hacer primero según lo que hoy necesita tu empresa.
-- Implementación paso a paso
-- Construimos una base profesional que pueda crecer sin obligarte a invertir de más al inicio.
-- Seguimiento real
-- Medimos consultas y resultados para saber qué está funcionando.
+- Primero entendemos qué querés lograr. Después te recomendamos una opción clara, simple y posible de ampliar más adelante.
+- Ver desarrollo web para PYMEs
+- Empezá por lo importante
+- Definimos qué conviene resolver primero según tu situación actual.
+- Invertí sin sobredimensionar
+- Podés empezar con algo simple y después sumar mejoras cuando haga falta.
+- Elegí con más claridad
+- Te mostramos qué cambia entre una opción y otra para que decidas mejor.
 - Acompañamiento directo
-- Sin procesos innecesarios: comunicación simple y foco en hacer que las cosas avancen.
-- Paquetes de Precios
-- Opciones para todo tipo de proyectos web
+- Hablás con nosotros de forma simple, sin vueltas ni procesos innecesarios.
+- Valores orientativos
+- Opciones según lo que hoy necesita tu empresa
+- Estos valores sirven como referencia inicial. La recomendación final depende de cuántas secciones necesitás, si ya tenés contenido y si hace falta sumar campañas o funciones extra.
 - Planes de Desarrollo Web
-- Paquete 1 · Sitio Básico
+- Landing para empezar
 - 200 USD único
-- Sitio de una sola página: servicios, contacto y sobre la empresa
-- Diseño web básico y profesional
-- Dominio y Certificado SSL
-- Optimización para móviles (responsive)
-- Hablar con un especialista
-- Más Popular
-- Paquete 2 · Sitio + Google Ads
+- Una sola página con mensaje claro
+- Contacto por formulario o WhatsApp
+- Base para aparecer en Google
+- Diseño adaptable a celular y desktop
+- Quiero esta opción
+- Más elegida
+- Sitio web para empresa
 - 500 USD único
-- Diseño de sitio web (hasta 5 secciones)
-- Optimización para campañas de búsqueda (landing & tracking)
-- Instalación de etiquetas: Google Tag, GA4 y Conversiones
-- Paquete 3 · Sitio + Ads + Redes
-- 700 USD + mensual redes
-- Sitio web completo (arquitectura y contenido)
-- Configuración y gestión de Google Ads (búsqueda/remarketing)
-- Gestión mensual de redes sociales (Meta/Instagram/LinkedIn)
-- Creatividades base y calendario editorial
-- Optimización continua y reportes mensuales
-- Responsive, carga rápida y base preparada para aparecer en Google
+- Sitio con varias secciones de servicios
+- Textos pensados para generar confianza
+- Formulario y WhatsApp visibles
+- Base lista para aparecer mejor en Google
+- Web + captación continua
+- 700 USD + gestión mensual
+- Sitio web completo para tu empresa
+- Configuración inicial de campañas
+- Base para medir consultas y contactos
+- Acompañamiento para seguir mejorando
 - Planes de Marketing Digital
-- Starter
+- Presencia inicial
 - 100 USD/mes
-- Setup + 1 red
-- Calendario básico
+- Una red social activa
+- Calendario simple de contenidos
 - Campañas iniciales
-- Performance
+- Captación activa
 - 200 USD/mes
-- 2-3 redes
-- Creatividades + copys
-- Campañas Google + Meta
-- Full-Funnel
+- Dos o tres canales activos
+- Piezas y textos para campañas
+- Campañas en Google y Meta
+- Crecimiento continuo
 - 400 USD/mes
-- Embudo completo
+- Campañas y seguimiento más completo
 - Automatizaciones
-- Optimización avanzada
+- Optimización continua
 - Hablemos
-- ¿Querés definir la mejor opción para tu empresa?
-- Solicitar una reunión inicial
+- ¿Querés que te digamos qué opción conviene hoy para tu empresa?
+- Solicitar recomendación
 - Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /pricing
+
+URL: https://software-strategy.com/pricing
+Título: Precios orientativos para sitios web y marketing en Uruguay | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Precios y opciones
+- Home
+- Antes de elegir
+- Te ayudamos a elegir sin invertir de más
+- Qué conviene mirar primero
+- No se trata de elegir el plan más grande. Se trata de elegir la opción que mejor encaja con lo que hoy necesita tu empresa.
+- Cómo trabajamos
+- Primero entendemos qué querés lograr. Después te recomendamos una opción clara, simple y posible de ampliar más adelante.
+- Ver desarrollo web para PYMEs
+- Empezá por lo importante
+- Definimos qué conviene resolver primero según tu situación actual.
+- Invertí sin sobredimensionar
+- Podés empezar con algo simple y después sumar mejoras cuando haga falta.
+- Elegí con más claridad
+- Te mostramos qué cambia entre una opción y otra para que decidas mejor.
+- Acompañamiento directo
+- Hablás con nosotros de forma simple, sin vueltas ni procesos innecesarios.
+- Valores orientativos
+- Opciones según lo que hoy necesita tu empresa
+- Estos valores sirven como referencia inicial. La recomendación final depende de cuántas secciones necesitás, si ya tenés contenido y si hace falta sumar campañas o funciones extra.
+- Planes de Desarrollo Web
+- Landing para empezar
+- 200 USD único
+- Una sola página con mensaje claro
+- Contacto por formulario o WhatsApp
+- Base para aparecer en Google
+- Diseño adaptable a celular y desktop
+- Quiero esta opción
+- Más elegida
+- Sitio web para empresa
+- 500 USD único
+- Sitio con varias secciones de servicios
+- Textos pensados para generar confianza
+- Formulario y WhatsApp visibles
+- Base lista para aparecer mejor en Google
+- Web + captación continua
+- 700 USD + gestión mensual
+- Sitio web completo para tu empresa
+- Configuración inicial de campañas
+- Base para medir consultas y contactos
+- Acompañamiento para seguir mejorando
+- Planes de Marketing Digital
+- Presencia inicial
+- 100 USD/mes
+- Una red social activa
+- Calendario simple de contenidos
+- Campañas iniciales
+- Captación activa
+- 200 USD/mes
+- Dos o tres canales activos
+- Piezas y textos para campañas
+- Campañas en Google y Meta
+- Crecimiento continuo
+- 400 USD/mes
+- Campañas y seguimiento más completo
+- Automatizaciones
+- Optimización continua
+- Hablemos
+- ¿Querés que te digamos qué opción conviene hoy para tu empresa?
+- Solicitar recomendación
+- Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -2028,9 +3863,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -2071,6 +3906,83 @@ Contenido:
 - Trabaja con nosotros
 - ¿Querés una presencia digital que realmente ayude a vender?
 - Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /services
+
+URL: https://software-strategy.com/services
+Título: Servicios para PYMEs en Uruguay | Web, estrategia y soluciones a medida | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Servicios digitales para PYMEs en Uruguay
+- Home
+- Cómo ordenar la decisión
+- Encontrá la opción que mejor encaja con lo que tu empresa necesita hoy
+- No todas las PYMEs necesitan lo mismo. Algunas necesitan su primer sitio web, otras mejorar una web vieja y otras resolver tareas o sistemas más complejos. Si hoy tu prioridad es verte profesional en Google y empezar a recibir más consultas, lo más conveniente es avanzar con nuestro servicio de desarrollo web para PYMEs en Uruguay.
+- Software Strategy es una empresa uruguaya que desarrolla sitios web y software a medida para PYMEs que necesitan mejorar su presencia digital y su operación.
+- Ver desarrollo de sitios web para PYMEs
+- Solicitar una reunión inicial
+- Presencia digital
+- Desarrollo Web Profesional
+- Sitios diseñados para que tu empresa se vea sólida, comunique con claridad y reciba consultas reales.
+- Ver solución
+- Uruguay
+- Crear Sitio Web en Uruguay
+- Para empresas que todavía no tienen web y necesitan una primera presencia profesional clara, confiable y orientada a generar consultas.
+- Tecnología
+- Software a Medida
+- Desarrollos pensados para empresas que necesitan ordenar tareas, ahorrar tiempo y trabajar con más control.
+- Gestión
+- Facturación & Stock
+- Herramientas para ordenar ventas, inventario y operaciones sin depender de procesos manuales.
+- Actualización
+- Mantenimiento Web
+- Recuperá credibilidad y rendimiento en una web que hoy no está ayudando a vender ni a captar contactos.
+- Estrategia
+- Servicio complementario para empresas que ya tienen una base web clara y quieren sumar campañas para recibir más consultas.
+- Google
+- Visibilidad en Google & anuncios
+- Servicio de apoyo para aparecer mejor en Google y captar demanda activa. Funciona mucho mejor cuando tu empresa ya tiene una web clara y confiable.
+- Trabaja con nosotros
+- ¿Querés una presencia digital que realmente ayude a vender?
+- Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -2099,9 +4011,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -2115,8 +4027,6 @@ Contenido:
 - para escalar tu operación
 - Equipo senior
 - Solicitar cotización
-- prev
-- next
 - Desarrollo de Software a Medida
 - ¿Qué resolvemos en tu operación?
 - Soluciones a medida para ordenar y escalar tu operación
@@ -2151,9 +4061,9 @@ Contenido:
 - Nuestra Manera de Trabajar
 - Equipo senior enfocado en resultados
 - Planificamos, priorizamos y entregamos valor continuo con calidad y seguridad.
-- Clientes satisfechos
-- Tasa de éxito
-- Proyectos entregados
+- 100 Clientes satisfechos
+- 93 Tasa de éxito
+- 35 Proyectos entregados
 - ¿Cómo generamos impacto en tu operación?
 - Más control operativo y menos fricción
 - Diseñamos herramientas según tu operación real para simplificar procesos, reducir errores y sostener crecimiento.
@@ -2193,6 +4103,132 @@ Contenido:
 - Trabaja con nosotros
 - ¿Necesitás una solución tecnológica alineada a tu negocio?
 - Construyamos Juntos
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /services/custom-software
+
+URL: https://software-strategy.com/services/custom-software
+Título: Software a Medida | Integraciones, APIs y Automatización | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Software a Medida
+- Integraciones y automatización
+- para escalar tu operación
+- Equipo senior
+- Solicitar cotización
+- Desarrollo de Software a Medida
+- ¿Qué resolvemos en tu operación?
+- Soluciones a medida para ordenar y escalar tu operación
+- Integraciones entre tus sistemas
+- Integraciones (ERP/CRM/Pagos)
+- Automatización de procesos
+- Dashboards y backoffice
+- Base preparada para crecer
+- Seguridad y buenas prácticas
+- Implementación y mejoras continuas
+- Solicitar una reunión inicial
+- 150+
+- Proyectos completados
+- Desde MVPs hasta plataformas empresariales.
+- Soluciones de software innovadoras
+- Equipos senior, entregas iterativas y métricas claras.
+- Tecnologías que potencian tus soluciones
+- Bootstrap
+- HTML
+- CSS
+- javascript
+- React
+- WordPress
+- php
+- node.js
+- Sass
+- Angular
+- Shopify
+- Elementor
+- Vue.js
+- Java
+- Nuestra Manera de Trabajar
+- Equipo senior enfocado en resultados
+- Planificamos, priorizamos y entregamos valor continuo con calidad y seguridad.
+- 100 Clientes satisfechos
+- 93 Tasa de éxito
+- 35 Proyectos entregados
+- ¿Cómo generamos impacto en tu operación?
+- Más control operativo y menos fricción
+- Diseñamos herramientas según tu operación real para simplificar procesos, reducir errores y sostener crecimiento.
+- Ver opciones
+- Casos y procesos
+- De la idea al producto
+- 01
+- Definición de alcance y plan de trabajo
+- 02
+- Integraciones entre sistemas clave
+- 03
+- Paneles y backoffice a medida
+- 04
+- Automatización y mejora continua
+- Paquetes
+- Opciones para desarrollar por etapas según tu negocio
+- MVP
+- Alcance acotado
+- Entrega rápida
+- Base técnica sólida
+- Más Popular
+- Business
+- Módulos clave
+- Integraciones externas
+- Pruebas y mejoras continuas
+- Enterprise
+- Alta disponibilidad
+- Seguridad avanzada
+- Soporte premium
+- Dudas habituales
+- ¿Cómo definen el alcance del proyecto?
+- Realizamos workshops y documentación de requerimientos para acordar entregables, costos y cronograma.
+- ¿Utilizan metodologías ágiles?
+- Sí, trabajamos con iteraciones cortas, demos periódicas y seguimiento en tablero.
+- ¿Con qué tecnología trabajan?
+- Elegimos la tecnología según tus objetivos y presupuesto. Priorizamos herramientas confiables, seguridad y una base que pueda crecer con tu negocio.
+- Trabaja con nosotros
+- ¿Necesitás una solución tecnológica alineada a tu negocio?
+- Construyamos Juntos
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -2221,9 +4257,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -2233,14 +4269,10 @@ Contenido:
 - +59898488759
 - Menú
 - Marketing para PYMEs
-- Transformá tu inversión digital
-- en oportunidades de negocio
-- Foco en consultas y ventas
-- Empezar ahora
 - Atraé clientes con campañas
 - y contenido que convierte
-- prev
-- next
+- Foco en consultas y ventas
+- Empezar ahora
 - ¿Qué hacemos diferente?
 - Marketing digital con foco en oportunidades reales
 - Aumenta tu visibilidad, genera clientes y fortalece tu marca con campañas en Google Ads y redes sociales, complementadas por estrategias digitales integrales.
@@ -2350,6 +4382,165 @@ Contenido:
 - ¿Querés una estrategia digital más clara y efectiva?
 - Hablemos de tu proyecto.
 - Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /services/digital-marketing
+
+URL: https://software-strategy.com/services/digital-marketing
+Título: Estrategia digital y campañas | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Marketing para PYMEs
+- Atraé clientes con campañas
+- y contenido que convierte
+- Foco en consultas y ventas
+- Empezar ahora
+- ¿Qué hacemos diferente?
+- Marketing digital con foco en oportunidades reales
+- Aumenta tu visibilidad, genera clientes y fortalece tu marca con campañas en Google Ads y redes sociales, complementadas por estrategias digitales integrales.
+- 01
+- Publicidad en Google Ads
+- Campañas de búsqueda, display y remarketing para atraer clientes potenciales en el momento exacto en que buscan tu servicio.
+- Configuración de campañas en Google Search y Display
+- Optimización de anuncios y extensiones
+- Implementación de conversiones en GA4 y Google Tag
+- Reportes claros y optimización continua
+- 02
+- Marketing en redes sociales
+- Gestión estratégica de Facebook, Instagram y LinkedIn para aumentar alcance, comunidad y conversiones.
+- Plan editorial y diseño de contenidos
+- Gestión de comunidad y respuestas
+- Campañas de pauta segmentada
+- Reportes mensuales con métricas clave
+- 03
+- Estrategia de marketing digital
+- Planes integrales que combinan Google Ads, redes sociales y email marketing para lograr resultados sostenidos.
+- Definición de objetivos y KPIs
+- Mix de canales (Ads, social, email)
+- Dashboards y medición de ROI
+- Optimización continua por sprint
+- Sobre la Empresa
+- Agencia de marketing digital con foco en resultados
+- En Software Strategy diseñamos y ejecutamos estrategias de marketing digital que combinan contenido, publicidad en Google Ads y redes sociales, y analítica avanzada. Nuestro objetivo es claro: que tu negocio logre crecimiento real y medible.
+- Contamos con 5k+ clientes en todo el mundo
+- Nuestro proceso de trabajo
+- De la investigación a resultados medibles
+- Así logramos que cada campaña en Google Ads y redes sociales esté orientada a resultados comerciales reales.
+- Investigación y estrategia
+- Analizamos tu marca, mercado y audiencia para definir canales, mensajes y tácticas digitales.
+- Segmentación y mejora
+- Definimos públicos, probamos mensajes y ajustamos constantemente para aumentar conversiones.
+- Resultados
+- Reportes claros, métricas accionables y optimización semanal para maximizar crecimiento rentable.
+- Preguntas frecuentes sobre marketing digital
+- Resolvemos las dudas más comunes antes de comenzar tu estrategia en Google Ads y redes sociales.
+- ¿Qué resultados puedo esperar y en qué plazos?
+- En campañas de Google Ads puedes ver impacto desde la primera semana (tráfico y leads). En redes sociales, el crecimiento es progresivo: alcance e interacción en 2–4 semanas y conversiones al consolidar la comunidad y la pauta. Reportamos con métricas claras (leads, CPA, ROAS).
+- ¿Necesito una landing específica para los anuncios?
+- Es altamente recomendable. Una landing orientada a conversión mejora la tasa de contacto: mensaje claro, propuesta de valor, prueba social y formulario o WhatsApp visibles. Nosotros la diseñamos y dejamos la medición lista desde el inicio.
+- ¿Cuál es el presupuesto mínimo sugerido para Google Ads?
+- Sugerimos iniciar con 300–500 USD/mes para obtener datos significativos en 2–4 semanas. Ajustamos inversión según el costo por lead y el tamaño del mercado.
+- ¿Cómo medimos las conversiones y el ROI?
+- Configuramos la medición para registrar acciones clave (formularios, llamadas, WhatsApp y ventas). Ajustamos las campañas según costo por consulta y retorno, y compartimos reportes con recomendaciones accionables.
+- ¿Qué incluye la gestión de redes sociales?
+- Incluye estrategia, calendario de contenidos, diseño de piezas, publicación, gestión de comunidad y reportes de desempeño. Puede complementarse con pauta para acelerar el alcance.
+- ¿Pueden trabajar con mi sitio web actual?
+- Sí. Auditamos tu sitio actual, proponemos mejoras rápidas (velocidad, claridad del mensaje, llamadas a la acción) y definimos si conviene optimizar o crear una landing dedicada.
+- Ver servicios de marketing digital
+- Planes
+- Paquetes de marketing digital a medida de tus objetivos
+- Elige el plan que mejor se adapta a tu negocio: desde una gestión básica de redes hasta campañas integrales en Google Ads y automatización avanzada.
+- Starter
+- 100 USD/mes
+- Ideal para emprendedores o negocios que quieren comenzar a tener presencia digital.
+- 1 red social gestionada
+- Calendario básico de publicaciones
+- Campañas iniciales en Google o Meta
+- Reportes mensuales de desempeño
+- Empezar
+- Más Popular
+- Growth
+- 200 USD/mes
+- Perfecto para empresas en crecimiento que buscan escalar con mayor alcance y conversiones.
+- 2–3 redes sociales gestionadas
+- Creatividades y copys personalizados
+- Campañas en Google Ads + Meta Ads
+- Reportes quincenales con métricas clave
+- Pro
+- 400 USD/mes
+- Diseñado para marcas consolidadas que necesitan estrategias avanzadas, automatización y escalabilidad.
+- Gestión integral de redes sociales
+- Embudo completo de marketing digital
+- Automatizaciones y remarketing
+- Optimización avanzada + consultoría mensual
+- Compará nuestros planes de marketing digital
+- Elige el plan que mejor se adapta a tus objetivos: desde presencia inicial hasta estrategias avanzadas con automatización y remarketing.
+- Características
+- Growth ⭐
+- Redes sociales gestionadas
+- 2–3
+- 3+
+- Incluido
+- Incluido + variaciones A/B
+- Campañas en Google Ads
+- Básicas
+- Google + Meta Ads
+- Google + Meta + Remarketing avanzado
+- Reportes
+- Mensuales
+- Quincenales
+- Semanales + consultoría
+- Automatizaciones
+- Opcionales
+- Incluidas (embudos + remarketing)
+- Optimización avanzada
+- Básica
+- Completa (CPA, ROAS, funnel)
+- Elegir Starter
+- Elegir Growth
+- Elegir Pro
+- *Todos los planes incluyen configuración inicial, optimización para móviles y soporte técnico. Los precios pueden ajustarse según alcance y volumen de campañas.
+- Trabaja con nosotros
+- ¿Querés una estrategia digital más clara y efectiva?
+- Hablemos de tu proyecto.
+- Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -2378,9 +4569,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -2394,48 +4585,87 @@ Contenido:
 - y convertí búsquedas en consultas reales
 - Resultados medibles
 - Empezar ahora
-- prev
-- next
 - Visibilidad en Google y anuncios
 - ¿Qué resolvemos?
-- Que tu empresa sea más visible cuando la buscan
-- Estructura clara para Google
-- Contenido orientado a intención de búsqueda
-- Mejoras de visibilidad progresivas
+- Que te encuentren y que tu empresa transmita confianza
+- Web clara para que tu empresa se entienda rápido
+- Contenido pensado para búsquedas reales
+- Más visibilidad cuando te están buscando
 - Campañas en Google
-- Medición de consultas
-- Optimización continua
+- Dominio propio para verse más profesional
+- Correo personalizado para generar más confianza
 - Solicitar una reunión inicial
+- Antes de invertir en Google
+- Para que te encuentren, primero tu empresa tiene que verse seria
+- Aparecer en Google ayuda mucho más cuando tu empresa ya tiene una base profesional. Si alguien entra y encuentra una web débil, un dominio poco claro o un correo genérico, la confianza baja antes del primer contacto.
+- Un sitio web propio ordena lo que hacés y facilita el contacto.
+- Depender solo de redes sociales te deja con menos control sobre tu presencia.
+- Una web clara convierte mejor las visitas en consultas.
+- Un dominio propio hace que tu empresa se vea más seria y fácil de recordar.
+- Un correo con tu dominio transmite más confianza que uno genérico.
+- Todo eso mejora cómo te perciben antes de escribirte.
+- Ver desarrollo web para PYMEs
+- Qué conviene tener resuelto
+- Lo que más ayuda a que Google y tus clientes te tomen en serio
+- La visibilidad no depende solo de anuncios o palabras clave. También depende de que tu empresa se vea confiable, explique bien lo que hace y ofrezca un contacto claro.
+- Lo que más suma
+- Sitio web claro y actualizado
+- Servicios explicados de forma simple
+- Dominio propio
+- Correo profesional con tu marca
+- Botones de contacto visibles
+- Lo que suele jugar en contra
+- Depender solo de Instagram o Facebook
+- Usar correos genéricos para vender
+- Webs viejas o confusas
+- Mensajes poco claros sobre lo que hacés
+- ¿Cuándo conviene este servicio?
+- Si ya tenés web pero no te encuentran
+- Trabajamos la visibilidad para que más personas lleguen a tu empresa cuando buscan lo que ofrecés.
+- Si todavía no tenés una web sólida
+- Primero conviene ordenar tu base digital para que Google y tus clientes entiendan mejor tu empresa.
+- Si querés empezar con algo simple
+- Podés arrancar con una web inicial y luego sumar más trabajo de visibilidad.
+- Ver opción para crear sitio web
+- Uruguay como foco principal
+- Trabajamos con foco en empresas que venden y operan principalmente en Uruguay. Si más adelante tu negocio necesita llegar a otros mercados, dejamos una base ordenada para acompañar esa expansión sin perder claridad local.
+- Búsquedas con intención real en Uruguay
+- Más claridad sobre lo que hace tu empresa dentro del mercado uruguayo
+- Base preparada para empresas que más adelante quieran abrirse a otros mercados
 - ¿Cómo trabajamos?
-- Diagnóstico, ejecución y mejora constante
-- Definimos prioridades de corto y mediano plazo para mejorar visibilidad y convertir búsquedas en oportunidades.
+- Primero hacemos que tu empresa se vea profesional. Después trabajamos para que más personas la encuentren y la contacten.
+- Revisamos cómo está presentada tu empresa hoy y mejoramos lo necesario para que transmita más confianza, se entienda con claridad y tenga más posibilidades de aparecer en Google y generar nuevas consultas.
 - Ver planes
 - Planes
 - Opciones para aumentar visibilidad y captar demanda activa
 - Combinamos mejoras de visibilidad orgánica con campañas para generar resultados sostenibles.
 - Visibilidad inicial
-- 300 USD/mes
-- Ideal para comenzar a aparecer en Google con mejoras esenciales dentro del sitio.
+- 300 USD única vez
+- Ideal para comenzar a mejorar cómo aparece tu empresa en Google con ajustes esenciales dentro del sitio.
 - Revisión del sitio (auditoría básica)
 - Títulos y descripciones claros para Google
 - Mejora de velocidad y estructura
-- Reporte mensual de avances
+- Entrega inicial con recomendaciones claras
 - Más Popular
 - Visibilidad + anuncios
-- 500 USD/mes
-- Combina mejoras de SEO con anuncios en Google para resultados visibles en poco tiempo.
+- 500 USD única vez
+- Combina mejoras dentro del sitio con una base inicial para trabajar campañas en Google con más claridad.
 - Optimización del sitio y contenidos
-- Campañas en Google (búsqueda + remarketing)
+- Configuración base para campañas en Google
 - Medición completa con GA4/Google Tag
-- Optimización quincenal de campañas
+- Entrega inicial y lineamientos de seguimiento
 - Escalamiento
-- 800 USD/mes
-- Para empresas que buscan escalar con estrategias avanzadas, automatización y pruebas constantes.
-- Estrategia completa de contenidos y enlaces
-- Pruebas A/B de anuncios y páginas
-- Automatizaciones y tableros de métricas
-- Optimización avanzada para mejorar ROI
+- 800 USD única vez
+- Para empresas que necesitan una base más completa de visibilidad, medición y preparación comercial.
+- Estrategia más completa de contenidos y estructura
+- Recomendaciones de mejora para páginas y campañas
+- Tablero base de medición
+- Plan inicial de próximos pasos
 - Dudas habituales
+- ¿Sirve trabajar Google si mi empresa no tiene una buena web?
+- Ayuda mucho más cuando tu empresa ya tiene una web clara, confiable y fácil de entender. Si no hay una buena base, primero conviene ordenarla para que las visitas no se pierdan.
+- ¿Por qué conviene usar dominio y correo personalizados?
+- Porque hacen que tu empresa se vea más seria y confiable. Un correo con tu propio dominio genera mejor impresión que uno genérico y ayuda a que el contacto se sienta más profesional.
 - ¿Cuándo se ven resultados al mejorar presencia en Google?
 - Depende del punto de partida. Generalmente se observan avances en los primeros meses y consolidación en etapas posteriores.
 - ¿Cómo definen la inversión en anuncios?
@@ -2445,6 +4675,145 @@ Contenido:
 - Trabaja con nosotros
 - ¿Querés que te encuentren y te consulten más?
 - Más Visibilidad
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /services/google-seo
+
+URL: https://software-strategy.com/services/google-seo
+Título: Visibilidad en Google y anuncios | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Google para empresas
+- Haz que te encuentren en Google
+- y convertí búsquedas en consultas reales
+- Resultados medibles
+- Empezar ahora
+- Visibilidad en Google y anuncios
+- ¿Qué resolvemos?
+- Que te encuentren y que tu empresa transmita confianza
+- Web clara para que tu empresa se entienda rápido
+- Contenido pensado para búsquedas reales
+- Más visibilidad cuando te están buscando
+- Campañas en Google
+- Dominio propio para verse más profesional
+- Correo personalizado para generar más confianza
+- Solicitar una reunión inicial
+- Antes de invertir en Google
+- Para que te encuentren, primero tu empresa tiene que verse seria
+- Aparecer en Google ayuda mucho más cuando tu empresa ya tiene una base profesional. Si alguien entra y encuentra una web débil, un dominio poco claro o un correo genérico, la confianza baja antes del primer contacto.
+- Un sitio web propio ordena lo que hacés y facilita el contacto.
+- Depender solo de redes sociales te deja con menos control sobre tu presencia.
+- Una web clara convierte mejor las visitas en consultas.
+- Un dominio propio hace que tu empresa se vea más seria y fácil de recordar.
+- Un correo con tu dominio transmite más confianza que uno genérico.
+- Todo eso mejora cómo te perciben antes de escribirte.
+- Ver desarrollo web para PYMEs
+- Qué conviene tener resuelto
+- Lo que más ayuda a que Google y tus clientes te tomen en serio
+- La visibilidad no depende solo de anuncios o palabras clave. También depende de que tu empresa se vea confiable, explique bien lo que hace y ofrezca un contacto claro.
+- Lo que más suma
+- Sitio web claro y actualizado
+- Servicios explicados de forma simple
+- Dominio propio
+- Correo profesional con tu marca
+- Botones de contacto visibles
+- Lo que suele jugar en contra
+- Depender solo de Instagram o Facebook
+- Usar correos genéricos para vender
+- Webs viejas o confusas
+- Mensajes poco claros sobre lo que hacés
+- ¿Cuándo conviene este servicio?
+- Si ya tenés web pero no te encuentran
+- Trabajamos la visibilidad para que más personas lleguen a tu empresa cuando buscan lo que ofrecés.
+- Si todavía no tenés una web sólida
+- Primero conviene ordenar tu base digital para que Google y tus clientes entiendan mejor tu empresa.
+- Si querés empezar con algo simple
+- Podés arrancar con una web inicial y luego sumar más trabajo de visibilidad.
+- Ver opción para crear sitio web
+- Uruguay como foco principal
+- Trabajamos con foco en empresas que venden y operan principalmente en Uruguay. Si más adelante tu negocio necesita llegar a otros mercados, dejamos una base ordenada para acompañar esa expansión sin perder claridad local.
+- Búsquedas con intención real en Uruguay
+- Más claridad sobre lo que hace tu empresa dentro del mercado uruguayo
+- Base preparada para empresas que más adelante quieran abrirse a otros mercados
+- ¿Cómo trabajamos?
+- Primero hacemos que tu empresa se vea profesional. Después trabajamos para que más personas la encuentren y la contacten.
+- Revisamos cómo está presentada tu empresa hoy y mejoramos lo necesario para que transmita más confianza, se entienda con claridad y tenga más posibilidades de aparecer en Google y generar nuevas consultas.
+- Ver planes
+- Planes
+- Opciones para aumentar visibilidad y captar demanda activa
+- Combinamos mejoras de visibilidad orgánica con campañas para generar resultados sostenibles.
+- Visibilidad inicial
+- 300 USD única vez
+- Ideal para comenzar a mejorar cómo aparece tu empresa en Google con ajustes esenciales dentro del sitio.
+- Revisión del sitio (auditoría básica)
+- Títulos y descripciones claros para Google
+- Mejora de velocidad y estructura
+- Entrega inicial con recomendaciones claras
+- Más Popular
+- Visibilidad + anuncios
+- 500 USD única vez
+- Combina mejoras dentro del sitio con una base inicial para trabajar campañas en Google con más claridad.
+- Optimización del sitio y contenidos
+- Configuración base para campañas en Google
+- Medición completa con GA4/Google Tag
+- Entrega inicial y lineamientos de seguimiento
+- Escalamiento
+- 800 USD única vez
+- Para empresas que necesitan una base más completa de visibilidad, medición y preparación comercial.
+- Estrategia más completa de contenidos y estructura
+- Recomendaciones de mejora para páginas y campañas
+- Tablero base de medición
+- Plan inicial de próximos pasos
+- Dudas habituales
+- ¿Sirve trabajar Google si mi empresa no tiene una buena web?
+- Ayuda mucho más cuando tu empresa ya tiene una web clara, confiable y fácil de entender. Si no hay una buena base, primero conviene ordenarla para que las visitas no se pierdan.
+- ¿Por qué conviene usar dominio y correo personalizados?
+- Porque hacen que tu empresa se vea más seria y confiable. Un correo con tu propio dominio genera mejor impresión que uno genérico y ayuda a que el contacto se sienta más profesional.
+- ¿Cuándo se ven resultados al mejorar presencia en Google?
+- Depende del punto de partida. Generalmente se observan avances en los primeros meses y consolidación en etapas posteriores.
+- ¿Cómo definen la inversión en anuncios?
+- La definimos según objetivos, mercado y volumen de búsquedas para iniciar con una base validable.
+- ¿Qué indicadores priorizan?
+- Priorizamos consultas calificadas, costo por oportunidad y evolución de visibilidad en búsquedas relevantes.
+- Trabaja con nosotros
+- ¿Querés que te encuentren y te consulten más?
+- Más Visibilidad
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -2472,9 +4841,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -2488,8 +4857,6 @@ Contenido:
 - para hacer crecer tu negocio
 - Calidad garantizada
 - Solicitar propuesta
-- prev
-- next
 - Desarrollo de Sitios Web a Medida
 - ¿Qué hacemos por tu empresa?
 - Creamos sitios web pensados para atraer consultas
@@ -2569,30 +4936,27 @@ Contenido:
 - Paquetes Web
 - Opciones para lanzar o mejorar tu presencia en internet
 - Sitios profesionales listos para aparecer en Google, generar consultas y conectarse con campañas de Google Ads y redes sociales.
-- Paquete 1 · Sitio Básico
 - 200 USD único
-- One-page profesional para presentar servicios, marca y contacto. Ideal para comenzar con presencia en Google rápidamente.
-- Sitio de una sola página: servicios, contacto y sobre la empresa
-- Diseño web básico y profesional
-- Dominio y Certificado SSL
-- Optimización para móviles (responsive)
-- Hablar con un especialista
-- Más Popular
-- Paquete 2 · Sitio + Google Ads
+- Una web simple para salir rápido, mostrar lo esencial y empezar a recibir consultas.
+- Una sola página con mensaje claro
+- Contacto por formulario o WhatsApp
+- Diseño adaptable a celular y desktop
+- Quiero esta opción
+- Más elegida
+- Sitio web para empresa
 - 500 USD único
-- Sitio optimizado para conversión con configuración inicial de campañas de búsqueda para captar clientes potenciales.
-- Diseño de sitio web (hasta 5 secciones)
-- Optimización para campañas de búsqueda (landing & tracking)
-- Instalación de etiquetas: Google Tag, GA4 y Conversiones
-- Paquete 3 · Sitio + Ads + Redes
-- 700 USD + mensual redes
-- Solución integral: sitio completo, campañas en Google Ads y gestión de redes sociales orientada a resultados.
-- Sitio web completo (arquitectura y contenido)
-- Configuración y gestión de Google Ads (búsqueda/remarketing)
-- Gestión mensual de redes sociales (Meta/Instagram/LinkedIn)
-- Creatividades base y calendario editorial
-- Optimización continua y reportes mensuales
-- Responsive, carga rápida y base preparada para aparecer en Google
+- La opción más elegida para empresas que necesitan verse más profesionales y explicar mejor sus servicios.
+- Sitio con varias secciones de servicios
+- Textos pensados para generar confianza
+- Formulario y WhatsApp visibles
+- Base lista para aparecer mejor en Google
+- Web + captación continua
+- 700 USD + gestión mensual
+- Para empresas que además de la web necesitan empezar a mover campañas y trabajar una captación más activa.
+- Sitio web completo para tu empresa
+- Configuración inicial de campañas
+- Base para medir consultas y contactos
+- Acompañamiento para seguir mejorando
 - *Dominio y SSL sujetos a disponibilidad. Los planes pueden ajustarse según alcance, idioma, integraciones y volumen de campañas.
 - Preguntas frecuentes antes de contratar
 - ¿Cuánto tarda en desarrollarse un sitio web?
@@ -2606,6 +4970,169 @@ Contenido:
 - Trabaja con Nosotros
 - ¿Listo para tener una web que ayude a conseguir más consultas?
 - Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /services/web-development
+
+URL: https://software-strategy.com/services/web-development
+Título: Desarrollo web para PYMEs en Uruguay | Sitios que generan oportunidades | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Desarrollo Web
+- Sitios rápidos y seguros
+- para hacer crecer tu negocio
+- Calidad garantizada
+- Solicitar propuesta
+- Desarrollo de Sitios Web a Medida
+- ¿Qué hacemos por tu empresa?
+- Creamos sitios web pensados para atraer consultas
+- Mensaje claro para tu cliente
+- Estructura para aparecer en Google
+- Contenido orientado a consulta
+- Diseño adaptable a cualquier dispositivo
+- Carga rápida y navegación simple
+- Base lista para sumar mejoras después
+- Solicitar una reunión inicial
+- ¿Ya tenés un sitio?
+- Auditoría, actualización y mejoras para tu web
+- Si tu web no está generando consultas, trabajamos por etapas para recuperar claridad, confianza y resultados.
+- Diagnóstico comercial y de contenido
+- Mejoras de velocidad y experiencia de navegación
+- Ajustes para aumentar consultas
+- Actualización y seguridad
+- Medición de contactos clave
+- Plan de mejora continua
+- Solicitar revisión inicial
+- Ver presencia en Google y anuncios
+- Antes de contratar
+- ¿Qué incluye, qué no incluye y cuándo conviene cada opción?
+- La decisión no pasa solo por tener una web, sino por elegir la opción que mejor encaja con lo que tu empresa necesita hoy.
+- Incluye desde el inicio
+- Estructura comercial del sitio
+- Textos orientados a consultas
+- Base para aparecer en Google
+- Versión móvil optimizada
+- Configuración de formulario y WhatsApp
+- No incluye por defecto
+- Gestión mensual de campañas pagas
+- Carga masiva de catálogo complejo
+- Integraciones enterprise no definidas
+- Producción audiovisual profesional
+- ¿Cuándo conviene cada opción?
+- Landing para empezar
+- Si no tenés sitio web y necesitás comenzar rápido con un canal de consultas.
+- Ver servicio de landing page
+- Sitio corporativo
+- Si necesitás mostrar mejor tus servicios y hacer que tu empresa se vea más confiable.
+- Ver opción en Uruguay
+- Renovar sitio obsoleto
+- Si ya tenés web pero no está generando contactos ni ventas.
+- Ver mantenimiento web
+- Uruguay como prioridad, LATAM como siguiente paso
+- Diseñamos cada sitio para funcionar bien primero en Uruguay y dejarlo listo para ampliar después a otros mercados de LATAM sin rehacer la base.
+- Foco inicial en Uruguay
+- Proceso remoto o híbrido según tu operación
+- Escalable a nuevos mercados regionales
+- ¿Qué resultados buscamos?
+- Que te entiendan, confíen y te contacten
+- Diseñamos y desarrollamos sitios web para PYMEs que necesitan dejar de depender solo de redes sociales y empezar a recibir más consultas desde internet.
+- Propuesta de valor clara desde el primer bloque
+- Estructura preparada para búsquedas relevantes
+- Secciones pensadas para facilitar el contacto
+- Carga rápida para reducir abandono
+- Navegación simple y confiable
+- Base lista para sumar mejoras sin rehacer todo
+- Medición de consultas para saber qué funciona mejor
+- Preparados para Google Ads
+- Landing pages enfocadas en convertir visitas en consultas
+- Medición de formularios, WhatsApp y llamadas desde el primer día
+- Seguimiento de campañas para saber qué canal trae mejores consultas
+- Pruebas de mensajes y llamados a la acción para mejorar resultados
+- Ver planes
+- Nuestro proceso
+- ¿Cómo hacemos que tu web empiece a generar consultas?
+- 01
+- Diagnóstico del negocio
+- 02
+- Estructura y mensaje claro
+- 03
+- Desarrollo e implementación
+- 04
+- Publicación y mejoras posteriores
+- Paquetes Web
+- Opciones para lanzar o mejorar tu presencia en internet
+- Sitios profesionales listos para aparecer en Google, generar consultas y conectarse con campañas de Google Ads y redes sociales.
+- 200 USD único
+- Una web simple para salir rápido, mostrar lo esencial y empezar a recibir consultas.
+- Una sola página con mensaje claro
+- Contacto por formulario o WhatsApp
+- Diseño adaptable a celular y desktop
+- Quiero esta opción
+- Más elegida
+- Sitio web para empresa
+- 500 USD único
+- La opción más elegida para empresas que necesitan verse más profesionales y explicar mejor sus servicios.
+- Sitio con varias secciones de servicios
+- Textos pensados para generar confianza
+- Formulario y WhatsApp visibles
+- Base lista para aparecer mejor en Google
+- Web + captación continua
+- 700 USD + gestión mensual
+- Para empresas que además de la web necesitan empezar a mover campañas y trabajar una captación más activa.
+- Sitio web completo para tu empresa
+- Configuración inicial de campañas
+- Base para medir consultas y contactos
+- Acompañamiento para seguir mejorando
+- *Dominio y SSL sujetos a disponibilidad. Los planes pueden ajustarse según alcance, idioma, integraciones y volumen de campañas.
+- Preguntas frecuentes antes de contratar
+- ¿Cuánto tarda en desarrollarse un sitio web?
+- Depende del alcance. Un sitio inicial suele tomar 2–4 semanas y proyectos más completos entre 6–10 semanas.
+- ¿El sitio queda preparado para aparecer en Google?
+- Sí. Incluimos estructura, metadatos y contenido base para que Google entienda tu empresa desde el inicio.
+- ¿Ofrecen mantenimiento después del lanzamiento?
+- Sí. Podemos acompañarte con mejoras continuas, seguridad y ajustes según resultados.
+- ¿Pueden trabajar sobre mi sitio actual?
+- Sí. Evaluamos tu situación actual y definimos si conviene mejorar tu web existente o construir una base nueva.
+- Trabaja con Nosotros
+- ¿Listo para tener una web que ayude a conseguir más consultas?
+- Trabajemos Juntos
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!
@@ -2634,9 +5161,9 @@ Contenido:
 - Inicio
 - Servicios
 - Sitios Web para PYMEs en Uruguay
-- Marketing Digital
 - Software a medida en Uruguay
 - Visibilidad en Google
+- Marketing Digital
 - Todos los servicios
 - Precios
 - Preguntas frecuentes
@@ -2683,6 +5210,89 @@ Contenido:
 - Coordinemos una reunión y definimos alcance, etapas y plan de implementación.
 - Solicitar diagnóstico operativo
 - Ver desarrollo de software a medida en Uruguay
+- Llamar
+- WhatsApp
+- Email
+- Facebook
+- Instagram
+- ¡Trabajemos juntos!
+- info@software-strategy.com
+- Enlaces rápidos
+- Visibilidad en Google y anuncios
+- Estrategia digital
+- Nosotros
+- Cómo trabajamos
+- Copyright ©2025,
+- Software Strategy
+- Todos los derechos reservados
+
+---
+
+## /software-facturacion-stock-uruguay
+
+URL: https://software-strategy.com/software-facturacion-stock-uruguay
+Título: Software de Facturación y Stock para PYMEs en Uruguay | Software Strategy
+
+Contenido:
+
+- Español English
+- Español
+- English
+- Inicio
+- Servicios
+- Sitios Web para PYMEs en Uruguay
+- Software a medida en Uruguay
+- Visibilidad en Google
+- Marketing Digital
+- Todos los servicios
+- Precios
+- Preguntas frecuentes
+- Sobre Nosotros
+- Contacto
+- Llámanos
+- +59898488759
+- Menú
+- Software de facturación y stock para PYMEs en Uruguay
+- Dejá de perder tiempo y dinero por falta de control en facturación y stock
+- Si tu operación depende de planillas y sistemas desconectados, es normal que aparezcan errores de stock, diferencias de caja y demoras en la gestión diaria.
+- Desarrollamos software para PYMEs de Uruguay y LATAM que integra ventas, compras, inventario, facturación y reportes en una sola plataforma, con foco en eficiencia, trazabilidad y escalabilidad.
+- ¿Qué te permite resolver este sistema?
+- Módulos frecuentes
+- Facturación y stock sincronizados para evitar quiebres y sobreventas.
+- Control de compras, costos y márgenes en tiempo real.
+- Gestión de almacén con alertas automáticas de reposición.
+- Reportes clave para decidir con datos y no por intuición.
+- Resultados esperados
+- Menos errores operativos y menor pérdida de tiempo del equipo.
+- Mayor control financiero y visibilidad del negocio.
+- Procesos más ágiles en ventas, caja y reposición.
+- Base tecnológica lista para escalar nuevos puntos o canales.
+- Implementación por etapas
+- 1. Diagnóstico operativo
+- Relevamos procesos de facturación, stock, compras y ventas para definir prioridades reales.
+- 2. Diseño funcional
+- Modelamos flujos, usuarios, permisos e integraciones antes de desarrollar.
+- 3. Desarrollo modular
+- Lanzamos primero lo crítico (facturación e inventario) y luego ampliamos según objetivos.
+- 4. Capacitación y soporte
+- Acompañamos la adopción y optimizamos el sistema con mejoras continuas.
+- ¿Desarrollan software de facturación y stock para comercios en Uruguay?
+- Sí. Diseñamos sistemas a medida para facturación, control de inventario, compras, ventas y reportes de gestión según el flujo real del negocio.
+- ¿Se puede integrar con e-commerce, POS o contabilidad?
+- Sí. Implementamos integraciones con pasarelas de pago, tiendas online, puntos de venta y herramientas contables mediante APIs.
+- ¿Qué diferencia hay entre un sistema gratis y uno a medida?
+- Un sistema gratis sirve para casos simples. Cuando la operación crece, suele faltar integración, trazabilidad y control. El software a medida prioriza procesos críticos y escalabilidad.
+- ¿Cómo es la implementación?
+- Trabajamos por etapas: discovery, diseño funcional, desarrollo modular, pruebas y despliegue. Así reducimos riesgo y aceleramos resultados.
+- ¿Incluye soporte y mejoras continuas?
+- Sí. Podemos incluir soporte evolutivo para sumar funcionalidades, optimizar procesos y acompañar el crecimiento de la empresa.
+- ¿Querés un sistema de facturación y stock adaptado a tu operación?
+- Coordinemos una reunión y definimos alcance, etapas y plan de implementación.
+- Solicitar diagnóstico operativo
+- Ver desarrollo de software a medida en Uruguay
+- Llamar
+- WhatsApp
+- Email
 - Facebook
 - Instagram
 - ¡Trabajemos juntos!

@@ -15,25 +15,9 @@ export default class MyDocument extends Document {
 
   render() {
     const lang = this.props.lang || "es";
-    const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-WGPPDC39";
     return (
       <Html lang={lang}>
         <Head>
-          {/* Google Tag Manager (lo más arriba posible en <Head>) */}
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `(
-                function(w,d,s,l,i){
-                  w[l]=w[l]||[];
-                  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-                  var f=d.getElementsByTagName(s)[0],
-                  j=d.createElement(s), dl=l!='dataLayer'?'&l='+l:'';
-                  j.async=true; j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-                  f.parentNode.insertBefore(j,f);
-                })(window,document,'script','dataLayer','${GTM_ID}');`,
-            }}
-          />
-          {/* End Google Tag Manager */}
         {/* Meta charset primero en <Head> */}
         <meta charSet="utf-8" />
         {/* Favicons generados desde el logo */}
@@ -47,23 +31,19 @@ export default class MyDocument extends Document {
         <meta name="theme-color" content="#0A1019" />
 
         {/* CSS globales – mover desde _app.js a _document.js */}
-        <link rel="stylesheet" href="/assets/css/fontawesome-5.14.0.min.css" />
+        <link
+          rel="stylesheet"
+          href="/assets/css/fontawesome-5.14.0.min.css"
+          media="print"
+          onLoad="this.media='all'"
+        />
+        <noscript>
+          <link rel="stylesheet" href="/assets/css/fontawesome-5.14.0.min.css" />
+        </noscript>
         <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="/assets/css/animate.min.css" />
-        <link rel="stylesheet" href="/assets/css/slick.min.css" />
-          <link rel="stylesheet" href="/assets/css/style.css" />
+        <link rel="stylesheet" href="/assets/css/style.css" />
         </Head>
         <body>
-          {/* Google Tag Manager (noscript) */}
-          <noscript>
-            <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-              height="0"
-              width="0"
-              style={{ display: 'none', visibility: 'hidden' }}
-            />
-          </noscript>
-          {/* End Google Tag Manager (noscript) */}
           <Main />
           <NextScript />
         </body>

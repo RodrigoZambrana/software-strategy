@@ -4,30 +4,11 @@
 export const animation = () => {
   if (typeof window === "undefined" || typeof document === "undefined") return () => {};
 
-  // Si el entorno no soporta MutationObserver, evitamos inicializar WOW
-  const hasMO = typeof window.MutationObserver !== "undefined";
-  let wowInstance = null;
+  document.querySelectorAll(".wow").forEach((el) => {
+    el.classList.add("animated");
+    el.style.visibility = "visible";
+  });
 
-  try {
-    const WOWLib = require("wowjs");
-    if (hasMO && WOWLib?.WOW) {
-      // live:false evita observers adicionales y reduce glitches
-      wowInstance = new WOWLib.WOW({ live: false });
-      wowInstance.init();
-    } else {
-      // Fallback: marcar elementos .wow como "animados" para que no queden sin estilos
-      document.querySelectorAll(".wow").forEach((el) => {
-        el.classList.add("animated");
-      });
-      if (!hasMO) {
-        console.warn("MutationObserver no disponible; WOW deshabilitado");
-      }
-    }
-  } catch (e) {
-    console.warn("WOW.js no pudo inicializarse:", e);
-  }
-
-  // WOW.js no expone destroy de forma fiable; retornamos noop
   return () => {};
 };
 

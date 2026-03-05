@@ -3,7 +3,7 @@ import Image from "next/image";
 import LanguageSelect from "./LanguageSelect";
 import Nav from "./Nav"; // navBarOriginal (referencia)
 import NavSearch from "./NavSearch";
-import { FacebookIcon, InstagramIcon } from "@/src/components/icons/SimpleIcons";
+import { ChatIcon, FacebookIcon, InstagramIcon } from "@/src/components/icons/SimpleIcons";
 
 const Header5 = ({ singleMenu, dark, locale }) => {
   const isEn = locale === 'en';
@@ -44,8 +44,8 @@ const Header5 = ({ singleMenu, dark, locale }) => {
                       }
                       alt="Logo"
                       title="Logo"
-                      width={3163}
-                      height={710}
+                      width={1000}
+                      height={224}
                       priority
                       style={{ height: 42, width: "auto" }}
                     />
@@ -69,8 +69,8 @@ const Header5 = ({ singleMenu, dark, locale }) => {
                       src={dark ? "/assets/images/logos/logo-and-text.png" : "/assets/images/logos/logo-and-text.png"}
                       alt="Software Strategy"
                       title="Software Strategy"
-                      width={3163}
-                      height={710}
+                      width={1000}
+                      height={224}
                       priority
                       style={{ height: 42, width: "auto" }}
                     />
@@ -79,7 +79,7 @@ const Header5 = ({ singleMenu, dark, locale }) => {
               </div>
               <div className="call-anytime">
                 <div className="icon">
-                  <i className="fas fa-comments-alt" />
+                  <ChatIcon />
                 </div>
                 <div className="content">
                   <span>{isEn ? 'Call Anytime' : 'Llámanos'}</span>

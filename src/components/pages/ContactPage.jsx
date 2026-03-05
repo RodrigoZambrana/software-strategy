@@ -4,6 +4,7 @@ import DefaultSEO from "@/next-seo.config";
 import PageBanner from "@/src/components/PageBanner";
 import Script from "next/script";
 import { ArrowRightIcon, FacebookIcon, InstagramIcon, WhatsAppIcon } from "@/src/components/icons/SimpleIcons";
+import { buildWhatsUrl } from "@/src/lib/ctaUtils";
 
 const RECAPTCHA_ACTION = "contact_form_submit";
 const RECAPTCHA_SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "";
@@ -198,6 +199,11 @@ export default function ContactPage({ t = {}, locale = "es" }) {
       ],
     },
   };
+  const whatsappHref = buildWhatsUrl({
+    locale: isEn ? "en" : "es",
+    phone: t.whatsappDial || "59898488759",
+    context: "contact",
+  });
 
   // Dispara un evento de página vista específico para GTM/Google Ads en la página de Contacto
   useEffect(() => {
@@ -263,7 +269,7 @@ export default function ContactPage({ t = {}, locale = "es" }) {
                         {t.email || "info@software-strategy.com"}
                       </a>
                       <br />
-                      <a className="callto" href={`https://wa.me/${t.whatsappDial || "59898488759"}`} target="_blank" rel="noreferrer" title={t.whatsappDisplay || "+59898488759"} data-cta="contact-whatsapp">
+                      <a className="callto" href={whatsappHref} target="_blank" rel="noreferrer" title={t.whatsappDisplay || "+59898488759"} data-cta="contact-whatsapp">
                         <WhatsAppIcon /> {t.whatsappDisplay || "+59898488759"}
                       </a>
                     </div>
