@@ -20,7 +20,6 @@ const inter = Inter({
 function App({ Component, pageProps }) {
   const [showPreloader, setShowPreloader] = useState(false);
   const router = useRouter();
-  const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID || "GTM-WGPPDC39";
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -133,50 +132,6 @@ function App({ Component, pageProps }) {
       router.events.off("routeChangeError", onRouteDone);
     };
   }, [router.events]);
-
-  useEffect(() => {
-    if (typeof window === "undefined" || process.env.NODE_ENV !== "production" || !GTM_ID) return undefined;
-    if (window.__ssGtmLoaded) return undefined;
-
-    let timeoutId = null;
-    let idleId = null;
-
-    const loadGtm = () => {
-      if (window.__ssGtmLoaded) return;
-      window.__ssGtmLoaded = true;
-
-      window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ "gtm.start": Date.now(), event: "gtm.js" });
-
-      const script = document.createElement("script");
-      script.async = true;
-      script.src = `https://www.googletagmanager.com/gtm.js?id=${GTM_ID}`;
-      document.head.appendChild(script);
-
-      teardown();
-    };
-
-    const teardown = () => {
-      if (timeoutId) window.clearTimeout(timeoutId);
-      if (idleId && "cancelIdleCallback" in window) window.cancelIdleCallback(idleId);
-      window.removeEventListener("scroll", loadGtm);
-      window.removeEventListener("pointerdown", loadGtm);
-      window.removeEventListener("touchstart", loadGtm);
-      window.removeEventListener("keydown", loadGtm);
-    };
-
-    timeoutId = window.setTimeout(loadGtm, 4500);
-    if ("requestIdleCallback" in window) {
-      idleId = window.requestIdleCallback(loadGtm, { timeout: 3500 });
-    }
-
-    window.addEventListener("scroll", loadGtm, { passive: true, once: true });
-    window.addEventListener("pointerdown", loadGtm, { passive: true, once: true });
-    window.addEventListener("touchstart", loadGtm, { passive: true, once: true });
-    window.addEventListener("keydown", loadGtm, { once: true });
-
-    return teardown;
-  }, [GTM_ID]);
 
   // GTM tracking deshabilitado temporalmente para evitar duplicaciones.
   // Se está configurando la medición directamente desde Google Tag Manager.
